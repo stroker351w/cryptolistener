@@ -25,12 +25,22 @@
   }
   header {
     padding: 2rem 1.25rem 1rem; max-width: 860px; margin: 0 auto;
+    display: flex; justify-content: space-between; align-items: flex-start;
+    gap: 1rem; flex-wrap: wrap;
   }
+  .header-text { flex: 1 1 0%; min-width: 0; }
   header h1 {
     margin: 0 0 .15rem; font-size: 1.5rem; font-weight: 700; letter-spacing: -.01em;
     color: var(--accent);
   }
   header p { margin: 0; color: var(--muted); font-size: .9rem; }
+  .refresh-btn {
+    display: inline-flex; align-items: center; gap: .35rem; flex-shrink: 0;
+    background: var(--accent); color: #ffffff; text-decoration: none;
+    font-size: .82rem; font-weight: 600; padding: .45rem .85rem;
+    border-radius: 8px; white-space: nowrap; margin-top: .1rem;
+  }
+  .refresh-btn:hover { opacity: .88; }
   main { max-width: 860px; margin: 0 auto; padding: 0 1.25rem 3rem; }
   section { margin-top: 1.75rem; }
   section h2 {
@@ -68,9 +78,12 @@
 </head>
 <body>
 <header>
-  <h1>Crypto News Hub</h1>
-  <p>Auto-aggregated crypto news{{ " + X posts" if x_enabled else "" }} &middot; last updated {{ generated_at }}</p>
-  <p>🟢 = keyword match for relevance (custody, ETFs, regulation, institutional adoption) &mdash; heuristic, not verified impact</p>
+  <div class="header-text">
+    <h1>Crypto News Hub</h1>
+    <p>Auto-aggregated crypto news{{ " + X posts" if x_enabled else "" }} &middot; last updated {{ generated_at }}</p>
+    <p>🟢 = keyword match for relevance (custody, ETFs, regulation, institutional adoption) &mdash; heuristic, not verified impact</p>
+  </div>
+  <a class="refresh-btn" href="https://github.com/stroker351w/cryptolistener/actions/workflows/update.yml" target="_blank" rel="noopener" title="Opens the GitHub Actions page -- click &quot;Run workflow&quot; there to refresh now (requires repo access)">&#8635; Refresh</a>
 </header>
 <main>
   <section>
