@@ -1,9 +1,10 @@
 # cryptolistener
 
 A self-updating crypto news aggregator. A scheduled GitHub Action pulls
-articles from 11 crypto news RSS feeds every hour, optionally pulls
-crypto-related X (Twitter) posts, and rebuilds a static page published via
-GitHub Pages.
+articles from 12 RSS feeds (11 crypto news outlets + the SEC's press
+releases) every hour, flags stories that might affect Relevant Digital
+Assets, optionally pulls crypto-related X (Twitter) posts, and rebuilds a
+static page published via GitHub Pages.
 
 **Live site:** enable Pages once (see below), then it's
 `https://stroker351w.github.io/cryptolistener/`.
@@ -11,7 +12,7 @@ GitHub Pages.
 ## How it works
 
 ```
-scripts/fetch_rss.py   -> data/news.json      (11 RSS feeds, deduped, sorted newest-first)
+scripts/fetch_rss.py   -> data/news.json      (12 RSS feeds, deduped, sorted newest-first)
 scripts/fetch_x.py     -> data/x_posts.json   (optional, see below)
 scripts/build_site.py  -> docs/index.html     (what GitHub Pages serves)
 ```
@@ -23,10 +24,31 @@ result back to `main` if anything changed.
 ### News sources
 
 CoinDesk, Cointelegraph, Decrypt, The Block, Bitcoin Magazine, CryptoSlate,
-The Defiant, Blockworks, U.Today, NewsBTC, CryptoPotato. All verified live
-as of 2026-09-03. If one of these goes offline or changes its feed URL,
-`fetch_rss.py` just logs a skip for that source and keeps going — edit the
-`SOURCES` dict in that file to fix the URL or drop it.
+The Defiant, Blockworks, U.Today, NewsBTC, CryptoPotato, and the SEC's own
+press releases feed. All verified live as of 2026-09-03. If one of these
+goes offline or changes its feed URL, `fetch_rss.py` just logs a skip for
+that source and keeps going — edit the `SOURCES` dict in that file to fix
+the URL or drop it.
+
+### 🟢 the relevant business relevance flag
+
+Every article gets checked against `scripts/relevance.py` and flagged 🟢 if
+it might matter to the relevant business (its own ETF-A/ETF-B
+products, the spot ETF complex it competes in, SEC/CFTC action, custody
+rules, market-structure/stablecoin legislation, or institutional-adoption
+signals).
+
+**Read this before trusting the flag:** it's a plain keyword match, not an
+LLM and not real impact analysis. It doesn't know direction — a story
+about an SEC enforcement win and one about a hack both flag the same way
+if they hit the keywords. It requires a crypto-context term (bitcoin,
+crypto, a ticker, etc.) *and* an impact term (SEC, ETF, custody, etc.)
+to both appear — that two-gate design exists specifically because a bare
+"SEC" match alone flagged nearly every item once the SEC's own feed was
+added (most SEC press releases have nothing to do with crypto). Expect
+occasional misses and occasional irrelevant catches. The keyword lists are
+flat and commented in `scripts/relevance.py` — edit them directly to tune
+what counts.
 
 ## One-time setup
 

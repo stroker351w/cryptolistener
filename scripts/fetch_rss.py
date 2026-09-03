@@ -12,6 +12,7 @@ import requests
 
 sys.path.insert(0, str(Path(__file__).parent))
 from utils import USER_AGENT, parse_date, parse_feed  # noqa: E402
+from relevance import is_relevant  # noqa: E402
 
 ROOT = Path(__file__).parent.parent
 DATA_DIR = ROOT / "data"
@@ -30,6 +31,7 @@ SOURCES = {
     "U.Today": "https://u.today/rss",
     "NewsBTC": "https://www.newsbtc.com/feed/",
     "CryptoPotato": "https://cryptopotato.com/feed/",
+    "SEC Press Releases": "https://www.sec.gov/news/pressreleases.rss",
 }
 
 MAX_PER_SOURCE = 15
@@ -59,6 +61,7 @@ def fetch_source(name: str, url: str):
                 "link": entry["link"],
                 "summary": entry["summary"],
                 "published": dt.isoformat() if dt else None,
+                "relevant": is_relevant(entry["title"], entry["summary"]),
             }
         )
     print(f"  [ok]   {name}: {len(articles)} articles")

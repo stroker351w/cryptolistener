@@ -12,7 +12,9 @@ from pathlib import Path
 
 from dateutil import parser as dateparser
 
-USER_AGENT = "Mozilla/5.0 (compatible; cryptolistener/1.0; +https://github.com/stroker351w/cryptolistener)"
+# Identifies us honestly (includes a contact) rather than spoofing a browser --
+# matters especially for sec.gov, which documents a preference for this.
+USER_AGENT = "cryptolistener/1.0 (+https://github.com/stroker351w/cryptolistener; contact: stroker351w@yahoo.com)"
 
 ATOM_NS = "{http://www.w3.org/2005/Atom}"
 

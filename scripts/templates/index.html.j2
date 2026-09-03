@@ -45,6 +45,7 @@
     padding: .1rem .5rem; border-radius: 100px; font-weight: 600;
   }
   .time { color: var(--muted); font-size: .78rem; }
+  .flag { margin-right: .3rem; }
   .summary { color: var(--muted); font-size: .85rem; margin-top: .35rem; }
   .x-post { font-size: .88rem; }
   .x-post .stats { color: var(--muted); font-size: .78rem; }
@@ -63,13 +64,14 @@
 <header>
   <h1>cryptolistener</h1>
   <p>Auto-aggregated crypto news{{ " + X posts" if x_enabled else "" }} &middot; last updated {{ generated_at }}</p>
+  <p>🟢 = keyword match for the relevant business relevance (custody, ETFs, regulation) &mdash; heuristic, not verified impact</p>
 </header>
 <main>
   <section>
     <h2>Latest news ({{ articles|length }})</h2>
     {% for a in articles %}
     <div class="card">
-      <a class="title" href="{{ a.link }}" target="_blank" rel="noopener">{{ a.title }}</a>
+      <a class="title" href="{{ a.link }}" target="_blank" rel="noopener">{% if a.relevant %}<span class="flag" title="Keyword match: may be relevant to the relevant business (custody, ETFs, or crypto regulation) -- heuristic, not verified impact">🟢</span>{% endif %}{{ a.title }}</a>
       <div class="meta">
         <span class="tag">{{ a.source }}</span>
         <span class="time">{{ a.published_display }}</span>
