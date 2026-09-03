@@ -47,7 +47,19 @@ jobs:
           git add data/ docs/
           if git diff --cached --quiet; then
             echo "No changes to commit."
-          else
-            git commit -m "Update aggregator data ($(date -u +'%Y-%m-%d %H:%M UTC'))"
-            git push
+            exit 0
           fi
+          git commit -m "Update aggregator data ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+          # Two runs can race (e.g. a schedule tick overlapping a manual
+          # dispatch). Retry with a rebase instead of failing the run.
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              exit 0
+            fi
+            echo "Push rejected, retrying with rebase (attempt $attempt)..."
+            git fetch origin main
+            git rebase origin/main || { git rebase --abort; exit 1; }
+            sleep $((RANDOM % 5 + 1))
+          done
+          echo "Failed to push after retries."
+          exit 1
