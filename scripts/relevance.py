@@ -1,4 +1,4 @@
-"""Heuristic "could this move the relevant business" flag.
+"""Heuristic "worth a second look" flag.
 
 Be clear-eyed about what this is: a case-insensitive keyword match against
 each article's title + summary. It is NOT sentiment analysis, NOT an LLM
@@ -12,7 +12,7 @@ Two-gate design (both must match): a bare "SEC" or "ETF" keyword alone is
 nearly meaningless once the SEC's own press-release feed is in the mix --
 most of what the SEC does has nothing to do with crypto. So a story only
 flags if it mentions BOTH something crypto-specific AND something in the
-Relevant/impact bucket (regulation, custody, ETFs, institutional adoption).
+impact bucket (regulation, custody, ETFs, institutional adoption).
 
 Edit CRYPTO_TERMS / IMPACT_TERMS directly to tune this -- flat lists on
 purpose so they're easy to scan and adjust without touching the logic.
@@ -31,8 +31,6 @@ CRYPTO_TERMS = [
     r"\bdefi\b",
     r"\bweb3\b",
     r"\bibit\b",
-    r"\bETF-A\b",
-    r"\bETF-B\b",
     "grayscale",
     "microstrategy",
     "strategy incorporated",
@@ -48,12 +46,10 @@ CRYPTO_TERMS = [
     r"\bbnb\b",
 ]
 
-# Gate 2: something that plausibly touches the relevant business'
-# business (its own products, the ETF complex it competes in, the
-# regulation that shapes what a custodian can offer, or institutional
-# demand for custody/trading services).
+# Gate 2: something that plausibly matters beyond the headline -- the ETF
+# complex, the regulation that shapes what custodians/issuers can offer,
+# or institutional demand for custody/trading services.
 IMPACT_TERMS = [
-    "relevant",
     r"\bsec\b",
     r"\bcftc\b",
     "custody",
