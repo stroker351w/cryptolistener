@@ -3,33 +3,39 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>cryptolistener</title>
+<title>Crypto News Hub</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root {
-    --bg: #f7f7f8; --card: #ffffff; --text: #18181b; --muted: #6b6b74;
-    --border: #e5e5ea; --accent: #2f6fed; --tag-bg: #eef2ff; --tag-text: #3346a5;
+    --bg: #f5f8f6; --card: #ffffff; --text: #142620; --muted: #5c6b63;
+    --border: #dfe8e2; --accent: #1f6f4a; --tag-bg: #e6f2ec; --tag-text: #1f6f4a;
   }
   @media (prefers-color-scheme: dark) {
     :root {
-      --bg: #0b0b0d; --card: #16161a; --text: #e7e7ea; --muted: #97979f;
-      --border: #27272c; --accent: #6d9bff; --tag-bg: #1c2440; --tag-text: #a9bdfd;
+      --bg: #0d1512; --card: #16211c; --text: #e6efe9; --muted: #92a39a;
+      --border: #253830; --accent: #4caf7d; --tag-bg: #1c332a; --tag-text: #7fd1a8;
     }
   }
   * { box-sizing: border-box; }
   body {
     margin: 0; background: var(--bg); color: var(--text);
-    font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font: 15px/1.5 "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   }
   header {
     padding: 2rem 1.25rem 1rem; max-width: 860px; margin: 0 auto;
   }
-  header h1 { margin: 0 0 .15rem; font-size: 1.5rem; }
+  header h1 {
+    margin: 0 0 .15rem; font-size: 1.5rem; font-weight: 700; letter-spacing: -.01em;
+    color: var(--accent);
+  }
   header p { margin: 0; color: var(--muted); font-size: .9rem; }
   main { max-width: 860px; margin: 0 auto; padding: 0 1.25rem 3rem; }
   section { margin-top: 1.75rem; }
   section h2 {
     font-size: 1rem; text-transform: uppercase; letter-spacing: .04em;
-    color: var(--muted); margin: 0 0 .75rem;
+    color: var(--muted); margin: 0 0 .75rem; font-weight: 600;
   }
   .card {
     background: var(--card); border: 1px solid var(--border); border-radius: 10px;
@@ -62,7 +68,7 @@
 </head>
 <body>
 <header>
-  <h1>cryptolistener</h1>
+  <h1>Crypto News Hub</h1>
   <p>Auto-aggregated crypto news{{ " + X posts" if x_enabled else "" }} &middot; last updated {{ generated_at }}</p>
   <p>🟢 = keyword match for relevance (custody, ETFs, regulation, institutional adoption) &mdash; heuristic, not verified impact</p>
 </header>

@@ -1,4 +1,6 @@
-# cryptolistener
+# Crypto News Hub
+
+_(repo slug `cryptolistener` kept as-is so the existing GitHub Pages URL doesn't break -- this is just the site's display name)_
 
 A self-updating crypto news aggregator. A scheduled GitHub Action pulls
 articles from 12 RSS feeds (11 crypto news outlets + the SEC's press
