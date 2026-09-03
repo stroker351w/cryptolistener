@@ -1,0 +1,53 @@
+name: Update aggregator
+
+on:
+  schedule:
+    # Every hour, at minute 7 (avoid the top-of-hour GitHub Actions crush)
+    - cron: "7 * * * *"
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-aggregator
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch news
+        run: python scripts/fetch_rss.py
+
+      - name: Fetch X posts (best-effort, optional)
+        env:
+          X_AUTH_TOKEN: ${{ secrets.X_AUTH_TOKEN }}
+          X_CT0: ${{ secrets.X_CT0 }}
+        run: python scripts/fetch_x.py
+
+      - name: Build site
+        run: python scripts/build_site.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "cryptolistener-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/ docs/
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update aggregator data ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+            git push
+          fi

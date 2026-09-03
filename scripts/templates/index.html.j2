@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>cryptolistener</title>
+<style>
+  :root {
+    --bg: #f7f7f8; --card: #ffffff; --text: #18181b; --muted: #6b6b74;
+    --border: #e5e5ea; --accent: #2f6fed; --tag-bg: #eef2ff; --tag-text: #3346a5;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0b0b0d; --card: #16161a; --text: #e7e7ea; --muted: #97979f;
+      --border: #27272c; --accent: #6d9bff; --tag-bg: #1c2440; --tag-text: #a9bdfd;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  header {
+    padding: 2rem 1.25rem 1rem; max-width: 860px; margin: 0 auto;
+  }
+  header h1 { margin: 0 0 .15rem; font-size: 1.5rem; }
+  header p { margin: 0; color: var(--muted); font-size: .9rem; }
+  main { max-width: 860px; margin: 0 auto; padding: 0 1.25rem 3rem; }
+  section { margin-top: 1.75rem; }
+  section h2 {
+    font-size: 1rem; text-transform: uppercase; letter-spacing: .04em;
+    color: var(--muted); margin: 0 0 .75rem;
+  }
+  .card {
+    background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+    padding: .9rem 1rem; margin-bottom: .6rem;
+  }
+  .card a.title {
+    color: var(--text); text-decoration: none; font-weight: 600; font-size: .98rem;
+  }
+  .card a.title:hover { color: var(--accent); }
+  .meta { display: flex; gap: .5rem; align-items: center; margin-top: .3rem; }
+  .tag {
+    background: var(--tag-bg); color: var(--tag-text); font-size: .72rem;
+    padding: .1rem .5rem; border-radius: 100px; font-weight: 600;
+  }
+  .time { color: var(--muted); font-size: .78rem; }
+  .summary { color: var(--muted); font-size: .85rem; margin-top: .35rem; }
+  .x-post { font-size: .88rem; }
+  .x-post .stats { color: var(--muted); font-size: .78rem; }
+  .empty-note {
+    color: var(--muted); font-size: .85rem; border: 1px dashed var(--border);
+    border-radius: 10px; padding: .9rem 1rem;
+  }
+  footer {
+    max-width: 860px; margin: 0 auto; padding: 1rem 1.25rem 2rem;
+    color: var(--muted); font-size: .78rem; border-top: 1px solid var(--border);
+  }
+  footer a { color: var(--muted); }
+</style>
+</head>
+<body>
+<header>
+  <h1>cryptolistener</h1>
+  <p>Auto-aggregated crypto news{{ " + X posts" if x_enabled else "" }} &middot; last updated {{ generated_at }}</p>
+</header>
+<main>
+  <section>
+    <h2>Latest news ({{ articles|length }})</h2>
+    {% for a in articles %}
+    <div class="card">
+      <a class="title" href="{{ a.link }}" target="_blank" rel="noopener">{{ a.title }}</a>
+      <div class="meta">
+        <span class="tag">{{ a.source }}</span>
+        <span class="time">{{ a.published_display }}</span>
+      </div>
+      {% if a.summary %}<div class="summary">{{ a.summary }}</div>{% endif %}
+    </div>
+    {% else %}
+    <div class="empty-note">No articles fetched this run.</div>
+    {% endfor %}
+  </section>
+
+  <section>
+    <h2>Trending on X</h2>
+    {% if not x_enabled %}
+    <div class="empty-note">
+      X integration isn't configured (needs optional cookie-based auth &mdash; see README).
+      This section will populate automatically once it is.
+    </div>
+    {% elif x_posts|length == 0 %}
+    <div class="empty-note">X integration is configured but returned no posts this run (likely an expired session or an X API change &mdash; see README's maintenance note).</div>
+    {% else %}
+    {% for p in x_posts %}
+    <div class="card x-post">
+      <a class="title" href="{{ p.url }}" target="_blank" rel="noopener">@{{ p.author }}</a>
+      <div>{{ p.text }}</div>
+      <div class="stats">&hearts; {{ p.likes }} &middot; &#8635; {{ p.retweets }} &middot; matched "{{ p.keyword }}"</div>
+    </div>
+    {% endfor %}
+    {% endif %}
+  </section>
+</main>
+<footer>
+  Generated automatically by GitHub Actions &middot;
+  <a href="https://github.com/stroker351w/cryptolistener" target="_blank" rel="noopener">source</a>
+</footer>
+</body>
+</html>

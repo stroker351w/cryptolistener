@@ -1,0 +1,1438 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>cryptolistener</title>
+<style>
+  :root {
+    --bg: #f7f7f8; --card: #ffffff; --text: #18181b; --muted: #6b6b74;
+    --border: #e5e5ea; --accent: #2f6fed; --tag-bg: #eef2ff; --tag-text: #3346a5;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0b0b0d; --card: #16161a; --text: #e7e7ea; --muted: #97979f;
+      --border: #27272c; --accent: #6d9bff; --tag-bg: #1c2440; --tag-text: #a9bdfd;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  header {
+    padding: 2rem 1.25rem 1rem; max-width: 860px; margin: 0 auto;
+  }
+  header h1 { margin: 0 0 .15rem; font-size: 1.5rem; }
+  header p { margin: 0; color: var(--muted); font-size: .9rem; }
+  main { max-width: 860px; margin: 0 auto; padding: 0 1.25rem 3rem; }
+  section { margin-top: 1.75rem; }
+  section h2 {
+    font-size: 1rem; text-transform: uppercase; letter-spacing: .04em;
+    color: var(--muted); margin: 0 0 .75rem;
+  }
+  .card {
+    background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+    padding: .9rem 1rem; margin-bottom: .6rem;
+  }
+  .card a.title {
+    color: var(--text); text-decoration: none; font-weight: 600; font-size: .98rem;
+  }
+  .card a.title:hover { color: var(--accent); }
+  .meta { display: flex; gap: .5rem; align-items: center; margin-top: .3rem; }
+  .tag {
+    background: var(--tag-bg); color: var(--tag-text); font-size: .72rem;
+    padding: .1rem .5rem; border-radius: 100px; font-weight: 600;
+  }
+  .time { color: var(--muted); font-size: .78rem; }
+  .summary { color: var(--muted); font-size: .85rem; margin-top: .35rem; }
+  .x-post { font-size: .88rem; }
+  .x-post .stats { color: var(--muted); font-size: .78rem; }
+  .empty-note {
+    color: var(--muted); font-size: .85rem; border: 1px dashed var(--border);
+    border-radius: 10px; padding: .9rem 1rem;
+  }
+  footer {
+    max-width: 860px; margin: 0 auto; padding: 1rem 1.25rem 2rem;
+    color: var(--muted); font-size: .78rem; border-top: 1px solid var(--border);
+  }
+  footer a { color: var(--muted); }
+</style>
+</head>
+<body>
+<header>
+  <h1>cryptolistener</h1>
+  <p>Auto-aggregated crypto news &middot; last updated 2026-09-03 13:05 UTC</p>
+</header>
+<main>
+  <section>
+    <h2>Latest news (150)</h2>
+    
+    <div class="card">
+      <a class="title" href="https://thedefiant.io/converge/tradfi-and-fintech/revolut-starts-eurr-rollout-with-bridge-as-regulated-issuer" target="_blank" rel="noopener">Revolut Starts EURR Rollout With Bridge as Regulated Issuer</a>
+      <div class="meta">
+        <span class="tag">The Defiant</span>
+        <span class="time">0m ago</span>
+      </div>
+      <div class="summary">Revolut opens EURR to selected customers in three countries; Bridge reported €374 outstanding, compared with €394.5 million of Circle’s EURC.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://thedefiant.io/converge/regulation/sec-crypto-custody-rewrite-enters-white-house-review" target="_blank" rel="noopener">SEC Crypto Custody Rewrite Enters White House Review</a>
+      <div class="meta">
+        <span class="tag">The Defiant</span>
+        <span class="time">0m ago</span>
+      </div>
+      <div class="summary">The planned rule would cover advisers and investment companies and clarify digital-asset custody, following the withdrawal of a separate 2023 proposal.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://cryptopotato.com/top-pi-network-price-predictions-as-pi-rises-13-in-a-month/" target="_blank" rel="noopener">Top Pi Network Price Predictions as PI Rises 13% in a Month</a>
+      <div class="meta">
+        <span class="tag">CryptoPotato</span>
+        <span class="time">8m ago</span>
+      </div>
+      <div class="summary">"The sleeping giant may not stay asleep forever," one X user claimed.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://www.theblock.co/news/business/2026-09-03-sofi-payward-agree-to-link-banking-network-with-kraken-infrastructure-413432" target="_blank" rel="noopener">SoFi, Payward agree to link banking network with Kraken infrastructure</a>
+      <div class="meta">
+        <span class="tag">The Block</span>
+        <span class="time">12m ago</span>
+      </div>
+      <div class="summary">SoFi Technologies partnered with Payward to connect its banking settlement network with Kraken's digital-asset infrastructure.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://u.today/shiba-inu-shib-65-added-in-unexpectedly-negative-outcome-for-bulls" target="_blank" rel="noopener">Shiba Inu (SHIB): 65% Added in Unexpectedly Negative Outcome for Bulls</a>
+      <div class="meta">
+        <span class="tag">U.Today</span>
+        <span class="time">15m ago</span>
+      </div>
+      <div class="summary">Despite the rising pressure on the market, Shiba Inu successfully absorbed larger part of the pressure.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://cointelegraph.com/news/nvidia-buys-hugging-face-12-9-billion-ai-software?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">Nvidia buys Hugging Face for $12.9B in push into AI software</a>
+      <div class="meta">
+        <span class="tag">Cointelegraph</span>
+        <span class="time">24m ago</span>
+      </div>
+      <div class="summary">Nvidia agreed to buy Hugging Face for $12.93 billion, gaining a platform used by more than 18 million developers to share and deploy AI models.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://cryptoslate.com/bitcoins-next-80000-breakout-has-47-billion-more-profitable-supply-to-absorb/" target="_blank" rel="noopener">Bitcoin’s next $80,000 breakout has $47 billion more profitable supply to absorb</a>
+      <div class="meta">
+        <span class="tag">CryptoSlate</span>
+        <span class="time">34m ago</span>
+      </div>
+      <div class="summary">Bitcoin trades near $77,381, and Glassnode says 68% of circulating supply now sits in profit at this level, up from 65% when BTC traded here in May. That three-point gap works out to roughly 600,000 additional BTC, an estimate worth about $47 billion at current prices, that could be sold for a gain before Bitcoin […] The post Bitcoin’s next $80,000 breakout has $47 billion more profitable supply t</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://u.today/why-ex-ripple-vice-president-has-deja-vu-over-goldman-sachs-new-bank-backed-stablecoin" target="_blank" rel="noopener">Why Ex-Ripple Vice President Has 'Déjà Vu' Over Goldman Sachs' New Bank-Backed Stablecoin</a>
+      <div class="meta">
+        <span class="tag">U.Today</span>
+        <span class="time">44m ago</span>
+      </div>
+      <div class="summary">Former Ripple VP Emi Yoshikawa reacts to Goldman's stablecoin bid, highlighting Wall Street's predictable shift and 21-bank governance traps.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://cryptopotato.com/arthur-hayes-says-ignore-warsh-and-watch-eur-jpy-for-bitcoins-next-move/" target="_blank" rel="noopener">Arthur Hayes Says Ignore Warsh and Watch EUR/JPY for Bitcoin’s Next Move</a>
+      <div class="meta">
+        <span class="tag">CryptoPotato</span>
+        <span class="time">44m ago</span>
+      </div>
+      <div class="summary">Hayes sees French banks as a potential fault line, with BNP Paribas, Credit Agricole, and Societe Generale tied to US repo lending.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://cryptopotato.com/dwf-labs-expands-global-regulatory-footprint-with-bvi-virtual-asset-service-provider-approval/" target="_blank" rel="noopener">DWF Labs Expands Global Regulatory Footprint with BVI Virtual Asset Service Provider Approval</a>
+      <div class="meta">
+        <span class="tag">CryptoPotato</span>
+        <span class="time">48m ago</span>
+      </div>
+      <div class="summary">[PRESS RELEASE – Road Town, Tortola, British Virgin Islands, September 3rd, 2026] DWF Labs, an established, market-tested investor and market maker built to strengthen digital asset market infrastructure at scale, today announced an expansion of its global regulatory footprint with a group entity granted Virtual Asset Service Provider (VASP) regulatory approval from the British Virgin […]</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://u.today/robinhood-chain-beats-tron-in-24-hour-revenue" target="_blank" rel="noopener">Robinhood Chain Beats Tron in 24-Hour Revenue</a>
+      <div class="meta">
+        <span class="tag">U.Today</span>
+        <span class="time">1h ago</span>
+      </div>
+      <div class="summary">Robinhood chain leads all major networks in its 24-hour revenue following a massive surge in the metric, recording over $4 million in just one day.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://www.coindesk.com/business/2026/09/03/sofi-kraken-tie-up-as-crypto-and-banking-push-into-each-other-s-turf" target="_blank" rel="noopener">SoFi, Kraken tie up as crypto and banking push into each other's turf</a>
+      <div class="meta">
+        <span class="tag">CoinDesk</span>
+        <span class="time">1h ago</span>
+      </div>
+      <div class="summary">Kraken is joining SoFi's settlement network and list SoFiUSD as the companies link traditional banking with crypto markets.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://decrypt.co/377264/morning-minute-strategy-ceo-says-selling-the-bottom-was-correct-move" target="_blank" rel="noopener">Morning Minute: Strategy CEO Says Selling The Bottom Was Correct Move</a>
+      <div class="meta">
+        <span class="tag">Decrypt</span>
+        <span class="time">1h ago</span>
+      </div>
+      <div class="summary">Strategy sold millions in Bitcoin in the low $60k range and just rebought at $80k. Now they’re sharing the rationale behind the moves.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://u.today/rich-people-buy-bitcoin-michael-saylor-likens-btc-strategy-to-golf-play" target="_blank" rel="noopener">'Rich People Buy Bitcoin': Michael Saylor Likens BTC Strategy to Golf Play</a>
+      <div class="meta">
+        <span class="tag">U.Today</span>
+        <span class="time">1h ago</span>
+      </div>
+      <div class="summary">Michael Saylor likens Bitcoin strategy to golf as Strategy claims the No. 2 S&P 500 reserve spot despite a paradox re-buy.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://decrypt.co/377253/mamdani-imposes-one-year-moratorium-on-generative-ai-in-nyc-schools" target="_blank" rel="noopener">Mamdani Imposes One-Year Moratorium on Generative AI in NYC Schools</a>
+      <div class="meta">
+        <span class="tag">Decrypt</span>
+        <span class="time">1h ago</span>
+      </div>
+      <div class="summary">Nearly 600,000 students lose access to generative AI tools, while five named vendors keep metered pilots running in high schools.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://www.coindesk.com/daybook-us/2026/09/03/fx-has-stopped-reading-bond-yields-the-old-way-bitcoin-should-too" target="_blank" rel="noopener">FX has stopped reading bond yields the old way. Bitcoin should too.</a>
+      <div class="meta">
+        <span class="tag">CoinDesk</span>
+        <span class="time">1h ago</span>
+      </div>
+      <div class="summary">Your day-ahead look for Sept. 3, 2026</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://cryptoslate.com/trueusds-456m-stablecoin-court-case-gives-defendant-days-to-reveal-who-funded-their-legal-defense-or-face-court-sanctions/" target="_blank" rel="noopener">TrueUSD’s $456M court case gives defendant days to reveal legal funding source – or face court sanctions</a>
+      <div class="meta">
+        <span class="tag">CryptoSlate</span>
+        <span class="time">1h ago</span>
+      </div>
+      <div class="summary">The affidavit must explain legal-payment sources, while any penalty would still require a further Techteryx application. The post TrueUSD’s $456M court case gives defendant days to reveal legal funding source – or face court sanctions appeared first on CryptoSlate .</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://www.coindesk.com/markets/2026/09/03/the-yen-is-surging-and-it-s-helping-bitcoin-for-now" target="_blank" rel="noopener">The yen is surging and it’s helping bitcoin, for now</a>
+      <div class="meta">
+        <span class="tag">CoinDesk</span>
+        <span class="time">1h ago</span>
+      </div>
+      <div class="summary">Yen's rise has led to a broad-based USD weakness, driving the Dollar Index lower. BTC and gold are loving it, for now.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://www.theblock.co/news/markets/2026-09-03-bitcoin-gold-correlation-hits-six-year-high-but-analysts-question-whether-equity-decoupling-will-last-413437" target="_blank" rel="noopener">Bitcoin-gold correlation hits six-year high, but analysts question whether equity decoupling will last</a>
+      <div class="meta">
+        <span class="tag">The Block</span>
+        <span class="time">2h ago</span>
+      </div>
+      <div class="summary">Glassnode is less convinced by bitcoin's recent divergence from U.S. equities, saying similar moves have previously been short-lived.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://cointelegraph.com/news/pencil-finance-1m-onchain-lending-cycle-students?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">Pencil Finance completes $1M onchain lending cycle for 6.6K students in Southeast Asia</a>
+      <div class="meta">
+        <span class="tag">Cointelegraph</span>
+        <span class="time">2h ago</span>
+      </div>
+      <div class="summary">Pencil Finance said that its first-of-a-kind loan offered financing to 6,600 students in Southeast Asia who were underserved by traditional lenders.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://u.today/new-shibarium-upgrade-revealed-by-shib-veteran-whats-being-added" target="_blank" rel="noopener">New Shibarium Upgrade Revealed by SHIB Veteran: What's Being Added?</a>
+      <div class="meta">
+        <span class="tag">U.Today</span>
+        <span class="time">2h ago</span>
+      </div>
+      <div class="summary">The update gives Shibarium users another piece of infrastructure to work with while improvements to the underlying ecosystem contribute to broader utility over time.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://www.coindesk.com/business/2026/09/03/live-updates-crypto-majors-bounce-while-global-funds-run-their-lowest-dollar-hedges-since-2015" target="_blank" rel="noopener">Live updates: Bitcoin rises to $78,000, with next week's CPI report looming large</a>
+      <div class="meta">
+        <span class="tag">CoinDesk</span>
+        <span class="time">2h ago</span>
+      </div>
+      <div class="summary">The government's employment data (due tomorrow) is usually the main economic report of the month, but this time around it's next week's inflation numbers that will decide Fed policy.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://u.today/solana-xrp-ethereum-etfs-in-red-as-bitcoin-etf-adds-100-million" target="_blank" rel="noopener">Solana, XRP, Ethereum ETFs in Red as Bitcoin ETF Adds $100 Million</a>
+      <div class="meta">
+        <span class="tag">U.Today</span>
+        <span class="time">2h ago</span>
+      </div>
+      <div class="summary">Bitcoin ETFs attracted more than $100 million in fresh inflows as Ethereum, XRP and Solana funds slipped into the red.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://www.coindesk.com/markets/2026/09/03/bitcoin-recovers-toward-usd78-000-as-pons-and-arbitrum-extend-robinhood-chain-rally" target="_blank" rel="noopener">Bitcoin recovers toward $78,000 as pons and arbitrum extend Robinhood Chain rally</a>
+      <div class="meta">
+        <span class="tag">CoinDesk</span>
+        <span class="time">2h ago</span>
+      </div>
+      <div class="summary">BTC rose 0.76% since midnight as a softer dollar lifted equities and metals alongside crypto, while ARB and PONS pushed higher for a third session.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://cryptoslate.com/robinhood-put-stocks-on-a-permissionless-blockchain-memecoin-traders-are-stress-testing-what-happens-next/" target="_blank" rel="noopener">Robinhood put stocks on a permissionless blockchain- memecoin traders are stress-testing what happens next</a>
+      <div class="meta">
+        <span class="tag">CryptoSlate</span>
+        <span class="time">2h ago</span>
+      </div>
+      <div class="summary">Memecoins paired against Robinhood's tokenized stocks generated $217 million of trading volume on Robinhood Chain on Sept. 2, according to data compiled by on-chain researcher Adam Tehc. The volume outpaced the $127 million that traded through direct stock token markets that same day. Traders are using tokenized Nvidia or Hims & Hers shares as the […] The post Robinhood put stocks on a permissionl</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://cointelegraph.com/news/standard-chartered-bitcoin-ether-trading-uae?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">Standard Chartered launches spot Bitcoin and Ether trading in UAE</a>
+      <div class="meta">
+        <span class="tag">Cointelegraph</span>
+        <span class="time">2h ago</span>
+      </div>
+      <div class="summary">Standard Chartered said it is the first major global bank to offer institutional access to spot Bitcoin and Ether trading in the UAE region.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://www.coindesk.com/business/2026/09/03/australia-is-cracking-down-on-crypto-businesses-as-its-strict-new-regulatory-deadline-nears" target="_blank" rel="noopener">Australia is cracking down on crypto businesses as its strict new regulatory deadline nears</a>
+      <div class="meta">
+        <span class="tag">CoinDesk</span>
+        <span class="time">2h ago</span>
+      </div>
+      <div class="summary">Firms that miss the deadline could breach financial services law from Oct. 1 and face civil or criminal penalties.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://cryptopotato.com/viral-altcoin-enters-cryptos-top-100-club-following-support-from-binance-details/" target="_blank" rel="noopener">Viral Altcoin Enters Crypto’s Top 100 Club Following Support From Binance: Details</a>
+      <div class="meta">
+        <span class="tag">CryptoPotato</span>
+        <span class="time">2h ago</span>
+      </div>
+      <div class="summary">According to Crypto Tony, PONS's market cap may soon shoot to $1 billion.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://decrypt.co/377245/ukraine-busts-kyiv-crypto-drainer-ring-moving-up-to-1m-monthly" target="_blank" rel="noopener">Ukraine Busts Kyiv Crypto Drainer Ring Moving Up to $1M Monthly</a>
+      <div class="meta">
+        <span class="tag">Decrypt</span>
+        <span class="time">3h ago</span>
+      </div>
+      <div class="summary">Fake investment ads on Telegram channels funneled EU victims to a lookalike exchange that emptied their wallets.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://cointelegraph.com/news/coldcard-hacker-swaps-stolen-bitcoin-eth-thorchain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">Coldcard hacker swaps stolen Bitcoin for ETH via THORChain</a>
+      <div class="meta">
+        <span class="tag">Cointelegraph</span>
+        <span class="time">3h ago</span>
+      </div>
+      <div class="summary">The third-wave Coldcard exploiter moved about 10% of stolen funds through THORChain as researchers traced the assets to a new Ethereum address.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://cointelegraph.com/news/kalshi-cftc-greenlight-regulated-wti-oil-perpetuals?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">Kalshi seeks CFTC approval for WTI crude perpetual futures: Report</a>
+      <div class="meta">
+        <span class="tag">Cointelegraph</span>
+        <span class="time">3h ago</span>
+      </div>
+      <div class="summary">Kalshi reportedly plans to file for approval of a WTI crude oil perpetual futures contract that would trade around the clock five days a week without an expiration date.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://cryptopotato.com/arb-skyrockets-by-double-digits-again-btc-recovers-from-drop-to-76k-market-watch/" target="_blank" rel="noopener">ARB Skyrockets by Double Digits Again, BTC Recovers From Drop to $76K: Market Watch</a>
+      <div class="meta">
+        <span class="tag">CryptoPotato</span>
+        <span class="time">3h ago</span>
+      </div>
+      <div class="summary">NIGHT and CAKE follow suit in terms of daily gains.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://u.today/multicoin-cuts-hype-holdings-again" target="_blank" rel="noopener">Multicoin Cuts HYPE Holdings Again</a>
+      <div class="meta">
+        <span class="tag">U.Today</span>
+        <span class="time">3h ago</span>
+      </div>
+      <div class="summary">Multicoin Capital has sold another chunk of its HYPE holdings, cutting its position by roughly 10% as the investment firm continues to take profits from its massive bet on Hyperliquid.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://cryptoslate.com/bitcoin-cannot-break-out-past-80000-until-it-devours-an-880k-btc-roadblock-that-choked-every-rally/" target="_blank" rel="noopener">Bitcoin cannot break out past $80,000 until it devours an 880k BTC roadblock that choked every rally</a>
+      <div class="meta">
+        <span class="tag">CryptoSlate</span>
+        <span class="time">3h ago</span>
+      </div>
+      <div class="summary">Bitcoin is testing a roughly $68 billion breakeven wall that has repeatedly stalled its push back above $80,000. About 880,000 BTC carry a cost basis between roughly $77,500 and $80,300, leaving a large group of holders close to where they originally bought, Bitfinex Alpha data shows. Data from CryptoSlate shows Bitcoin trading near $77,890 as […] The post Bitcoin cannot break out past $80,000 unt</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://www.coindesk.com/policy/2026/09/03/cftc-asks-judge-to-dismiss-cme-lawsuit-over-crypto-perpetual-futures" target="_blank" rel="noopener">CFTC asks judge to dismiss CME lawsuit over crypto perpetual futures</a>
+      <div class="meta">
+        <span class="tag">CoinDesk</span>
+        <span class="time">3h ago</span>
+      </div>
+      <div class="summary">The regulator claims the dispute is "much ado about nothing," noting that the order allows any designated contract market, including CME, to list these products.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://u.today/earn-on-xrp-coming-to-16-billion-tokens-trading-platform-cpo-confirms" target="_blank" rel="noopener">'Earn On XRP' Coming to 1.6 Billion Tokens, Trading Platform CPO Confirms</a>
+      <div class="meta">
+        <span class="tag">U.Today</span>
+        <span class="time">4h ago</span>
+      </div>
+      <div class="summary">Trading platform CPO confirms the 'Earn on XRP' feature is in its final phase, mobilizing 1.6 billion tokens and unlocking passive yield under U.S. regulation.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://decrypt.co/377238/michigan-judge-bars-kalshi-sports-bets-threatens-500k-daily-fine" target="_blank" rel="noopener">Michigan Judge Bars Kalshi Sports Bets, Threatens $500K Daily Fine</a>
+      <div class="meta">
+        <span class="tag">Decrypt</span>
+        <span class="time">4h ago</span>
+      </div>
+      <div class="summary">The order calls the prediction market platform a sports betting operation "masquerading as an investment opportunity."</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://www.coindesk.com/business/2026/09/03/catastrophe-bonds-may-join-tokenization-rush-with-plans-for-test-issuance-in-2027" target="_blank" rel="noopener">Catastrophe bonds may join tokenization rush, with plans for test issuance in 2027</a>
+      <div class="meta">
+        <span class="tag">CoinDesk</span>
+        <span class="time">4h ago</span>
+      </div>
+      <div class="summary">A law firm and a tokenization platform say their proposed structure would give investors legal ownership of cat bonds onchain and could lower the minimum investment.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://u.today/pons-pons-token-surges-above-500-million-explaining-why" target="_blank" rel="noopener">Pons (PONS) Token Surges Above $500 Million: Explaining Why</a>
+      <div class="meta">
+        <span class="tag">U.Today</span>
+        <span class="time">4h ago</span>
+      </div>
+      <div class="summary">The biggest launchpad on Robinhood is attracting fresh funds and seeing its valued pushed to the sky.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://cryptopotato.com/important-ripple-news-and-xrp-price-update-september-3/" target="_blank" rel="noopener">Important Ripple News and XRP Price Update: September 3</a>
+      <div class="meta">
+        <span class="tag">CryptoPotato</span>
+        <span class="time">4h ago</span>
+      </div>
+      <div class="summary">Ripple, as well as the broader XRP ecosystem, started September with new institutional partnership, ETF milestones, and more developments.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://cointelegraph.com/news/australia-warns-unlicensed-crypto-firms-of-fines-up-to-10-of-annual-turnover?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">Australia warns unlicensed crypto firms of fines up to 10% of annual turnover</a>
+      <div class="meta">
+        <span class="tag">Cointelegraph</span>
+        <span class="time">5h ago</span>
+      </div>
+      <div class="summary">ASIC has recorded more than 45 digital asset-related license applications as its temporary enforcement relief approaches Sept. 30 expiration.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://cointelegraph.com/markets/eth-xrp-etf-inflow-streaks-end-bitcoin-funds-rebound?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">Ether, XRP ETF inflow streaks end as Bitcoin funds rebound</a>
+      <div class="meta">
+        <span class="tag">Cointelegraph</span>
+        <span class="time">5h ago</span>
+      </div>
+      <div class="summary">Ether ETFs posted $48 million in outflows after attracting $1.62 billion over 12 trading days, while XRP funds ended an 11-session inflow run.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://www.coindesk.com/markets/2026/09/03/bitcoin-s-fabled-golden-cross-is-coming-and-usdt-may-be-the-real-signal-this-time" target="_blank" rel="noopener">Bitcoin’s fabled golden cross is coming. And USDT may be the real signal this time</a>
+      <div class="meta">
+        <span class="tag">CoinDesk</span>
+        <span class="time">6h ago</span>
+      </div>
+      <div class="summary">BTC is nearing a bullish golden cross, a widely tracked signal with a mixed record of success in crypto markets. But this time, USDT is supporting the bullish read.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://cryptoslate.com/ontology-forces-urgent-node-upgrade-after-restarting-chain-hit-by-malicious-activity/" target="_blank" rel="noopener">Ontology forces urgent node upgrade after restarting chain hit by malicious activity</a>
+      <div class="meta">
+        <span class="tag">CryptoSlate</span>
+        <span class="time">6h ago</span>
+      </div>
+      <div class="summary">Version 3.1.5 is mandatory for compatibility while the attack path and wider service recovery remain undisclosed. The post Ontology forces urgent node upgrade after restarting chain hit by malicious activity appeared first on CryptoSlate .</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://cryptopotato.com/bitcoin-could-crash-to-50k-if-bulls-fail-this-crucial-test-analyst/" target="_blank" rel="noopener">Bitcoin Could Crash to $50K if Bulls Fail This Crucial Test: Analyst</a>
+      <div class="meta">
+        <span class="tag">CryptoPotato</span>
+        <span class="time">6h ago</span>
+      </div>
+      <div class="summary">The $76,500 area became an important short-term reference after BTC slipped below it for the first time since August 23.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://u.today/xrp-is-most-asked-about-crypto-in-wealth-manager-meetings-bitwise-claims" target="_blank" rel="noopener">XRP Is Most Asked-About Crypto in Wealth Manager Meetings, Bitwise Claims</a>
+      <div class="meta">
+        <span class="tag">U.Today</span>
+        <span class="time">6h ago</span>
+      </div>
+      <div class="summary">XRP drew more questions than any other cryptocurrency during a presentation to about 400 wealth managers, according to Bitwise research analyst Ryan Rasmussen.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://cryptoslate.com/thailand-puts-private-wallets-and-offshore-crypto-transfers-on-notice-in-a-major-new-crypto-rule/" target="_blank" rel="noopener">Thailand puts private wallets and offshore crypto transfers on notice in a major new crypto rule</a>
+      <div class="meta">
+        <span class="tag">CryptoSlate</span>
+        <span class="time">7h ago</span>
+      </div>
+      <div class="summary">Licensed operators must add recipient data to transfers, collect extra details above 30,000 baht and verify some self-hosted wallets. The post Thailand puts private wallets and offshore crypto transfers on notice in a major new crypto rule appeared first on CryptoSlate .</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://www.coindesk.com/markets/2026/09/03/dogecoin-becomes-losing-bet-for-japan-listed-firm-remixpoint-as-it-sells-altcoins-for-bitcoin" target="_blank" rel="noopener">Dogecoin becomes only losing bet for Japan-listed firm as it sells altcoins for bitcoin</a>
+      <div class="meta">
+        <span class="tag">CoinDesk</span>
+        <span class="time">8h ago</span>
+      </div>
+      <div class="summary">Remixpoint booked gains on ether, solana and XRP, but sold DOGE below its fiscal-year opening value as it concentrated its crypto holdings in bitcoin.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://cointelegraph.com/news/hyperscale-data-ends-michigan-bitcoin-mining-ai?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">Hyperscale Data ends Michigan BTC mining as holdings fall 79%</a>
+      <div class="meta">
+        <span class="tag">Cointelegraph</span>
+        <span class="time">8h ago</span>
+      </div>
+      <div class="summary">Hyperscale Data’s Bitcoin holdings have fallen about 79% since late July to 215 BTC as it redirects capital toward its Michigan AI data center.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://www.theblock.co/news/regulation/2026-09-03-michigan-court-orders-kalshi-sports-prediction-markets-413422" target="_blank" rel="noopener">Michigan court orders Kalshi to keep blocking sports prediction markets</a>
+      <div class="meta">
+        <span class="tag">The Block</span>
+        <span class="time">8h ago</span>
+      </div>
+      <div class="summary">The injunction converts a temporary restraining order issued in June, and violations would result in a fine of $500,000 per day.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://www.coindesk.com/markets/2026/09/03/bitcoin-back-above-usd77-500-xrp-leads-majors-as-fed-hike-odds-near-66" target="_blank" rel="noopener">Bitcoin back above $77,500, XRP leads majors as Fed hike odds slide to 62%</a>
+      <div class="meta">
+        <span class="tag">CoinDesk</span>
+        <span class="time">8h ago</span>
+      </div>
+      <div class="summary">Every major token is green over 24 hours, though only zcash and hyperliquid are holding gains on the week.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://cryptopotato.com/xrps-next-move-comes-down-to-these-key-price-levels-analyst/" target="_blank" rel="noopener">XRP’s Next Move Comes Down to These Key Price Levels: Analyst</a>
+      <div class="meta">
+        <span class="tag">CryptoPotato</span>
+        <span class="time">9h ago</span>
+      </div>
+      <div class="summary">XRP faces resistance at $1.40 to $1.43 before reaching $1.47, creating several hurdles for bulls attempting to regain control.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://cryptoslate.com/coinbase-co-founder-joins-rush-for-venezuelan-oil-assets-under-new-us-backed-framework/" target="_blank" rel="noopener">Coinbase co-founder joins rush for Venezuelan oil assets under new US-backed framework</a>
+      <div class="meta">
+        <span class="tag">CryptoSlate</span>
+        <span class="time">9h ago</span>
+      </div>
+      <div class="summary">Primavera is reportedly negotiating for three fields, but no signed agreement or transfer has been announced. The post Coinbase co-founder joins rush for Venezuelan oil assets under new US-backed framework appeared first on CryptoSlate .</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://www.theblock.co/news/regulation/2026-09-02-cftc-dismiss-cme-413416" target="_blank" rel="noopener">‘Much ado about nothing’: CFTC files to dismiss CME’s lawsuit over crypto perpetual futures</a>
+      <div class="meta">
+        <span class="tag">The Block</span>
+        <span class="time">9h ago</span>
+      </div>
+      <div class="summary">The CFTC said CME lacks standing on its competitive-injury claims, as the exchange is free to list perp futures as a DCM.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://cryptoslate.com/how-stablecoins-are-quietly-becoming-the-feds-debt-buyer-of-last-resort/" target="_blank" rel="noopener">How stablecoins are quietly becoming the Fed’s debt buyer of last resort</a>
+      <div class="meta">
+        <span class="tag">CryptoSlate</span>
+        <span class="time">10h ago</span>
+      </div>
+      <div class="summary">Dollar tokens can expand private use and Treasury-bill demand without deciding how central banks allocate reserves. The post How stablecoins are quietly becoming the Fed’s debt buyer of last resort appeared first on CryptoSlate .</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://cryptoslate.com/nearly-10-million-must-escape-a-dying-ethereum-network-before-new-years-eve-or-risk-becoming-unrecoverable/" target="_blank" rel="noopener">Nearly $10 million must escape a dying Ethereum L2 network before New Year’s Eve or risk becoming unrecoverable</a>
+      <div class="meta">
+        <span class="tag">CryptoSlate</span>
+        <span class="time">12h ago</span>
+      </div>
+      <div class="summary">The Ethereum layer 2 stopped deposits and warned that exit routes differ before its network and explorer shut down. The post Nearly $10 million must escape a dying Ethereum L2 network before New Year’s Eve or risk becoming unrecoverable appeared first on CryptoSlate .</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://cryptopotato.com/doge-shib-pepe-or-something-else-which-meme-coin-can-make-history-in-september-3-ais-weigh-in/" target="_blank" rel="noopener">DOGE, SHIB, PEPE, or Something Else: Which Meme Coin Can Make History in September? (3 AIs Weigh In)</a>
+      <div class="meta">
+        <span class="tag">CryptoPotato</span>
+        <span class="time">12h ago</span>
+      </div>
+      <div class="summary">"DOGE remains the most likely to record the largest move in dollar terms and lead the entire sector," ChatGPT stated.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://u.today/price-analysis/dogecoin-doge-hyperliquid-hype-shiba-inu-shib-and-bitcoin-btc-price-analysis-for-september-2" target="_blank" rel="noopener">Dogecoin (DOGE), Hyperliquid (HYPE), Shiba Inu (SHIB) and Bitcoin (BTC) Price Analysis for September 2: Recapturing Bullish Momentum</a>
+      <div class="meta">
+        <span class="tag">U.Today</span>
+        <span class="time">13h ago</span>
+      </div>
+      <div class="summary">The market is not yet ready for a rally continuation, but the accumulation on the bullish side is reassuring.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://decrypt.co/377232/anthropic-security-claude-ai-hacks" target="_blank" rel="noopener">Anthropic Admits Security Failures Behind Claude Hacking Incidents</a>
+      <div class="meta">
+        <span class="tag">Decrypt</span>
+        <span class="time">13h ago</span>
+      </div>
+      <div class="summary">After Claude models accessed real systems during cyber tests, Anthropic tightened its safeguards and warned that flawed training can encourage dangerous behavior.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://cryptoslate.com/xrps-2-14-bull-case-just-met-a-474-million-etf-tailwind/" target="_blank" rel="noopener">XRP’s $2.14 bull case just met a $474 million ETF tailwind</a>
+      <div class="meta">
+        <span class="tag">CryptoSlate</span>
+        <span class="time">13h ago</span>
+      </div>
+      <div class="summary">CryptoSlate's 90-day model maps nearly 59% upside in its bullish Nov. 30 scenario, while the central estimate and downside range remain far lower. The post XRP’s $2.14 bull case just met a $474 million ETF tailwind appeared first on CryptoSlate .</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://decrypt.co/377231/afterquery-ai-tradining-data-unicorn-y-combinator" target="_blank" rel="noopener">An AI Training Data Startup Just Became Y Combinator's Fastest-Ever Unicorn</a>
+      <div class="meta">
+        <span class="tag">Decrypt</span>
+        <span class="time">13h ago</span>
+      </div>
+      <div class="summary">Afterquery's valuation jumped more than tenfold in five months, making it Y Combinator's fastest unicorn ever.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://decrypt.co/377230/fbi-seizes-560k-crypto-hamas" target="_blank" rel="noopener">FBI Seizes $560K in Crypto Bound for Hamas, Takes Over Fundraising Sites</a>
+      <div class="meta">
+        <span class="tag">Decrypt</span>
+        <span class="time">14h ago</span>
+      </div>
+      <div class="summary">Agents seized digital assets, domains, and servers allegedly used by Hamas’ military wing to collect donations and recruit supporters.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://cryptopotato.com/cardano-firm-taptools-scraps-revival-nft-sale-after-community-backlash/" target="_blank" rel="noopener">Cardano Firm TapTools Scraps Revival NFT Sale After Community Backlash</a>
+      <div class="meta">
+        <span class="tag">CryptoPotato</span>
+        <span class="time">14h ago</span>
+      </div>
+      <div class="summary">Rather than criticize TapTools directly, Hoskinson used a South Park clip to respond to the team's admission that it had "got this one wrong."</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://bitcoinmagazine.com/news/sec-chair-predict-clarity-act-passage" target="_blank" rel="noopener">‘Crypto Capital of the World’: SEC Chair Expects Clarity Act to Pass This Month</a>
+      <div class="meta">
+        <span class="tag">Bitcoin Magazine</span>
+        <span class="time">15h ago</span>
+      </div>
+      <div class="summary">Bitcoin Magazine ‘Crypto Capital of the World’: SEC Chair Expects Clarity Act to Pass This Month Securities and Exchange Commission Chair Paul Atkins has been pushing ahead with crypto regulation despite a delay in a vote on the Clarity Act. This post ‘Crypto Capital of the World’: SEC Chair Expects Clarity Act to Pass This Month first appeared on Bitcoin Magazine and is written by Mathew Di Salvo</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://decrypt.co/377228/remixpoint-xrp-ethereum-bitcoin-only" target="_blank" rel="noopener">Japan’s Remixpoint Dumps Ethereum, XRP in Shift to Bitcoin-Only Treasury</a>
+      <div class="meta">
+        <span class="tag">Decrypt</span>
+        <span class="time">15h ago</span>
+      </div>
+      <div class="summary">The Japanese company booked a ¥117.8 million profit after selling its ETH, SOL, XRP and DOGE, leaving roughly 1,506 BTC as its only cryptocurrency holding.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://cointelegraph.com/news/us-officials-crowdstrike-malware-stealing-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">US officials work with CrowdStrike to fight malware behind crypto theft</a>
+      <div class="meta">
+        <span class="tag">Cointelegraph</span>
+        <span class="time">15h ago</span>
+      </div>
+      <div class="summary">Federal authorities and private-sector partners were part of an operation to disrupt malware that redirected about $150,000 in crypto over the last eight years.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://www.coindesk.com/business/2026/09/02/doj-says-hamas-crypto-seizures-reached-usd560-000-as-fbi-took-over-fundraising-sites" target="_blank" rel="noopener">DOJ says Hamas crypto seizures reached $560,000 as FBI took over fundraising sites</a>
+      <div class="meta">
+        <span class="tag">CoinDesk</span>
+        <span class="time">15h ago</span>
+      </div>
+      <div class="summary">FBI agents took control of domains and servers, specifically Alqassam.ps, to intercept donations and prevent further fundraising for the Al-Qassam Brigades.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://www.theblock.co/news/business/2026-09-02-anthony-armstrong-former-cfo-elon-musk-xai-x-joins-coinbase-board-413405" target="_blank" rel="noopener">Anthony Armstrong, former CFO at Elon Musk’s xAI and X, joins Coinbase board</a>
+      <div class="meta">
+        <span class="tag">The Block</span>
+        <span class="time">16h ago</span>
+      </div>
+      <div class="summary">Anthony Armstrong — no relation to Coinbase CEO Brian Armstrong — most recently served as CFO across xAI, X.AI Corp., and X Corp.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://cryptopotato.com/35-more-bitcoin-smarter-web-expands-its-growing-btc-treasury/" target="_blank" rel="noopener">35 More Bitcoin: Smarter Web Expands Its Growing BTC Treasury</a>
+      <div class="meta">
+        <span class="tag">CryptoPotato</span>
+        <span class="time">16h ago</span>
+      </div>
+      <div class="summary">The UK-based company spent £2 million in its latest Bitcoin purchase.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://cointelegraph.com/news/coinbase-launches-regulated-crypto-derivatives-in-canada?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">Coinbase launches regulated crypto derivatives in Canada</a>
+      <div class="meta">
+        <span class="tag">Cointelegraph</span>
+        <span class="time">16h ago</span>
+      </div>
+      <div class="summary">Coinbase is offering eligible Canadian traders perpetual and dated futures with up to 10x leverage as major US trading platforms expand their crypto presence in Canada.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://decrypt.co/377225/pentagon-ai-official-sold-millions-perplexity-stock" target="_blank" rel="noopener">Top Pentagon AI Official Sold Millions in Perplexity Stock, Disclosures Show</a>
+      <div class="meta">
+        <span class="tag">Decrypt</span>
+        <span class="time">16h ago</span>
+      </div>
+      <div class="summary">Emil Michael's latest financial filings show a summer exit from Perplexity, months after a January sale of xAI stock that reportedly netted him up to $24 million.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://u.today/bis-finds-new-use-case-for-xrp-ledger" target="_blank" rel="noopener">BIS Finds New Use Case for XRP Ledger</a>
+      <div class="meta">
+        <span class="tag">U.Today</span>
+        <span class="time">16h ago</span>
+      </div>
+      <div class="summary">The Bank for International Settlements just tested the XRP Ledger as a way to verify official economic statistics.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://www.coindesk.com/business/2026/09/02/kraken-parent-payward-pushes-ipo-back-to-mid-2027-at-earliest" target="_blank" rel="noopener">Kraken parent Payward delays IPO to second quarter of 2027 at earliest</a>
+      <div class="meta">
+        <span class="tag">CoinDesk</span>
+        <span class="time">16h ago</span>
+      </div>
+      <div class="summary">The crypto exchange operator, which confidentially filed for a U.S. listing last November, had already put its IPO plans on hold amid difficult market conditions.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://decrypt.co/377216/goldman-sachs-bofa-banks-stablecoin" target="_blank" rel="noopener">Goldman Sachs, BofA Among 21 Banks Planning Joint Dollar Stablecoin Launch</a>
+      <div class="meta">
+        <span class="tag">Decrypt</span>
+        <span class="time">17h ago</span>
+      </div>
+      <div class="summary">The bank-led consortium wants a U.S. dollar token live by the first half of 2027, with a euro version queued up next.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://thedefiant.io/news/tokens/money-mushroom-moved-a-nasdaq-penny-stock-but-its-tokenized-stock-is-a-memecoin-too" target="_blank" rel="noopener">'Money Mushroom' Moved A Nasdaq Penny Stock, But Its 'Tokenized Stock' Is A Memecoin Too</a>
+      <div class="meta">
+        <span class="tag">The Defiant</span>
+        <span class="time">17h ago</span>
+      </div>
+      <div class="summary">The FAMI token that Money Mushroom trades against on Robinhood Chain is not a Robinhood stock token. Its 37,430,000 supply, close to Farmmi's entire share count, was minted in a single transaction by a wallet that kept 38% and now runs a contract named PoolRepricer to manage the price.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://bitcoinmagazine.com/news/salinas-tells-people-to-escape-fiat" target="_blank" rel="noopener">Mexican Billionaire Ricardo Salinas Tells People To Escape Fiat Inflation With Bitcoin</a>
+      <div class="meta">
+        <span class="tag">Bitcoin Magazine</span>
+        <span class="time">17h ago</span>
+      </div>
+      <div class="summary">Bitcoin Magazine Mexican Billionaire Ricardo Salinas Tells People To Escape Fiat Inflation With Bitcoin The Mexican business magnate continues to tell people to escape what he calls the "fiat fraud." This post Mexican Billionaire Ricardo Salinas Tells People To Escape Fiat Inflation With Bitcoin first appeared on Bitcoin Magazine and is written by Mathew Di Salvo .</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://bitcoinmagazine.com/news/when-banks-dont-work-bitcoin-does-cornell" target="_blank" rel="noopener">When the Banks Don’t Work, Bitcoin Does: Cornell University’s Adoption Index</a>
+      <div class="meta">
+        <span class="tag">Bitcoin Magazine</span>
+        <span class="time">17h ago</span>
+      </div>
+      <div class="summary">Bitcoin Magazine When the Banks Don’t Work, Bitcoin Does: Cornell University’s Adoption Index Cornell University spoke to 25,880 people about using bitcoin. While many don't understand the tech in depth, it's proving useful for some. This post When the Banks Don’t Work, Bitcoin Does: Cornell University’s Adoption Index first appeared on Bitcoin Magazine and is written by Mathew Di Salvo .</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://decrypt.co/377215/right-trade-strategy-no-regrets-selling-bitcoin" target="_blank" rel="noopener">'The Right Trade': Strategy CEO Has No Regrets Selling Bitcoin at $60K Before Buying Back Higher</a>
+      <div class="meta">
+        <span class="tag">Decrypt</span>
+        <span class="time">17h ago</span>
+      </div>
+      <div class="summary">Phong Le said Strategy’s cost of capital—not Bitcoin’s price—drove its decision to sell nearly 7,000 BTC before resuming purchases above $80,000.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://cointelegraph.com/news/new-jersey-supreme-court-kalshi-prediction-markets-cftc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">New Jersey officials petition US Supreme Court over prediction markets</a>
+      <div class="meta">
+        <span class="tag">Cointelegraph</span>
+        <span class="time">18h ago</span>
+      </div>
+      <div class="summary">New Jersey’s Attorney General and gaming authorities filed a petition for a writ of certiorari to the US Supreme Court over Kalshi offering sporting event contracts to residents.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://cryptopotato.com/3-reasons-why-september-could-be-bullish-for-ethereum-eth/" target="_blank" rel="noopener">3 Reasons Why September Could Be Bullish for Ethereum (ETH)</a>
+      <div class="meta">
+        <span class="tag">CryptoPotato</span>
+        <span class="time">18h ago</span>
+      </div>
+      <div class="summary">If ETH closes this month in positive territory, it would be the first time ever it posts back-to-back gains in August and September.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://u.today/tethers-stablecoin-goes-live-on-stellar" target="_blank" rel="noopener">Tether's Stablecoin Goes Live on Stellar</a>
+      <div class="meta">
+        <span class="tag">U.Today</span>
+        <span class="time">18h ago</span>
+      </div>
+      <div class="summary">Tether’s USDT ecosystem is expanding to Stellar, giving users access to more than $180 billion in stablecoin liquidity through USDT0.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://cointelegraph.com/news/wyoming-chainlink-onchain-reserves-of-state-issued-stable-token?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">Wyoming adds Chainlink reserve verification to state-issued stable token</a>
+      <div class="meta">
+        <span class="tag">Cointelegraph</span>
+        <span class="time">18h ago</span>
+      </div>
+      <div class="summary">Wyoming is using Chainlink to bring near-real-time reserve verification onchain for FRNT as the oracle provider expands its footprint across tokenized financial markets.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://bitcoinmagazine.com/news/capital-b-raises-money-adam-back" target="_blank" rel="noopener">Capital B Raises €7.6M From Adam Back to Fund Another Bitcoin Buy</a>
+      <div class="meta">
+        <span class="tag">Bitcoin Magazine</span>
+        <span class="time">18h ago</span>
+      </div>
+      <div class="summary">Bitcoin Magazine Capital B Raises €7.6M From Adam Back to Fund Another Bitcoin Buy The French company's announcement comes after a bitcoin fundraiser last month. This post Capital B Raises €7.6M From Adam Back to Fund Another Bitcoin Buy first appeared on Bitcoin Magazine and is written by Mathew Di Salvo .</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://cryptopotato.com/analyst-says-15-dogecoin-target-is-dead-after-long-term-channel-break/" target="_blank" rel="noopener">Analyst Says $15 Dogecoin Target Is Dead After Long-Term Channel Break</a>
+      <div class="meta">
+        <span class="tag">CryptoPotato</span>
+        <span class="time">18h ago</span>
+      </div>
+      <div class="summary">The rising channel dates back to Dogecoin's earliest trading history, making its latest break more significant than a routine pullback.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://decrypt.co/377185/bitcoin-flash-crash-real-bart-simpson-pattern" target="_blank" rel="noopener">Is Bitcoin About to Flash Crash? What a 'Bart Simpson' Pattern Would Actually Take</a>
+      <div class="meta">
+        <span class="tag">Decrypt</span>
+        <span class="time">18h ago</span>
+      </div>
+      <div class="summary">Bitcoin traders are calling August's spike-and-fade a Bart Simpson hairline. Here's what separates an actual flash crash from an ordinary correction.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://www.theblock.co/news/regulation/2026-09-02-new-jersey-asks-supreme-court-to-decide-who-regulates-sports-betting-on-prediction-markets-413398" target="_blank" rel="noopener">New Jersey asks Supreme Court to decide who regulates sports betting on prediction markets</a>
+      <div class="meta">
+        <span class="tag">The Block</span>
+        <span class="time">18h ago</span>
+      </div>
+      <div class="summary">New Jersey is asking the U.S. Supreme Court to settle, once and for all, how sports betting on prediction markets should be regulated.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://decrypt.co/377184/crypto-groups-sec-novel-etfs" target="_blank" rel="noopener">Crypto Groups Push SEC for Tailored Rules on Novel ETFs</a>
+      <div class="meta">
+        <span class="tag">Decrypt</span>
+        <span class="time">19h ago</span>
+      </div>
+      <div class="summary">Groups including The Crypto Council for Innovation, Grayscale, and a16z urged the regulator to preserve existing fund classifications and streamline reviews for new exchange-traded products.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://www.theblock.co/news/markets/2026-09-02-memecoin-shenanigans-nasdaq-microcap-mushroom-seller-farmmi-413374" target="_blank" rel="noopener">Memecoin shenanigans spill into Nasdaq as microcap mushroom seller Farmmi surges 350%</a>
+      <div class="meta">
+        <span class="tag">The Block</span>
+        <span class="time">19h ago</span>
+      </div>
+      <div class="summary">FAMI quickly corrected while the stock saw more than 720 million shares traded — nearly 90 times more than its daily average.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://www.coindesk.com/news-analysis/2026/09/02/crypto-made-new-friends-in-u-s-primaries-but-focus-now-shifts-to-general-election" target="_blank" rel="noopener">Crypto made new friends in U.S. primaries, but focus now shifts to general election</a>
+      <div class="meta">
+        <span class="tag">CoinDesk</span>
+        <span class="time">19h ago</span>
+      </div>
+      <div class="summary">Adding Massachusetts incumbent Auchincloss to the list of winning primary candidates Fairshake supported, the industry's influence moves on to November.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://www.coindesk.com/policy/2026/09/02/new-jersey-becomes-first-state-to-ask-supreme-court-to-weigh-in-on-prediction-markets" target="_blank" rel="noopener">New Jersey becomes first state to ask Supreme Court to weigh in on prediction markets</a>
+      <div class="meta">
+        <span class="tag">CoinDesk</span>
+        <span class="time">19h ago</span>
+      </div>
+      <div class="summary">After multiple appeals courts ruled differently about whether states can crack down on prediction markets' sports products, New Jersey asked SCOTUS to step in.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://www.theblock.co/news/ecosystems/2026-09-02-securitize-and-socios-team-up-to-tokenize-equity-in-pro-sports-teams-413378" target="_blank" rel="noopener">Securitize and Socios team up to tokenize equity in pro sports teams</a>
+      <div class="meta">
+        <span class="tag">The Block</span>
+        <span class="time">19h ago</span>
+      </div>
+      <div class="summary">It's the first project launched through Securitize’s fully authorized European Trading & Settlement System under the EU DLT Pilot Regime.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://u.today/xrp-ledger-trading-gets-bigger" target="_blank" rel="noopener">XRP Ledger Trading Gets Bigger</a>
+      <div class="meta">
+        <span class="tag">U.Today</span>
+        <span class="time">19h ago</span>
+      </div>
+      <div class="summary">Trading activity on the XRP Ledger surged in the second quarter, with average daily order-book volume rising 79% from a year earlier even as the number of accounts executing trades fell.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://u.today/bitcoin-cycle-theory-dead-no-more-cryptoquant-signals-bear-market-reversal" target="_blank" rel="noopener">Bitcoin Cycle Theory 'Dead' No More? CryptoQuant Signals Bear Market Reversal</a>
+      <div class="meta">
+        <span class="tag">U.Today</span>
+        <span class="time">20h ago</span>
+      </div>
+      <div class="summary">Bitcoin is breaking out of its bear market as giant buyers completely absorb the retail panic.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://bitcoinmagazine.com/print/the-quantum-issue-letter-from-the-editor" target="_blank" rel="noopener">The Quantum Issue: Letter From The Editor</a>
+      <div class="meta">
+        <span class="tag">Bitcoin Magazine</span>
+        <span class="time">20h ago</span>
+      </div>
+      <div class="summary">Bitcoin Magazine The Quantum Issue: Letter From The Editor The Quantum Issue takes a look at the risk of quantum computing to Bitcoin, how exposed the network is, and the current state of solutions to protect it. This post The Quantum Issue: Letter From The Editor first appeared on Bitcoin Magazine and is written by Shinobi .</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://decrypt.co/377180/openai-astra-first-ai-model-critical-hacking" target="_blank" rel="noopener">OpenAI's Astra Becomes Its First AI Model With 'Critical' Hacking Abilities</a>
+      <div class="meta">
+        <span class="tag">Decrypt</span>
+        <span class="time">20h ago</span>
+      </div>
+      <div class="summary">The unreleased model can find zero-day vulnerabilities and chain them into working exploits without a human walking it through each step, and access to that capability is starting with a small group of testers.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://cointelegraph.com/news/ondo-urges-sec-cftc-bring-us-stock-perpetuals-onshore?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">Ondo urges SEC, CFTC to bring US stock perpetuals onshore</a>
+      <div class="meta">
+        <span class="tag">Cointelegraph</span>
+        <span class="time">20h ago</span>
+      </div>
+      <div class="summary">Ondo says existing US securities laws can accommodate perpetual futures tied to individual stocks as regulators look to bring more derivatives activity onshore.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://cointelegraph.com/markets/bitcoins-apparent-demand-turns-negative-price-struggles-with-77k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">Bitcoin’s apparent demand turns negative as price struggles with $77K</a>
+      <div class="meta">
+        <span class="tag">Cointelegraph</span>
+        <span class="time">20h ago</span>
+      </div>
+      <div class="summary">One of Bitcoin’s onchain demand indicators turns negative again after a brief August rebound, as BTC price slipped below $77,000 amid a broader bond and equities sell-off.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://thedefiant.io/news/markets/bitcoin-holds-77000-after-weak-adp-hiring-print" target="_blank" rel="noopener">Bitcoin Holds $77,000 After Weak Hiring Print</a>
+      <div class="meta">
+        <span class="tag">The Defiant</span>
+        <span class="time">20h ago</span>
+      </div>
+      <div class="summary">ADP reported 38,000 private jobs added in August, down from 44,000 in July, and traders raised the odds of a September Federal Reserve increase anyway. Eighty-four of the 125 largest non-stablecoin tokens fell, gold rose 0.84% and the Nasdaq 100 dropped 1.29%.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://thedefiant.io/news/nfts-and-web3/opensea-adds-solana-nft-trading-across-os2" target="_blank" rel="noopener">OpenSea Adds Solana NFT Trading Across OS2</a>
+      <div class="meta">
+        <span class="tag">The Defiant</span>
+        <span class="time">20h ago</span>
+      </div>
+      <div class="summary">Collectors can browse, buy and sell Solana NFTs alongside the network’s fungible tokens, with Mad Lads and Claynosaurz available at launch.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://cryptopotato.com/filecoin-fil-jumps-15-daily-here-are-the-next-bullish-targets/" target="_blank" rel="noopener">Filecoin (FIL) Jumps 15% Daily: Here Are the Next Bullish Targets</a>
+      <div class="meta">
+        <span class="tag">CryptoPotato</span>
+        <span class="time">20h ago</span>
+      </div>
+      <div class="summary">"We could be right at the start of this process, right now," a popular X user claimed.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://thedefiant.io/news/blockchains/arbitrumdao-income-reached-usd6-19-million-in-h1-robinhood-chain-35-percent-of-july" target="_blank" rel="noopener">ArbitrumDAO Income Reached $6.19 Million In H1</a>
+      <div class="meta">
+        <span class="tag">The Defiant</span>
+        <span class="time">21h ago</span>
+      </div>
+      <div class="summary">The Arbitrum Foundation's first-half report puts $360,000 of Arbitrum Expansion Program license fees at 35% of ArbitrumDAO's July income, the first month Robinhood Chain ran on mainnet.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://www.theblock.co/news/ecosystems/2026-09-02-world-provekit-zero-knowledge-identity-proving-toolkit-413364" target="_blank" rel="noopener">World open-sources ProveKit, a zero-knowledge identity proving toolkit</a>
+      <div class="meta">
+        <span class="tag">The Block</span>
+        <span class="time">21h ago</span>
+      </div>
+      <div class="summary">World has open-sourced ProveKit, a zero-knowledge identity proving toolkit already used in World ID since April.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://www.theblock.co/news/ecosystems/2026-09-02-arbitrum-dao-reports-6-2-million-first-half-income-robinhood-chain-adds-new-revenue-stream-413345" target="_blank" rel="noopener">Arbitrum DAO reports $6.2 million in first-half income as Robinhood Chain adds new revenue stream</a>
+      <div class="meta">
+        <span class="tag">The Block</span>
+        <span class="time">21h ago</span>
+      </div>
+      <div class="summary">Licensing fees accounted for 35% of the DAO's income in July, the first month Robinhood Chain was live on mainnet.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://decrypt.co/377171/tether-sued-freeze-42-4-million-usdt" target="_blank" rel="noopener">Tether Sued Over Alleged Unlawful Freeze of $42.4 Million in USDT</a>
+      <div class="meta">
+        <span class="tag">Decrypt</span>
+        <span class="time">21h ago</span>
+      </div>
+      <div class="summary">Two Thai businessmen claim Tether blocked access to their stablecoins months before federal authorities secured a seizure warrant.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://cointelegraph.com/news/g20-members-clear-pathways-digital-asset-innovation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">G20 members tout ‘clear pathways’ for digital asset innovation</a>
+      <div class="meta">
+        <span class="tag">Cointelegraph</span>
+        <span class="time">21h ago</span>
+      </div>
+      <div class="summary">Officials in the G20, under the US’ presidency, recognized that digital assets could support “broad-based economic growth” and called for improvements in cross-border transactions.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://www.theblock.co/news/markets/2026-09-02-hyperscale-data-shares-all-time-low-company-flips-michigan-site-bitcoin-mining-into-ai-413357" target="_blank" rel="noopener">Hyperscale Data shares hit all-time low as company flips Michigan site from bitcoin mining into AI</a>
+      <div class="meta">
+        <span class="tag">The Block</span>
+        <span class="time">21h ago</span>
+      </div>
+      <div class="summary">The Michigan AI agreement could generate more than $1.2 billion, with expansion options potentially lifting that above $3 billion.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://bitcoinmagazine.com/news/strategy-ceo-phong-le-defends-bitcoin-sale" target="_blank" rel="noopener">Strategy CEO Defends Bitcoin Sale as the ‘Right Trade’</a>
+      <div class="meta">
+        <span class="tag">Bitcoin Magazine</span>
+        <span class="time">21h ago</span>
+      </div>
+      <div class="summary">Bitcoin Magazine Strategy CEO Defends Bitcoin Sale as the ‘Right Trade’ Strategy CEO has reassured investors that the company has only sold a "miniscule" amount of its bitcoin. This post Strategy CEO Defends Bitcoin Sale as the ‘Right Trade’ first appeared on Bitcoin Magazine and is written by Mathew Di Salvo .</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://thedefiant.io/news/defi/nomura-laser-digital-keyring-defi-fixed-income-euler" target="_blank" rel="noopener">Nomura's Laser Digital Moves Into DeFi Fixed Income</a>
+      <div class="meta">
+        <span class="tag">The Defiant</span>
+        <span class="time">21h ago</span>
+      </div>
+      <div class="summary">Laser Digital will act as risk governor for lending markets built with Keyring Network, with the first markets readied for Euler Finance. Neither company disclosed committed capital, fee terms or a launch date.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://cryptopotato.com/two-thai-businessmen-sue-tether-over-42-4m-usdt-freeze-as-issuer-calls-case-baseless/" target="_blank" rel="noopener">Two Thai Businessmen Sue Tether Over $42.4M USDT Freeze as Issuer Calls Case ‘Baseless’</a>
+      <div class="meta">
+        <span class="tag">CryptoPotato</span>
+        <span class="time">22h ago</span>
+      </div>
+      <div class="summary">Thai plaintiffs challenge Tether's $42.4 million USDT freeze, which appears connected to an HSI investigation into pig-butchering fraud proceeds.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://thedefiant.io/converge/tradfi-and-fintech/21-financial-institutions-commit-to-joint-stablecoin-venture" target="_blank" rel="noopener">21 Financial Institutions Commit to Joint Stablecoin Venture</a>
+      <div class="meta">
+        <span class="tag">The Defiant</span>
+        <span class="time">22h ago</span>
+      </div>
+      <div class="summary">Bank of America, Citi, Goldman Sachs, UBS, Deutsche Bank and 16 other firms said Tuesday they will incorporate a company in the second half of 2026 to issue a dollar stablecoin, with a market launch targeted for the first half of 2027. The announcement did not name the company, its owners, its</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://thedefiant.io/converge/tradfi-and-fintech/securitize-socios-tokenized-sports-team-equity" target="_blank" rel="noopener">Securitize Will Issue Socios' Tokenized Sports Team Equity</a>
+      <div class="meta">
+        <span class="tag">The Defiant</span>
+        <span class="time">22h ago</span>
+      </div>
+      <div class="summary">The Chiliz Group announced the equity token product on Aug. 27 without naming an issuer. The EU regime the companies say the first offering would run through admits shares only from issuers worth less than €500 million.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://thedefiant.io/news/cefi/backpack-adds-micron-and-sandisk-shares-as-margin-collateral" target="_blank" rel="noopener">Backpack Adds Micron and SanDisk Shares as Margin Collateral</a>
+      <div class="meta">
+        <span class="tag">The Defiant</span>
+        <span class="time">22h ago</span>
+      </div>
+      <div class="summary">The exchange also introduced 24/7 perpetual futures on MU, SNDK, SPY and QQQ, but its post did not specify key collateral and liquidation terms.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://thedefiant.io/converge/regulation/sec-proposes-transfer-agent-rules-for-blockchain-based-share-records" target="_blank" rel="noopener">SEC Proposes Transfer Agent Rules for Blockchain-Based Share Records</a>
+      <div class="meta">
+        <span class="tag">The Defiant</span>
+        <span class="time">22h ago</span>
+      </div>
+      <div class="summary">The proposal would update electronic recordkeeping rules and add risk-management and compliance requirements for registered transfer agents using blockchain systems.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://www.theblock.co/news/ecosystems/2026-09-02-wyoming-expands-chainlink-partnership-onchain-reserve-verification-frnt-413294" target="_blank" rel="noopener">Wyoming expands Chainlink partnership with onchain reserve verification for FRNT</a>
+      <div class="meta">
+        <span class="tag">The Block</span>
+        <span class="time">1d ago</span>
+      </div>
+      <div class="summary">Last month, Wyoming’s Stable Token Commission fully migrated FRNT from LayerZero to Chainlink CCIP after a security review.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://www.theblock.co/news/business/2026-09-02-adam-back-invests-another-8-8-million-in-capital-b-as-bitcoin-treasury-firm-targets-3521-btc-413339" target="_blank" rel="noopener">Adam Back invests another $8.8 million in Capital B as bitcoin treasury firm targets 3,521 BTC</a>
+      <div class="meta">
+        <span class="tag">The Block</span>
+        <span class="time">1d ago</span>
+      </div>
+      <div class="summary">Capital B raised $8.8 million from Adam Back in a private placement as the French bitcoin treasury firm targets 3,521 BTC.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://www.theblock.co/news/business/2026-09-02-japan-listed-remixpoint-sells-all-eth-sol-xrp-and-doge-holdings-in-shift-to-bitcoin-only-crypto-strategy-413333" target="_blank" rel="noopener">Japan-listed Remixpoint sells all ETH, SOL, XRP and DOGE holdings in shift to bitcoin-only crypto strategy</a>
+      <div class="meta">
+        <span class="tag">The Block</span>
+        <span class="time">1d ago</span>
+      </div>
+      <div class="summary">Bitcoin is now Remixpoint's only cryptocurrency holding, with approximately 1,506 BTC, worth around $115 million.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://www.theblock.co/news/business/2026-09-02-strategy-ceo-says-selling-bitcoin-at-60000-before-buying-at-80000-was-the-right-trade-413323" target="_blank" rel="noopener">Strategy CEO says selling bitcoin at $60,000 before buying at $80,000 was the ‘right trade’</a>
+      <div class="meta">
+        <span class="tag">The Block</span>
+        <span class="time">1d ago</span>
+      </div>
+      <div class="summary">Strategy CEO Phong Le defended selling bitcoin at $60,000 before buying at $80,000, citing corporate capital costs.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://www.newsbtc.com/news/sec-charges-38-entities-false-investment-adviser-filings-2/" target="_blank" rel="noopener">SEC Charges 38 Entities Over False Investment Adviser Filings</a>
+      <div class="meta">
+        <span class="tag">NewsBTC</span>
+        <span class="time">1d ago</span>
+      </div>
+      <div class="summary">The SEC has charged 38 entities for allegedly using false filings to make themselves appear legitimate as registered investment advisers, putting regulatory ...</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://bitcoinmagazine.com/markets/bitcoin-slides-as-iran-us-war-escalates" target="_blank" rel="noopener">Bitcoin Slides as US-Iran Tensions Escalate</a>
+      <div class="meta">
+        <span class="tag">Bitcoin Magazine</span>
+        <span class="time">1d ago</span>
+      </div>
+      <div class="summary">Bitcoin Magazine Bitcoin Slides as US-Iran Tensions Escalate Things are heating up between Iran and the U.S. — again — and it's hurting bitcoin's price. This post Bitcoin Slides as US-Iran Tensions Escalate first appeared on Bitcoin Magazine and is written by Mathew Di Salvo .</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://www.newsbtc.com/news/belgium-police-crypto-wallets-cross-border-piracy-crackdown/" target="_blank" rel="noopener">Belgium Police Target Crypto Wallets In Cross-Border Piracy Crackdown</a>
+      <div class="meta">
+        <span class="tag">NewsBTC</span>
+        <span class="time">1d ago</span>
+      </div>
+      <div class="summary">Belgian federal police have targeted crypto wallets linked to offshore piracy platforms in a cross-border enforcement action, according to an official govern...</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://www.newsbtc.com/news/fed-research-wholesale-cbdc-tokenized-deposits/" target="_blank" rel="noopener">Fed Research Compares Wholesale CBDC Settlement With Tokenized Deposits</a>
+      <div class="meta">
+        <span class="tag">NewsBTC</span>
+        <span class="time">1d ago</span>
+      </div>
+      <div class="summary">A Federal Reserve research paper has compared wholesale CBDC settlement with tokenized commercial bank deposits, adding another official research layer to th...</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://bitcoinmagazine.com/news/bitcoin-has-its-third-best-august-ever" target="_blank" rel="noopener">Bitcoin Defies Seasonal Slump With Third-Best August Ever</a>
+      <div class="meta">
+        <span class="tag">Bitcoin Magazine</span>
+        <span class="time">1d ago</span>
+      </div>
+      <div class="summary">Bitcoin Magazine Bitcoin Defies Seasonal Slump With Third-Best August Ever Bitcoin usually has a summer lull but August was different, analysts have pointed out. This post Bitcoin Defies Seasonal Slump With Third-Best August Ever first appeared on Bitcoin Magazine and is written by Mathew Di Salvo .</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://www.newsbtc.com/news/bitcoin-etfs-add-142m-september-trading-inflows/" target="_blank" rel="noopener">Bitcoin ETFs Add $142M As September Trading Opens With Inflows</a>
+      <div class="meta">
+        <span class="tag">NewsBTC</span>
+        <span class="time">1d ago</span>
+      </div>
+      <div class="summary">U.S. spot Bitcoin ETFs recorded $142 million in net inflows as September trading opened, giving Bitcoin traders a positive flow signal after the previous ses...</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://www.newsbtc.com/news/solana-etfs-925k-daily-inflows-new-month-opens/" target="_blank" rel="noopener">Solana ETFs Record $925K In Daily Inflows As New Month Opens</a>
+      <div class="meta">
+        <span class="tag">NewsBTC</span>
+        <span class="time">1d ago</span>
+      </div>
+      <div class="summary">U.S. spot Solana ETFs recorded $925,000 in net daily inflows as September trading opened, giving SOL markets a fresh regulated-demand signal after a strong A...</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://www.newsbtc.com/news/tokenized-real-world-assets-monthly-high-collateral-demand/" target="_blank" rel="noopener">Tokenized Real-World Assets Reach Monthly High As Collateral Demand Grows</a>
+      <div class="meta">
+        <span class="tag">NewsBTC</span>
+        <span class="time">1d ago</span>
+      </div>
+      <div class="summary">Tokenized real-world assets and equities collateral have reached a monthly high, according to DeFiLlama RWA data, adding to signs that tokenization remains o...</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://thedefiant.io/news/blockchains/robinhood-chain-dex-volume-hits-usd1-49-billion-as-pons-takes-two-thirds-of-launchpad-fees" target="_blank" rel="noopener">Robinhood Chain DEX Volume Hits $1.49 Billion As Pons Takes Two-Thirds Of Launchpad Fees</a>
+      <div class="meta">
+        <span class="tag">The Defiant</span>
+        <span class="time">1d ago</span>
+      </div>
+      <div class="summary">The two-month-old Arbitrum network ranked second among all chains by decentralized exchange volume over 24 hours, ahead of Ethereum, BNB Chain and Base, with its memecoin launchpad earning almost three times what pump.fun did.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://www.newsbtc.com/news/cftc-event-contract-guidance-prediction-markets-scrutiny/" target="_blank" rel="noopener">CFTC Issues Event Contract Guidance As Prediction Markets Face Scrutiny</a>
+      <div class="meta">
+        <span class="tag">NewsBTC</span>
+        <span class="time">1d ago</span>
+      </div>
+      <div class="summary">The CFTC has issued regulatory enforcement guidance for event contract derivatives, sharpening the lines around prediction markets at a time when event-based...</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://bitcoinmagazine.com/news/blackrock-bitcoin-etf-is-beating-vanguard" target="_blank" rel="noopener">BlackRock’s iShares Bitcoin Trust Is Beating Top S&P 500 ETF</a>
+      <div class="meta">
+        <span class="tag">Bitcoin Magazine</span>
+        <span class="time">1d ago</span>
+      </div>
+      <div class="summary">Bitcoin Magazine BlackRock’s iShares Bitcoin Trust Is Beating Top S&P 500 ETF The asset manager's flagship bitcoin fund is delivering better returns than Vanguard's S&P 500 ETF. This post BlackRock’s iShares Bitcoin Trust Is Beating Top S&P 500 ETF first appeared on Bitcoin Magazine and is written by Mathew Di Salvo .</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://thedefiant.io/news/markets/arbitrum-jumps-25-on-robinhood-chain-fees-as-bitcoin-holds-78000" target="_blank" rel="noopener">Arbitrum Jumps 25% on Robinhood Chain Fees as Bitcoin Holds $78,000</a>
+      <div class="meta">
+        <span class="tag">The Defiant</span>
+        <span class="time">1d ago</span>
+      </div>
+      <div class="summary">ARB led the 108 largest non-stablecoin tokens after chain fees on Robinhood's network doubled in a day, taking the Arbitrum DAO's contractual 10% cut to roughly $192,000 a day. Bitcoin fell 0.7% while Japanese and U.S. government bond yields rose and gold dropped 1.9%.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://www.newsbtc.com/news/crypto-losses-136m-50-security-incidents-august/" target="_blank" rel="noopener">Crypto Losses Hit $136M Across 50 Security Incidents In August</a>
+      <div class="meta">
+        <span class="tag">NewsBTC</span>
+        <span class="time">1d ago</span>
+      </div>
+      <div class="summary">Crypto security losses reached $136 million across 50 incidents in August, according to PeckShieldAlert data, keeping exploits, phishing, and incident respon...</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://www.newsbtc.com/news/ethereum-etfs-positive-inflows-september-trading-opens/" target="_blank" rel="noopener">Ethereum ETFs See Positive Inflows As September Trading Opens</a>
+      <div class="meta">
+        <span class="tag">NewsBTC</span>
+        <span class="time">1d ago</span>
+      </div>
+      <div class="summary">U.S. spot Ethereum ETFs recorded net positive inflows as September trading opened, giving ETH markets an early signal that institutional demand has not faded...</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://bitcoinmagazine.com/news/korea-bitcoin-premium-kimchi-returns" target="_blank" rel="noopener">South Korea’s Bitcoin ‘Kimchi Premium’ Returns</a>
+      <div class="meta">
+        <span class="tag">Bitcoin Magazine</span>
+        <span class="time">1d ago</span>
+      </div>
+      <div class="summary">Bitcoin Magazine South Korea’s Bitcoin ‘Kimchi Premium’ Returns The closely watched bitcoin retail market in the Asian nation is making moves again. This post South Korea’s Bitcoin ‘Kimchi Premium’ Returns first appeared on Bitcoin Magazine and is written by Mathew Di Salvo .</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://www.newsbtc.com/news/bitmine-adds-53501-eth-131m-corporate-treasury/" target="_blank" rel="noopener">BitMine Adds 53,501 ETH In $131M Corporate Treasury Move</a>
+      <div class="meta">
+        <span class="tag">NewsBTC</span>
+        <span class="time">1d ago</span>
+      </div>
+      <div class="summary">BitMine has added 53,501 ETH to its corporate treasury in a $131 million acquisition, giving the market another example of public-company balance sheets movi...</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://thedefiant.io/news/defi/ethena-launches-pay-app-on-avalanche-with-tiered-rate-up-to-6" target="_blank" rel="noopener">Ethena Launches Pay App on Avalanche With Tiered Rate Up to 6%</a>
+      <div class="meta">
+        <span class="tag">The Defiant</span>
+        <span class="time">1d ago</span>
+      </div>
+      <div class="summary">The iOS beta starts with 400 users, while official terms cap boosted balances and put cashback at up to 5% — not 10%.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://thedefiant.io/news/defi/firelight-raises-8-million-to-backstop-defi-vaults-with-staked-xrp" target="_blank" rel="noopener">Firelight Raises $8 Million to Backstop DeFi Vaults With Staked XRP</a>
+      <div class="meta">
+        <span class="tag">The Defiant</span>
+        <span class="time">1d ago</span>
+      </div>
+      <div class="summary">The Sentora-incubated cover protocol already holds $76 million in staked XRP on Flare. Its first cover integrations go live this month, into a market where onchain protection covers about 0.1% of DeFi.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://blockworks.com/news/venezuelas-sanctions-stablecoins" target="_blank" rel="noopener">Venezuelaâs sanctions are stablecoinsâ proof of concept</a>
+      <div class="meta">
+        <span class="tag">Blockworks</span>
+        <span class="time">238d ago</span>
+      </div>
+      <div class="summary">Banned from the dollar system, the country uses digital dollars instead</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://blockworks.com/news/strategy-playbook-2026" target="_blank" rel="noopener">The Strategy playbook looks different in 2026</a>
+      <div class="meta">
+        <span class="tag">Blockworks</span>
+        <span class="time">239d ago</span>
+      </div>
+      <div class="summary">The treasury company now holds 673,783 BTC, but flow is more likely to be episodic in this yearâs financial climate</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://blockworks.com/news/rangers-ico-metadao" target="_blank" rel="noopener">Rangerâs ICO starts today, and MetaDAO eyes a reset</a>
+      <div class="meta">
+        <span class="tag">Blockworks</span>
+        <span class="time">239d ago</span>
+      </div>
+      <div class="summary">Rangerâs Jan 6â10 sale could re-accelerate MetaDAO volumes and revenue</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://blockworks.com/news/eth-derivatives-reset" target="_blank" rel="noopener">ETH derivatives reset and the next retail trade</a>
+      <div class="meta">
+        <span class="tag">Blockworks</span>
+        <span class="time">240d ago</span>
+      </div>
+      <div class="summary">ETH derivatives show a disciplined rebuild of risk, with rising open interest pointing to healthier leverage</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://blockworks.com/news/friday-charts-finding-good-news-in-spite-of-bad-headlines" target="_blank" rel="noopener">Friday charts: Finding good news, in spite of bad headlines</a>
+      <div class="meta">
+        <span class="tag">Blockworks</span>
+        <span class="time">243d ago</span>
+      </div>
+      <div class="summary">2025 was far from perfect, but much better than we think it was.</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://blockworks.com/news/depin-gaming-surprising-rebound" target="_blank" rel="noopener">DePIN and crypto gaming led a surprising end-of-year rebound</a>
+      <div class="meta">
+        <span class="tag">Blockworks</span>
+        <span class="time">243d ago</span>
+      </div>
+      <div class="summary">BTC finished the week up 1.6%, while L2s, RWAs and the treasury trade continued to grind lower</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://blockworks.com/news/cantons-rwa-rails" target="_blank" rel="noopener">Cantonâs $6T RWA rails and Lighterâs Hyperliquid multiple</a>
+      <div class="meta">
+        <span class="tag">Blockworks</span>
+        <span class="time">244d ago</span>
+      </div>
+      <div class="summary">DTCC moves DTC-custodied Treasuries onchain via Canton, while Lighterâs LIT launches trading at a fees multiple in Hyperliquid territory</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://blockworks.com/news/cryptos-coffee-pot-moment" target="_blank" rel="noopener">The long wait for cryptoâs âcoffee potâ moment</a>
+      <div class="meta">
+        <span class="tag">Blockworks</span>
+        <span class="time">244d ago</span>
+      </div>
+      <div class="summary">In the 90s, rapt audiences worldwide watched a coffee pot â will that fascination ever turn to crypto?</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://blockworks.com/news/failure-is-an-option" target="_blank" rel="noopener">Failure is an option in crypto finance</a>
+      <div class="meta">
+        <span class="tag">Blockworks</span>
+        <span class="time">245d ago</span>
+      </div>
+      <div class="summary">Some systems improve by failing â and crypto has no choice</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://blockworks.com/news/yield-basis-native-btc-yield" target="_blank" rel="noopener">Yield Basis is making native BTC yield a reality</a>
+      <div class="meta">
+        <span class="tag">Blockworks</span>
+        <span class="time">245d ago</span>
+      </div>
+      <div class="summary">Yield Basis introduces an IL-free AMM design that already dominates BTC DEX liquidity</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://blockworks.com/news/users-are-the-best-investors-to-have" target="_blank" rel="noopener">Users are the best investors to have</a>
+      <div class="meta">
+        <span class="tag">Blockworks</span>
+        <span class="time">245d ago</span>
+      </div>
+      <div class="summary">Maybe tokenholders donât need the rights that corporate shareholders have come to expect</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://blockworks.com/news/boros-sleeper-perps" target="_blank" rel="noopener">A sleeper in the perps category</a>
+      <div class="meta">
+        <span class="tag">Blockworks</span>
+        <span class="time">246d ago</span>
+      </div>
+      <div class="summary">As Hyperliquid and Lighter battle for perps DEX dominance, Boros could capture the structural upside</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://blockworks.com/news/the-old-story-of-investing-in-new-technology" target="_blank" rel="noopener">The old story of investing in new technology</a>
+      <div class="meta">
+        <span class="tag">Blockworks</span>
+        <span class="time">246d ago</span>
+      </div>
+      <div class="summary">Investors are often right about the future, but wrong about the returns</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://blockworks.com/news/blockworks-2025-reflections" target="_blank" rel="noopener">2025 Reflections</a>
+      <div class="meta">
+        <span class="tag">Blockworks</span>
+        <span class="time">246d ago</span>
+      </div>
+      <div class="summary">A look back at 2025, reflections on our industry, and what it means for Blockworks in 2026</div>
+    </div>
+    
+    <div class="card">
+      <a class="title" href="https://blockworks.com/news/perps-wars-heating-up" target="_blank" rel="noopener">The perps wars are heating up</a>
+      <div class="meta">
+        <span class="tag">Blockworks</span>
+        <span class="time">247d ago</span>
+      </div>
+      <div class="summary">Hyperliquidâs weekly volume trails newer rivals as a Lighter airdrop looms</div>
+    </div>
+    
+  </section>
+
+  <section>
+    <h2>Trending on X</h2>
+    
+    <div class="empty-note">
+      X integration isn't configured (needs optional cookie-based auth &mdash; see README).
+      This section will populate automatically once it is.
+    </div>
+    
+  </section>
+</main>
+<footer>
+  Generated automatically by GitHub Actions &middot;
+  <a href="https://github.com/stroker351w/cryptolistener" target="_blank" rel="noopener">source</a>
+</footer>
+</body>
+</html>
