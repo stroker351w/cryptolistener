@@ -24,29 +24,27 @@
     font: 15px/1.5 "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   }
   header {
-    padding: 2rem 1.25rem 1rem; max-width: 860px; margin: 0 auto;
-    display: flex; justify-content: space-between; align-items: flex-start;
-    gap: 1rem; flex-wrap: wrap;
+    padding: 2rem 1.25rem 1rem; max-width: 1120px; margin: 0 auto;
   }
-  .header-text { flex: 1 1 0%; min-width: 0; }
   header h1 {
     margin: 0 0 .15rem; font-size: 1.5rem; font-weight: 700; letter-spacing: -.01em;
     color: var(--accent);
   }
   header p { margin: 0; color: var(--muted); font-size: .9rem; }
-  .refresh-btn {
-    display: inline-flex; align-items: center; gap: .35rem; flex-shrink: 0;
-    background: var(--accent); color: #ffffff; text-decoration: none;
-    font-size: .82rem; font-weight: 600; padding: .45rem .85rem;
-    border-radius: 8px; white-space: nowrap; margin-top: .1rem;
+  header p + p { margin-top: .2rem; }
+  main { max-width: 1120px; margin: 0 auto; padding: 0 1.25rem 3rem; }
+  .columns {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem 1.75rem;
   }
-  .refresh-btn:hover { opacity: .88; }
-  main { max-width: 860px; margin: 0 auto; padding: 0 1.25rem 3rem; }
+  @media (max-width: 760px) {
+    .columns { grid-template-columns: 1fr; }
+  }
   section { margin-top: 1.75rem; }
   section h2 {
     font-size: 1rem; text-transform: uppercase; letter-spacing: .04em;
-    color: var(--muted); margin: 0 0 .75rem; font-weight: 600;
+    color: var(--muted); margin: 0 0 .25rem; font-weight: 600;
   }
+  .col-note { color: var(--muted); font-size: .78rem; margin: 0 0 .75rem; }
   .card {
     background: var(--card); border: 1px solid var(--border); border-radius: 10px;
     padding: .9rem 1rem; margin-bottom: .6rem;
@@ -70,7 +68,7 @@
     border-radius: 10px; padding: .9rem 1rem;
   }
   footer {
-    max-width: 860px; margin: 0 auto; padding: 1rem 1.25rem 2rem;
+    max-width: 1120px; margin: 0 auto; padding: 1rem 1.25rem 2rem;
     color: var(--muted); font-size: .78rem; border-top: 1px solid var(--border);
   }
   footer a { color: var(--muted); }
@@ -78,29 +76,46 @@
 </head>
 <body>
 <header>
-  <div class="header-text">
-    <h1>Crypto News Hub</h1>
-    <p>Auto-aggregated crypto news{{ " + X posts" if x_enabled else "" }} &middot; last updated {{ generated_at }}</p>
-    <p>🟢 = keyword match for relevance (custody, ETFs, regulation, institutional adoption) &mdash; heuristic, not verified impact</p>
-  </div>
-  <a class="refresh-btn" href="https://github.com/stroker351w/cryptolistener/actions/workflows/update.yml" target="_blank" rel="noopener" title="Opens the GitHub Actions page -- click &quot;Run workflow&quot; there to refresh now (requires repo access)">&#8635; Refresh</a>
+  <h1>Crypto News Hub</h1>
+  <p>Auto-aggregated crypto news{{ " + X posts" if x_enabled else "" }} &middot; refreshes automatically every hour &middot; last updated {{ generated_at }}</p>
+  <p>🟢 = keyword match for relevance (custody, ETFs, regulation, institutional adoption) &mdash; heuristic, not verified impact</p>
 </header>
 <main>
-  <section>
-    <h2>Latest news ({{ articles|length }})</h2>
-    {% for a in articles %}
-    <div class="card">
-      <a class="title" href="{{ a.link }}" target="_blank" rel="noopener">{% if a.relevant %}<span class="flag" title="Keyword match: may be relevant (custody, ETFs, or crypto regulation) -- heuristic, not verified impact">🟢</span>{% endif %}{{ a.title }}</a>
-      <div class="meta">
-        <span class="tag">{{ a.source }}</span>
-        <span class="time">{{ a.published_display }}</span>
+  <div class="columns">
+    <section>
+      <h2>News &amp; Events ({{ event_articles|length }})</h2>
+      <p class="col-note">Reported happenings &mdash; filings, rulings, launches, hacks, partnerships.</p>
+      {% for a in event_articles %}
+      <div class="card">
+        <a class="title" href="{{ a.link }}" target="_blank" rel="noopener">{% if a.relevant %}<span class="flag" title="Keyword match: may be relevant (custody, ETFs, or crypto regulation) -- heuristic, not verified impact">🟢</span>{% endif %}{{ a.title }}</a>
+        <div class="meta">
+          <span class="tag">{{ a.source }}</span>
+          <span class="time">{{ a.published_display }}</span>
+        </div>
+        {% if a.summary %}<div class="summary">{{ a.summary }}</div>{% endif %}
       </div>
-      {% if a.summary %}<div class="summary">{{ a.summary }}</div>{% endif %}
-    </div>
-    {% else %}
-    <div class="empty-note">No articles fetched this run.</div>
-    {% endfor %}
-  </section>
+      {% else %}
+      <div class="empty-note">No event articles this run.</div>
+      {% endfor %}
+    </section>
+
+    <section>
+      <h2>Market Sentiment ({{ sentiment_articles|length }})</h2>
+      <p class="col-note">Predictions, price targets, and bullish/bearish takes &mdash; heuristic split, not verified.</p>
+      {% for a in sentiment_articles %}
+      <div class="card">
+        <a class="title" href="{{ a.link }}" target="_blank" rel="noopener">{% if a.relevant %}<span class="flag" title="Keyword match: may be relevant (custody, ETFs, or crypto regulation) -- heuristic, not verified impact">🟢</span>{% endif %}{{ a.title }}</a>
+        <div class="meta">
+          <span class="tag">{{ a.source }}</span>
+          <span class="time">{{ a.published_display }}</span>
+        </div>
+        {% if a.summary %}<div class="summary">{{ a.summary }}</div>{% endif %}
+      </div>
+      {% else %}
+      <div class="empty-note">No sentiment articles this run.</div>
+      {% endfor %}
+    </section>
+  </div>
 
   <section>
     <h2>Trending on X</h2>

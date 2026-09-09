@@ -13,6 +13,7 @@ import requests
 sys.path.insert(0, str(Path(__file__).parent))
 from utils import USER_AGENT, parse_date, parse_feed  # noqa: E402
 from relevance import is_relevant  # noqa: E402
+from classify import classify  # noqa: E402
 
 ROOT = Path(__file__).parent.parent
 DATA_DIR = ROOT / "data"
@@ -62,6 +63,7 @@ def fetch_source(name: str, url: str):
                 "summary": entry["summary"],
                 "published": dt.isoformat() if dt else None,
                 "relevant": is_relevant(entry["title"], entry["summary"]),
+                "category": classify(entry["title"], entry["summary"]),
             }
         )
     print(f"  [ok]   {name}: {len(articles)} articles")

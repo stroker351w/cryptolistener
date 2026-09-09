@@ -37,6 +37,10 @@ def main():
     articles = load_json(DATA_DIR / "news.json", [])
     for a in articles:
         a["published_display"] = humanize(a.get("published"))
+        a.setdefault("category", "event")  # stale data.json from before the split
+
+    event_articles = [a for a in articles if a["category"] != "sentiment"]
+    sentiment_articles = [a for a in articles if a["category"] == "sentiment"]
 
     x_data = load_json(DATA_DIR / "x_posts.json", {"enabled": False, "posts": []})
 
@@ -44,6 +48,8 @@ def main():
     template = env.get_template("index.html.j2")
     html = template.render(
         articles=articles,
+        event_articles=event_articles,
+        sentiment_articles=sentiment_articles,
         x_enabled=x_data.get("enabled", False),
         x_posts=x_data.get("posts", []),
         generated_at=datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),

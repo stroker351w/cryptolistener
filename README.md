@@ -51,13 +51,32 @@ occasional misses and occasional irrelevant catches. The keyword lists are
 flat and commented in `scripts/relevance.py` — edit them directly to tune
 what counts.
 
+### Two-column layout: News & Events vs. Market Sentiment
+
+The page splits articles into two columns via `scripts/classify.py`:
+
+- **News & Events** — reported happenings: filings, rulings, launches,
+  hacks, partnerships, listings, acquisitions.
+- **Market Sentiment** — commentary: price predictions, price targets,
+  bullish/bearish takes, "here's why" analysis, outlooks/forecasts,
+  "should you buy" framing.
+
+Same caveat as the relevance flag: this is a keyword heuristic, not
+real classification, and defaults to "News & Events" — an article only
+lands in "Market Sentiment" if it trips one of the patterns in
+`scripts/classify.py`. Expect the occasional misfile (e.g. a headline
+containing "speculation" about an actual approval); tune the
+`SENTIMENT_TERMS` list in that file if a category is consistently wrong.
+
 ## One-time setup
 
 1. **Enable GitHub Pages**: Settings → Pages → Source: "Deploy from a
    branch" → Branch: `main`, folder: `/docs` → Save.
    (I tried to do this for you via the API when I first pushed; if it
    didn't take, this is the manual fallback — takes about 30 seconds.)
-2. That's it for the news side. It'll start updating hourly on its own.
+2. That's it. It updates hourly on its own — there's no manual refresh
+   button; to force an out-of-schedule run, trigger `update.yml` manually
+   from the repo's Actions tab.
 
 ## Optional: X (Twitter) integration
 
