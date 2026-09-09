@@ -1,0 +1,72 @@
+[
+  {
+    "symbol": "BTC",
+    "name": "Bitcoin",
+    "price": 78814,
+    "change_24h": -0.47845,
+    "market_cap_rank": 1
+  },
+  {
+    "symbol": "ETH",
+    "name": "Ethereum",
+    "price": 2496.48,
+    "change_24h": 0.11374,
+    "market_cap_rank": 2
+  },
+  {
+    "symbol": "USDT",
+    "name": "Tether",
+    "price": 0.999766,
+    "change_24h": -0.00949,
+    "market_cap_rank": 3
+  },
+  {
+    "symbol": "BNB",
+    "name": "BNB",
+    "price": 752.01,
+    "change_24h": 1.63365,
+    "market_cap_rank": 4
+  },
+  {
+    "symbol": "XRP",
+    "name": "XRP",
+    "price": 1.42,
+    "change_24h": 1.40568,
+    "market_cap_rank": 5
+  },
+  {
+    "symbol": "USDC",
+    "name": "USDC",
+    "price": 0.999961,
+    "change_24h": 0.00412,
+    "market_cap_rank": 6
+  },
+  {
+    "symbol": "SOL",
+    "name": "Solana",
+    "price": 103.64,
+    "change_24h": -0.22446,
+    "market_cap_rank": 7
+  },
+  {
+    "symbol": "TRX",
+    "name": "TRON",
+    "price": 0.338652,
+    "change_24h": 1.08996,
+    "market_cap_rank": 8
+  },
+  {
+    "symbol": "FIGR_HELOC",
+    "name": "Figure Heloc",
+    "price": 1.035,
+    "change_24h": null,
+    "market_cap_rank": 9
+  },
+  {
+    "symbol": "ZEC",
+    "name": "Zcash",
+    "price": 1182.8,
+    "change_24h": 3.80304,
+    "market_cap_rank": 10
+  }
+]

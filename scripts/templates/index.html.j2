@@ -11,17 +11,44 @@
   :root {
     --bg: #f5f8f6; --card: #ffffff; --text: #142620; --muted: #5c6b63;
     --border: #dfe8e2; --accent: #1f6f4a; --tag-bg: #e6f2ec; --tag-text: #1f6f4a;
+    --up: #1f9d55; --down: #d1453b;
   }
   @media (prefers-color-scheme: dark) {
     :root {
       --bg: #0d1512; --card: #16211c; --text: #e6efe9; --muted: #92a39a;
       --border: #253830; --accent: #4caf7d; --tag-bg: #1c332a; --tag-text: #7fd1a8;
+      --up: #4caf7d; --down: #ff6b6b;
     }
   }
   * { box-sizing: border-box; }
   body {
     margin: 0; background: var(--bg); color: var(--text);
     font: 15px/1.5 "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  .ticker-wrap {
+    background: var(--card); border-bottom: 1px solid var(--border);
+    overflow: hidden; white-space: nowrap;
+  }
+  .ticker-track {
+    display: inline-flex; width: max-content;
+    animation: ticker-scroll 35s linear infinite;
+  }
+  .ticker-wrap:hover .ticker-track { animation-play-state: paused; }
+  .ticker-item {
+    display: inline-flex; align-items: baseline; gap: .4rem;
+    padding: .55rem 1.5rem; font-size: .82rem; white-space: nowrap;
+  }
+  .ticker-item .rank { color: var(--muted); font-size: .72rem; }
+  .ticker-item .sym { font-weight: 700; color: var(--text); }
+  .ticker-item .px { color: var(--muted); }
+  .ticker-item .chg.up { color: var(--up); font-weight: 600; }
+  .ticker-item .chg.down { color: var(--down); font-weight: 600; }
+  @keyframes ticker-scroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .ticker-track { animation: none; overflow-x: auto; }
   }
   header {
     padding: 2rem 1.25rem 1rem; max-width: 1120px; margin: 0 auto;
@@ -75,6 +102,20 @@
 </style>
 </head>
 <body>
+{% if prices %}
+<div class="ticker-wrap" role="marquee" aria-label="Top 10 cryptocurrencies by market cap">
+  <div class="ticker-track">
+    {% for p in prices + prices %}
+    <span class="ticker-item">
+      <span class="rank">#{{ p.market_cap_rank }}</span>
+      <span class="sym">{{ p.symbol }}</span>
+      <span class="px">{{ p.price_display }}</span>
+      <span class="chg {{ 'up' if p.change_up else 'down' }}">{{ p.change_display }}</span>
+    </span>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
 <header>
   <h1>Crypto News Hub</h1>
   <p>Auto-aggregated crypto news{{ " + X posts" if x_enabled else "" }} &middot; refreshes automatically every hour &middot; last updated {{ generated_at }}</p>

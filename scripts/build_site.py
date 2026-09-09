@@ -33,6 +33,18 @@ def humanize(iso_str):
     return f"{int(hours / 24)}d ago"
 
 
+def format_price(p):
+    if p is None:
+        return "—"
+    if p >= 1000:
+        return f"${p:,.0f}"
+    if p >= 1:
+        return f"${p:,.2f}"
+    if p >= 0.01:
+        return f"${p:.4f}"
+    return f"${p:.6f}"
+
+
 def main():
     articles = load_json(DATA_DIR / "news.json", [])
     for a in articles:
@@ -44,6 +56,14 @@ def main():
 
     x_data = load_json(DATA_DIR / "x_posts.json", {"enabled": False, "posts": []})
 
+    prices = load_json(DATA_DIR / "prices.json", [])
+    for p in prices:
+        p["price_display"] = format_price(p.get("price"))
+        p["change_display"] = (
+            f"{p['change_24h']:+.1f}%" if p.get("change_24h") is not None else "—"
+        )
+        p["change_up"] = (p.get("change_24h") or 0) >= 0
+
     env = Environment(loader=FileSystemLoader(str(TEMPLATES_DIR)))
     template = env.get_template("index.html.j2")
     html = template.render(
@@ -52,6 +72,7 @@ def main():
         sentiment_articles=sentiment_articles,
         x_enabled=x_data.get("enabled", False),
         x_posts=x_data.get("posts", []),
+        prices=prices,
         generated_at=datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
     )
 

@@ -5,6 +5,7 @@ _(repo slug `cryptolistener` kept as-is so the existing GitHub Pages URL doesn't
 A self-updating crypto news aggregator. A scheduled GitHub Action pulls
 articles from 12 RSS feeds (11 crypto news outlets + the SEC's press
 releases) every hour, flags stories that might be worth a second look,
+pulls the top 10 cryptocurrencies by market cap for a header ticker,
 optionally pulls crypto-related X (Twitter) posts, and rebuilds a static
 page published via GitHub Pages.
 
@@ -14,14 +15,28 @@ page published via GitHub Pages.
 ## How it works
 
 ```
-scripts/fetch_rss.py   -> data/news.json      (12 RSS feeds, deduped, sorted newest-first)
-scripts/fetch_x.py     -> data/x_posts.json   (optional, see below)
-scripts/build_site.py  -> docs/index.html     (what GitHub Pages serves)
+scripts/fetch_rss.py    -> data/news.json      (12 RSS feeds, deduped, sorted newest-first)
+scripts/fetch_prices.py -> data/prices.json    (top 10 by market cap, see below)
+scripts/fetch_x.py      -> data/x_posts.json   (optional, see below)
+scripts/build_site.py   -> docs/index.html     (what GitHub Pages serves)
 ```
 
-`.github/workflows/update.yml` runs all three every hour (`workflow_dispatch`
+`.github/workflows/update.yml` runs all four every hour (`workflow_dispatch`
 also lets you trigger a run manually from the Actions tab) and commits the
 result back to `main` if anything changed.
+
+### Price ticker
+
+The scrolling bar at the top shows the top 10 cryptocurrencies by market
+cap (symbol, price, 24h change) pulled from CoinGecko's free public API
+— no key, no cost. It refreshes on the same hourly schedule as the news,
+not live/real-time. It's pure CSS (a duplicated, looping flex row), so
+there's no JavaScript library involved; it pauses on hover and disables
+the animation for anyone with reduced-motion preferences turned on.
+
+If CoinGecko is unreachable or rate-limits a run, `fetch_prices.py` just
+leaves the previous `data/prices.json` in place rather than failing the
+whole pipeline — worst case the ticker is up to an hour stale.
 
 ### News sources
 
@@ -129,6 +144,7 @@ above to refresh them.
 ```
 pip install -r requirements.txt
 python scripts/fetch_rss.py
+python scripts/fetch_prices.py
 python scripts/fetch_x.py      # no-op unless X_AUTH_TOKEN/X_CT0 are set
 python scripts/build_site.py
 open docs/index.html

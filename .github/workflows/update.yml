@@ -31,6 +31,9 @@ jobs:
       - name: Fetch news
         run: python scripts/fetch_rss.py
 
+      - name: Fetch top 10 crypto prices (best-effort, free CoinGecko API)
+        run: python scripts/fetch_prices.py
+
       - name: Fetch X posts (best-effort, optional)
         env:
           X_AUTH_TOKEN: ${{ secrets.X_AUTH_TOKEN }}

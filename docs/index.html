@@ -11,17 +11,44 @@
   :root {
     --bg: #f5f8f6; --card: #ffffff; --text: #142620; --muted: #5c6b63;
     --border: #dfe8e2; --accent: #1f6f4a; --tag-bg: #e6f2ec; --tag-text: #1f6f4a;
+    --up: #1f9d55; --down: #d1453b;
   }
   @media (prefers-color-scheme: dark) {
     :root {
       --bg: #0d1512; --card: #16211c; --text: #e6efe9; --muted: #92a39a;
       --border: #253830; --accent: #4caf7d; --tag-bg: #1c332a; --tag-text: #7fd1a8;
+      --up: #4caf7d; --down: #ff6b6b;
     }
   }
   * { box-sizing: border-box; }
   body {
     margin: 0; background: var(--bg); color: var(--text);
     font: 15px/1.5 "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  .ticker-wrap {
+    background: var(--card); border-bottom: 1px solid var(--border);
+    overflow: hidden; white-space: nowrap;
+  }
+  .ticker-track {
+    display: inline-flex; width: max-content;
+    animation: ticker-scroll 35s linear infinite;
+  }
+  .ticker-wrap:hover .ticker-track { animation-play-state: paused; }
+  .ticker-item {
+    display: inline-flex; align-items: baseline; gap: .4rem;
+    padding: .55rem 1.5rem; font-size: .82rem; white-space: nowrap;
+  }
+  .ticker-item .rank { color: var(--muted); font-size: .72rem; }
+  .ticker-item .sym { font-weight: 700; color: var(--text); }
+  .ticker-item .px { color: var(--muted); }
+  .ticker-item .chg.up { color: var(--up); font-weight: 600; }
+  .ticker-item .chg.down { color: var(--down); font-weight: 600; }
+  @keyframes ticker-scroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .ticker-track { animation: none; overflow-x: auto; }
   }
   header {
     padding: 2rem 1.25rem 1rem; max-width: 1120px; margin: 0 auto;
@@ -75,9 +102,156 @@
 </style>
 </head>
 <body>
+
+<div class="ticker-wrap" role="marquee" aria-label="Top 10 cryptocurrencies by market cap">
+  <div class="ticker-track">
+    
+    <span class="ticker-item">
+      <span class="rank">#1</span>
+      <span class="sym">BTC</span>
+      <span class="px">$78,814</span>
+      <span class="chg down">-0.5%</span>
+    </span>
+    
+    <span class="ticker-item">
+      <span class="rank">#2</span>
+      <span class="sym">ETH</span>
+      <span class="px">$2,496</span>
+      <span class="chg up">+0.1%</span>
+    </span>
+    
+    <span class="ticker-item">
+      <span class="rank">#3</span>
+      <span class="sym">USDT</span>
+      <span class="px">$0.9998</span>
+      <span class="chg down">-0.0%</span>
+    </span>
+    
+    <span class="ticker-item">
+      <span class="rank">#4</span>
+      <span class="sym">BNB</span>
+      <span class="px">$752.01</span>
+      <span class="chg up">+1.6%</span>
+    </span>
+    
+    <span class="ticker-item">
+      <span class="rank">#5</span>
+      <span class="sym">XRP</span>
+      <span class="px">$1.42</span>
+      <span class="chg up">+1.4%</span>
+    </span>
+    
+    <span class="ticker-item">
+      <span class="rank">#6</span>
+      <span class="sym">USDC</span>
+      <span class="px">$1.0000</span>
+      <span class="chg up">+0.0%</span>
+    </span>
+    
+    <span class="ticker-item">
+      <span class="rank">#7</span>
+      <span class="sym">SOL</span>
+      <span class="px">$103.64</span>
+      <span class="chg down">-0.2%</span>
+    </span>
+    
+    <span class="ticker-item">
+      <span class="rank">#8</span>
+      <span class="sym">TRX</span>
+      <span class="px">$0.3387</span>
+      <span class="chg up">+1.1%</span>
+    </span>
+    
+    <span class="ticker-item">
+      <span class="rank">#9</span>
+      <span class="sym">FIGR_HELOC</span>
+      <span class="px">$1.03</span>
+      <span class="chg up">—</span>
+    </span>
+    
+    <span class="ticker-item">
+      <span class="rank">#10</span>
+      <span class="sym">ZEC</span>
+      <span class="px">$1,183</span>
+      <span class="chg up">+3.8%</span>
+    </span>
+    
+    <span class="ticker-item">
+      <span class="rank">#1</span>
+      <span class="sym">BTC</span>
+      <span class="px">$78,814</span>
+      <span class="chg down">-0.5%</span>
+    </span>
+    
+    <span class="ticker-item">
+      <span class="rank">#2</span>
+      <span class="sym">ETH</span>
+      <span class="px">$2,496</span>
+      <span class="chg up">+0.1%</span>
+    </span>
+    
+    <span class="ticker-item">
+      <span class="rank">#3</span>
+      <span class="sym">USDT</span>
+      <span class="px">$0.9998</span>
+      <span class="chg down">-0.0%</span>
+    </span>
+    
+    <span class="ticker-item">
+      <span class="rank">#4</span>
+      <span class="sym">BNB</span>
+      <span class="px">$752.01</span>
+      <span class="chg up">+1.6%</span>
+    </span>
+    
+    <span class="ticker-item">
+      <span class="rank">#5</span>
+      <span class="sym">XRP</span>
+      <span class="px">$1.42</span>
+      <span class="chg up">+1.4%</span>
+    </span>
+    
+    <span class="ticker-item">
+      <span class="rank">#6</span>
+      <span class="sym">USDC</span>
+      <span class="px">$1.0000</span>
+      <span class="chg up">+0.0%</span>
+    </span>
+    
+    <span class="ticker-item">
+      <span class="rank">#7</span>
+      <span class="sym">SOL</span>
+      <span class="px">$103.64</span>
+      <span class="chg down">-0.2%</span>
+    </span>
+    
+    <span class="ticker-item">
+      <span class="rank">#8</span>
+      <span class="sym">TRX</span>
+      <span class="px">$0.3387</span>
+      <span class="chg up">+1.1%</span>
+    </span>
+    
+    <span class="ticker-item">
+      <span class="rank">#9</span>
+      <span class="sym">FIGR_HELOC</span>
+      <span class="px">$1.03</span>
+      <span class="chg up">—</span>
+    </span>
+    
+    <span class="ticker-item">
+      <span class="rank">#10</span>
+      <span class="sym">ZEC</span>
+      <span class="px">$1,183</span>
+      <span class="chg up">+3.8%</span>
+    </span>
+    
+  </div>
+</div>
+
 <header>
   <h1>Crypto News Hub</h1>
-  <p>Auto-aggregated crypto news &middot; refreshes automatically every hour &middot; last updated 2026-09-09 02:11 UTC</p>
+  <p>Auto-aggregated crypto news &middot; refreshes automatically every hour &middot; last updated 2026-09-09 02:35 UTC</p>
   <p>🟢 = keyword match for relevance (custody, ETFs, regulation, institutional adoption) &mdash; heuristic, not verified impact</p>
 </header>
 <main>
@@ -105,6 +279,33 @@
       </div>
       
       <div class="card">
+        <a class="title" href="https://www.theblock.co/news/defi/2026-09-08-hunter-biden-details-laptop-airdrop-413952" target="_blank" rel="noopener">Hunter Biden details LAPTOP memecoin’s airdrop and burn-or-charity rules ahead of launch</a>
+        <div class="meta">
+          <span class="tag">The Block</span>
+          <span class="time">0m ago</span>
+        </div>
+        <div class="summary">About 30% of the supply is tied to 30 public real-world events that either burn or donate the tokens depending on the results.</div>
+      </div>
+      
+      <div class="card">
+        <a class="title" href="https://www.theblock.co/news/business/2026-09-08-stonex-sees-upside-robinhood-413955" target="_blank" rel="noopener">StoneX sees 45% upside for Robinhood, points to accelerating Layer 2 chain and prediction markets</a>
+        <div class="meta">
+          <span class="tag">The Block</span>
+          <span class="time">17m ago</span>
+        </div>
+        <div class="summary">The report says the launch of Robinhood Chain and the company's prediction markets business provide new growth drivers.</div>
+      </div>
+      
+      <div class="card">
+        <a class="title" href="https://cryptoslate.com/strategy-doubles-its-stock-buyback-to-2-billion-to-pull-its-strc-shares-back-to-100/" target="_blank" rel="noopener">Strategy doubles its stock buyback to $2 billion to pull its STRC shares back to $100</a>
+        <div class="meta">
+          <span class="tag">CryptoSlate</span>
+          <span class="time">25m ago</span>
+        </div>
+        <div class="summary">Strategy doubled the size of its preferred-stock repurchase program to $2 billion Tuesday as Michael Saylor’s Sept. 8 recovery benchmark arrived with STRC still short of its $100 stated value. The board’s decision extends a campaign that was approaching the limits of its original $1 billion authorization after seven weeks of increasingly large purchases. Data […] The post Strategy doubles its stoc</div>
+      </div>
+      
+      <div class="card">
         <a class="title" href="https://cryptoslate.com/metaplanets-bitcoin-boom-quietly-turned-a-46-million-share-executive-pay-plan-into-a-319-million-share-windfall/" target="_blank" rel="noopener">Metaplanet’s Bitcoin boom quietly turned a 46 million-share executive pay plan into a 319 million-share windfall</a>
         <div class="meta">
           <span class="tag">CryptoSlate</span>
@@ -117,7 +318,7 @@
         <a class="title" href="https://www.theblock.co/news/ecosystems/2026-09-08-pons-propels-robinhood-chain-fees-record-6-million-daily-fees-dex-volume-doubles-413852" target="_blank" rel="noopener">Pons propels Robinhood Chain fees to record $6 million in daily fees as DEX volume doubles</a>
         <div class="meta">
           <span class="tag">The Block</span>
-          <span class="time">3h ago</span>
+          <span class="time">4h ago</span>
         </div>
         <div class="summary">PONS reached an all-time high valuation of over $970 million on Friday, with the token up over 200% in the last week alone.</div>
       </div>
@@ -126,7 +327,7 @@
         <a class="title" href="https://cryptoslate.com/why-bitcoin-bulls-shouldnt-mistake-a-shrinking-dollar-reserve-share-for-central-bank-buying/" target="_blank" rel="noopener">Why Bitcoin bulls shouldn’t mistake a shrinking dollar reserve share for central bank buying</a>
         <div class="meta">
           <span class="tag">CryptoSlate</span>
-          <span class="time">3h ago</span>
+          <span class="time">4h ago</span>
         </div>
         <div class="summary">The New York Fed’s Sept. 2 analysis separates currency choices from reserve-size changes, leaving sovereign Bitcoin demand unproven. The post Why Bitcoin bulls shouldn’t mistake a shrinking dollar reserve share for central bank buying appeared first on CryptoSlate .</div>
       </div>
@@ -162,7 +363,7 @@
         <a class="title" href="https://cointelegraph.com/news/new-york-plattsburgh-crypto-mining-ai-ban?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">New York town weighs crypto mining and AI data center ban</a>
         <div class="meta">
           <span class="tag">Cointelegraph</span>
-          <span class="time">4h ago</span>
+          <span class="time">5h ago</span>
         </div>
         <div class="summary">One of the first towns in the US to ban Bitcoin mining for 18 months is considering another temporary moratorium extending to data centers and other crypto mining operations.</div>
       </div>
@@ -171,7 +372,7 @@
         <a class="title" href="https://thedefiant.io/news/markets/polkadot-leads-rotation-old-layer-1s-hike-odds-widen-sep-8-2026" target="_blank" rel="noopener">Polkadot Leads A Rotation Into Old Layer-1s As Hike Odds Widen</a>
         <div class="meta">
           <span class="tag">The Defiant</span>
-          <span class="time">4h ago</span>
+          <span class="time">5h ago</span>
         </div>
         <div class="summary">Polkadot rose 16.7% on the day and 42.5% on the week, with Cosmos Hub, Decred and Ethereum Classic all up more than 8%, while bitcoin ended the first U.S. session since Labor Day down 0.83% at $78,539. Polymarket traders raised the odds of a quarter-point Federal Reserve increase next week to</div>
       </div>
@@ -180,7 +381,7 @@
         <a class="title" href="https://cryptoslate.com/strategys-250-bitcoin-jordans-sold-out-as-saylor-turns-4-of-btc-supply-into-a-consumer-brand/" target="_blank" rel="noopener">Strategy’s $250 Bitcoin Jordans sold out as Saylor turns 4% of BTC supply into a consumer brand</a>
         <div class="meta">
           <span class="tag">CryptoSlate</span>
-          <span class="time">4h ago</span>
+          <span class="time">5h ago</span>
         </div>
         <div class="summary">The store advertises cards, Apple Pay and Google Pay, while all nine listed shoe sizes are unavailable. The post Strategy’s $250 Bitcoin Jordans sold out as Saylor turns 4% of BTC supply into a consumer brand appeared first on CryptoSlate .</div>
       </div>
@@ -189,7 +390,7 @@
         <a class="title" href="https://thedefiant.io/news/regulation/ark-sec-tokenized-share-class-venture-fund" target="_blank" rel="noopener">ARK Asks SEC To Approve Tokenized Share Class of Venture Fund</a>
         <div class="meta">
           <span class="tag">The Defiant</span>
-          <span class="time">4h ago</span>
+          <span class="time">5h ago</span>
         </div>
         <div class="summary">A pending exemptive application would let ARK Venture Fund record ownership of a new share class using distributed ledger technology and trade it on registered ATS venues. Hearing requests are due Sept. 18.</div>
       </div>
@@ -198,7 +399,7 @@
         <a class="title" href="https://thedefiant.io/news/tradfi-and-fintech/tokenized-stocks-traded-1-billion-while-the-stock-market-was-shut" target="_blank" rel="noopener">Tokenized Stocks Traded $1 Billion While The Stock Market Was Shut</a>
         <div class="meta">
           <span class="tag">The Defiant</span>
-          <span class="time">4h ago</span>
+          <span class="time">5h ago</span>
         </div>
         <div class="summary">The 42 largest tokenized equities turned over $1.01 billion on Saturday and Sunday, roughly matching Friday's session, and another $398.3 million on Labor Day. Robinhood Chain handled $572.8 million of the weekend total. One tokenized Nasdaq-100 fund on BNB Chain did $180.5 million on its own.</div>
       </div>
@@ -234,7 +435,7 @@
         <a class="title" href="https://cryptoslate.com/bitcoin-bulls-are-loading-up-on-calls-while-spot-traders-keep-selling/" target="_blank" rel="noopener"><span class="flag" title="Keyword match: may be relevant (custody, ETFs, or crypto regulation) -- heuristic, not verified impact">🟢</span>Bitcoin bulls are loading up on calls while spot traders keep selling</a>
         <div class="meta">
           <span class="tag">CryptoSlate</span>
-          <span class="time">5h ago</span>
+          <span class="time">6h ago</span>
         </div>
         <div class="summary">Glassnode’s September 8 report shows richer calls and easing net spot selling, while stronger ETF inflows complicate the demand picture. The post Bitcoin bulls are loading up on calls while spot traders keep selling appeared first on CryptoSlate .</div>
       </div>
@@ -243,7 +444,7 @@
         <a class="title" href="https://cryptopotato.com/dbs-and-citi-settle-24-7-cross-border-dollar-payment-on-swifts-ledger/" target="_blank" rel="noopener">DBS and Citi Settle 24/7 Cross-Border Dollar Payment on SWIFT’s Ledger</a>
         <div class="meta">
           <span class="tag">CryptoPotato</span>
-          <span class="time">5h ago</span>
+          <span class="time">6h ago</span>
         </div>
         <div class="summary">What it used to take up to two business days was settled for minutes during the weekend.</div>
       </div>
@@ -252,7 +453,7 @@
         <a class="title" href="https://bitcoinmagazine.com/news/coincorner-debuts-multisig-vault" target="_blank" rel="noopener"><span class="flag" title="Keyword match: may be relevant (custody, ETFs, or crypto regulation) -- heuristic, not verified impact">🟢</span>CoinCorner Launches Lloyd’s-Insured Multisig Bitcoin Vault with AnchorWatch</a>
         <div class="meta">
           <span class="tag">Bitcoin Magazine</span>
-          <span class="time">5h ago</span>
+          <span class="time">6h ago</span>
         </div>
         <div class="summary">Bitcoin Magazine CoinCorner Launches Lloyd’s-Insured Multisig Bitcoin Vault with AnchorWatch British bitcoin exchange CoinCorner is debuting a multisig custody service. This post CoinCorner Launches Lloyd’s-Insured Multisig Bitcoin Vault with AnchorWatch first appeared on Bitcoin Magazine and is written by Mathew Di Salvo .</div>
       </div>
@@ -261,7 +462,7 @@
         <a class="title" href="https://u.today/biggest-xrp-myth-shattered-by-top-crypto-asset-manager" target="_blank" rel="noopener"><span class="flag" title="Keyword match: may be relevant (custody, ETFs, or crypto regulation) -- heuristic, not verified impact">🟢</span>Biggest XRP Myth Shattered by Top Crypto Asset Manager</a>
         <div class="meta">
           <span class="tag">U.Today</span>
-          <span class="time">5h ago</span>
+          <span class="time">6h ago</span>
         </div>
         <div class="summary">Major crypto asset manager 21Shares is pushing back against one of XRP’s oldest controversies, arguing that Ripple does not control the XRP Ledger despite its deep ties to the cryptocurrency.</div>
       </div>
@@ -270,7 +471,7 @@
         <a class="title" href="https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">Here’s what happened in crypto today</a>
         <div class="meta">
           <span class="tag">Cointelegraph</span>
-          <span class="time">5h ago</span>
+          <span class="time">6h ago</span>
         </div>
         <div class="summary">Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.</div>
       </div>
@@ -288,7 +489,7 @@
         <a class="title" href="https://www.theblock.co/news/regulation/2026-09-08-a-22-year-old-crypto-ringleader-pleads-guilty-to-245-million-racketeering-scheme-413911" target="_blank" rel="noopener">A 22 year-old crypto ringleader pleads guilty to $245 million racketeering scheme</a>
         <div class="meta">
           <span class="tag">The Block</span>
-          <span class="time">6h ago</span>
+          <span class="time">7h ago</span>
         </div>
         <div class="summary">Malone Lam pleaded guilty for his role in leading an international "social engineering" scheme, stealing $245 million worth in cryptocurrency.</div>
       </div>
@@ -315,7 +516,7 @@
         <a class="title" href="https://www.theblock.co/news/markets/2026-09-08-defi-development-closes-strategy-style-11-million-chad-offering-grow-solana-treasury-413892" target="_blank" rel="noopener">DeFi Development closes Strategy-style $11 million CHAD offering to grow Solana treasury</a>
         <div class="meta">
           <span class="tag">The Block</span>
-          <span class="time">7h ago</span>
+          <span class="time">8h ago</span>
         </div>
         <div class="summary">DeFi Development Corp's CHAD is a Variable Rate Series C perpetual preferred stock, with an initial annual dividend rate of 13%.</div>
       </div>
@@ -324,7 +525,7 @@
         <a class="title" href="https://decrypt.co/377696/visa-onchain-lending-finance-stablecoin-card" target="_blank" rel="noopener">Visa Taps Onchain Lending to Finance Stablecoin Card Programs</a>
         <div class="meta">
           <span class="tag">Decrypt</span>
-          <span class="time">7h ago</span>
+          <span class="time">8h ago</span>
         </div>
         <div class="summary">The payment processor giant is pairing payment settlement data with blockchain lending tools to help fintechs and stablecoin-linked card programs access working capital.</div>
       </div>
@@ -333,7 +534,7 @@
         <a class="title" href="https://u.today/major-crypto-bill-predicted-to-fail-by-republicans" target="_blank" rel="noopener"><span class="flag" title="Keyword match: may be relevant (custody, ETFs, or crypto regulation) -- heuristic, not verified impact">🟢</span>Major Crypto Bill Predicted to Fail by Republicans</a>
         <div class="meta">
           <span class="tag">U.Today</span>
-          <span class="time">7h ago</span>
+          <span class="time">8h ago</span>
         </div>
         <div class="summary">The CLARITY Act is facing a serious risk of failure as Republican senators warn that a lack of compromise over ethics rules could sink the landmark crypto bill.</div>
       </div>
@@ -369,7 +570,7 @@
         <a class="title" href="https://thedefiant.io/news/defi/compound-institutional-market-launch" target="_blank" rel="noopener">Compound Opens Institutional-Only Lending Market</a>
         <div class="meta">
           <span class="tag">The Defiant</span>
-          <span class="time">8h ago</span>
+          <span class="time">9h ago</span>
         </div>
         <div class="summary">The market lends USDC against ETH, wstETH, WBTC and cbBTC to whitelisted institutions only, at loan-to-value ratios of up to 87%. Compound says it was oversubscribed at launch, with DeFi Saver, K3/Nexo, KPK and Yearn taking part.</div>
       </div>
@@ -423,7 +624,7 @@
         <a class="title" href="https://cointelegraph.com/news/visa-stablecoin-blockchain-lending-payment-settlement?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">Visa brings onchain credit to its growing stablecoin card business</a>
         <div class="meta">
           <span class="tag">Cointelegraph</span>
-          <span class="time">9h ago</span>
+          <span class="time">10h ago</span>
         </div>
         <div class="summary">Visa is combining VisaNet settlement data with blockchain lending as stablecoin payment volume on its network jumps nearly 200% year over year.</div>
       </div>
@@ -504,7 +705,7 @@
         <a class="title" href="https://u.today/massive-illegal-crypto-mining-farm-busted-in-mexico" target="_blank" rel="noopener">Massive Illegal Crypto Mining Farm Busted in Mexico</a>
         <div class="meta">
           <span class="tag">U.Today</span>
-          <span class="time">10h ago</span>
+          <span class="time">11h ago</span>
         </div>
         <div class="summary">Mexican authorities have dismantled a massive clandestine crypto mining farm in Puebla equipped with around 300 computers and allegedly powered through stolen electricity linked to a federal hydroelectric complex.</div>
       </div>
@@ -513,7 +714,7 @@
         <a class="title" href="https://u.today/coinbases-xrp-balance-explodes-4870-on-rich-list-but-it-is-not-new-xrp" target="_blank" rel="noopener">Coinbase's XRP Balance Explodes 4870% on Rich List, but It Is Not New XRP</a>
         <div class="meta">
           <span class="tag">U.Today</span>
-          <span class="time">10h ago</span>
+          <span class="time">11h ago</span>
         </div>
         <div class="summary">5.5 billion XRP suddenly added to Coinbase balance with real trigger explained.</div>
       </div>
@@ -522,7 +723,7 @@
         <a class="title" href="https://thedefiant.io/news/tradfi-and-fintech/bitmine-adds-28-086-eth-as-treasury-nears-5-of-supply" target="_blank" rel="noopener">BitMine Adds 28,086 ETH as Treasury Nears 5% of Supply</a>
         <div class="meta">
           <span class="tag">The Defiant</span>
-          <span class="time">10h ago</span>
+          <span class="time">11h ago</span>
         </div>
         <div class="summary">The company valued its 5.93 million ETH at about $14.79 billion, while aggregate reported holdings rose to $15.7 billion from $15.6 billion a week earlier.</div>
       </div>
@@ -531,7 +732,7 @@
         <a class="title" href="https://decrypt.co/377675/us-police-fear-meta-glasses-are-watching-them-back-report" target="_blank" rel="noopener">US Police Fear Meta Glasses Are Watching Them Back: Report</a>
         <div class="meta">
           <span class="tag">Decrypt</span>
-          <span class="time">10h ago</span>
+          <span class="time">11h ago</span>
         </div>
         <div class="summary">Memos from the NYPD to Homeland Security warn the devices could be used for covert filming inside jails and police facilities.</div>
       </div>
@@ -540,7 +741,7 @@
         <a class="title" href="https://decrypt.co/377676/robinhood-equity-crypto-com-prediction-markets" target="_blank" rel="noopener">Robinhood Takes Equity Stake in Crypto.com, Taps Exchange to Power Prediction Markets</a>
         <div class="meta">
           <span class="tag">Decrypt</span>
-          <span class="time">10h ago</span>
+          <span class="time">11h ago</span>
         </div>
         <div class="summary">The multi-year deal makes OG.com the infrastructure and clearing engine behind Robinhood's fastest-growing business.</div>
       </div>
@@ -549,7 +750,7 @@
         <a class="title" href="https://www.coindesk.com/business/2026/09/08/copper-ceo-amar-kuchinad-departs-as-search-for-a-buyer-enters-a-fourth-month" target="_blank" rel="noopener"><span class="flag" title="Keyword match: may be relevant (custody, ETFs, or crypto regulation) -- heuristic, not verified impact">🟢</span>Copper CEO Amar Kuchinad departs as search for a buyer enters a fourth month</a>
         <div class="meta">
           <span class="tag">CoinDesk</span>
-          <span class="time">10h ago</span>
+          <span class="time">11h ago</span>
         </div>
         <div class="summary">Kuchinad, the CEO of cryptocurrency custody firm Copper since 2024, has left the company, according to two people familiar with the matter.</div>
       </div>
@@ -558,7 +759,7 @@
         <a class="title" href="https://thedefiant.io/news/defi/morpho-expands-fixed-rate-midnight-markets-to-ethereum" target="_blank" rel="noopener">Morpho Expands Fixed-Rate Midnight Markets to Ethereum</a>
         <div class="meta">
           <span class="tag">The Defiant</span>
-          <span class="time">10h ago</span>
+          <span class="time">11h ago</span>
         </div>
         <div class="summary">USDC markets backed by WBTC and cbBTC are live, while roughly $5 billion held in Morpho Vaults remains unable to enter Midnight pending DAO action.</div>
       </div>
@@ -567,7 +768,7 @@
         <a class="title" href="https://www.theblock.co/news/markets/2026-09-08-strive-adds-1375-bitcoin-sata-approaches-billion-dollar-milestone-413800" target="_blank" rel="noopener">Strive adds 1,375 bitcoin as SATA approaches ‘billion-dollar’ milestone</a>
         <div class="meta">
           <span class="tag">The Block</span>
-          <span class="time">10h ago</span>
+          <span class="time">11h ago</span>
         </div>
         <div class="summary">Strive CEO Matt Cole said 70% of the capital raised during the week came from sales of its SATA perpetual preferred stock.</div>
       </div>
@@ -612,7 +813,7 @@
         <a class="title" href="https://cryptoslate.com/copy-and-paste-crypto-address-attack-remains-active-after-major-malware-cleanup-cut-off-hacker-controls/" target="_blank" rel="noopener">Active crypto address “copy and paste attack” threatens users even after major malware cleanup cut off hackers</a>
         <div class="meta">
           <span class="tag">CryptoSlate</span>
-          <span class="time">11h ago</span>
+          <span class="time">12h ago</span>
         </div>
         <div class="summary">CrowdStrike says the Aug. 31 disruption blocked new payload delivery while installed malware can still swap cryptocurrency payment addresses. The post Active crypto address “copy and paste attack” threatens users even after major malware cleanup cut off hackers appeared first on CryptoSlate .</div>
       </div>
@@ -621,7 +822,7 @@
         <a class="title" href="https://www.coindesk.com/markets/2026/09/08/strive-s-sata-nears-usd1-billion-market-cap-as-strategy-s-strc-continues-to-underperform" target="_blank" rel="noopener">Strive’s SATA nears $1 billion market cap as Strategy’s STRC continues to underperform</a>
         <div class="meta">
           <span class="tag">CoinDesk</span>
-          <span class="time">11h ago</span>
+          <span class="time">12h ago</span>
         </div>
         <div class="summary">SATA’s 13% annualised dividend and resilience around par are helping Strive raise capital and outperform Strategy.</div>
       </div>
@@ -630,7 +831,7 @@
         <a class="title" href="https://www.coindesk.com/business/2026/09/08/visa-opens-settlement-data-to-help-blockchain-lenders-finance-crypto-cards-as-volume-surges" target="_blank" rel="noopener">Visa combines VisaNet data with onchain lending to power stablecoin card working capital</a>
         <div class="meta">
           <span class="tag">CoinDesk</span>
-          <span class="time">11h ago</span>
+          <span class="time">12h ago</span>
         </div>
         <div class="summary">Visa's stablecoin settlement volume surpassed a $20 billion annualized run rate, up 15x year over year. Now it wants blockchain lenders to use that data to extend credit to the issuers driving the growth.</div>
       </div>
@@ -672,19 +873,10 @@
       </div>
       
       <div class="card">
-        <a class="title" href="https://cryptoslate.com/a-bitcoin-miner-burned-through-millions-in-btc-to-buy-compute-but-new-coins-are-not-returning-to-treasury/" target="_blank" rel="noopener">Bitcoin miner burns through millions in BTC to buy compute, but new coins are not returning to treasury</a>
-        <div class="meta">
-          <span class="tag">CryptoSlate</span>
-          <span class="time">12h ago</span>
-        </div>
-        <div class="summary">Cloud customers accounted for about 74% of August’s production increase, while company holdings recovered only part of July’s decline. The post Bitcoin miner burns through millions in BTC to buy compute, but new coins are not returning to treasury appeared first on CryptoSlate .</div>
-      </div>
-      
-      <div class="card">
         <a class="title" href="https://cryptopotato.com/cro-rockets-as-robinhood-takes-stakes-in-crypto-com-and-og-com/" target="_blank" rel="noopener">CRO Rockets as Robinhood Takes Stakes in Crypto.com and OG.com</a>
         <div class="meta">
           <span class="tag">CryptoPotato</span>
-          <span class="time">12h ago</span>
+          <span class="time">13h ago</span>
         </div>
         <div class="summary">Robinhood has selected OG.com as an infrastructure and clearing partner for its prediction markets business.</div>
       </div>
@@ -693,7 +885,7 @@
         <a class="title" href="https://cryptopotato.com/bybit-launches-fx-perpetual-contracts-starting-with-eur-gbp-and-usd-pairs/" target="_blank" rel="noopener">Bybit Launches FX Perpetual Contracts, Starting With EUR, GBP, and USD Pairs</a>
         <div class="meta">
           <span class="tag">CryptoPotato</span>
-          <span class="time">12h ago</span>
+          <span class="time">13h ago</span>
         </div>
         <div class="summary">Bybit is bringing EUR/USD, GBP/USD, and USD/JPY exposure to its derivatives platform through USDT-settled perpetual contracts.</div>
       </div>
@@ -702,7 +894,7 @@
         <a class="title" href="https://www.coindesk.com/tech/2026/09/08/ethereum-makes-quantum-resistance-a-top-priority-with-a-2029-deadline" target="_blank" rel="noopener">Ethereum makes quantum resistance a top priority with a 2029 deadline</a>
         <div class="meta">
           <span class="tag">CoinDesk</span>
-          <span class="time">12h ago</span>
+          <span class="time">13h ago</span>
         </div>
         <div class="summary">The Foundation wants the network protected before a quantum computer capable of breaking today's cryptography could plausibly arrive, and says upcoming upgrades will be judged against that clock.</div>
       </div>
@@ -765,7 +957,7 @@
         <a class="title" href="https://cryptopotato.com/strive-adds-more-bitcoin-as-total-holdings-rise-above-24500-btc/" target="_blank" rel="noopener">Strive Adds More Bitcoin as Total Holdings Rise Above 24,500 BTC</a>
         <div class="meta">
           <span class="tag">CryptoPotato</span>
-          <span class="time">13h ago</span>
+          <span class="time">14h ago</span>
         </div>
         <div class="summary">Unlike Strategy, Strive continues to announce frequent BTC purchases.</div>
       </div>
@@ -774,7 +966,7 @@
         <a class="title" href="https://www.theblock.co/news/business/2026-09-08-strategy-bitcoin-strc-repurchase-program-413678" target="_blank" rel="noopener">Strategy repurchases $176 million of STRC shares, makes no bitcoin purchases or sales</a>
         <div class="meta">
           <span class="tag">The Block</span>
-          <span class="time">13h ago</span>
+          <span class="time">14h ago</span>
         </div>
         <div class="summary">Strategy's total holdings account for around 4% of the 21 million bitcoin supply cap — worth roughly $66 billion.</div>
       </div>
@@ -783,7 +975,7 @@
         <a class="title" href="https://cryptopotato.com/no-bitcoin-for-strategy-this-week-as-focus-remains-on-strc-buybacks/" target="_blank" rel="noopener">No Bitcoin for Strategy This Week as Focus Remains on STRC Buybacks</a>
         <div class="meta">
           <span class="tag">CryptoPotato</span>
-          <span class="time">13h ago</span>
+          <span class="time">14h ago</span>
         </div>
         <div class="summary">STRC's price remains inches below the coveted $100 par level.</div>
       </div>
@@ -792,7 +984,7 @@
         <a class="title" href="https://bitcoinmagazine.com/bitcoin-for-corporations/how-one-executive-recruitment-firm-is-using-ma-to-turn-earnings-into-bitcoin" target="_blank" rel="noopener">How One Executive Recruitment Firm Is Using M&A to Turn Earnings Into Bitcoin</a>
         <div class="meta">
           <span class="tag">Bitcoin Magazine</span>
-          <span class="time">13h ago</span>
+          <span class="time">14h ago</span>
         </div>
         <div class="summary">Bitcoin Magazine How One Executive Recruitment Firm Is Using M&A to Turn Earnings Into Bitcoin XCE’s latest deal offers a case study in building the operating business and Bitcoin balance sheet side by side. This post How One Executive Recruitment Firm Is Using M&A to Turn Earnings Into Bitcoin first appeared on Bitcoin Magazine and is written by Nick Ward .</div>
       </div>
@@ -837,7 +1029,7 @@
         <a class="title" href="https://decrypt.co/resources/what-is-laptop-hunter-bidens-meme-coin-targeting-trump-holders" target="_blank" rel="noopener">What Is LAPTOP? Hunter Biden's Meme Coin Targeting TRUMP Holders</a>
         <div class="meta">
           <span class="tag">Decrypt</span>
-          <span class="time">14h ago</span>
+          <span class="time">15h ago</span>
         </div>
         <div class="summary">The LAPTOP token launches in September on Base, with a fifth of the supply earmarked for traders who lost money on TRUMP.</div>
       </div>
@@ -846,7 +1038,7 @@
         <a class="title" href="https://cointelegraph.com/news/circle-tazapay-usdc-cross-border-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">Circle to acquire Tazapay to expand USDC cross-border payments</a>
         <div class="meta">
           <span class="tag">Cointelegraph</span>
-          <span class="time">14h ago</span>
+          <span class="time">15h ago</span>
         </div>
         <div class="summary">Tazapay processes $25 billion in annualized volume and offers payout rails across 100-plus markets, extending Circle’s USDC payments reach.</div>
       </div>
@@ -855,7 +1047,7 @@
         <a class="title" href="https://www.coindesk.com/daybook-us/2026/09/08/bitcoin-etfs-are-still-usd1-billion-shy-of-breaking-even-in-2026" target="_blank" rel="noopener"><span class="flag" title="Keyword match: may be relevant (custody, ETFs, or crypto regulation) -- heuristic, not verified impact">🟢</span>Bitcoin ETFs are still $1 billion shy of breaking even in 2026</a>
         <div class="meta">
           <span class="tag">CoinDesk</span>
-          <span class="time">14h ago</span>
+          <span class="time">15h ago</span>
         </div>
         <div class="summary">Your day-ahead look for Sept. 8, 2026</div>
       </div>
@@ -909,7 +1101,7 @@
         <a class="title" href="https://www.coindesk.com/markets/2026/09/08/bitcoin-slips-to-usd78-800-as-bnb-and-defi-tokens-buck-the-selloff" target="_blank" rel="noopener">Bitcoin slips to $78,800 as BNB and DeFi tokens buck the selloff</a>
         <div class="meta">
           <span class="tag">CoinDesk</span>
-          <span class="time">15h ago</span>
+          <span class="time">16h ago</span>
         </div>
         <div class="summary">Bitcoin fell 0.42% since midnight UTC to $78,874, but the CoinDesk 20 rose 0.2% and the memecoin index gained 0.41% as BNB Chain tokens rallied.</div>
       </div>
@@ -918,7 +1110,7 @@
         <a class="title" href="https://u.today/solana-sol-to-triple-transaction-size-as-major-upgrade-goes-live" target="_blank" rel="noopener">Solana (SOL) to Triple Transaction Size as Major Upgrade Goes Live</a>
         <div class="meta">
           <span class="tag">U.Today</span>
-          <span class="time">15h ago</span>
+          <span class="time">16h ago</span>
         </div>
         <div class="summary">Solana is preparing to triple its maximum transaction size in a major network upgrade on Sept. 9.</div>
       </div>
@@ -981,34 +1173,16 @@
         <a class="title" href="https://cryptopotato.com/xrp-dips-below-crucial-support-btc-slides-toward-78k-market-watch/" target="_blank" rel="noopener">XRP Dips Below Crucial Support, BTC Slides Toward $78K: Market Watch</a>
         <div class="meta">
           <span class="tag">CryptoPotato</span>
-          <span class="time">16h ago</span>
-        </div>
-        <div class="summary">AERO and PIEVERSE are today's top gainers, while PONS has finally retreated.</div>
-      </div>
-      
-      <div class="card">
-        <a class="title" href="https://www.theblock.co/news/markets/2026-09-08-metaplanet-slips-17-this-week-413738" target="_blank" rel="noopener">Metaplanet slides 17% this week as CEO’s public note fails to ease investor concerns</a>
-        <div class="meta">
-          <span class="tag">The Block</span>
-          <span class="time">16h ago</span>
-        </div>
-        <div class="summary">The drop comes amid controversies surrounding Metaplanet's expanded Series 10 executive option pool and CEO Simon Gerovich's ties to MMXX Ventures.</div>
-      </div>
-      
-      <div class="card">
-        <a class="title" href="https://www.theblock.co/news/markets/2026-09-08-bernstein-sees-upside-robinhood-413729" target="_blank" rel="noopener">‘The chain is now earnings’: Bernstein sees 31% upside for Robinhood as fees top Solana, BNB Chain</a>
-        <div class="meta">
-          <span class="tag">The Block</span>
           <span class="time">17h ago</span>
         </div>
-        <div class="summary">Bernstein sees 31% upside for Robinhood as its new chain tops Solana in fees, generating $33 million over 15 days.</div>
+        <div class="summary">AERO and PIEVERSE are today's top gainers, while PONS has finally retreated.</div>
       </div>
       
       <div class="card">
         <a class="title" href="https://www.coindesk.com/tech/2026/09/08/live-updates" target="_blank" rel="noopener">Live updates: Bitcoin slips below $78,500 as stocks close lower</a>
         <div class="meta">
           <span class="tag">CoinDesk</span>
-          <span class="time">17h ago</span>
+          <span class="time">18h ago</span>
         </div>
         <div class="summary">Copper rushed to a new record high amid supply shortages colliding with rising AI-related demand.</div>
       </div>
@@ -1017,7 +1191,7 @@
         <a class="title" href="https://cryptopotato.com/bitcoin-must-reclaim-this-level-soon-or-risk-slide-toward-50k-analyst/" target="_blank" rel="noopener">Bitcoin Must Reclaim This Level Soon or Risk Slide Toward $50K: Analyst</a>
         <div class="meta">
           <span class="tag">CryptoPotato</span>
-          <span class="time">17h ago</span>
+          <span class="time">18h ago</span>
         </div>
         <div class="summary">A daily close above that level could shift Bitcoin's next targets toward $89,000-$91,000 before a potential run at $100,000.</div>
       </div>
@@ -1491,7 +1665,7 @@
         <a class="title" href="https://cryptopotato.com/3-red-flags-are-emerging-for-chainlink-after-links-powerful-95-rally/" target="_blank" rel="noopener">3 Red Flags Are Emerging for Chainlink After LINK’s Powerful 95% Rally</a>
         <div class="meta">
           <span class="tag">CryptoPotato</span>
-          <span class="time">7h ago</span>
+          <span class="time">8h ago</span>
         </div>
         <div class="summary">Declining Chainlink whale transactions and rising exchange balances create fresh selling concerns.</div>
       </div>
@@ -1500,7 +1674,7 @@
         <a class="title" href="https://u.today/shiba-inu-burn-activity-soars-1307-in-24-hours" target="_blank" rel="noopener">Shiba Inu Burn Activity Soars 1,307% in 24 Hours</a>
         <div class="meta">
           <span class="tag">U.Today</span>
-          <span class="time">10h ago</span>
+          <span class="time">11h ago</span>
         </div>
         <div class="summary">Shiba Inu logs explosive surge in burn activity over the last 24 hours as nearly 47 million tokens were permanently destroyed from circulation within the period.</div>
       </div>
@@ -1509,7 +1683,7 @@
         <a class="title" href="https://u.today/missed-bitcoin-rally-wintermute-outlines-scenarios-to-catch-next-move" target="_blank" rel="noopener">Missed Bitcoin Rally? Wintermute Outlines Scenarios to Catch Next Move</a>
         <div class="meta">
           <span class="tag">U.Today</span>
-          <span class="time">10h ago</span>
+          <span class="time">11h ago</span>
         </div>
         <div class="summary">Wintermute explains why the $80,000 Bitcoin run isn't over and breaks down the exact scenarios for investors who fear they missed the rally.</div>
       </div>
@@ -1518,7 +1692,7 @@
         <a class="title" href="https://cryptopotato.com/ethereum-price-analysis-eth-struggles-below-2-5k-is-a-deeper-pullback-coming/" target="_blank" rel="noopener">Ethereum Price Analysis: ETH Struggles Below $2.5K, Is a Deeper Pullback Coming?</a>
         <div class="meta">
           <span class="tag">CryptoPotato</span>
-          <span class="time">11h ago</span>
+          <span class="time">12h ago</span>
         </div>
         <div class="summary">Ethereum has entered a consolidation phase after a sharp recovery from the $1.5K area. The cryptocurrency is now trading slightly below $2.5K, holding relatively firm despite repeated tests of the upper end of its recent range. Meanwhile, exchange reserves continue to decline, pointing to a potentially constructive supply-side backdrop. Ethereum Price Analysis: The Daily Chart […]</div>
       </div>
@@ -1527,7 +1701,7 @@
         <a class="title" href="https://cointelegraph.com/magazine/is-bitcoin-too-volatile-to-risk-your-retirement-on?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener"><span class="flag" title="Keyword match: may be relevant (custody, ETFs, or crypto regulation) -- heuristic, not verified impact">🟢</span>Is Bitcoin too volatile to risk your retirement on?</a>
         <div class="meta">
           <span class="tag">Cointelegraph</span>
-          <span class="time">12h ago</span>
+          <span class="time">13h ago</span>
         </div>
         <div class="summary">Bitcoin believers see it as an almost certain long-term investment, but retirement demands a different approach. How much crypto exposure is too much for your retirement account?</div>
       </div>
@@ -1536,7 +1710,7 @@
         <a class="title" href="https://www.coindesk.com/markets/2026/09/03/bitcoin-rally-has-more-room-as-volatility-shorts-unwind-two-prime-ceo-says" target="_blank" rel="noopener">Bitcoin rally has more room as volatility shorts unwind, Two Prime CEO says</a>
         <div class="meta">
           <span class="tag">CoinDesk</span>
-          <span class="time">12h ago</span>
+          <span class="time">13h ago</span>
         </div>
         <div class="summary">Alexander Blume said subdued funding rates and continued call selling suggest the rebound is not yet being driven by excessive speculation.</div>
       </div>
@@ -1545,7 +1719,7 @@
         <a class="title" href="https://u.today/700-million-in-ethereum-eth-bridged-to-robinhood-chain-as-activity-jumps-150" target="_blank" rel="noopener">$700 Million in Ethereum (ETH) Bridged to Robinhood Chain as Activity Jumps 150%</a>
         <div class="meta">
           <span class="tag">U.Today</span>
-          <span class="time">13h ago</span>
+          <span class="time">14h ago</span>
         </div>
         <div class="summary">Over $700 million worth of Ethereum tokens have now been bridged from the Ethereum blockchain to Robinhood Chain following a 150% surge in one month.</div>
       </div>
@@ -1572,7 +1746,7 @@
         <a class="title" href="https://cryptopotato.com/liquid-gets-3400-btc-back-but-what-about-the-598-bitcoin-still-missing/" target="_blank" rel="noopener">Liquid Gets 3,400 BTC Back – but What About the 598 Bitcoin Still Missing?</a>
         <div class="meta">
           <span class="tag">CryptoPotato</span>
-          <span class="time">18h ago</span>
+          <span class="time">19h ago</span>
         </div>
         <div class="summary">Most withdrawn Bitcoin has returned to Liquid after network patches, but nearly 600 BTC remains with the alleged white-hat hackers.</div>
       </div>
