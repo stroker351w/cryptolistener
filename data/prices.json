@@ -1,72 +1,75 @@
-[
-  {
-    "symbol": "BTC",
-    "name": "Bitcoin",
-    "price": 78021,
-    "change_24h": -0.63584,
-    "market_cap_rank": 1
-  },
-  {
-    "symbol": "ETH",
-    "name": "Ethereum",
-    "price": 2454.79,
-    "change_24h": -1.20148,
-    "market_cap_rank": 2
-  },
-  {
-    "symbol": "BNB",
-    "name": "BNB",
-    "price": 721.66,
-    "change_24h": -4.17541,
-    "market_cap_rank": 3
-  },
-  {
-    "symbol": "XRP",
-    "name": "XRP",
-    "price": 1.39,
-    "change_24h": -1.81289,
-    "market_cap_rank": 4
-  },
-  {
-    "symbol": "SOL",
-    "name": "Solana",
-    "price": 101.55,
-    "change_24h": -1.73474,
-    "market_cap_rank": 5
-  },
-  {
-    "symbol": "TRX",
-    "name": "TRON",
-    "price": 0.338507,
-    "change_24h": -0.03745,
-    "market_cap_rank": 6
-  },
-  {
-    "symbol": "ZEC",
-    "name": "Zcash",
-    "price": 1246.17,
-    "change_24h": 6.09346,
-    "market_cap_rank": 7
-  },
-  {
-    "symbol": "HYPE",
-    "name": "Hyperliquid",
-    "price": 83.53,
-    "change_24h": -1.46007,
-    "market_cap_rank": 8
-  },
-  {
-    "symbol": "DOGE",
-    "name": "Dogecoin",
-    "price": 0.08611,
-    "change_24h": -4.22761,
-    "market_cap_rank": 9
-  },
-  {
-    "symbol": "RAIN",
-    "name": "Rain",
-    "price": 0.0158538,
-    "change_24h": -2.7745,
-    "market_cap_rank": 10
-  }
-]
+{
+  "fetched_at": "2026-09-09T23:20:14.075805+00:00",
+  "coins": [
+    {
+      "symbol": "BTC",
+      "name": "Bitcoin",
+      "price": 78108,
+      "change_24h": -0.4723,
+      "market_cap_rank": 1
+    },
+    {
+      "symbol": "ETH",
+      "name": "Ethereum",
+      "price": 2458.7,
+      "change_24h": -0.99084,
+      "market_cap_rank": 2
+    },
+    {
+      "symbol": "BNB",
+      "name": "BNB",
+      "price": 720.9,
+      "change_24h": -4.17823,
+      "market_cap_rank": 3
+    },
+    {
+      "symbol": "XRP",
+      "name": "XRP",
+      "price": 1.39,
+      "change_24h": -1.97653,
+      "market_cap_rank": 4
+    },
+    {
+      "symbol": "SOL",
+      "name": "Solana",
+      "price": 101.38,
+      "change_24h": -1.89689,
+      "market_cap_rank": 5
+    },
+    {
+      "symbol": "TRX",
+      "name": "TRON",
+      "price": 0.33868,
+      "change_24h": -0.01451,
+      "market_cap_rank": 6
+    },
+    {
+      "symbol": "ZEC",
+      "name": "Zcash",
+      "price": 1238.51,
+      "change_24h": 5.0696,
+      "market_cap_rank": 7
+    },
+    {
+      "symbol": "HYPE",
+      "name": "Hyperliquid",
+      "price": 83.37,
+      "change_24h": -1.55713,
+      "market_cap_rank": 8
+    },
+    {
+      "symbol": "DOGE",
+      "name": "Dogecoin",
+      "price": 0.085826,
+      "change_24h": -4.52302,
+      "market_cap_rank": 9
+    },
+    {
+      "symbol": "RAIN",
+      "name": "Rain",
+      "price": 0.01584765,
+      "change_24h": -2.41857,
+      "market_cap_rank": 10
+    }
+  ]
+}

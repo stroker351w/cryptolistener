@@ -4,6 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Crypto News Hub</title>
+<meta name="description" content="Auto-updating crypto news aggregator: hourly RSS pull across 12 sources, split into News &amp; Events vs. Market Sentiment, flagged for regulatory/legal and institutional-adoption relevance, with a live top-10 price ticker.">
+<meta property="og:title" content="Crypto News Hub">
+<meta property="og:description" content="Auto-updating crypto news aggregator, refreshed hourly &mdash; News &amp; Events, Market Sentiment, and a top-10 price ticker.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://stroker351w.github.io/cryptolistener/">
+<link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48dGV4dCB5PSIuODVlbSIgZm9udC1zaXplPSI4NSI+8J+qmTwvdGV4dD48L3N2Zz4=">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -60,8 +66,24 @@
   header p { margin: 0; color: var(--muted); font-size: .9rem; }
   header p + p { margin-top: .2rem; }
   main { max-width: 1120px; margin: 0 auto; padding: 0 1.25rem 3rem; }
+  .filter-bar {
+    margin: 1.25rem 0 0; display: flex; flex-wrap: wrap; gap: .6rem; align-items: center;
+  }
+  .filter-bar input[type="text"] {
+    flex: 1 1 220px; padding: .5rem .75rem; border-radius: 8px; border: 1px solid var(--border);
+    background: var(--card); color: var(--text); font: inherit; font-size: .85rem;
+  }
+  .filter-bar input[type="text"]:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+  .source-chips { display: flex; flex-wrap: wrap; gap: .4rem; }
+  .chip {
+    font: inherit; font-size: .76rem; font-weight: 600; padding: .3rem .65rem; border-radius: 100px;
+    border: 1px solid var(--border); background: var(--card); color: var(--muted); cursor: pointer;
+    opacity: .55;
+  }
+  .chip.active { color: var(--tag-text); background: var(--tag-bg); border-color: var(--tag-text); opacity: 1; }
+  .chip.reset { color: var(--text); opacity: 1; background: transparent; border-style: dashed; }
   .columns {
-    display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem 1.75rem;
+    display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem 1.75rem; margin-top: 1.25rem;
   }
   @media (max-width: 760px) {
     .columns { grid-template-columns: 1fr; }
@@ -118,17 +140,26 @@
 {% endif %}
 <header>
   <h1>Crypto News Hub</h1>
-  <p>Auto-aggregated crypto news{{ " + X posts" if x_enabled else "" }} &middot; refreshes automatically every hour &middot; last updated {{ generated_at }}</p>
-  <p>🟢 = keyword match for relevance (custody, ETFs, regulation, institutional adoption) &mdash; heuristic, not verified impact</p>
+  <p>Auto-aggregated crypto news{{ " + X posts" if x_enabled else "" }} &middot; refreshes automatically every hour &middot; last updated {{ generated_at }}{% if prices_age_display %} &middot; prices as of {{ prices_age_display }}{% endif %}</p>
+  <p>⚖️ = regulatory/legal keyword match &middot; 🏦 = institutional-adoption keyword match &mdash; both heuristic, not verified impact</p>
 </header>
 <main>
+  <div class="filter-bar">
+    <input type="text" id="search-input" placeholder="Search headlines &amp; summaries&hellip;" aria-label="Search articles">
+    <div class="source-chips" id="source-chips">
+      <button type="button" class="chip reset" data-action="reset">Reset</button>
+      {% for s in sources %}
+      <button type="button" class="chip active" data-source="{{ s }}">{{ s }}</button>
+      {% endfor %}
+    </div>
+  </div>
   <div class="columns">
     <section>
       <h2>News &amp; Events ({{ event_articles|length }})</h2>
       <p class="col-note">Reported happenings &mdash; filings, rulings, launches, hacks, partnerships.</p>
       {% for a in event_articles %}
-      <div class="card">
-        <a class="title" href="{{ a.link }}" target="_blank" rel="noopener">{% if a.relevant %}<span class="flag" title="Keyword match: may be relevant (custody, ETFs, or crypto regulation) -- heuristic, not verified impact">🟢</span>{% endif %}{{ a.title }}</a>
+      <div class="card" data-source="{{ a.source }}">
+        <a class="title" href="{{ a.link }}" target="_blank" rel="noopener">{% if a.regulatory %}<span class="flag" title="Keyword match: regulatory/legal (SEC, CFTC, courts, legislation) -- heuristic, not verified impact">⚖️</span>{% endif %}{% if a.institutional %}<span class="flag" title="Keyword match: institutional adoption/demand (asset managers, corporate treasuries, retirement money) -- heuristic, not verified impact">🏦</span>{% endif %}{{ a.title }}</a>
         <div class="meta">
           <span class="tag">{{ a.source }}</span>
           <span class="time">{{ a.published_display }}</span>
@@ -144,8 +175,8 @@
       <h2>Market Sentiment ({{ sentiment_articles|length }})</h2>
       <p class="col-note">Predictions, price targets, and bullish/bearish takes &mdash; heuristic split, not verified.</p>
       {% for a in sentiment_articles %}
-      <div class="card">
-        <a class="title" href="{{ a.link }}" target="_blank" rel="noopener">{% if a.relevant %}<span class="flag" title="Keyword match: may be relevant (custody, ETFs, or crypto regulation) -- heuristic, not verified impact">🟢</span>{% endif %}{{ a.title }}</a>
+      <div class="card" data-source="{{ a.source }}">
+        <a class="title" href="{{ a.link }}" target="_blank" rel="noopener">{% if a.regulatory %}<span class="flag" title="Keyword match: regulatory/legal (SEC, CFTC, courts, legislation) -- heuristic, not verified impact">⚖️</span>{% endif %}{% if a.institutional %}<span class="flag" title="Keyword match: institutional adoption/demand (asset managers, corporate treasuries, retirement money) -- heuristic, not verified impact">🏦</span>{% endif %}{{ a.title }}</a>
         <div class="meta">
           <span class="tag">{{ a.source }}</span>
           <span class="time">{{ a.published_display }}</span>
@@ -158,14 +189,10 @@
     </section>
   </div>
 
+  {% if x_enabled %}
   <section>
     <h2>Trending on X</h2>
-    {% if not x_enabled %}
-    <div class="empty-note">
-      X integration isn't configured (needs optional cookie-based auth &mdash; see README).
-      This section will populate automatically once it is.
-    </div>
-    {% elif x_posts|length == 0 %}
+    {% if x_posts|length == 0 %}
     <div class="empty-note">X integration is configured but returned no posts this run (likely an expired session or an X API change &mdash; see README's maintenance note).</div>
     {% else %}
     {% for p in x_posts %}
@@ -177,7 +204,65 @@
     {% endfor %}
     {% endif %}
   </section>
+  {% endif %}
 </main>
+<script>
+(function () {
+  var chips = Array.prototype.slice.call(document.querySelectorAll('#source-chips .chip'));
+  var sourceChips = chips.filter(function (c) { return c.dataset.source; });
+  var resetChip = document.querySelector('#source-chips .chip[data-action="reset"]');
+  var searchInput = document.getElementById('search-input');
+  var sections = Array.prototype.slice.call(document.querySelectorAll('main .columns section'));
+
+  function activeSources() {
+    var set = {};
+    sourceChips.forEach(function (c) {
+      if (c.classList.contains('active')) set[c.dataset.source] = true;
+    });
+    return set;
+  }
+
+  function applyFilters() {
+    var active = activeSources();
+    var query = searchInput.value.trim().toLowerCase();
+    sections.forEach(function (section) {
+      var cards = Array.prototype.slice.call(section.querySelectorAll('.card'));
+      var visible = 0;
+      cards.forEach(function (card) {
+        var matchesSource = !!active[card.dataset.source];
+        var matchesQuery = !query || card.textContent.toLowerCase().indexOf(query) !== -1;
+        var show = matchesSource && matchesQuery;
+        card.hidden = !show;
+        if (show) visible++;
+      });
+      var note = section.querySelector('.no-match-note');
+      if (cards.length === 0) return; // "No X articles this run" case -- leave as-is
+      if (!note) {
+        note = document.createElement('div');
+        note.className = 'empty-note no-match-note';
+        note.textContent = 'No articles match the current filters.';
+        section.appendChild(note);
+      }
+      note.hidden = visible !== 0;
+    });
+  }
+
+  sourceChips.forEach(function (chip) {
+    chip.addEventListener('click', function () {
+      chip.classList.toggle('active');
+      applyFilters();
+    });
+  });
+  if (resetChip) {
+    resetChip.addEventListener('click', function () {
+      sourceChips.forEach(function (c) { c.classList.add('active'); });
+      searchInput.value = '';
+      applyFilters();
+    });
+  }
+  searchInput.addEventListener('input', applyFilters);
+})();
+</script>
 <footer>
   Generated automatically by GitHub Actions &middot;
   <a href="https://github.com/stroker351w/cryptolistener" target="_blank" rel="noopener">source</a>

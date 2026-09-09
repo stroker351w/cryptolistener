@@ -1,25 +1,41 @@
-"""Heuristic "worth a second look" flag.
+"""Heuristic "worth a second look" flags.
 
 Be clear-eyed about what this is: a case-insensitive keyword match against
 each article's title + summary. It is NOT sentiment analysis, NOT an LLM
 judging actual impact, and it doesn't know direction (good news and bad
 news both get flagged). It will produce both false positives (a keyword
 appears in an unrelated context) and false negatives (a real story that
-happens to avoid these exact words). Treat the flag as "worth a second
+happens to avoid these exact words). Treat these flags as "worth a second
 look", not as verified impact.
 
-Two-gate design (both must match): a bare "SEC" or "ETF" keyword alone is
-nearly meaningless once the SEC's own press-release feed is in the mix --
-most of what the SEC does has nothing to do with crypto. So a story only
-flags if it mentions BOTH something crypto-specific AND something in the
-impact bucket (regulation, custody, ETFs, institutional adoption).
+Two separate flags, not one:
 
-Edit CRYPTO_TERMS / IMPACT_TERMS directly to tune this -- flat lists on
-purpose so they're easy to scan and adjust without touching the logic.
+- Regulatory/legal (is_regulatory): SEC/CFTC action, court rulings,
+  legislation, custody rules, security-classification fights -- things
+  that change what's legally allowed.
+- Institutional (is_institutional): adoption/demand signals from asset
+  managers, corporate treasuries, and retirement/pension money -- BlackRock
+  buying, a company adding BTC to its balance sheet, a 401(k) provider
+  adding crypto exposure.
+
+These used to be one combined "relevant" flag, which conflated "the SEC
+sued someone" with "BlackRock's ETF saw inflows" -- two very different
+kinds of story that happened to share a bucket. Splitting them makes each
+flag mean one specific thing.
+
+Two-gate design for each (both must match): a bare "SEC" or "ETF" keyword
+alone is nearly meaningless once the SEC's own press-release feed is in
+the mix -- most of what the SEC does has nothing to do with crypto. So a
+story only flags if it mentions BOTH something crypto-specific AND
+something in that flag's own impact bucket.
+
+Edit CRYPTO_TERMS / REGULATORY_TERMS / INSTITUTIONAL_TERMS directly to
+tune this -- flat lists on purpose so they're easy to scan and adjust
+without touching the logic.
 """
 import re
 
-# Gate 1: the story has to actually be about crypto/digital assets.
+# Gate 1 (shared): the story has to actually be about crypto/digital assets.
 CRYPTO_TERMS = [
     r"\bbitcoin\b",
     r"\bcrypto\w*\b",
@@ -46,10 +62,9 @@ CRYPTO_TERMS = [
     r"\bbnb\b",
 ]
 
-# Gate 2: something that plausibly matters beyond the headline -- the ETF
-# complex, the regulation that shapes what custodians/issuers can offer,
-# or institutional demand for custody/trading services.
-IMPACT_TERMS = [
+# Gate 2a: law/regulation -- action or rules that change what's legally
+# allowed, not just who's buying.
+REGULATORY_TERMS = [
     r"\bsec\b",
     r"\bcftc\b",
     "custody",
@@ -63,6 +78,15 @@ IMPACT_TERMS = [
     "stablecoin legislation",
     "howey test",
     "security classification",
+    r"\blawsuit\b",
+    r"\bcourt\b",
+    r"\bruling\b",
+    r"\blegislat\w*\b",
+]
+
+# Gate 2b: institutional adoption/demand -- asset managers, corporate
+# treasuries, and retirement money moving into crypto.
+INSTITUTIONAL_TERMS = [
     "staking",
     "institutional adoption",
     "institutional investor",
@@ -78,9 +102,15 @@ IMPACT_TERMS = [
 ]
 
 _CRYPTO_PATTERN = re.compile("|".join(CRYPTO_TERMS), re.IGNORECASE)
-_IMPACT_PATTERN = re.compile("|".join(IMPACT_TERMS), re.IGNORECASE)
+_REGULATORY_PATTERN = re.compile("|".join(REGULATORY_TERMS), re.IGNORECASE)
+_INSTITUTIONAL_PATTERN = re.compile("|".join(INSTITUTIONAL_TERMS), re.IGNORECASE)
 
 
-def is_relevant(title: str, summary: str = "") -> bool:
+def is_regulatory(title: str, summary: str = "") -> bool:
     text = f"{title} {summary}"
-    return bool(_CRYPTO_PATTERN.search(text)) and bool(_IMPACT_PATTERN.search(text))
+    return bool(_CRYPTO_PATTERN.search(text)) and bool(_REGULATORY_PATTERN.search(text))
+
+
+def is_institutional(title: str, summary: str = "") -> bool:
+    text = f"{title} {summary}"
+    return bool(_CRYPTO_PATTERN.search(text)) and bool(_INSTITUTIONAL_PATTERN.search(text))

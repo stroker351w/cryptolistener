@@ -12,7 +12,7 @@ import requests
 
 sys.path.insert(0, str(Path(__file__).parent))
 from utils import USER_AGENT, load_json, parse_date, parse_feed  # noqa: E402
-from relevance import is_relevant  # noqa: E402
+from relevance import is_institutional, is_regulatory  # noqa: E402
 from classify import classify  # noqa: E402
 
 ROOT = Path(__file__).parent.parent
@@ -62,7 +62,8 @@ def fetch_source(name: str, url: str):
                 "link": entry["link"],
                 "summary": entry["summary"],
                 "published": dt.isoformat() if dt else None,
-                "relevant": is_relevant(entry["title"], entry["summary"]),
+                "regulatory": is_regulatory(entry["title"], entry["summary"]),
+                "institutional": is_institutional(entry["title"], entry["summary"]),
                 "category": classify(entry["title"], entry["summary"]),
             }
         )

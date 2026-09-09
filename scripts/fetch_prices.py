@@ -8,6 +8,12 @@ per site visitor. If CoinGecko is unreachable or rate-limits us, this
 degrades gracefully: the ticker just keeps showing the last successful
 fetch (data/prices.json isn't overwritten) instead of breaking the build.
 
+The output records when it was actually fetched (`fetched_at`) alongside
+the coin list, so the page can show "prices as of Xh ago" -- distinct
+from the news feed's own "last updated", since the two can go stale
+independently of each other if one fetch step fails while the other
+keeps succeeding.
+
 Stablecoins and a small manual exclude-list are filtered out before
 picking the top 10, since "top 10 crypto by market cap" is meant to
 show volatile, price-discovering assets, not dollar-pegged tokens or
@@ -25,6 +31,7 @@ non-market instruments that happen to have a market-cap-shaped number:
   if similar tokenized-RWA/loan-balance assets show up in the top 50.
 """
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
 
 import requests
@@ -113,7 +120,8 @@ def main():
     for i, coin in enumerate(coins, start=1):
         coin["market_cap_rank"] = i
 
-    save_json(OUT_PATH, coins)
+    fetched_at = datetime.now(timezone.utc).isoformat()
+    save_json(OUT_PATH, {"fetched_at": fetched_at, "coins": coins})
     print(f"Wrote {len(coins)} prices to {OUT_PATH} (excluded {len(exclude_ids)} stablecoin/manual ids from candidate pool)")
 
 

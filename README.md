@@ -36,7 +36,11 @@ the animation for anyone with reduced-motion preferences turned on.
 
 If CoinGecko is unreachable or rate-limits a run, `fetch_prices.py` just
 leaves the previous `data/prices.json` in place rather than failing the
-whole pipeline — worst case the ticker is up to an hour stale.
+whole pipeline — worst case the ticker is up to an hour stale. Because
+the price fetch and the news fetch can each fail independently, the page
+header shows its own "prices as of Xh ago" next to the news's "last
+updated" timestamp, so a stale ticker doesn't get silently mistaken for
+fresh just because the news around it updated fine.
 
 Stablecoins (USDT, USDC, DAI, etc.) and a small manual exclude list are
 filtered out of the candidate pool before picking the top 10, since a
@@ -61,24 +65,35 @@ goes offline or changes its feed URL, `fetch_rss.py` just logs a skip for
 that source and keeps going — edit the `SOURCES` dict in that file to fix
 the URL or drop it.
 
-### 🟢 Relevance flag
+### ⚖️ 🏦 Relevance flags
 
-Every article gets checked against `scripts/relevance.py` and flagged 🟢 if
-it touches the spot crypto ETF complex, SEC/CFTC action, custody rules,
-market-structure/stablecoin legislation, or institutional-adoption
-signals.
+Every article gets checked against `scripts/relevance.py` and flagged with
+one or both of:
 
-**Read this before trusting the flag:** it's a plain keyword match, not an
-LLM and not real impact analysis. It doesn't know direction — a story
-about an SEC enforcement win and one about a hack both flag the same way
-if they hit the keywords. It requires a crypto-context term (bitcoin,
-crypto, a ticker, etc.) *and* an impact term (SEC, ETF, custody, etc.)
+- **⚖️ regulatory/legal** — SEC/CFTC action, court rulings, legislation
+  (Clarity Act, Genius Act, stablecoin bills), custody rules, security-
+  classification fights. Things that change what's legally allowed.
+- **🏦 institutional** — adoption/demand signals from asset managers,
+  corporate treasuries, and retirement money: BlackRock buying, a company
+  adding BTC to its balance sheet, a 401(k) provider adding exposure.
+
+These used to be a single combined 🟢 flag, which conflated "the SEC sued
+someone" with "BlackRock's ETF saw inflows" — two very different kinds of
+story that happened to share one bucket. They're now two separate flags so
+each one means one specific thing, and an article can carry both, one, or
+neither.
+
+**Read this before trusting either flag:** it's a plain keyword match, not
+an LLM and not real impact analysis. Neither flag knows direction — a
+story about an SEC enforcement win and one about a hack both flag ⚖️ the
+same way if they hit the keywords. Each requires a crypto-context term
+(bitcoin, crypto, a ticker, etc.) *and* a term from that flag's own bucket
 to both appear — that two-gate design exists specifically because a bare
 "SEC" match alone flagged nearly every item once the SEC's own feed was
 added (most SEC press releases have nothing to do with crypto). Expect
 occasional misses and occasional irrelevant catches. The keyword lists are
-flat and commented in `scripts/relevance.py` — edit them directly to tune
-what counts.
+flat and commented in `scripts/relevance.py` — edit `REGULATORY_TERMS` or
+`INSTITUTIONAL_TERMS` directly to tune what counts.
 
 ### Two-column layout: News & Events vs. Market Sentiment
 
@@ -90,12 +105,24 @@ The page splits articles into two columns via `scripts/classify.py`:
   bullish/bearish takes, "here's why" analysis, outlooks/forecasts,
   "should you buy" framing.
 
-Same caveat as the relevance flag: this is a keyword heuristic, not
+Same caveat as the relevance flags: this is a keyword heuristic, not
 real classification, and defaults to "News & Events" — an article only
 lands in "Market Sentiment" if it trips one of the patterns in
 `scripts/classify.py`. Expect the occasional misfile (e.g. a headline
 containing "speculation" about an actual approval); tune the
 `SENTIMENT_TERMS` list in that file if a category is consistently wrong.
+
+### Search and source filtering
+
+A search box and a row of per-source toggle chips sit above the two
+columns. Both are plain client-side JavaScript — no server round-trip,
+no build step, nothing to fetch. Typing in the search box hides any card
+whose text doesn't match; clicking a source chip hides that source's
+cards; "Reset" turns every source back on and clears the search box. If
+a filter combination leaves a column with zero matching cards, that
+column shows a "No articles match the current filters" note rather than
+just going blank. This only touches display in the browser — it doesn't
+change what's in `data/news.json` or which articles get fetched.
 
 ## One-time setup
 
@@ -109,7 +136,12 @@ containing "speculation" about an actual approval); tune the
 
 ## Optional: X (Twitter) integration
 
-Read this before turning it on.
+Read this before turning it on. Until it's configured, the "Trending on
+X" section doesn't render on the page at all — no placeholder text, no
+empty heading — so there's nothing to see or clean up here if you don't
+plan on setting it up. It only appears once `X_AUTH_TOKEN`/`X_CT0` are
+set (and if it's set but broken, you'll see a diagnostic note instead of
+posts, which is deliberate — that state means something needs fixing).
 
 **Why it's opt-in and off by default:** X shut off its free API tier in
 February 2026, and there's no official affordable way to read search
