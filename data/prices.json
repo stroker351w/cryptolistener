@@ -2,71 +2,71 @@
   {
     "symbol": "BTC",
     "name": "Bitcoin",
-    "price": 78655,
-    "change_24h": 0.01326,
+    "price": 78372,
+    "change_24h": -0.09738,
     "market_cap_rank": 1
   },
   {
     "symbol": "ETH",
     "name": "Ethereum",
-    "price": 2491.91,
-    "change_24h": 0.02006,
+    "price": 2473.98,
+    "change_24h": -0.41698,
     "market_cap_rank": 2
   },
   {
     "symbol": "BNB",
     "name": "BNB",
-    "price": 739.86,
-    "change_24h": -1.96723,
+    "price": 738.63,
+    "change_24h": -1.40138,
     "market_cap_rank": 3
   },
   {
     "symbol": "XRP",
     "name": "XRP",
-    "price": 1.42,
-    "change_24h": -0.82814,
+    "price": 1.41,
+    "change_24h": -1.07599,
     "market_cap_rank": 4
   },
   {
     "symbol": "SOL",
     "name": "Solana",
-    "price": 103.13,
-    "change_24h": -0.73989,
+    "price": 102.89,
+    "change_24h": -0.33411,
     "market_cap_rank": 5
   },
   {
     "symbol": "TRX",
     "name": "TRON",
-    "price": 0.33985,
-    "change_24h": 0.1522,
+    "price": 0.339575,
+    "change_24h": 0.30199,
     "market_cap_rank": 6
   },
   {
     "symbol": "ZEC",
     "name": "Zcash",
-    "price": 1278.25,
-    "change_24h": 7.19302,
+    "price": 1256.44,
+    "change_24h": 8.76211,
     "market_cap_rank": 7
   },
   {
     "symbol": "HYPE",
     "name": "Hyperliquid",
-    "price": 85.21,
-    "change_24h": 1.60016,
+    "price": 85.49,
+    "change_24h": 1.39581,
     "market_cap_rank": 8
   },
   {
     "symbol": "DOGE",
     "name": "Dogecoin",
-    "price": 0.088944,
-    "change_24h": -1.23172,
+    "price": 0.088011,
+    "change_24h": -2.00844,
     "market_cap_rank": 9
   },
   {
     "symbol": "RAIN",
     "name": "Rain",
-    "price": 0.01631083,
-    "change_24h": -2.27136,
+    "price": 0.01600892,
+    "change_24h": -3.34954,
     "market_cap_rank": 10
   }
 ]
