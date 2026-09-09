@@ -38,6 +38,20 @@ If CoinGecko is unreachable or rate-limits a run, `fetch_prices.py` just
 leaves the previous `data/prices.json` in place rather than failing the
 whole pipeline — worst case the ticker is up to an hour stale.
 
+Stablecoins (USDT, USDC, DAI, etc.) and a small manual exclude list are
+filtered out of the candidate pool before picking the top 10, since a
+"top 10 crypto by market cap" ticker is meant to show price-discovering
+assets, not dollar-pegged tokens or non-market instruments that happen
+to carry a market-cap-shaped number. Stablecoins are identified via
+CoinGecko's own `category=stablecoins` listing, re-fetched on every run
+so new stablecoins don't need to be hand-added. The manual list
+(`MANUAL_EXCLUDE_IDS` in `fetch_prices.py`) currently has one entry,
+`figure-heloc` (ticker `FIGR_HELOC`) — a tokenized representation of
+HELOC loan balances on the Provenance blockchain (Figure Technologies),
+whose "price" tracks a loan balance rather than market trading. If
+another similar tokenized-loan/RWA asset climbs into the top 50, add
+its CoinGecko id to that set.
+
 ### News sources
 
 CoinDesk, Cointelegraph, Decrypt, The Block, Bitcoin Magazine, CryptoSlate,

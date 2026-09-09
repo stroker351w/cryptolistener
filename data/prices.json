@@ -2,71 +2,71 @@
   {
     "symbol": "BTC",
     "name": "Bitcoin",
-    "price": 78763,
-    "change_24h": -0.5166,
+    "price": 78770,
+    "change_24h": -0.37529,
     "market_cap_rank": 1
   },
   {
     "symbol": "ETH",
     "name": "Ethereum",
-    "price": 2495.06,
-    "change_24h": 0.08258,
+    "price": 2495.8,
+    "change_24h": 0.25713,
     "market_cap_rank": 2
-  },
-  {
-    "symbol": "USDT",
-    "name": "Tether",
-    "price": 0.999769,
-    "change_24h": -0.00531,
-    "market_cap_rank": 3
   },
   {
     "symbol": "BNB",
     "name": "BNB",
-    "price": 751.7,
-    "change_24h": 1.62346,
-    "market_cap_rank": 4
+    "price": 751.6,
+    "change_24h": 1.47984,
+    "market_cap_rank": 3
   },
   {
     "symbol": "XRP",
     "name": "XRP",
     "price": 1.42,
-    "change_24h": 1.34577,
-    "market_cap_rank": 5
-  },
-  {
-    "symbol": "USDC",
-    "name": "USDC",
-    "price": 0.999962,
-    "change_24h": 0.00705,
-    "market_cap_rank": 6
+    "change_24h": 1.68015,
+    "market_cap_rank": 4
   },
   {
     "symbol": "SOL",
     "name": "Solana",
-    "price": 103.56,
-    "change_24h": -0.28032,
-    "market_cap_rank": 7
+    "price": 103.65,
+    "change_24h": 0.10742,
+    "market_cap_rank": 5
   },
   {
     "symbol": "TRX",
     "name": "TRON",
-    "price": 0.33871,
-    "change_24h": 1.08172,
-    "market_cap_rank": 8
-  },
-  {
-    "symbol": "FIGR_HELOC",
-    "name": "Figure Heloc",
-    "price": 1.035,
-    "change_24h": null,
-    "market_cap_rank": 9
+    "price": 0.339066,
+    "change_24h": 1.20408,
+    "market_cap_rank": 6
   },
   {
     "symbol": "ZEC",
     "name": "Zcash",
-    "price": 1181.61,
-    "change_24h": 3.82165,
+    "price": 1181.83,
+    "change_24h": 4.49408,
+    "market_cap_rank": 7
+  },
+  {
+    "symbol": "HYPE",
+    "name": "Hyperliquid",
+    "price": 85.87,
+    "change_24h": 1.62533,
+    "market_cap_rank": 8
+  },
+  {
+    "symbol": "DOGE",
+    "name": "Dogecoin",
+    "price": 0.090045,
+    "change_24h": -0.30377,
+    "market_cap_rank": 9
+  },
+  {
+    "symbol": "RAIN",
+    "name": "Rain",
+    "price": 0.01605086,
+    "change_24h": -1.42469,
     "market_cap_rank": 10
   }
 ]
