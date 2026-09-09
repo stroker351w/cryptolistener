@@ -11,7 +11,7 @@ from pathlib import Path
 import requests
 
 sys.path.insert(0, str(Path(__file__).parent))
-from utils import USER_AGENT, parse_date, parse_feed  # noqa: E402
+from utils import USER_AGENT, load_json, parse_date, parse_feed  # noqa: E402
 from relevance import is_relevant  # noqa: E402
 from classify import classify  # noqa: E402
 
@@ -72,10 +72,28 @@ def fetch_source(name: str, url: str):
 
 def main():
     print(f"Fetching {len(SOURCES)} RSS sources...")
+
+    # Some feeds (The Defiant, confirmed) re-stamp an item's <pubDate> to
+    # the feed-generation time on every single request instead of its
+    # real publish time -- verified by fetching the feed twice and
+    # watching the date shift to match each fetch. Left unchecked, that
+    # makes the same story look "0m ago" and re-sort to the top forever.
+    # Fix: trust a source's reported date only the first time we see a
+    # given link; after that, keep whatever we recorded originally.
+    previous = load_json(DATA_DIR / "news.json", [])
+    first_seen_published = {
+        a["link"]: a["published"] for a in previous if a.get("link") and a.get("published")
+    }
+
     all_articles = []
     for name, url in SOURCES.items():
         all_articles.extend(fetch_source(name, url))
         time.sleep(0.5)  # be a polite scraper
+
+    for a in all_articles:
+        prior = first_seen_published.get(a["link"])
+        if prior:
+            a["published"] = prior
 
     # Newest first; entries with no parseable date sink to the bottom.
     all_articles.sort(key=lambda a: a["published"] or "", reverse=True)

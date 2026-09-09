@@ -174,3 +174,13 @@ open docs/index.html
   across runs beyond what's in the current `data/news.json` snapshot, so
   an article that later gets removed from a source's feed will drop off
   the page rather than being archived.
+- At least one source (The Defiant, confirmed) re-stamps an item's
+  `pubDate` to the feed-generation time on every request instead of its
+  real publish time, which would otherwise make that story look
+  permanently "0m ago" and keep re-sorting to the top. `fetch_rss.py`
+  works around this by trusting a source's reported date only the first
+  time it sees a given article link, then keeping that recorded date on
+  every later run regardless of what the feed says. The trade-off: if a
+  brand-new article's very first fetch already carries a bad/inflated
+  timestamp, that inaccurate timestamp is what gets frozen — there's no
+  way to recover the article's true original publish time from the API.
