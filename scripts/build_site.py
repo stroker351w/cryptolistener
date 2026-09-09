@@ -2,6 +2,7 @@
 """Render data/news.json + data/x_posts.json into docs/index.html
 (the file GitHub Pages serves)."""
 import json
+import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -15,6 +16,40 @@ ROOT = Path(__file__).parent.parent
 DATA_DIR = ROOT / "data"
 DOCS_DIR = ROOT / "docs"
 TEMPLATES_DIR = Path(__file__).parent / "templates"
+
+# A few coins get called something other than their symbol or CoinGecko
+# "name" in headlines (e.g. "Ether" rather than "Ethereum" or "ETH").
+# Keyed by symbol; only need entries where the gap actually shows up.
+COIN_ALIASES = {
+    "ETH": ["ether"],
+    "XRP": ["ripple"],
+}
+
+
+def coin_patterns(prices):
+    """Build a {symbol: compiled regex} map from the current top-10 ticker.
+
+    Same heuristic caveats as relevance.py: whole-word, case-insensitive
+    match on the symbol/name/known alias. Tagging is tied to whichever
+    coins are currently in the ticker, not a fixed list, since that's
+    what's actually clickable on the page.
+    """
+    patterns = {}
+    for p in prices:
+        symbol = p.get("symbol")
+        if not symbol:
+            continue
+        terms = [symbol, p.get("name") or ""] + COIN_ALIASES.get(symbol, [])
+        terms = sorted({re.escape(t) for t in terms if t}, key=len, reverse=True)
+        if not terms:
+            continue
+        patterns[symbol] = re.compile(r"\b(" + "|".join(terms) + r")\b", re.IGNORECASE)
+    return patterns
+
+
+def tag_coins(title, summary, patterns):
+    text = f"{title} {summary}"
+    return [symbol for symbol, pattern in patterns.items() if pattern.search(text)]
 
 
 def humanize(iso_str):
@@ -75,6 +110,10 @@ def main():
     fetched_at = price_data.get("fetched_at")
     prices_age_display = humanize(fetched_at) if fetched_at else None
 
+    patterns = coin_patterns(prices)
+    for a in articles:
+        a["coins"] = tag_coins(a.get("title", ""), a.get("summary", ""), patterns)
+
     env = Environment(loader=FileSystemLoader(str(TEMPLATES_DIR)))
     template = env.get_template("index.html.j2")
     html = template.render(
@@ -92,6 +131,21 @@ def main():
     DOCS_DIR.mkdir(parents=True, exist_ok=True)
     out_path = DOCS_DIR / "index.html"
     out_path.write_text(html)
+
+    # Regenerated every run (not hand-maintained) so lastmod stays honest --
+    # a static sitemap would just go stale the first time the page changes.
+    sitemap = (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        "  <url>\n"
+        "    <loc>https://stroker351w.github.io/cryptolistener/</loc>\n"
+        f"    <lastmod>{datetime.now(timezone.utc).strftime('%Y-%m-%d')}</lastmod>\n"
+        "    <changefreq>hourly</changefreq>\n"
+        "  </url>\n"
+        "</urlset>\n"
+    )
+    (DOCS_DIR / "sitemap.xml").write_text(sitemap)
+
     print(f"Wrote {out_path} ({len(articles)} articles, x_enabled={x_data.get('enabled', False)})")
 
 

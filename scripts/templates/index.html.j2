@@ -43,7 +43,12 @@
   .ticker-item {
     display: inline-flex; align-items: baseline; gap: .4rem;
     padding: .55rem 1.5rem; font-size: .82rem; white-space: nowrap;
+    border: none; background: none; font-family: inherit; color: inherit;
+    cursor: pointer; border-radius: 6px;
   }
+  .ticker-item:hover, .ticker-item:focus-visible { background: var(--tag-bg); }
+  .ticker-item:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+  .ticker-item.active-coin { background: var(--tag-bg); box-shadow: inset 0 0 0 1px var(--tag-text); }
   .ticker-item .rank { color: var(--muted); font-size: .72rem; }
   .ticker-item .sym { font-weight: 700; color: var(--text); }
   .ticker-item .px { color: var(--muted); }
@@ -82,6 +87,7 @@
   }
   .chip.active { color: var(--tag-text); background: var(--tag-bg); border-color: var(--tag-text); opacity: 1; }
   .chip.reset { color: var(--text); opacity: 1; background: transparent; border-style: dashed; }
+  .chip.coin-filter-chip { color: var(--tag-text); background: var(--tag-bg); border-color: var(--tag-text); opacity: 1; }
   .columns {
     display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem 1.75rem; margin-top: 1.25rem;
   }
@@ -128,12 +134,12 @@
 <div class="ticker-wrap" role="marquee" aria-label="Top 10 cryptocurrencies by market cap">
   <div class="ticker-track">
     {% for p in prices + prices %}
-    <span class="ticker-item">
+    <button type="button" class="ticker-item" data-symbol="{{ p.symbol }}" aria-pressed="false" aria-label="Filter articles mentioning {{ p.name }}">
       <span class="rank">#{{ p.market_cap_rank }}</span>
       <span class="sym">{{ p.symbol }}</span>
       <span class="px">{{ p.price_display }}</span>
       <span class="chg {{ 'up' if p.change_up else 'down' }}">{{ p.change_display }}</span>
-    </span>
+    </button>
     {% endfor %}
   </div>
 </div>
@@ -145,12 +151,13 @@
 </header>
 <main>
   <div class="filter-bar">
-    <input type="text" id="search-input" placeholder="Search headlines &amp; summaries&hellip;" aria-label="Search articles">
+    <input type="search" id="search-input" placeholder="Search headlines &amp; summaries&hellip;" aria-label="Search articles">
     <div class="source-chips" id="source-chips">
       <button type="button" class="chip reset" data-action="reset">Reset</button>
       {% for s in sources %}
-      <button type="button" class="chip active" data-source="{{ s }}">{{ s }}</button>
+      <button type="button" class="chip active" data-source="{{ s }}" aria-pressed="true">{{ s }}</button>
       {% endfor %}
+      <button type="button" class="chip coin-filter-chip" id="coin-filter-chip" hidden></button>
     </div>
   </div>
   <div class="columns">
@@ -158,7 +165,7 @@
       <h2>News &amp; Events ({{ event_articles|length }})</h2>
       <p class="col-note">Reported happenings &mdash; filings, rulings, launches, hacks, partnerships.</p>
       {% for a in event_articles %}
-      <div class="card" data-source="{{ a.source }}">
+      <div class="card" data-source="{{ a.source }}" data-coins="{{ a.coins|join(' ') }}">
         <a class="title" href="{{ a.link }}" target="_blank" rel="noopener">{% if a.regulatory %}<span class="flag" title="Keyword match: regulatory/legal (SEC, CFTC, courts, legislation) -- heuristic, not verified impact">⚖️</span>{% endif %}{% if a.institutional %}<span class="flag" title="Keyword match: institutional adoption/demand (asset managers, corporate treasuries, retirement money) -- heuristic, not verified impact">🏦</span>{% endif %}{{ a.title }}</a>
         <div class="meta">
           <span class="tag">{{ a.source }}</span>
@@ -175,7 +182,7 @@
       <h2>Market Sentiment ({{ sentiment_articles|length }})</h2>
       <p class="col-note">Predictions, price targets, and bullish/bearish takes &mdash; heuristic split, not verified.</p>
       {% for a in sentiment_articles %}
-      <div class="card" data-source="{{ a.source }}">
+      <div class="card" data-source="{{ a.source }}" data-coins="{{ a.coins|join(' ') }}">
         <a class="title" href="{{ a.link }}" target="_blank" rel="noopener">{% if a.regulatory %}<span class="flag" title="Keyword match: regulatory/legal (SEC, CFTC, courts, legislation) -- heuristic, not verified impact">⚖️</span>{% endif %}{% if a.institutional %}<span class="flag" title="Keyword match: institutional adoption/demand (asset managers, corporate treasuries, retirement money) -- heuristic, not verified impact">🏦</span>{% endif %}{{ a.title }}</a>
         <div class="meta">
           <span class="tag">{{ a.source }}</span>
@@ -213,6 +220,9 @@
   var resetChip = document.querySelector('#source-chips .chip[data-action="reset"]');
   var searchInput = document.getElementById('search-input');
   var sections = Array.prototype.slice.call(document.querySelectorAll('main .columns section'));
+  var tickerButtons = Array.prototype.slice.call(document.querySelectorAll('.ticker-item'));
+  var coinFilterChip = document.getElementById('coin-filter-chip');
+  var activeCoin = null;
 
   function activeSources() {
     var set = {};
@@ -231,7 +241,9 @@
       cards.forEach(function (card) {
         var matchesSource = !!active[card.dataset.source];
         var matchesQuery = !query || card.textContent.toLowerCase().indexOf(query) !== -1;
-        var show = matchesSource && matchesQuery;
+        var coins = (card.dataset.coins || '').split(' ').filter(Boolean);
+        var matchesCoin = !activeCoin || coins.indexOf(activeCoin) !== -1;
+        var show = matchesSource && matchesQuery && matchesCoin;
         card.hidden = !show;
         if (show) visible++;
       });
@@ -247,18 +259,50 @@
     });
   }
 
+  function setActiveCoin(symbol) {
+    activeCoin = symbol;
+    tickerButtons.forEach(function (btn) {
+      var isActive = !!symbol && btn.dataset.symbol === symbol;
+      btn.classList.toggle('active-coin', isActive);
+      btn.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+    });
+    if (coinFilterChip) {
+      if (symbol) {
+        coinFilterChip.hidden = false;
+        coinFilterChip.textContent = 'Coin: ' + symbol + ' ✕';
+      } else {
+        coinFilterChip.hidden = true;
+        coinFilterChip.textContent = '';
+      }
+    }
+    applyFilters();
+  }
+
   sourceChips.forEach(function (chip) {
     chip.addEventListener('click', function () {
-      chip.classList.toggle('active');
+      var nowActive = chip.classList.toggle('active');
+      chip.setAttribute('aria-pressed', nowActive ? 'true' : 'false');
       applyFilters();
     });
   });
   if (resetChip) {
     resetChip.addEventListener('click', function () {
-      sourceChips.forEach(function (c) { c.classList.add('active'); });
+      sourceChips.forEach(function (c) {
+        c.classList.add('active');
+        c.setAttribute('aria-pressed', 'true');
+      });
       searchInput.value = '';
-      applyFilters();
+      setActiveCoin(null);
     });
+  }
+  tickerButtons.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var symbol = btn.dataset.symbol;
+      setActiveCoin(activeCoin === symbol ? null : symbol);
+    });
+  });
+  if (coinFilterChip) {
+    coinFilterChip.addEventListener('click', function () { setActiveCoin(null); });
   }
   searchInput.addEventListener('input', applyFilters);
 })();
