@@ -74,11 +74,12 @@
   .filter-bar {
     margin: 1.25rem 0 0; display: flex; flex-wrap: wrap; gap: .6rem; align-items: center;
   }
-  .filter-bar input[type="text"] {
+  .filter-bar input[type="search"] {
     flex: 1 1 220px; padding: .5rem .75rem; border-radius: 8px; border: 1px solid var(--border);
     background: var(--card); color: var(--text); font: inherit; font-size: .85rem;
   }
-  .filter-bar input[type="text"]:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+  .filter-bar input[type="search"]:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+  .filter-bar input[type="search"]::-webkit-search-cancel-button { filter: opacity(.6); }
   .source-chips { display: flex; flex-wrap: wrap; gap: .4rem; }
   .chip {
     font: inherit; font-size: .76rem; font-weight: 600; padding: .3rem .65rem; border-radius: 100px;
