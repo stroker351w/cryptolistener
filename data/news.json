@@ -1,13 +1,513 @@
 [
   {
-    "source": "CoinDesk",
-    "title": "Live updates: Bitcoin sinks to $77,000 as CPI lands with hike odds near 70%",
-    "link": "https://www.coindesk.com/business/2026/09/11/live-updates-bitcoin-sinks-to-usd77-000-as-cpi-lands-with-hike-odds-near-70",
-    "summary": "Every major is red ahead of the August inflation print. Bitcoin is down 5% on the week and zcash fell 10% on the day.",
-    "published": "2026-09-11T11:04:12+00:00",
+    "source": "Decrypt",
+    "title": "Bitwise to Close Dogecoin ETF Before Its First Anniversary",
+    "link": "https://decrypt.co/377973/bitwise-shuts-dogecoin-etf",
+    "summary": "BWOW will stop trading October 14, with cash payments to remaining shareholders expected October 22.",
+    "published": "2026-09-11T16:16:05+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "Pi Network (PI) Keeps Struggling Under $0.10: 3 AIs Predict Its Maximum Price for 2026",
+    "link": "https://cryptopotato.com/pi-network-pi-keeps-struggling-under-0-10-3-ais-predict-its-maximum-price-for-2026/",
+    "summary": "\"A short-lived move toward $0.50 is plausible, but without a major listing or explosion in genuine usage, I don't see it approaching $1,\" ChatGPT stated.",
+    "published": "2026-09-11T16:05:52+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
+    "source": "Cointelegraph",
+    "title": "Anchorage Digital adds institutional access to Frgmnt’s fUSD stablecoin",
+    "link": "https://cointelegraph.com/news/anchorage-digital-adds-institutional-access-to-frgmnts-fusd-stablecoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "The US federally chartered crypto bank will allow institutional clients to hold, mint, redeem and stake Frgmnt’s fUSD stablecoin through its custody platform.",
+    "published": "2026-09-11T16:05:15+00:00",
+    "regulatory": true,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Cointelegraph",
+    "title": "Bitcoin spikes toward $80K as US CPI data delivers new 22-year high in bond yields",
+    "link": "https://cointelegraph.com/markets/bitcoin-spikes-toward-80k-as-us-cpi-data-delivers-new-22-year-high-in-bond-yields?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "Bitcoin briefly rebounded past $79,000 and US stocks turned green as US CPI inflation data met expectations.",
+    "published": "2026-09-11T16:03:37+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "CPI and PPI climb, crushing hopes for cheap money and leaving Bitcoin traders with an expensive dilemma",
+    "link": "https://cryptoslate.com/cpi-and-ppi-just-sent-bitcoin-investors-a-warning-about-rates/",
+    "summary": "US consumer prices increased faster in August, giving the Federal Reserve another reason to be cautious about lowering interest rates and leaving Bitcoin investors exposed to a prolonged period of expensive borrowing. The Consumer Price Index (CPI) rose 0.4% from July, when it increased 0.1%, while the annual inflation rate held at 3.4%. Excluding food […] The post CPI and PPI climb, crushing hope",
+    "published": "2026-09-11T16:00:02+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "U.Today",
+    "title": "BlackRock Buys $250 Million of Ethereum Despite Price Correction",
+    "link": "https://u.today/blackrock-buys-250-million-of-ethereum-despite-price-correction",
+    "summary": "BlackRock has accumulated about $250 million of Ethereum’s over the last 20 days while the asset continues to show mixed price actions.",
+    "published": "2026-09-11T15:48:18+00:00",
+    "regulatory": false,
+    "institutional": true,
+    "category": "event"
+  },
+  {
+    "source": "Bitcoin Magazine",
+    "title": "Bitcoin Price Spikes, Shrugs off Hot US Inflation Data",
+    "link": "https://bitcoinmagazine.com/news/bitcoin-price-spikes-on-hot-inflation-data",
+    "summary": "Bitcoin Magazine Bitcoin Price Spikes, Shrugs off Hot US Inflation Data The price of bitcoin is up, despite the fact that an interest rate hike could be just around the corner. This post Bitcoin Price Spikes, Shrugs off Hot US Inflation Data first appeared on Bitcoin Magazine and is written by Mathew Di Salvo .",
+    "published": "2026-09-11T15:46:05+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "BTC Price Analysis: What Are Bitcoin’s Key Support Levels After $80K Rejection?",
+    "link": "https://cryptopotato.com/btc-price-analysis-what-are-bitcoins-key-support-levels-after-80k-rejection/",
+    "summary": "Bitcoin is approaching a critical point after spending the past several weeks digesting its powerful August rally. With the price slipping back toward the lower boundary of its recent structure and participation remaining relatively subdued, the market is increasingly dependent on the $76K-$77K area to prevent the current correction from extending further. Bitcoin Price Analysis: […]",
+    "published": "2026-09-11T15:46:01+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
+    "source": "CoinDesk",
+    "title": "With Fed rate hike all but assured, here's how markets might react",
+    "link": "https://www.coindesk.com/markets/2026/09/11/hotter-cpi-complicates-fed-hold-as-warsh-s-preferred-inflation-gauge-tells-different-story",
+    "summary": "Traders could look past an expected Fed hike and weigh what higher rates are signaling about the economy.",
+    "published": "2026-09-11T15:45:56+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Block",
+    "title": "Metaplanet reverses course on executive options with 41% cut to potential shares, scraps employee warrant plan",
+    "link": "https://www.theblock.co/news/business/2026-09-11-metaplanet-reverses-course-executive-options-41-cut-potential-shares-scraps-employee-warrant-plan-414265",
+    "summary": "The changes come amid a bruising stretch for Metaplanet shares, as stock fell about 17% over two trading sessions this week.",
+    "published": "2026-09-11T15:45:25+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "U.Today",
+    "title": "Why Buy XRP Now? 21Shares Names 4 Exact Reasons, Including SEC Verdict",
+    "link": "https://u.today/why-buy-xrp-now-21shares-names-4-exact-reasons-including-sec-verdict",
+    "summary": "21Shares explains why US ETFs doubled their XRP holdings to $200 million after the SEC verdict.",
+    "published": "2026-09-11T15:37:15+00:00",
+    "regulatory": true,
+    "institutional": true,
+    "category": "event"
+  },
+  {
+    "source": "Decrypt",
+    "title": "Bitcoin Rises as Markets Digest Inflation Data Ahead of Fed Rate Decision",
+    "link": "https://decrypt.co/377962/bitcoin-price-cpi-inflation-fed-rate-decision",
+    "summary": "Inflation held at 3.4% and core cooled annually, but a hot monthly core reading kept Fed hike odds near 62% while crypto markets rallied broadly.",
+    "published": "2026-09-11T15:32:08+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Defiant",
+    "title": "Senate Republicans Post Revised CLARITY Act Text Five Days Before Cloture Vote",
+    "link": "https://thedefiant.io/news/regulation/clarity-act-revised-text-five-days-before-cloture-vote",
+    "summary": "The Sept. 10 substitute adds CFTC registration and Bank Secrecy Act obligations for trading protocols that are not decentralized, limits the DeFi title to spot and cash digital commodity transactions, and clarifies what credit unions may do with digital assets. The seven Senate Democrats who have",
+    "published": "2026-09-11T15:30:38+00:00",
+    "regulatory": true,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "U.Today",
+    "title": "Crypto 'Speed Bump' Scenario Predicted by Grayscale Head of Research",
+    "link": "https://u.today/crypto-speed-bump-scenario-predicted-by-grayscale-head-of-research",
+    "summary": "Grayscale Head of Research Zach Pandl says hotter-than-expected U.S. inflation could create a temporary “speed bump” for crypto.",
+    "published": "2026-09-11T15:19:48+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CoinDesk",
+    "title": "India's richest state is exploring tokenizing its own assets to fund new infrastructure",
+    "link": "https://www.coindesk.com/markets/2026/09/11/india-s-richest-state-is-exploring-tokenizing-its-own-assets-to-fund-new-infrastructure",
+    "summary": "Maharashtra is drafting a policy to tokenize the state's assets, including the electricity transmission infrastructure.",
+    "published": "2026-09-11T15:17:08+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "BTC Volatility Returns, ETH Taps 8-Month High, While CPI Sets the Stage for the Fed: Weekly Recap",
+    "link": "https://cryptopotato.com/btc-volatility-returns-eth-taps-8-month-high-while-cpi-sets-the-stage-for-the-fed-weekly-recap/",
+    "summary": "The past week saw some major gains from the likes of ZEC, NEAR, DOT, ICP, and others.",
+    "published": "2026-09-11T15:11:25+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Defiant",
+    "title": "Standard Chartered Says SKY Token Will 5X to $0.325 by 2028",
+    "link": "https://thedefiant.io/news/defi/standard-chartered-sky-token-coverage-kendrick-0325-target",
+    "summary": "Geoff Kendrick calls Sky \"DeFi's federal bank\" and forecasts a five-fold rise in the value the protocol passes to token holders by end-2028. The thesis runs on USDS supply growth.",
+    "published": "2026-09-11T15:05:56+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "Circle’s Noble shutdown leaves Cosmos racing to move $92 million in USDC",
+    "link": "https://cryptoslate.com/circles-noble-shutdown-leaves-cosmos-racing-to-move-92-million-in-usdc/",
+    "summary": "Holders can use supported exchanges, Noble DEXs or CCTP V1 beforehand; afterward, Circle’s manual redemption process requires approval. The post Circle’s Noble shutdown leaves Cosmos racing to move $92 million in USDC appeared first on CryptoSlate .",
+    "published": "2026-09-11T15:00:14+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "SEC Press Releases",
+    "title": "Joint Readout of Principals’ Meeting of U.S. and UK Authorities Regarding Central Counterparty Resolution",
+    "link": "https://www.sec.gov/newsroom/press-releases/2026-87-joint-readout-principals-meeting-us-uk-authorities-regarding-central-counterparty-resolution",
+    "summary": "Senior officials from the Securities and Exchange Commission, Federal Deposit Insurance Corporation, Commodity Futures Trading Commission, Federal Reserve Board, and Bank of England convened for a tabletop exercise on Sept. 3, 2026, to discuss certain…",
+    "published": "2026-09-11T15:00:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Defiant",
+    "title": "Spark Opens Its USDT Savings Vault To OKX Users",
+    "link": "https://thedefiant.io/news/defi/spark-okx-usdt-savings-x-layer-integration",
+    "summary": "The exchange routes USDT deposits into a Spark vault on X Layer, OKX's own Layer 2 network, where the vault holds under $500 and Spark's risk reviewers noted the chain can be upgraded by its operator without delay.",
+    "published": "2026-09-11T14:50:50+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Defiant",
+    "title": "Blockstream Rejects Ransom Demand After Liquid Bitcoin Exploit",
+    "link": "https://thedefiant.io/news/security/blockstream-rejects-ransom-demand-after-liquid-bitcoin-exploit",
+    "summary": "Liquid said on Sept. 8 that 3,400 BTC had been returned and about 598.5 BTC remained outstanding; transactions later resumed with peg-outs disabled.",
+    "published": "2026-09-11T14:42:37+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "Treasury buys $5.2 billion of bonds as Bitcoin ETF flows stay negative",
+    "link": "https://cryptoslate.com/treasury-buys-5-2-billion-of-bonds-as-bitcoin-etf-flows-stay-negative/",
+    "summary": "The operation supported older bonds, but rising real yields showed why market plumbing had yet to ease Bitcoin’s funding backdrop. The post Treasury buys $5.2 billion of bonds as Bitcoin ETF flows stay negative appeared first on CryptoSlate .",
+    "published": "2026-09-11T14:30:12+00:00",
+    "regulatory": true,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Decrypt",
+    "title": "Blockstream Refuses Ransom for Return of $47M in Bitcoin from Liquid Hack: 'It Is Theft'",
+    "link": "https://decrypt.co/377959/blockstream-refuses-ransom-for-return-of-47m-in-bitcoin-from-liquid-hack-it-is-theft",
+    "summary": "With 598.5 BTC still outstanding, the company says it will go to law enforcement should the funds not be returned.",
+    "published": "2026-09-11T14:17:38+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "Bitcoin and Ethereum Explode, Wrecking Over $250M in Shorts in an Hour",
+    "link": "https://cryptopotato.com/bitcoin-and-ethereum-explode-wrecking-over-250m-in-shorts-in-an-hour/",
+    "summary": "ETH has soared hard, hitting its highest level since January.",
+    "published": "2026-09-11T14:08:55+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
+    "source": "U.Today",
+    "title": "XRP Ledger Upgraded: New Fix Amendment Strengthens Protocol",
+    "link": "https://u.today/xrp-ledger-upgraded-new-fix-amendment-strengthens-protocol",
+    "summary": "XRP Ledger gets fresh boost as much-awaited fix amendment activates.",
+    "published": "2026-09-11T14:00:07+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "Crypto never closes, but Bitcoin, Ethereum, XRP and Solana now move on Wall Street time",
+    "link": "https://cryptoslate.com/crypto-never-closes-but-bitcoin-ethereum-xrp-and-solana-now-move-on-wall-street-time/",
+    "summary": "Daylight-saving changes and NYSE holidays tie Kraken's 2016–2025 realized variance pattern to the U.S. cash-equity session. The post Crypto never closes, but Bitcoin, Ethereum, XRP and Solana now move on Wall Street time appeared first on CryptoSlate .",
+    "published": "2026-09-11T13:50:46+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CoinDesk",
+    "title": "Metaplanet cuts executive reward pool by 41%, extinguishes $220 million in value",
+    "link": "https://www.coindesk.com/business/2026/09/11/metaplanet-cuts-executive-reward-pool-by-41-extinguishes-usd220-million-in-value",
+    "summary": "The bitcoin treasury firm cut the potential Series 10 share pool to 188.2 million.",
+    "published": "2026-09-11T13:46:51+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Cointelegraph",
+    "title": "Metaplanet cuts Series 10 stock pool by 41%, plans Hong Kong subsidiary",
+    "link": "https://cointelegraph.com/news/metaplanet-executive-stock-pool-hong-kong-subsidiary?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "Metaplanet will cut 131.3 million potential shares and form a $1 million Hong Kong subsidiary for trading in Bitcoin, equities and credit products.",
+    "published": "2026-09-11T13:44:27+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "Crypto Price Analysis Sep-11: ETH, XRP, ADA, BNB, and HYPE",
+    "link": "https://cryptopotato.com/crypto-price-analysis-sep-11-eth-xrp-ada-bnb-and-hype/",
+    "summary": "This Friday, we examine Ethereum, Ripple, Cardano, Binance Coin, and Hyperliquid in greater detail. Ethereum (ETH) Ethereum fell 3% this week as the price curved down once it touched $2,500. The current support is found at $2,400 and may soon be tested, considering that momentum has turned somewhat bearish and a pullback is ongoing. As […]",
+    "published": "2026-09-11T13:41:39+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
+    "source": "CoinDesk",
+    "title": "Zodia Custody CEO Julian Sawyer steps down, becomes adviser",
+    "link": "https://www.coindesk.com/business/2026/09/11/zodia-custody-ceo-julian-sawyer-steps-down-becomes-adviser",
+    "summary": "Sawyer will become a strategic adviser rather than take the helm of Zodia Solutions, as previously announced.",
+    "published": "2026-09-11T13:32:52+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Cointelegraph",
+    "title": "Trading stocks against BONER is the latest trend for DeFi degens",
+    "link": "https://cointelegraph.com/magazine/trading-stocks-against-boner-is-the-latest-trend-for-defi-degens?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "Why would anyone want to trade a healthcare stock for a memecoin like BONER? Why wouldn’t they, ask the degens on Robinhood Chain who are building a strange new corner of DeFi.",
+    "published": "2026-09-11T13:30:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "Bitcoin’s $2.24 billion Friday options expiry teased a reversal then fell to $76k again",
+    "link": "https://cryptoslate.com/bitcoins-2-24-billion-friday-options-expiry-teased-a-reversal-then-gave-it-back-within-hours/",
+    "summary": "BTC rose across three venues after Deribit settled at 08:00 UTC, then finished below its starting level by 10:00. The post Bitcoin’s $2.24 billion Friday options expiry teased a reversal then fell to $76k again appeared first on CryptoSlate .",
+    "published": "2026-09-11T13:15:57+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "U.Today",
+    "title": "Cardano Faces 1,085% Liquidation Spike as $0.20 Support Wavers",
+    "link": "https://u.today/cardano-faces-1085-liquidation-spike-as-020-support-wavers",
+    "summary": "The $0.20 level has emerged as a key support for traders watching whether Cardano (ADA) can recover or extend its decline.",
+    "published": "2026-09-11T13:00:02+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "U.Today",
+    "title": "Can XRP Overtake Binance Chain (BNB)? 'Only' $10 Billion Is Needed",
+    "link": "https://u.today/can-xrp-overtake-binance-chain-bnb-only-10-billion-is-needed",
+    "summary": "XRP might eventually overtake Binance Chain, but it requires serious architectural move up.",
+    "published": "2026-09-11T12:55:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "BitMine’s staked ETH equals nearly 12% of Ethereum’s active stake, but who controls it?",
+    "link": "https://cryptoslate.com/bitmines-staked-eth-equals-nearly-12-of-ethereums-active-stake-but-who-controls-it/",
+    "summary": "Filings name MAVAN and staking partners but leave operator allocation and signing-key custody undisclosed. The post BitMine’s staked ETH equals nearly 12% of Ethereum’s active stake, but who controls it? appeared first on CryptoSlate .",
+    "published": "2026-09-11T12:40:50+00:00",
+    "regulatory": true,
+    "institutional": true,
+    "category": "sentiment"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "Bitcoin Price Reacts to August US CPI Data: Here’s What Happened",
+    "link": "https://cryptopotato.com/bitcoin-price-reacts-to-august-us-cpi-data-heres-what-happened/",
+    "summary": "The CPI data came just a day after the PPI report - both showing inflation is still persistent.",
+    "published": "2026-09-11T12:37:28+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Cointelegraph",
+    "title": "Bitcoin ETF outflows accelerate as investors pull $449M in three days",
+    "link": "https://cointelegraph.com/markets/bitcoin-etfs-282m-biggest-outflow-july?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "ARK 21Shares accounted for $164 million of Thursday’s Bitcoin ETF withdrawals, while Ether and Solana funds also recorded net outflows.",
+    "published": "2026-09-11T12:33:38+00:00",
+    "regulatory": true,
+    "institutional": true,
+    "category": "event"
+  },
+  {
+    "source": "CoinDesk",
+    "title": "Core CPI rose a faster-than-forecast 0.3% in August, setting up possible Fed rate hike",
+    "link": "https://www.coindesk.com/markets/2026/09/11/core-cpi-rose-a-faster-than-forecast-0-3-in-august-setting-up-fed-rate-hike",
+    "summary": "The August CPI report had taken on outsized importance after Fed Chair Kevin Warsh two weeks ago suggested the central bank may have to act if inflation doesn't soon slow.",
+    "published": "2026-09-11T12:32:25+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
+    "source": "U.Today",
+    "title": "Ripple Digs Deeper Into AI and Privacy Amid Claude Misuse Scandal: Main Crypto News This Morning",
+    "link": "https://u.today/ripple-digs-deeper-into-ai-and-privacy-amid-claude-misuse-scandal-main-crypto-news-this-morning",
+    "summary": "Key crypto updates for Sep. 11: XRP Ledger tests native ZK-privacy as Ripple launches GSmart AI, countering a chaotic breach of Anthropic's Claude models.",
+    "published": "2026-09-11T12:30:15+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "U.Today",
+    "title": "Scam Alert: XRP Community Receives Crucial Warning",
+    "link": "https://u.today/scam-alert-xrp-community-receives-crucial-warning",
+    "summary": "An emerging fraudulent scheme targeting the XRP community has been discovered, and XRPL users have been warned to stay vigilant.",
+    "published": "2026-09-11T12:12:44+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "Inside Information or Pure Gambling: This Trader Bets Millions on Bitcoin (BTC)",
+    "link": "https://cryptopotato.com/inside-information-or-pure-gambling-this-trader-bets-millions-on-bitcoin-btc/",
+    "summary": "\"At what point do we stop calling this dude a gambler,\" one X user asked.",
+    "published": "2026-09-11T12:10:45+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
+    "source": "Decrypt",
+    "title": "Morning Minute: AI Agents Cut BTC Quantum Attack Benchmark by 86%",
+    "link": "https://decrypt.co/377948/morning-minute-ai-agents-cut-btc-quantum-attack-benchmark-by-86",
+    "summary": "Crypto majors are shaky ahead of this morning’s CPI print, but onchain is heating up for another big potential weekend.",
+    "published": "2026-09-11T12:10:23+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Block",
+    "title": "India’s SEBI Demat 2.0 pilot debuts with over $100 million in tokenized bonds",
+    "link": "https://www.theblock.co/news/regulation/2026-09-11-indias-sebi-demat-2-0-pilot-debuts-with-over-100-million-in-tokenized-bonds-414252",
+    "summary": "India's SEBI Demat 2.0 pilot saw three issuers raise over $100 million in tokenized corporate bonds, with settlement via wholesale CBDC.",
+    "published": "2026-09-11T12:09:12+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Decrypt",
+    "title": "EU Regulator Says Prediction Markets Are 'Rife With Inside Trading'",
+    "link": "https://decrypt.co/377947/eu-regulator-says-prediction-markets-are-rife-with-inside-trading",
+    "summary": "ESMA also asks why Kalshi and Polymarket block some EU countries but not others, and notes VPNs get around the blocks.",
+    "published": "2026-09-11T12:06:24+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Cointelegraph",
+    "title": "Robinhood’s crypto volume increases 61% in August, still down 38% YoY",
+    "link": "https://cointelegraph.com/news/robinhoods-crypto-volume-rebounds-august?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "Bitstamp accounted for $10.1 billion of Robinhood’s August crypto volume, while trading on the Robinhood app fell 46% from a year earlier.",
+    "published": "2026-09-11T11:49:07+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "Your Bitcoin trade can now get liquidated because a stock crashed",
+    "link": "https://cryptoslate.com/your-bitcoin-trade-can-now-get-liquidated-because-a-stock-crashed/",
+    "summary": "Monthly volume on real-world-asset perpetual futures grew from $85 billion in January to an August record of $799.5 billion, with stocks accounting for 62.3% of that total on both DeFi and centralized venues, according to CoinMarketCap. Trading venues are moving away from single-asset margin toward unified portfolio accounts, where a trader's entire holdings back every […] The post Your Bitcoin tr",
+    "published": "2026-09-11T11:40:27+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Cointelegraph",
+    "title": "UniCredit seeks infrastructure partner for crypto trading, custody: Report",
+    "link": "https://cointelegraph.com/news/unicredit-infrastructure-partners-crypto-trading-custody?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "The Italian bank is reportedly seeking assistance in launching access to crypto trading, custody and tokenized investment products.",
+    "published": "2026-09-11T11:35:27+00:00",
+    "regulatory": true,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "Major Ripple (XRP) Move on AI: Here’s What’s Changing",
+    "link": "https://cryptopotato.com/major-ripple-xrp-move-on-ai-heres-whats-changing/",
+    "summary": "\"Every CFO is under pressure to embrace AI, but they're equally responsible for ensuring every financial decision is explainable, governed and compliant,\" said Ripple Treasury's SVP.",
+    "published": "2026-09-11T11:27:29+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Block",
+    "title": "‘Return the bitcoin’: Blockstream refuses ransom demand for remaining 600 BTC from Liquid exploit",
+    "link": "https://www.theblock.co/news/ecosystems/2026-09-11-return-the-bitcoin-blockstream-refuses-ransom-demand-for-remaining-600-btc-from-liquid-exploit-414247",
+    "summary": "Liquid has resumed transactions following the exploit, though peg-outs remain disabled as recovery work continues.",
+    "published": "2026-09-11T11:21:17+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CoinDesk",
+    "title": "Rising yields, oil prices leave bitcoin vulnerable ahead of U.S. inflation report",
+    "link": "https://www.coindesk.com/daybook-us/2026/09/11/rising-yields-oil-prices-leave-bitcoin-vulnerable-ahead-of-u-s-inflation-report",
+    "summary": "Your day-ahead look for Sept. 11, 2026",
+    "published": "2026-09-11T11:20:26+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CoinDesk",
+    "title": "Live updates: Bitcoin gives up early gains as markets fully price in Fed rate hike",
+    "link": "https://www.coindesk.com/business/2026/09/11/live-updates-bitcoin-sinks-to-usd77-000-as-cpi-lands-with-hike-odds-near-70",
+    "summary": "Core CPI rose a faster-than-forecast 0.3% in August, but the yearly pace of 2.4% was in line and the slowest rate since early 2021.",
+    "published": "2026-09-11T11:04:12+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "sentiment"
   },
   {
     "source": "Cointelegraph",
@@ -25,6 +525,16 @@
     "link": "https://www.coindesk.com/markets/2026/09/11/bitcoin-recovers-toward-usd77-300-as-zcash-leverage-unwinds",
     "summary": "Bitcoin rose 0.7% since midnight UTC to around $77,200, and 68 of the CoinDesk 100 constituents gained, though the index remains 1.4% lower over 24 hours.",
     "published": "2026-09-11T10:50:47+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "U.Today",
+    "title": "125.3 Billion SHIB Moved to Fresh Wallet as Whale Activity Heats Up",
+    "link": "https://u.today/1253-billion-shib-moved-to-fresh-wallet-as-whale-activity-heats-up",
+    "summary": "125.33 billion SHIB leaves BitGo for fresh wallet, sparking whale speculation.",
+    "published": "2026-09-11T10:45:41+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -270,31 +780,11 @@
     "category": "event"
   },
   {
-    "source": "CryptoSlate",
-    "title": "Aave’s proposed interest rate hike threatens to crush Ethena’s most popular yield loop",
-    "link": "https://cryptoslate.com/rising-aave-borrow-rates-threaten-to-flip-ethenas-usde-yield-loops-into-negative-carry/",
-    "summary": "The proposed curve change adds 13 to 89 basis points across a $323.8 million debt snapshot. The post Aave’s proposed interest rate hike threatens to crush Ethena’s most popular yield loop appeared first on CryptoSlate .",
-    "published": "2026-09-11T06:40:27+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "CoinDesk",
     "title": "Kalshi wants 24/7 Tesla and Nvidia perps as Wall Street fights over who regulates them",
     "link": "https://www.coindesk.com/markets/2026/09/11/kalshi-wants-24-7-tesla-and-nvidia-perps-as-wall-street-fights-over-who-regulates-them",
     "summary": "The prediction-market operator plans to seek U.S. approval for about 60 stock and ETF perps, taking one of crypto's biggest trading products into equities.",
     "published": "2026-09-11T06:17:31+00:00",
-    "regulatory": true,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "Cointelegraph",
-    "title": "Revised CLARITY Act targets ‘non-decentralized’ DeFi operators",
-    "link": "https://cointelegraph.com/news/revised-clarity-act-targets-non-decentralized-defi-operators?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "summary": "The bill’s ethics section remained largely unchanged despite being one of the main points of contention ahead of a pivotal Senate vote.",
-    "published": "2026-09-11T06:08:26+00:00",
     "regulatory": true,
     "institutional": false,
     "category": "event"
@@ -315,16 +805,6 @@
     "link": "https://www.coindesk.com/markets/2026/09/11/india-starts-tokenizing-usd620-billion-corporate-bond-market-with-digital-rupee-settlement",
     "summary": "SEBI’s Demat 2.0 pilot turns corporate bonds into digital tokens and settles payment through the RBI’s wholesale digital rupee, with secondary trading and retail access expected in later phases.",
     "published": "2026-09-11T05:13:15+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoSlate",
-    "title": "Binance traders just put a $2.1 trillion valuation on Anthropic before its IPO terms are even set",
-    "link": "https://cryptoslate.com/binance-pre-ipo-contract-pushes-anthropic-to-a-2-1-trillion-implied-valuation/",
-    "summary": "Its leveraged contract uses a one-billion-share denominator that can change before IPO terms create an external anchor. The post Binance traders just put a $2.1 trillion valuation on Anthropic before its IPO terms are even set appeared first on CryptoSlate .",
-    "published": "2026-09-11T05:10:17+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -360,16 +840,6 @@
     "category": "sentiment"
   },
   {
-    "source": "Cointelegraph",
-    "title": "Brevo login flaw enabled phishing email targeting 347K Trezor subscribers",
-    "link": "https://cointelegraph.com/news/brevo-login-flaw-trezor-bitbox-cointracking-phishing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "summary": "Trezor told Cointelegraph that the phishing email was sent to 347,000 subscribers and said it is treating every address as “known to the attacker and possibly reusable for phishing.”",
-    "published": "2026-09-11T04:21:14+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "The Block",
     "title": "Sam Bankman-Fried asks Supreme Court to overturn fraud conviction and $11 billion forfeiture",
     "link": "https://www.theblock.co/news/regulation/2026-09-11-sam-bankman-fried-supreme-court-petition-414226",
@@ -390,36 +860,6 @@
     "category": "sentiment"
   },
   {
-    "source": "CryptoSlate",
-    "title": "HIVE is making $1M a day, and almost all of it comes from Bitcoin mining not AI",
-    "link": "https://cryptoslate.com/bitcoin-mining-supplies-90-of-hives-1-million-daily-revenue-despite-ongoing-ai-expansion/",
-    "summary": "Preliminary figures for Aug. 21 through Sept. 10 put GPU-cloud revenue at about $100,000 a day as Swedish reuse remains under evaluation. The post HIVE is making $1M a day, and almost all of it comes from Bitcoin mining not AI appeared first on CryptoSlate .",
-    "published": "2026-09-11T03:50:27+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoSlate",
-    "title": "A $100 oil spike and bond yield shock just triggered a $568 million crypto liquidation cascade",
-    "link": "https://cryptoslate.com/bitcoin-tests-critical-76000-support-cluster-during-macro-energy-shock/",
-    "summary": "Bitcoin fell below $77,000 on Sept. 10 as oil rose above $100, and a global bond selloff pushed traders toward another Fed hike. BTC reached an intraday low of $76,676.07, Nasdaq 100 futures fell 0.7%, and the 10-year Treasury yield climbed to 4.93% while the 30-year touched 5.35%, its highest level in 19 years. The […] The post A $100 oil spike and bond yield shock just triggered a $568 million c",
-    "published": "2026-09-11T02:40:34+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoSlate",
-    "title": "Michael Saylor built a $6.5 billion cash fortress to force S&P’s hand on Strategy’s junk credit rating",
-    "link": "https://cryptoslate.com/strategy-erased-nearly-8-billion-of-net-debt-in-11-months-and-put-sps-junk-rating-on-the-clock/",
-    "summary": "Strategy, the largest Bitcoin treasury firm, is making a case for an escape from its B- junk credit rating after building billions of dollars in liquidity and reducing debt. On Sept. 10, Strategy’s head of investor relations, Chaitanya Jain, said the Michael Saylor-led company has strengthened its balance sheet in the three areas S&P Global Ratings […] The post Michael Saylor built a $6.5 billion ",
-    "published": "2026-09-11T01:20:25+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "U.Today",
     "title": "Bitcoin (BTC), Ethereum (ETH), XRP and Shiba Inu (SHIB) Price Analysis For September 11: Bears May Take the Upper Hand",
     "link": "https://u.today/price-analysis/bitcoin-btc-ethereum-eth-xrp-and-shiba-inu-shib-price-analysis-for-september-11-bears-may-take-the",
@@ -428,36 +868,6 @@
     "regulatory": false,
     "institutional": false,
     "category": "sentiment"
-  },
-  {
-    "source": "CryptoSlate",
-    "title": "This XRP project is shutting down after wallet flaw exposed 4,000 accounts and drained $450,000",
-    "link": "https://cryptoslate.com/this-xrp-project-is-shutting-down-after-wallet-flaw-exposed-4000-accounts-and-drained-450000/",
-    "summary": "Forensics traced 10,281 payments from 4,011 sender wallets, but the attacker’s exact route remains unproven and users need entirely new seeds. The post This XRP project is shutting down after wallet flaw exposed 4,000 accounts and drained $450,000 appeared first on CryptoSlate .",
-    "published": "2026-09-11T00:00:10+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "Cointelegraph",
-    "title": "Metaplanet equity backlash, SE Asia crypto funding doubles: Asia Express",
-    "link": "https://cointelegraph.com/magazine/metaplanet-equity-backlash-se-asia-crypto-funding-doubles-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "summary": "Shareholders of Bitcoin treasury company Metaplanet are seething over equity allocations for insiders, while new figures cement Singapore’s role as the top Asian crypto hub.",
-    "published": "2026-09-10T23:21:26+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoSlate",
-    "title": "OpenAI’s math breakthrough exposes the next weak link in crypto security",
-    "link": "https://cryptoslate.com/openais-math-breakthrough-exposes-the-next-weak-link-in-crypto-security/",
-    "summary": "Its Navier–Stokes claim suggests a possible role for AI in contract verification, where flawed specifications can leave vulnerabilities undetected. The post OpenAI’s math breakthrough exposes the next weak link in crypto security appeared first on CryptoSlate .",
-    "published": "2026-09-10T22:30:50+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
   },
   {
     "source": "Bitcoin Magazine",
@@ -510,16 +920,6 @@
     "category": "event"
   },
   {
-    "source": "U.Today",
-    "title": "BTC, XRP, ETH: Republicans Introduce New Version of Key Crypto Bill",
-    "link": "https://u.today/btc-xrp-eth-republicans-introduce-new-version-of-key-crypto-bill",
-    "summary": "Senate Republicans have unveiled an updated version of the CLARITY Act ahead of a crucial Sept. 15 procedural vote.",
-    "published": "2026-09-10T21:00:27+00:00",
-    "regulatory": true,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "Decrypt",
     "title": "AI Agents Just Slashed the Cost of a Quantum Attack on Bitcoin",
     "link": "https://decrypt.co/377925/ai-agents-slash-cost-quantum-attack-bitcoin",
@@ -560,26 +960,6 @@
     "category": "event"
   },
   {
-    "source": "CryptoPotato",
-    "title": "3 Reasons Why Zcash (ZEC) Can Plunge Following Its 150% Monthly Explosion",
-    "link": "https://cryptopotato.com/3-reasons-why-zcash-zec-can-plunge-following-its-150-monthly-explosion/",
-    "summary": "ZEC flashed a bearish signal that has previously been a precursor to a 64% price drop.",
-    "published": "2026-09-10T20:19:03+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "sentiment"
-  },
-  {
-    "source": "Cointelegraph",
-    "title": "ESMA warns growing crypto ties could amplify risks to traditional finance",
-    "link": "https://cointelegraph.com/news/esma-warns-growing-crypto-ties-could-amplify-risks-to-traditional-finance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "summary": "The EU securities regulator flagged tokenized equities, DeFi exploits and prediction markets as areas where growing crypto ties could pose risks to the broader financial system.",
-    "published": "2026-09-10T20:10:29+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "The Block",
     "title": "Senate Republicans unveil revised crypto bill ahead of key Clarity Act vote next week",
     "link": "https://www.theblock.co/news/regulation/2026-09-10-senate-republicans-unveil-revised-crypto-bill-ahead-of-key-clarity-act-vote-next-week-414180",
@@ -598,16 +978,6 @@
     "regulatory": false,
     "institutional": false,
     "category": "event"
-  },
-  {
-    "source": "U.Today",
-    "title": "Ripple Burns 15 Million RLUSD in Major Treasury Move",
-    "link": "https://u.today/ripple-burns-15-million-rlusd-in-major-treasury-move",
-    "summary": "Ripple has burned 15 million RLUSD in its latest major treasury move, even as the stablecoin’s market capitalization continues to surge toward new highs.",
-    "published": "2026-09-10T19:08:01+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "sentiment"
   },
   {
     "source": "CoinDesk",
@@ -650,16 +1020,6 @@
     "category": "event"
   },
   {
-    "source": "CryptoPotato",
-    "title": "Coinbase CEO Backs CLARITY Act to Secure ‘Yes’ Vote on September 15",
-    "link": "https://cryptopotato.com/coinbase-ceo-backs-clarity-act-to-secure-yes-vote-on-september-15/",
-    "summary": "Even without a Senate victory, Armstrong expects SEC and CFTC rulemaking to deliver a regulatory framework for the crypto industry.",
-    "published": "2026-09-10T18:30:49+00:00",
-    "regulatory": true,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "The Defiant",
     "title": "Valinor Launches Tokenized BDC Fund On Superstate",
     "link": "https://thedefiant.io/news/defi/valinor-launches-tokenized-bdc-fund-on-superstate",
@@ -690,16 +1050,6 @@
     "category": "event"
   },
   {
-    "source": "Cointelegraph",
-    "title": "UK House of Lords backs mandatory digital asset strategy over Labour position",
-    "link": "https://cointelegraph.com/news/uk-house-of-lords-backs-mandatory-digital-asset-strategy-in-194138-vote?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "summary": "The amendment would require the UK Treasury to develop a strategy covering cryptoassets, stablecoins, tokenized securities and digital financial infrastructure.",
-    "published": "2026-09-10T17:54:12+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "The Defiant",
     "title": "MoneyGram's Stablecoin Visa Card Goes Live In Colombia",
     "link": "https://thedefiant.io/converge/tradfi-and-fintech/moneygram-stablecoin-visa-card-goes-live-in-colombia",
@@ -715,26 +1065,6 @@
     "link": "https://www.sec.gov/newsroom/press-releases/2026-86-sec-charges-founder-his-two-new-jersey-based-companies-alleged-16-million-ponzi-scheme",
     "summary": "The Securities and Exchange Commission today charged Ernest Ossei Boateng and two New Jersey-based companies he controls, Intercontinental Wealth Network LLC and I Wealth Network LP, for allegedly raising approximately $16 million from more than 200…",
     "published": "2026-09-10T17:45:22+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "U.Today",
-    "title": "Stellar (XLM) to Power New MoneyGram Stablecoin Visa Card in This Latin American Country",
-    "link": "https://u.today/stellar-xlm-to-power-new-moneygram-stablecoin-visa-card-in-this-latin-american-country",
-    "summary": "MoneyGram’s new Stellar-powered Visa card brings instant USDC retail checkouts and mobile wallet support to Latin America.",
-    "published": "2026-09-10T17:23:30+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CoinDesk",
-    "title": "OKX brings OpenAI and Anthropic bets to Europe as pre-IPO trading grows",
-    "link": "https://www.coindesk.com/markets/2026/09/10/okx-brings-openai-and-anthropic-bets-to-europe-as-pre-ipo-trading-grows",
-    "summary": "The exchange is offering up to 10x leverage on private-company valuations alongside 100 tokenized stocks and ETFs.",
-    "published": "2026-09-10T17:07:59+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -760,46 +1090,6 @@
     "category": "event"
   },
   {
-    "source": "CoinDesk",
-    "title": "Europe’s top regulator questions Polymarket and Kalshi’s EU access, warns of authorization gaps",
-    "link": "https://www.coindesk.com/business/2026/09/10/europe-s-top-regulator-questions-polymarket-and-kalshi-s-eu-access-warns-of-authorization-gaps",
-    "summary": "ESMA said that event contracts may fall under existing EU binary-options bans, crypto-asset frameworks like MiCA or national gambling laws.",
-    "published": "2026-09-10T17:03:34+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoPotato",
-    "title": "Top Solana Price Predictions as SOL Bulls Battle to Hold the $100 Line",
-    "link": "https://cryptopotato.com/top-solana-price-predictions-as-sol-bulls-battle-to-hold-the-100-line/",
-    "summary": "\"SOL is a $500 token trading at $100,\" X user The Black Bull claimed.",
-    "published": "2026-09-10T17:02:28+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "sentiment"
-  },
-  {
-    "source": "U.Today",
-    "title": "Bitcoin Slips Below $77K as Fed Hike Odds Surge",
-    "link": "https://u.today/bitcoin-slips-below-77k-as-fed-hike-odds-surge",
-    "summary": "Bitcoin slipped below $77,000 on Sept. 10 as hotter inflation data pushed Fed hike odds sharply higher.",
-    "published": "2026-09-10T16:52:06+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "sentiment"
-  },
-  {
-    "source": "Cointelegraph",
-    "title": "Liquid Network resumes block production after $320M exploit",
-    "link": "https://cointelegraph.com/news/liquid-network-resumes-block-production-after-320m-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "summary": "Liquid restarted block production after deploying emergency software updates, though transactions and peg operations remain suspended as recovery efforts continue.",
-    "published": "2026-09-10T16:38:16+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "Bitcoin Magazine",
     "title": "Bitcoin Suffers On Renewed US-Iran Fighting",
     "link": "https://bitcoinmagazine.com/markets/bitcoin-price-drops-on-us-iran-fighting",
@@ -820,56 +1110,6 @@
     "category": "sentiment"
   },
   {
-    "source": "U.Today",
-    "title": "XRP Healthcare Goes Offline After Top Ex-Ripple Engineers Call Out 'Red Flags'",
-    "link": "https://u.today/xrp-healthcare-goes-offline-after-top-ex-ripple-engineers-call-out-red-flags",
-    "summary": "XRP Healthcare shuts down after ex-Ripple devs validate years of red flags and comment on a critical $452,000 wallet security vulnerability.",
-    "published": "2026-09-10T16:15:45+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CoinDesk",
-    "title": "Polymarket names former Amazon finance chief Warren Jenson as its first CFO",
-    "link": "https://www.coindesk.com/markets/2026/09/10/polymarket-names-former-amazon-finance-chief-warren-jenson-as-its-first-cfo",
-    "summary": "Jenson becomes the prediction market’s first CFO as Polymarket builds its regulated U.S. exchange and global platform.",
-    "published": "2026-09-10T16:10:03+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "Cointelegraph",
-    "title": "MoneyGram launches Visa stablecoin card as remittance rivals expand",
-    "link": "https://cointelegraph.com/news/moneygram-launches-visa-stablecoin-card-as-remittance-rivals-expand?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "summary": "MoneyGram is following rival Western Union’s lead, rolling out a Visa stablecoin debit card as it expands blockchain-based payments.",
-    "published": "2026-09-10T15:59:37+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CoinDesk",
-    "title": "Monument Bank delays retail tokenized deposits while onboarding custody partner",
-    "link": "https://www.coindesk.com/business/2026/09/10/monument-bank-delays-retail-tokenized-deposits-cites-regulatory-issues-in-the-uk",
-    "summary": "The London-based challenger bank tapped a Canadian custodian to meet the Financial Conduct Authority’s regulatory requirements. It now expects to roll out retail tokenized deposits by November.",
-    "published": "2026-09-10T15:53:24+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoPotato",
-    "title": "What Will Happen to Bitcoin (BTC) if Trump Distributes $5,000 to Each American: 3 AIs Speculate",
-    "link": "https://cryptopotato.com/what-will-happen-to-bitcoin-btc-if-trump-distributes-5000-to-each-american-3-ais-speculate/",
-    "summary": "\"Bitcoin might surge initially, then experience a sharp correction if the bond market or Fed pushed back,\" ChatGPT predicted.",
-    "published": "2026-09-10T15:41:23+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "sentiment"
-  },
-  {
     "source": "Decrypt",
     "title": "Anthropic Discloses Fourth Claude Hacking Incident as Debate Around Regulation Grows",
     "link": "https://decrypt.co/377889/anthropic-discloses-fourth-claude-hacking-incident-as-debate-around-regulation-grows",
@@ -880,41 +1120,11 @@
     "category": "event"
   },
   {
-    "source": "U.Today",
-    "title": "XRP Most Likely to Reclaim $1.50 This Month: Kalshi",
-    "link": "https://u.today/xrp-most-likely-to-reclaim-150-this-month-kalshi",
-    "summary": "$1.50 appears to be the next price target for XRP as traders on Kalshi are seen betting on this possibility despite the ongoing price correction.",
-    "published": "2026-09-10T15:21:53+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "sentiment"
-  },
-  {
-    "source": "CoinDesk",
-    "title": "Bitcoin Bancorp snaps up thousands of defunct Bitcoin Depot ATMs for $620,000",
-    "link": "https://www.coindesk.com/business/2026/09/10/a-quarter-of-bankrupt-bitcoin-depot-s-atms-snapped-up-for-less-than-usd1-million",
-    "summary": "Just over a quarter of Bitcoin Depot’s more than 9,200 kiosks have been sold for less than $1 million, court records show.",
-    "published": "2026-09-10T15:14:49+00:00",
-    "regulatory": true,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "The Block",
     "title": "Coinbase, Moov to bring stablecoin payment infrastructure to community banks and credit unions",
     "link": "https://www.theblock.co/news/business/2026-09-10-coinbase-moov-bring-stablecoin-payment-infrastructure-community-banks-credit-unions-414153",
     "summary": "The integration will use Coinbase's Payments API and custodial wallets to embed stablecoin rails into Moov's existing payments platform.",
     "published": "2026-09-10T15:11:41+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CoinDesk",
-    "title": "Crypto for Advisors: Hyperliquid and the future of finance",
-    "link": "https://www.coindesk.com/coindesk-indices/2026/09/10/crypto-for-advisors",
-    "summary": "",
-    "published": "2026-09-10T15:00:16+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -935,16 +1145,6 @@
     "link": "https://www.theblock.co/news/business/2026-09-10-moneygram-card-stablecoin-visa-colombia-414137",
     "summary": "MoneyGram has launched its first stablecoin-backed Visa card, developed with Rain and initially available in Colombia.",
     "published": "2026-09-10T14:30:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "U.Today",
-    "title": "Dogecoin (DOGE) Hits Hard: 2691% Liquidation Imbalance Rocks Market",
-    "link": "https://u.today/dogecoin-doge-hits-hard-2691-liquidation-imbalance-rocks-market",
-    "summary": "Dogecoin bulls caught off guard with a 2691% liquidation imbalance emerging as selling pressure hits broader crypto market.",
-    "published": "2026-09-10T14:25:11+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -990,51 +1190,11 @@
     "category": "event"
   },
   {
-    "source": "CryptoPotato",
-    "title": "Nasdaq Ventures to Invest $100M in Kraken Parent Payward at $21B Valuation",
-    "link": "https://cryptopotato.com/nasdaq-ventures-to-invest-100m-in-kraken-parent-payward-at-21b-valuation/",
-    "summary": "Kraken will also adopt Nasdaq’s market surveillance technology across its trading venues.",
-    "published": "2026-09-10T14:04:14+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "U.Today",
-    "title": "Where Did 361 Billion Shiba Inu (SHIB) Go? Inside South Korea's Latest Cryptocurrency Whale Move",
-    "link": "https://u.today/where-did-361-billion-shiba-inu-shib-go-inside-south-koreas-latest-cryptocurrency-whale-move",
-    "summary": "Shiba Inu holds on a knife-edge as a massive Korean whale wallet hoards 361 billion SHIB while the token battles a key moving average support.",
-    "published": "2026-09-10T13:49:05+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoPotato",
-    "title": "Ethereum Price Analysis: Consolidation at $2.5K Tests Momentum as On-Chain Activity Surges",
-    "link": "https://cryptopotato.com/ethereum-price-analysis-consolidation-at-2-5k-tests-momentum-as-on-chain-activity-surges/",
-    "summary": "Ethereum has been consolidating near $2.5K after a sharp recovery from the summer lows. The broader structure has improved considerably, but ETH is now approaching a meaningful resistance area, making the reaction at the current range important in determining whether the rally can extend toward higher levels. Ethereum Price Analysis: The Daily Chart The daily […]",
-    "published": "2026-09-10T13:47:56+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "sentiment"
-  },
-  {
     "source": "The Block",
     "title": "Citadel urges SEC to assert oversight of event contracts tied to public firms",
     "link": "https://www.theblock.co/news/regulation/2026-09-10-citadel-urges-sec-assert-oversight-event-contracts-tied-public-firms-414140",
     "summary": "Citadel Securities urges SEC oversight of equity-linked event contracts, challenging CFTC self-certification.",
     "published": "2026-09-10T13:43:09+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "Decrypt",
-    "title": "Bitcoin at $400K by 2030 Still 'Reasonable Target': Coinbase CEO",
-    "link": "https://decrypt.co/377875/bitcoin-at-400k-by-2030-still-reasonable-target-coinbase-ceo",
-    "summary": "Brian Armstrong argues the bottom is in, a year into the downturn, with the next halving roughly 18 months out.",
-    "published": "2026-09-10T13:04:27+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -1070,56 +1230,6 @@
     "category": "event"
   },
   {
-    "source": "CryptoPotato",
-    "title": "Bitcoin Drops Below $77K After the First Inflation Report of the Week",
-    "link": "https://cryptopotato.com/bitcoin-drops-below-77k-after-the-first-inflation-report-of-the-week/",
-    "summary": "BTC is down by over $3,000 from the Monday peak.",
-    "published": "2026-09-10T12:51:07+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "U.Today",
-    "title": "Ripple CTO Emeritus Fires Back at XRP 'Ghost Chain' Claims: 'Weird Thing to Say'",
-    "link": "https://u.today/ripple-cto-emeritus-fires-back-at-xrp-ghost-chain-claims-weird-thing-to-say",
-    "summary": "Ripple CTO Emeritus and original architect of the XRP Ledger, David Schwartz, defends the network's low fees amid ghost chain criticism.",
-    "published": "2026-09-10T12:50:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "Decrypt",
-    "title": "Morning Minute: Hunter Biden’s LAPTOP Crashes",
-    "link": "https://decrypt.co/377867/morning-minute-hunter-bidens-laptop-crashes",
-    "summary": "The meme coin plunged on its debut, as recent alt leaders and many onchain darlings slipped in a nasty day for crypto.",
-    "published": "2026-09-10T12:10:48+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "sentiment"
-  },
-  {
-    "source": "CryptoPotato",
-    "title": "Bitcoin’s (BTC) Rally Looks Strong, But the Real Money Behind It Is Still Missing",
-    "link": "https://cryptopotato.com/bitcoins-btc-rally-looks-strong-but-the-real-money-behind-it-is-still-missing/",
-    "summary": "Liquidity is showing early signs of recovery, but Bitcoin needs stronger stablecoin inflows before the rebound becomes truly convincing.",
-    "published": "2026-09-10T12:01:57+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "sentiment"
-  },
-  {
-    "source": "Decrypt",
-    "title": "Nasdaq Invests $100M in Kraken Parent Payward at $21B Valuation",
-    "link": "https://decrypt.co/377864/nasdaq-invests-100m-in-kraken-parent-payward-at-21b-valuation",
-    "summary": "Deutsche Börse's April stake implied a $13.3 billion valuation. Five months on, Nasdaq is paying at $21 billion.",
-    "published": "2026-09-10T11:28:55+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "The Block",
     "title": "Coinbase CEO Brian Armstrong says bitcoin has bottomed for current cycle, expects uptrend over next two years",
     "link": "https://www.theblock.co/news/markets/2026-09-10-coinbase-ceo-brian-armstrong-says-bitcoin-has-bottomed-for-current-cycle-expects-uptrend-over-next-two-years-414104",
@@ -1130,51 +1240,11 @@
     "category": "event"
   },
   {
-    "source": "Decrypt",
-    "title": "Vitalik Buterin Pushes Ethereum Plan to Slash Quantum-Safe Privacy Costs",
-    "link": "https://decrypt.co/377857/vitalik-buterin-pushes-ethereum-plan-to-slash-quantum-safe-privacy-costs",
-    "summary": "Buterin wants EIP-8288 in I-star, the upgrade after Hegota, and adopting it would make RISC-V Ethereum's canonical instruction set.",
-    "published": "2026-09-10T10:11:52+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "NewsBTC",
     "title": "Zoomex Launches ZWTC 2026 Multi-Asset Trading Championship With a Record Prize Pool of Up to 5 Million USDT",
     "link": "https://www.newsbtc.com/news/zoomex-launches-zwtc-2026-multi-asset-trading-championship-with-a-record-prize-pool-of-up-to-5-million-usdt/",
     "summary": "Returning for its third year, Zoomex’s flagship global trading competition expands across crypto perpetuals, stock contracts, AI-powered trading, team competition, and interactive rewards Global, 10 September 2026 — Zoomex, a global cryptocurrency trading platform focused on derivatives, has announced the launch of the Zoomex World Trading Championship 2026 (ZWTC 2026). Returning for its third yea",
     "published": "2026-09-10T07:37:04+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "The Block",
-    "title": "Hunter Biden’s LAPTOP team cites sniper bots, thin liquidity for 99% crash on launch day",
-    "link": "https://www.theblock.co/news/defi/2026-09-10-hunter-bidens-laptop-sniper-bots-414095",
-    "summary": "The LAPTOP project said it will add pool incentives and expects early prediction-market burns to cut supply.",
-    "published": "2026-09-10T05:28:17+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "The Block",
-    "title": "Trezor says third-party security breach led to phishing emails from legitimate domain",
-    "link": "https://www.theblock.co/news/defi/2026-09-09-trezor-phishing-emails-414086",
-    "summary": "This follows last month's security breach at shipping provider ShipMonk, which exposed the personal information of Trezor customers.",
-    "published": "2026-09-10T02:26:58+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "Decrypt",
-    "title": "Bitcoin Wallet Maker Trezor Says Hackers Breached Its Email Provider",
-    "link": "https://decrypt.co/377831/bitcoin-wallet-trezor-hackers-breach-email",
-    "summary": "The hardware wallet maker said a fake security alert claimed a hardware flaw could expose users’ recovery phrases.",
-    "published": "2026-09-09T23:02:23+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -1210,26 +1280,6 @@
     "category": "event"
   },
   {
-    "source": "The Defiant",
-    "title": "Zora Co-Founder Dee Goens Replaces Jacob Horne as CEO",
-    "link": "https://thedefiant.io/news/defi/zora-co-founder-dee-goens-replaces-jacob-horne-as-ceo",
-    "summary": "Goens said Zora is now under 10 people after a headcount reduction this year and named ZORA buybacks among his first priorities. Fees from the protocol’s Base deployment are down 99% from a year ago.",
-    "published": "2026-09-09T20:38:02+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "The Defiant",
-    "title": "Tenev Says Robinhood Stock Tokens Should Not Automatically Require Issuer Consent",
-    "link": "https://thedefiant.io/converge/tradfi-and-fintech/tenev-says-robinhood-stock-tokens-should-not-automatically-require-issuer-consent",
-    "summary": "The Robinhood CEO acknowledged that token holders lack voting rights, reflecting a structure that provides economic exposure through Jersey-issued debt securities rather than share ownership.",
-    "published": "2026-09-09T20:36:11+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "Bitcoin Magazine",
     "title": "Jack Dorsey’s Block Becomes Latest Bitcoin-Focused Company To Apply for Banking Charter",
     "link": "https://bitcoinmagazine.com/news/block-applies-for-banking-charter",
@@ -1255,46 +1305,6 @@
     "link": "https://thedefiant.io/converge/regulation/sec-crypto-custody-rewrite-enters-white-house-review",
     "summary": "The planned rule would cover advisers and investment companies and clarify digital-asset custody, following the withdrawal of a separate 2023 proposal.",
     "published": "2026-09-09T19:43:37+00:00",
-    "regulatory": true,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "The Defiant",
-    "title": "Report Links $2.08M in LAPTOP Sales to Wintermute-Tagged Wallet",
-    "link": "https://thedefiant.io/news/markets/report-links-2-08m-in-laptop-sales-to-wintermute-tagged-wallet",
-    "summary": "Lookonchain traced a 2.5 million-token team allocation to the address; separately, one trader reported nearly empty launch pools and a 98% early drop.",
-    "published": "2026-09-09T19:24:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "Bitcoin Magazine",
-    "title": "Steak ‘n Shake Says Sales Grew Double Digits Since Bitcoin Adoption",
-    "link": "https://bitcoinmagazine.com/news/steak-n-shake-says-sales-grew",
-    "summary": "Bitcoin Magazine Steak ‘n Shake Says Sales Grew Double Digits Since Bitcoin Adoption The burger franchise started accepting bitcoin over Lightning last year and claims business is booming. This post Steak ‘n Shake Says Sales Grew Double Digits Since Bitcoin Adoption first appeared on Bitcoin Magazine and is written by Mathew Di Salvo .",
-    "published": "2026-09-09T18:37:31+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "The Block",
-    "title": "DoubleZero adds Kalshi’s election markets ahead of November midterms",
-    "link": "https://www.theblock.co/news/regulation/2026-09-09-doublezero-adds-kalshis-election-markets-ahead-november-midterms-414075",
-    "summary": "Kalshi's elections and politics markets went live on the market data delivery platform DoubleZero Edge on Wednesday.",
-    "published": "2026-09-09T18:17:58+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "The Defiant",
-    "title": "Block Seeks OCC Charter for Uninsured Bitcoin and Stablecoin Custody Bank",
-    "link": "https://thedefiant.io/converge/tradfi-and-fintech/block-seeks-occ-charter-for-uninsured-bitcoin-and-stablecoin-custody-bank",
-    "summary": "Builders Bank would operate under direct federal supervision without taking deposits or making loans, but the application still requires OCC approval.",
-    "published": "2026-09-09T16:58:22+00:00",
     "regulatory": true,
     "institutional": false,
     "category": "event"
@@ -1485,16 +1495,6 @@
     "link": "https://www.sec.gov/newsroom/press-releases/2026-73-sec-charges-private-fund-adviser-adit-ventures-management-its-ceo-affiliated-general-partners",
     "summary": "The Securities and Exchange Commission today charged New York-based investment adviser Adit Ventures Management LLC, its CEO Eric Munson, and three affiliated general partners, Adit Ventures LLC; Adit Ventures II LLC; and Adit Ventures III LLC (the…",
     "published": "2026-08-10T18:00:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "SEC Press Releases",
-    "title": "SEC Establishes Financial Reporting and Accounting Unit in Enforcement Division",
-    "link": "https://www.sec.gov/newsroom/press-releases/2026-72-sec-establishes-financial-reporting-accounting-unit-enforcement-division",
-    "summary": "The Securities and Exchange Commission today announced it is establishing a new specialized unit within the Division of Enforcement to provide the dedicated expertise, focus, and capacity to pursue accounting and financial reporting fraud cases as well…",
-    "published": "2026-08-05T18:30:00+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
