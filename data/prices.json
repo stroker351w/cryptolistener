@@ -1,74 +1,74 @@
 {
-  "fetched_at": "2026-09-12T19:15:15.592811+00:00",
+  "fetched_at": "2026-09-12T22:13:03.146254+00:00",
   "coins": [
     {
       "symbol": "BTC",
       "name": "Bitcoin",
-      "price": 77127,
-      "change_24h": -0.07476,
+      "price": 77243,
+      "change_24h": 0.12718,
       "market_cap_rank": 1
     },
     {
       "symbol": "ETH",
       "name": "Ethereum",
-      "price": 2520.81,
-      "change_24h": -0.94901,
+      "price": 2522.84,
+      "change_24h": 0.19815,
       "market_cap_rank": 2
     },
     {
       "symbol": "BNB",
       "name": "BNB",
-      "price": 727.84,
-      "change_24h": 0.54468,
+      "price": 726.43,
+      "change_24h": 0.33698,
       "market_cap_rank": 3
     },
     {
       "symbol": "XRP",
       "name": "XRP",
       "price": 1.36,
-      "change_24h": 0.81728,
+      "change_24h": 0.54069,
       "market_cap_rank": 4
     },
     {
       "symbol": "SOL",
       "name": "Solana",
-      "price": 101.59,
-      "change_24h": 0.35649,
+      "price": 101.52,
+      "change_24h": -0.57671,
       "market_cap_rank": 5
     },
     {
       "symbol": "TRX",
       "name": "TRON",
-      "price": 0.339804,
-      "change_24h": 1.00589,
+      "price": 0.339882,
+      "change_24h": 0.54066,
       "market_cap_rank": 6
     },
     {
       "symbol": "ZEC",
       "name": "Zcash",
-      "price": 1126.39,
-      "change_24h": -2.77013,
+      "price": 1122.1,
+      "change_24h": -3.80021,
       "market_cap_rank": 7
     },
     {
       "symbol": "HYPE",
       "name": "Hyperliquid",
-      "price": 79.94,
-      "change_24h": -0.23619,
+      "price": 79.6,
+      "change_24h": -0.39203,
       "market_cap_rank": 8
     },
     {
       "symbol": "DOGE",
       "name": "Dogecoin",
-      "price": 0.084725,
-      "change_24h": 0.73673,
+      "price": 0.084693,
+      "change_24h": 0.61022,
       "market_cap_rank": 9
     },
     {
       "symbol": "RAIN",
       "name": "Rain",
-      "price": 0.01562836,
-      "change_24h": -0.08445,
+      "price": 0.01576988,
+      "change_24h": 1.71442,
       "market_cap_rank": 10
     }
   ]
