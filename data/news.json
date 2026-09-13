@@ -1,6 +1,96 @@
 [
   {
     "source": "CryptoSlate",
+    "title": "Coinbase gives community banks a stablecoin bridge while supplying infrastructure underneath",
+    "link": "https://cryptoslate.com/coinbase-gives-community-banks-a-stablecoin-bridge-while-supplying-infrastructure-underneath/",
+    "summary": "Banks retain the customer interface, while undisclosed pricing, data, compliance and settlement terms will determine who captures the value. The post Coinbase gives community banks a stablecoin bridge while supplying infrastructure underneath appeared first on CryptoSlate .",
+    "published": "2026-09-13T19:10:30+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CoinDesk",
+    "title": "Is Clarity dead? A vibes-based analysis: State of Crypto",
+    "link": "https://www.coindesk.com/policy/2026/09/13/is-clarity-dead-a-vibes-based-analysis-state-of-crypto",
+    "summary": "I dunno, flip a coin.",
+    "published": "2026-09-13T18:45:08+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "Malicious bots are actively probing exposed Bitcoin payment servers to steal master administrative keys",
+    "link": "https://cryptoslate.com/malicious-bots-are-actively-probing-exposed-bitcoin-payment-servers-to-steal-master-administrative-keys/",
+    "summary": "The risk is limited to manually exposed APIs, and version 2.4.4 closes the standard public path. The post Malicious bots are actively probing exposed Bitcoin payment servers to steal master administrative keys appeared first on CryptoSlate .",
+    "published": "2026-09-13T18:30:17+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Block",
+    "title": "Mexican authorities raid hidden crypto mine, suspecting power theft and money laundering",
+    "link": "https://www.theblock.co/news/ecosystems/2026-09-13-mexican-authorities-raid-hidden-crypto-mine-suspecting-power-theft-and-money-laundering-414564",
+    "summary": "Reuters reported that the site was the fourth crypto farm discovered in the area since early 2025, near a local hydroelectric dam.",
+    "published": "2026-09-13T18:29:23+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "What Happens to XRP if the CLARITY Act Vote Fails on September 15? AI Maps the Downside",
+    "link": "https://cryptopotato.com/what-happens-to-xrp-if-the-clarity-act-vote-fails-on-september-15-ai-maps-the-downside/",
+    "summary": "XRP investors brace for a potentially volatile 48-hour period as US Senate is scheuled to hold a cloture vote on the motion to proceed with the CLARITY Act.",
+    "published": "2026-09-13T18:10:33+00:00",
+    "regulatory": true,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "Cosmos is back online after outage, but Ledger users still can’t see or send their ATOM",
+    "link": "https://cryptoslate.com/cosmos-is-back-online-after-outage-but-ledger-users-still-cant-see-or-send-their-atom/",
+    "summary": "Balances, history and transactions remain unavailable in the app, but Ledger lists Cosmostation and Keplr for urgent access. The post Cosmos is back online after outage, but Ledger users still can’t see or send their ATOM appeared first on CryptoSlate .",
+    "published": "2026-09-13T17:55:22+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CoinDesk",
+    "title": "Quantum-proof blockchain: why math, not machines, holds the key",
+    "link": "https://www.coindesk.com/opinion/2026/09/13/quantum-proof-blockchain-why-math-not-machines-holds-the-key",
+    "summary": "lockchains don’t need quantum computers to be quantum-safe, argues Optimum co-founder and MIT professor Muriel Médard. Classic math already gives us the tools.",
+    "published": "2026-09-13T17:00:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "Why AI faces an immediately difficult choice: Nationalize or decentralize – AI’s 2026 slowdown dilemma",
+    "link": "https://cryptoslate.com/does-ai-face-an-immediately-difficult-choice-nationalize-or-decentralize-ais-2026-slowdown-dilemma/",
+    "summary": "His three-stage proposal points toward binding cross-lab limits, a narrow public brake and independently distributed scrutiny. The post Why AI faces an immediately difficult choice: Nationalize or decentralize – AI’s 2026 slowdown dilemma appeared first on CryptoSlate .",
+    "published": "2026-09-13T16:55:14+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "U.Today",
+    "title": "Bitcoin May Never Trade Below $65,000 Again",
+    "link": "https://u.today/bitcoin-may-never-trade-below-65000-again",
+    "summary": "Bitcoin locks in a historic $65,000 long-term support floor, as cycle mathematics may prevent future drops below this key threshold.",
+    "published": "2026-09-13T16:22:15+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
     "title": "Critical Bitcoin Lightning bugs exposed nodes to fund theft and restart failure",
     "link": "https://cryptoslate.com/critical-bitcoin-lightning-bugs-exposed-nodes-to-fund-theft-and-restart-failure/",
     "summary": "LDK v0.2.6 addresses small splice-related fund losses and a payment-handling flaw that could prevent saved channel state from loading. The post Critical Bitcoin Lightning bugs exposed nodes to fund theft and restart failure appeared first on CryptoSlate .",
@@ -370,16 +460,6 @@
     "category": "sentiment"
   },
   {
-    "source": "CryptoSlate",
-    "title": "Thailand’s stablecoin proposal would block transfers to other people’s wallets",
-    "link": "https://cryptoslate.com/thailands-stablecoin-proposal-would-block-transfers-to-other-peoples-wallets/",
-    "summary": "Licensed crypto firms could accept deposits and withdrawals only through accounts verified as the customer’s own. The post Thailand’s stablecoin proposal would block transfers to other people’s wallets appeared first on CryptoSlate .",
-    "published": "2026-09-12T21:25:29+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "CoinDesk",
     "title": "OpenAI IPO won't happen this year, says Sam Altman",
     "link": "https://www.coindesk.com/markets/2026/09/12/openai-ipo-won-t-happen-this-year-says-sam-altman",
@@ -400,41 +480,11 @@
     "category": "event"
   },
   {
-    "source": "CryptoSlate",
-    "title": "Bitcoin’s $80,000 ceiling looks fragile after stocks shrugged off near-5% Treasury yields",
-    "link": "https://cryptoslate.com/bitcoins-80000-ceiling-looks-different-after-stocks-shrugged-off-near-5-treasury-yields/",
-    "summary": "With Bitcoin near $77,743 and weekend options volatility elevated, Wednesday’s Fed decision will test whether the gap persists. The post Bitcoin’s $80,000 ceiling looks fragile after stocks shrugged off near-5% Treasury yields appeared first on CryptoSlate .",
-    "published": "2026-09-12T20:20:10+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "CryptoPotato",
     "title": "India’s Demat 2.0 Could Change Bond Tokenization: Here’s How It Works",
     "link": "https://cryptopotato.com/indias-demat-2-0-could-change-bond-tokenization-heres-how-it-works/",
     "summary": "The country has taken a major step toward bringing tokenized real-world assets (RWAs) into its mainstream financial system.",
     "published": "2026-09-12T20:04:30+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoSlate",
-    "title": "The biggest vulnerability in your Bitcoin wallet might be the shipping label",
-    "link": "https://cryptoslate.com/your-bitcoin-wallet-has-a-shipping-problem/",
-    "summary": "Hardware wallets might be able to protect your keys, but the paperwork from buying them could expose your identity. To buy a hardware wallet, you give a company your name and address so it can send you a device designed to put you in control of your money. Once you've unpacked the box and set […] The post The biggest vulnerability in your Bitcoin wallet might be the shipping label appeared first o",
-    "published": "2026-09-12T19:30:23+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "U.Today",
-    "title": "Ripple Exec: XRP's 'Killer Use Case' Lies in Institutional Collateral",
-    "link": "https://u.today/ripple-exec-xrps-killer-use-case-lies-in-institutional-collateral",
-    "summary": "RippleX head of product highlights XRP’s potential in institutional credit.",
-    "published": "2026-09-12T19:00:00+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -465,16 +515,6 @@
     "link": "https://www.coindesk.com/tech/2026/09/12/anthropic-ceo-calls-for-ai-race-to-slow-down-musk-and-openai-s-altman-agrees",
     "summary": "Anthropic’s Dario Amodei, OpenAI’s Sam Altman and Elon Musk have agreed on an unusual position: frontier AI development may need to slow as systems become capable of helping build their own successors.",
     "published": "2026-09-12T18:43:33+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoSlate",
-    "title": "Why Bitcoin initially held its gain as rate traders put September hike odds at 85%",
-    "link": "https://cryptoslate.com/why-bitcoin-initially-held-its-gain-as-rate-traders-put-september-hike-odds-at-85/",
-    "summary": "Gasoline drove much of August's headline jump, but faster monthly core inflation kept Waller's warning alive. The post Why Bitcoin initially held its gain as rate traders put September hike odds at 85% appeared first on CryptoSlate .",
-    "published": "2026-09-12T18:20:06+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -625,16 +665,6 @@
     "link": "https://decrypt.co/377998/chatgpt-images-2-5-vs-nano-banana-2-review",
     "summary": "OpenAI's new image model promises sharper detail and more precise editing. We ran it against Google's Nano Banana 2 across six categories to see how it compares.",
     "published": "2026-09-12T13:01:03+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoPotato",
-    "title": "Revolut Exposed Passports and Bitcoin Records After Fake Government Request: Report",
-    "link": "https://cryptopotato.com/revolut-exposed-passports-and-bitcoin-records-after-fake-government-request-report/",
-    "summary": "The exposed information was sensitive, extensive, and included identity documents, financial records, and crypto activity.",
-    "published": "2026-09-12T12:50:32+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -870,16 +900,6 @@
     "category": "event"
   },
   {
-    "source": "CoinDesk",
-    "title": "With Fed rate hike all but assured, here's how markets might react",
-    "link": "https://www.coindesk.com/markets/2026/09/11/hotter-cpi-complicates-fed-hold-as-warsh-s-preferred-inflation-gauge-tells-different-story",
-    "summary": "Traders could look past an expected Fed hike and weigh what higher rates are signaling about the economy.",
-    "published": "2026-09-11T15:45:56+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "The Block",
     "title": "Metaplanet reverses course on executive options with 41% cut to potential shares, scraps employee warrant plan",
     "link": "https://www.theblock.co/news/business/2026-09-11-metaplanet-reverses-course-executive-options-41-cut-potential-shares-scraps-employee-warrant-plan-414265",
@@ -906,16 +926,6 @@
     "summary": "The Sept. 10 substitute adds CFTC registration and Bank Secrecy Act obligations for trading protocols that are not decentralized, limits the DeFi title to spot and cash digital commodity transactions, and clarifies what credit unions may do with digital assets. The seven Senate Democrats who have",
     "published": "2026-09-11T15:30:38+00:00",
     "regulatory": true,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CoinDesk",
-    "title": "India's richest state is exploring tokenizing its own assets to fund new infrastructure",
-    "link": "https://www.coindesk.com/markets/2026/09/11/india-s-richest-state-is-exploring-tokenizing-its-own-assets-to-fund-new-infrastructure",
-    "summary": "Maharashtra is drafting a policy to tokenize the state's assets, including the electricity transmission infrastructure.",
-    "published": "2026-09-11T15:17:08+00:00",
-    "regulatory": false,
     "institutional": false,
     "category": "event"
   },
@@ -1235,16 +1245,6 @@
     "link": "https://bitcoinmagazine.com/markets/bitcoin-price-drops-on-us-iran-fighting",
     "summary": "Bitcoin Magazine Bitcoin Suffers On Renewed US-Iran Fighting Bitcoin has stumbled on tensions flaring up in the Middle East again. This post Bitcoin Suffers On Renewed US-Iran Fighting first appeared on Bitcoin Magazine and is written by Mathew Di Salvo .",
     "published": "2026-09-10T16:31:42+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "The Block",
-    "title": "Coinbase, Moov to bring stablecoin payment infrastructure to community banks and credit unions",
-    "link": "https://www.theblock.co/news/business/2026-09-10-coinbase-moov-bring-stablecoin-payment-infrastructure-community-banks-credit-unions-414153",
-    "summary": "The integration will use Coinbase's Payments API and custodial wallets to embed stablecoin rails into Moov's existing payments platform.",
-    "published": "2026-09-10T15:11:41+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
