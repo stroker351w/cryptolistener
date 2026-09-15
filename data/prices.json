@@ -1,74 +1,74 @@
 {
-  "fetched_at": "2026-09-15T13:28:31.114012+00:00",
+  "fetched_at": "2026-09-15T18:08:24.768537+00:00",
   "coins": [
     {
       "symbol": "BTC",
       "name": "Bitcoin",
-      "price": 76924,
-      "change_24h": -1.09628,
+      "price": 76844,
+      "change_24h": -2.66173,
       "market_cap_rank": 1
     },
     {
       "symbol": "ETH",
       "name": "Ethereum",
-      "price": 2478.5,
-      "change_24h": -0.86139,
+      "price": 2437.3,
+      "change_24h": -3.78718,
       "market_cap_rank": 2
     },
     {
       "symbol": "BNB",
       "name": "BNB",
-      "price": 720.43,
-      "change_24h": 0.1512,
+      "price": 722.87,
+      "change_24h": -0.44539,
       "market_cap_rank": 3
     },
     {
       "symbol": "XRP",
       "name": "XRP",
-      "price": 1.43,
-      "change_24h": 3.01027,
+      "price": 1.4,
+      "change_24h": -2.9091,
       "market_cap_rank": 4
     },
     {
       "symbol": "SOL",
       "name": "Solana",
-      "price": 100.99,
-      "change_24h": -0.07592,
+      "price": 100.03,
+      "change_24h": -2.93311,
       "market_cap_rank": 5
     },
     {
       "symbol": "TRX",
       "name": "TRON",
-      "price": 0.338411,
-      "change_24h": -0.58333,
+      "price": 0.334059,
+      "change_24h": -1.92259,
       "market_cap_rank": 6
     },
     {
       "symbol": "ZEC",
       "name": "Zcash",
-      "price": 1136.25,
-      "change_24h": 0.30993,
+      "price": 1132.59,
+      "change_24h": -1.68853,
       "market_cap_rank": 7
     },
     {
       "symbol": "HYPE",
       "name": "Hyperliquid",
-      "price": 79.48,
-      "change_24h": -0.32574,
+      "price": 77.44,
+      "change_24h": -4.83191,
       "market_cap_rank": 8
     },
     {
       "symbol": "DOGE",
       "name": "Dogecoin",
-      "price": 0.083036,
-      "change_24h": -0.5382,
+      "price": 0.081994,
+      "change_24h": -3.33862,
       "market_cap_rank": 9
     },
     {
-      "symbol": "XMR",
-      "name": "Monero",
-      "price": 517.27,
-      "change_24h": 0.73031,
+      "symbol": "RAIN",
+      "name": "Rain",
+      "price": 0.01436858,
+      "change_24h": -0.10991,
       "market_cap_rank": 10
     }
   ]
