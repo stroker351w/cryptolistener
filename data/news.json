@@ -1,11 +1,51 @@
 [
   {
+    "source": "CryptoSlate",
+    "title": "Congress wants to make crypto easier to use and still collect $500 million more in taxes",
+    "link": "https://cryptoslate.com/congress-wants-to-make-crypto-easier-to-use-and-still-collect-500-million-more-in-taxes/",
+    "summary": "H.R. 10357 would ease payments, fees and qualifying loans while widening loss-deferral and trader-accounting rules. The post Congress wants to make crypto easier to use and still collect $500 million more in taxes appeared first on CryptoSlate .",
+    "published": "2026-09-16T00:20:34+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "U.Today",
+    "title": "Shiba Inu (SHIB), Hyperliquid (HYPE), Dogecoin (DOGE) and Monero (XMR) Price Analysis For September 16: Bears Take Upper Hand",
+    "link": "https://u.today/price-analysis/shiba-inu-shib-hyperliquid-hype-dogecoin-doge-and-monero-xmr-price-analysis-for-september-16-bears",
+    "summary": "SHIB, HYPE, DOGE and XMR are consolidating around crucial technical levels, with their next major moves likely to depend on whether current support zones survive.",
+    "published": "2026-09-16T00:01:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "Tether, Binance and a $1.5 billion Iran oil network converge in new US forfeiture case",
+    "link": "https://cryptoslate.com/tether-binance-and-a-1-5-billion-iran-oil-network-converge-in-new-us-forfeiture-case/",
+    "summary": "The September 14 complaint targets ten Tron addresses frozen in 2025 and outlines a planned transfer into FBI custody. The post Tether, Binance and a $1.5 billion Iran oil network converge in new US forfeiture case appeared first on CryptoSlate .",
+    "published": "2026-09-15T23:00:36+00:00",
+    "regulatory": true,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "XRP Ledger Batch V1.1 Nears Activation After Security Rebuild",
+    "link": "https://cryptopotato.com/xrp-ledger-batch-v1-1-nears-activation-after-security-rebuild/",
+    "summary": "The bug could have let a malformed signer setup pass validation without requiring the private keys of every other account involved.",
+    "published": "2026-09-15T22:24:22+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
     "source": "CoinDesk",
-    "title": "There were many conductors in the derailment of the crypto industry's Clarity Act",
+    "title": "Inside the last-minute political breakdown that doomed the Clarity Act vote",
     "link": "https://www.coindesk.com/news-analysis/2026/09/15/there-were-many-conductors-in-the-derailment-of-the-crypto-industry-s-clarity-act",
     "summary": "Last minute, behind-the-scenes disputes locked in a dismal showing for the market structure legislation the industry pinned its greatest hopes on.",
     "published": "2026-09-15T21:58:48+00:00",
-    "regulatory": true,
+    "regulatory": false,
     "institutional": false,
     "category": "event"
   },
@@ -620,16 +660,6 @@
     "category": "event"
   },
   {
-    "source": "CryptoSlate",
-    "title": "Bitcoin’s newest mobile privacy feature can make your incoming money completely invisible",
-    "link": "https://cryptoslate.com/bitcoins-newest-mobile-privacy-feature-could-make-your-incoming-money-completely-invisible/",
-    "summary": "A 255,434-block study puts one scanning feed near 8 MB a day while completeness remains unproven. The post Bitcoin’s newest mobile privacy feature can make your incoming money completely invisible appeared first on CryptoSlate .",
-    "published": "2026-09-15T15:20:35+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "Decrypt",
     "title": "Democrats 'Move the Goalposts' on Clarity Act Hours Before Key Senate Vote",
     "link": "https://decrypt.co/378246/democrats-goalposts-clarity-act-key-senate-vote",
@@ -668,16 +698,6 @@
     "regulatory": false,
     "institutional": false,
     "category": "sentiment"
-  },
-  {
-    "source": "CryptoSlate",
-    "title": "Bitcoin ETF inflows are back, but BlackRock is carrying the market into the Fed meeting",
-    "link": "https://cryptoslate.com/bitcoin-etf-inflows-are-back-but-blackrock-is-carrying-the-market-into-the-fed-meeting/",
-    "summary": "IBIT and FBTC supplied most of the rebound while ARKB remained negative, leaving the five-session total in outflow. The post Bitcoin ETF inflows are back, but BlackRock is carrying the market into the Fed meeting appeared first on CryptoSlate .",
-    "published": "2026-09-15T14:35:35+00:00",
-    "regulatory": true,
-    "institutional": true,
-    "category": "event"
   },
   {
     "source": "U.Today",
@@ -1040,16 +1060,6 @@
     "category": "event"
   },
   {
-    "source": "CryptoPotato",
-    "title": "Bitcoin Rejected at $80K Again Ahead of Crucial CLARITY Act Senate Vote: Market Watch",
-    "link": "https://cryptopotato.com/bitcoin-rejected-at-80k-again-ahead-of-crucial-clarity-act-senate-vote-market-watch/",
-    "summary": "RAIN has plummeted the most from the larger-cap alts, while UNI and XLM are among the few exceptions in the green today.",
-    "published": "2026-09-15T09:43:10+00:00",
-    "regulatory": true,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "Cointelegraph",
     "title": "Ethereum, Base wallet standards talks fail, Ethlabs researcher says",
     "link": "https://cointelegraph.com/news/ethereum-base-wallet-standards-collaboration-breaks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -1105,16 +1115,6 @@
     "link": "https://cointelegraph.com/news/doj-61m-usdt-forfeiture-iranian-oil?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "summary": "Tether froze $61.19 million across 10 Tron addresses in 2025 that prosecutors allege were connected to black-market Iranian oil proceeds.",
     "published": "2026-09-15T08:46:35+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "U.Today",
-    "title": "What's Wrong With Stablecoins? Ripple CTO Emeritus Schwartz Makes Surprising Admission",
-    "link": "https://u.today/whats-wrong-with-stablecoins-ripple-cto-emeritus-schwartz-makes-surprising-admission",
-    "summary": "The man behind XRP and Ripple, David Schwartz, admits early blockchain mistakes and explains why stablecoin payments remain fundamentally broken in 2026.",
-    "published": "2026-09-15T08:40:45+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
