@@ -1,74 +1,74 @@
 {
-  "fetched_at": "2026-09-19T17:57:49.953908+00:00",
+  "fetched_at": "2026-09-19T20:33:39.853129+00:00",
   "coins": [
     {
       "symbol": "BTC",
       "name": "Bitcoin",
-      "price": 81436,
-      "change_24h": 0.69536,
+      "price": 81241,
+      "change_24h": 0.29091,
       "market_cap_rank": 1
     },
     {
       "symbol": "ETH",
       "name": "Ethereum",
-      "price": 2645.13,
-      "change_24h": 1.52343,
+      "price": 2635.46,
+      "change_24h": 0.27184,
       "market_cap_rank": 2
     },
     {
       "symbol": "BNB",
       "name": "BNB",
-      "price": 762.54,
-      "change_24h": 0.23562,
+      "price": 761.49,
+      "change_24h": -0.23953,
       "market_cap_rank": 3
     },
     {
       "symbol": "XRP",
       "name": "XRP",
       "price": 1.43,
-      "change_24h": 2.64762,
+      "change_24h": 1.87439,
       "market_cap_rank": 4
     },
     {
       "symbol": "SOL",
       "name": "Solana",
-      "price": 111.41,
-      "change_24h": -0.94061,
+      "price": 111.02,
+      "change_24h": -2.15234,
       "market_cap_rank": 5
     },
     {
       "symbol": "TRX",
       "name": "TRON",
-      "price": 0.33882,
-      "change_24h": 0.15974,
+      "price": 0.339158,
+      "change_24h": 0.26376,
       "market_cap_rank": 6
     },
     {
       "symbol": "ZEC",
       "name": "Zcash",
-      "price": 1492.43,
-      "change_24h": 2.66491,
+      "price": 1472.74,
+      "change_24h": -1.1058,
       "market_cap_rank": 7
     },
     {
       "symbol": "HYPE",
       "name": "Hyperliquid",
-      "price": 92.38,
-      "change_24h": 1.44852,
+      "price": 91.78,
+      "change_24h": -0.20759,
       "market_cap_rank": 8
     },
     {
       "symbol": "DOGE",
       "name": "Dogecoin",
-      "price": 0.089839,
-      "change_24h": 2.70332,
+      "price": 0.08889,
+      "change_24h": 1.26647,
       "market_cap_rank": 9
     },
     {
       "symbol": "XMR",
       "name": "Monero",
-      "price": 551.06,
-      "change_24h": -1.02095,
+      "price": 546.32,
+      "change_24h": -2.42884,
       "market_cap_rank": 10
     }
   ]
