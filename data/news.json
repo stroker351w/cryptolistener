@@ -1,5 +1,155 @@
 [
   {
+    "source": "Decrypt",
+    "title": "Anthropic Says Claude Found Something Big in DNA. It Just Doesn't Know What",
+    "link": "https://decrypt.co/379128/anthropic-claude-found-something-big-dna-doesnt-know-what",
+    "summary": "Anthropic says Claude autonomously found a new CRISPR-like enzyme system. Even Dario Amodei admits nobody knows what it actually does.",
+    "published": "2026-09-23T22:56:03+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Decrypt",
+    "title": "An AI Agent Just Hacked a Government Website for the First Time, Australia PM Says",
+    "link": "https://decrypt.co/379134/an-ai-agent-just-hacked-a-government-website-for-the-first-time-australia-pm-says",
+    "summary": "Anthony Albanese said the agent accessed public and non-public files on a Medicare statistics portal in June, calling OpenAI's three-month delay in disclosing the breach \"unacceptable.\"",
+    "published": "2026-09-23T22:31:45+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "Report: CFTC Eyes Unusual $5B Trading Pattern on Kalshi ETH Perpetuals",
+    "link": "https://cryptopotato.com/report-cftc-eyes-unusual-5b-trading-pattern-on-kalshi-eth-perpetuals/",
+    "summary": "Kalshi denies wash trading allegations, arguing that repeated transactions stemmed from how market markers' orders were executed.",
+    "published": "2026-09-23T22:15:48+00:00",
+    "regulatory": true,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Decrypt",
+    "title": "OpenAI Gives Ukraine Access to Daybreak AI Cyber-Defense Tool",
+    "link": "https://decrypt.co/379126/openai-ukraine-access-daybreak-ai-cyber-defense-tool",
+    "summary": "OpenAI is giving Ukraine's government access to Daybreak, its AI vulnerability-hunting system, as the country's cyber defenders face a record wave of attacks on hospitals, power grids, and government networks.",
+    "published": "2026-09-23T22:06:04+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "Circle launches 24/7 stablecoin FX engine as it chases a slice of the $10 trillion currency market",
+    "link": "https://cryptoslate.com/circle-launches-24-7-stablecoin-fx-engine-as-it-chases-a-slice-of-the-10-trillion-currency-market/",
+    "summary": "Screened firms can settle supported stablecoin pairs together, while local fiat access and custody require separate arrangements. The post Circle launches 24/7 stablecoin FX engine as it chases a slice of the $10 trillion currency market appeared first on CryptoSlate .",
+    "published": "2026-09-23T22:00:28+00:00",
+    "regulatory": true,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Cointelegraph",
+    "title": "Ex-SEC acting chair: Agency dropped crypto cases to avoid issues with credibility",
+    "link": "https://cointelegraph.com/news/sec-mark-uyeda-agency-dropped-crypto-cases?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "SEC Commissioner Mark Uyeda said that the agency dropped many cases against crypto companies in early 2025 to avoid potential credibility problems in court.",
+    "published": "2026-09-23T21:47:52+00:00",
+    "regulatory": true,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Decrypt",
+    "title": "China Probes DeepSeek and Moonshot Over Alleged Data Leaks to Anthropic's Claude",
+    "link": "https://decrypt.co/379120/china-probes-deepseek-moonshot-data-leaks-anthropic-claude",
+    "summary": "China's internet regulator is investigating DeepSeek and Moonshot AI after Anthropic accused both of secretly routing millions of user exchanges through Claude to train their own models.",
+    "published": "2026-09-23T21:31:03+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Defiant",
+    "title": "Bitcoin Falls Through the $86,000 ETF Cost Basis as the Whole Market Turns Lower",
+    "link": "https://thedefiant.io/news/markets/bitcoin-eases-etf-creations-1-7-billion-sep-23-2026",
+    "summary": "Total crypto market value fell 2.27% to $2.96 trillion. XRP dropped 5.8%, Dogecoin 8.3% and Hedera 9.9%, and Uniswap gave back the entire spike it took on Tuesday's CME listing. Perpetual funding at OKX turned negative on both the bitcoin and ether swaps. U.S. equities and gold closed lower",
+    "published": "2026-09-23T21:20:51+00:00",
+    "regulatory": true,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Bitcoin Magazine",
+    "title": "Bitcoin Price Slips While US Treasury Yields Soar, Oil Prices Climb",
+    "link": "https://bitcoinmagazine.com/news/bitcoin-price-slips-while-yields-soar",
+    "summary": "Bitcoin Magazine Bitcoin Price Slips While US Treasury Yields Soar, Oil Prices Climb Treasury yields soared on Wednesday to their highest level since 2007 while bitcoin’s price slumped. This post Bitcoin Price Slips While US Treasury Yields Soar, Oil Prices Climb first appeared on Bitcoin Magazine and is written by Mathew Di Salvo .",
+    "published": "2026-09-23T21:08:27+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "BlackRock sees a new $5 trillion AI trade emerging for stablecoins",
+    "link": "https://cryptoslate.com/blackrock-sees-a-new-5-trillion-ai-trade-emerging-for-stablecoins/",
+    "summary": "BlackRock says AI could create a new class of stablecoin customer: machines that spend continuously without human approval. The world’s largest asset manager sees increasingly autonomous AI systems purchasing data, accessing software, and acquiring computing resources on their own, potentially adding a new source of transaction demand to digital assets beyond trading and human payments. […] The po",
+    "published": "2026-09-23T20:50:43+00:00",
+    "regulatory": false,
+    "institutional": true,
+    "category": "event"
+  },
+  {
+    "source": "Decrypt",
+    "title": "Meta's Muse AI Agent Read a User's Private iMessages. Then It Lied About How",
+    "link": "https://decrypt.co/379122/metas-muse-ai-agent-user-private-imessages-lied-how",
+    "summary": "A tech columnist declined to give Meta's new AI agent access to his messages. It read them anyway, then invented an explanation for how it knew.",
+    "published": "2026-09-23T20:44:20+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Cointelegraph",
+    "title": "Former Hack VC partner Hsin-Ju Chuang found dead at 37",
+    "link": "https://cointelegraph.com/news/former-hack-vc-partner-hsin-ju-chuang-found-dead?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "The crypto executive and Dystopia Labs founder previously held senior roles at Stellar and Solana before joining venture capital firm Hack VC.",
+    "published": "2026-09-23T20:43:56+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "U.Today",
+    "title": "IOTA Rival Dropped by Coinbase",
+    "link": "https://u.today/iota-rival-dropped-by-coinbase",
+    "summary": "Coinbase has disabled trading for IoTeX (IOTX), dealing another blow to the struggling blockchain token after a brutal 85% plunge over the past year.",
+    "published": "2026-09-23T20:33:12+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
+    "source": "Cointelegraph",
+    "title": "US lawmakers from gaming states urge SCOTUS to take up Kalshi case",
+    "link": "https://cointelegraph.com/news/us-lawmakers-gaming-states-supreme-court-kalshi-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "The case between New Jersey authorities and a prediction market company, if accepted by the Supreme Court, could result in clarity for state and federal officials over sports bets.",
+    "published": "2026-09-23T20:28:34+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "Vitalik Buterin Endorses Trueo as Prediction Market Moves to Ethereum",
+    "link": "https://cryptopotato.com/vitalik-buterin-endorses-trueo-as-prediction-market-moves-to-ethereum/",
+    "summary": "Trueo says the shift is about Ethereum's integrations and philosophy, not dissatisfaction with Base or its place among competing networks.",
+    "published": "2026-09-23T20:24:23+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
     "source": "Bitcoin Magazine",
     "title": "CFTC Chair Selig Says Regulator Is Preparing for ‘24-7, On-Chain’ Markets",
     "link": "https://bitcoinmagazine.com/news/cftc-is-preparing-for-onchain-markets",
@@ -750,16 +900,6 @@
     "category": "event"
   },
   {
-    "source": "CryptoSlate",
-    "title": "Why Mastercard’s $25 billion crypto expansion isn’t what it seems",
-    "link": "https://cryptoslate.com/sofis-mastercard-stablecoin-settlement-is-live-but-its-25-billion-figure-is-still-a-projection/",
-    "summary": "SoFi is migrating its card program into SoFiUSD, while the amount already settled in the token remains undisclosed. The post Why Mastercard’s $25 billion crypto expansion isn’t what it seems appeared first on CryptoSlate .",
-    "published": "2026-09-23T12:30:03+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "NewsBTC",
     "title": "Binance Brings 24/7 FX Perpetuals To Crypto Traders With USD/BRL",
     "link": "https://www.newsbtc.com/technology/binance-brings-24-7-fx-perpetuals-to-crypto-traders-with-usd-brl/",
@@ -800,16 +940,6 @@
     "category": "sentiment"
   },
   {
-    "source": "Decrypt",
-    "title": "North Korea's Fake Job Interviews Drained $11M From 7,000 Crypto Wallets",
-    "link": "https://decrypt.co/379032/north-koreas-fake-job-interviews-drained-11m-from-7000-crypto-wallets",
-    "summary": "A seven-agency advisory ties the WaterPlum hacking crew and Pyongyang's remote IT worker scheme to the same bureau.",
-    "published": "2026-09-23T12:15:18+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "The Block",
     "title": "Galaxy adds $100 million in Sky’s sUSDS to treasury, buys SKY token as firms deepen lending ties",
     "link": "https://www.theblock.co/news/business/2026-09-23-galaxy-adds-100-million-in-skys-susds-to-treasury-buys-sky-token-as-firms-deepen-lending-ties-416137",
@@ -837,16 +967,6 @@
     "published": "2026-09-23T11:35:28+00:00",
     "regulatory": false,
     "institutional": true,
-    "category": "event"
-  },
-  {
-    "source": "CryptoSlate",
-    "title": "Europe’s central banks want to scrap this stablecoin reserve safeguard",
-    "link": "https://cryptoslate.com/europes-central-banks-want-to-scrap-this-stablecoin-reserve-safeguard/",
-    "summary": "The proposed MiCA change challenges mandatory bank deposits as Britain's systemic sterling stablecoin code reaches its consultation deadline. The post Europe’s central banks want to scrap this stablecoin reserve safeguard appeared first on CryptoSlate .",
-    "published": "2026-09-23T11:30:31+00:00",
-    "regulatory": false,
-    "institutional": false,
     "category": "event"
   },
   {
@@ -910,16 +1030,6 @@
     "category": "sentiment"
   },
   {
-    "source": "Decrypt",
-    "title": "CFTC Staff Advisory Says Prediction Market 'Mention' Contracts Invite Manipulation",
-    "link": "https://decrypt.co/379030/cftc-staff-advisory-says-prediction-market-mention-contracts-invite-manipulation",
-    "summary": "Three weeks after fining a teleprompter operator who traded on speeches he had already read, regulators set out what exchanges must show.",
-    "published": "2026-09-23T10:43:46+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "U.Today",
     "title": "$60,000 Bitcoin Bottom Suddenly Looks 'Unlikely': Top Bloomberg Strategist",
     "link": "https://u.today/60000-bitcoin-bottom-suddenly-looks-unlikely-top-bloomberg-strategist",
@@ -960,26 +1070,6 @@
     "category": "event"
   },
   {
-    "source": "Cointelegraph",
-    "title": "CFTC chair pushes tokenization as SEC opens door to onchain stocks",
-    "link": "https://cointelegraph.com/news/cftc-selig-mass-tokenization-sec-onchain-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "summary": "Michael Selig said tokenization could reshape financial markets as the CFTC and SEC continue advancing onchain initiatives despite the CLARITY Act setback.",
-    "published": "2026-09-23T10:06:55+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "Cointelegraph",
-    "title": "Bitcoin bull market ‘confirmed’ but $90K presents profit-taking risk: Analysis",
-    "link": "https://cointelegraph.com/markets/bitcoin-bull-market-confirmed-but-90k-presents-profit-taking-risk-analysis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "summary": "BTC price analysis concluded that onchain signals had “confirmed” the new Bitcoin bull market.",
-    "published": "2026-09-23T10:05:10+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "sentiment"
-  },
-  {
     "source": "U.Today",
     "title": "534 Billion Shiba Inu (SHIB) Traded in 24 Hours: Is It the Stopping Point for the Memecoin?",
     "link": "https://u.today/534-billion-shiba-inu-shib-traded-in-24-hours-is-it-the-stopping-point-for-the-memecoin",
@@ -995,16 +1085,6 @@
     "link": "https://www.coindesk.com/business/2026/09/23/ftx-alameda-linked-wallets-send-usd75-million-in-ether-to-wintermute-onchain-data-shows",
     "summary": "Onchain analysts PeckShield and EmberCN say the funds moved to a Wintermute wallet, but neither a sale nor the purpose of the transfer have been confirmed.",
     "published": "2026-09-23T09:57:24+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "Decrypt",
-    "title": "Former Polish Police Officer Charged as Zondacrypto Probe Searches Fuel Depot",
-    "link": "https://decrypt.co/379021/former-polish-police-officer-charged-as-zondacrypto-probe-searches-fuel-depot",
-    "summary": "Investigators are combing the site where the exchange's founder was last seen in 2022, using experts and forensic equipment.",
-    "published": "2026-09-23T09:53:07+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -1090,26 +1170,6 @@
     "category": "event"
   },
   {
-    "source": "Cointelegraph",
-    "title": "BitMEX ends crypto trading, keeps withdrawals open after closure",
-    "link": "https://cointelegraph.com/news/bitmex-ends-crypto-trading-withdrawals-open?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "summary": "BitMEX officially ended exchange operations after more than 11 years, while withdrawals remain open as the crypto derivatives platform urges users to remove their funds.",
-    "published": "2026-09-23T08:18:38+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "U.Today",
-    "title": "XRP to $2? Analyzing Possibility Amid $1.6 Breakthrough",
-    "link": "https://u.today/xrp-to-2-analyzing-possibility-amid-16-breakthrough",
-    "summary": "XRP's possibility of reaching the level we haven't seen since January just increased marginally.",
-    "published": "2026-09-23T07:55:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "CoinDesk",
     "title": "Coinbase users can now borrow USDC against bitcoin at a fixed rate",
     "link": "https://www.coindesk.com/markets/2026/09/23/coinbase-users-can-now-borrow-usdc-against-bitcoin-at-a-fixed-rate",
@@ -1160,26 +1220,6 @@
     "category": "event"
   },
   {
-    "source": "CryptoPotato",
-    "title": "‘The Frog is Waking Up!’ PEPE Explodes 50% in a Week as Golden Cross Forms",
-    "link": "https://cryptopotato.com/the-frog-is-waking-up-pepe-explodes-50-in-a-week-as-golden-cross-forms/",
-    "summary": "One analyst envisioned a potential 220% price explosion.",
-    "published": "2026-09-23T06:10:56+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoPotato",
-    "title": "Bitcoin Cash and Uniswap Explode by Double Digits as CME Announces Futures Launch",
-    "link": "https://cryptopotato.com/bitcoin-cash-and-uniswap-explode-by-double-digits-as-cme-announces-futures-launch/",
-    "summary": "CME Group will launch regulated Bitcoin Cash and Uniswap futures on October 19, expanding its growing crypto derivatives lineup.",
-    "published": "2026-09-23T06:04:36+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "The Block",
     "title": "Canada’s big six banks explore tokenized deposit system to modernize payments",
     "link": "https://www.theblock.co/news/business/2026-09-23-canada-banks-tokenized-deposit-system-416129",
@@ -1200,16 +1240,6 @@
     "category": "event"
   },
   {
-    "source": "Decrypt",
-    "title": "UN Security Council Will Get Advice on AI Risks From Tech Giants Building It",
-    "link": "https://decrypt.co/379008/un-security-council-ai-risks-anthropic-openai-deepseek",
-    "summary": "DeepSeek will address the UN Security Council on AI risks this week, sharing a stage with Dario Amodei—who has spent a year calling China's government the industry's biggest threat.",
-    "published": "2026-09-22T22:16:03+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "The Block",
     "title": "CFTC warns ‘mention market’ prediction contracts carry heightened manipulation risk",
     "link": "https://www.theblock.co/news/regulation/2026-09-22-cftc-advisory-mention-markets-manipulation-risk-416120",
@@ -1218,16 +1248,6 @@
     "regulatory": false,
     "institutional": false,
     "category": "sentiment"
-  },
-  {
-    "source": "Decrypt",
-    "title": "$161 Million in Decade-Old Bitcoin Has Moved in Just Two Weeks",
-    "link": "https://decrypt.co/379006/161-million-decade-old-bitcoin-moves-two-weeks",
-    "summary": "Four ancient wallets moved 1,971 BTC between Sept. 6 and Sept. 22, including a 600 BTC transfer worth $51.9 million just hours ago, with three of the four carrying \"Noah Doe\" lawsuit tags.",
-    "published": "2026-09-22T21:16:03+00:00",
-    "regulatory": true,
-    "institutional": false,
-    "category": "event"
   },
   {
     "source": "The Block",
@@ -1250,16 +1270,6 @@
     "category": "event"
   },
   {
-    "source": "The Defiant",
-    "title": "a16z And DeFi Education Fund Ask SEC To Put DEXs Outside Exchange Registration",
-    "link": "https://thedefiant.io/news/regulation/a16z-defi-education-fund-sec-dex-exchange-registration-safe-harbor",
-    "summary": "The two groups submitted a joint proposal to Commissioner Hester Peirce for a safe harbor that would create a rebuttable presumption that decentralized exchange protocols and their front-ends are not exchanges under the Exchange Act. a16z filed a second letter the same day asking the SEC to build a",
-    "published": "2026-09-22T20:15:06+00:00",
-    "regulatory": true,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "Bitcoin Magazine",
     "title": "Bitcoin Investors Buy Nearly $1B in BTC ETFs as Bull Market Returns",
     "link": "https://bitcoinmagazine.com/news/bitcoin-etf-investors-buy-nearly-1-billion",
@@ -1275,16 +1285,6 @@
     "link": "https://www.theblock.co/news/markets/2026-09-22-coinbase-circle-shares-positioned-crypto-recovery-estimates-stabilize-william-blair-416083",
     "summary": "Blair says COIN offers an attractive entry after a 31% rise, trims its EBITDA estimate and sees USDC growth driving Circle's next leg.",
     "published": "2026-09-22T18:44:53+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "Bitcoin Magazine",
-    "title": "Bitcoin’s Bull Run Is Back — and the Data Agrees",
-    "link": "https://bitcoinmagazine.com/news/bitcoin-bull-run-is-back-data-shows",
-    "summary": "Bitcoin Magazine Bitcoin’s Bull Run Is Back — and the Data Agrees The Bitcoin price's move above its 365-day average marks the end of bear market, says CryptoQuant. This post Bitcoin’s Bull Run Is Back — and the Data Agrees first appeared on Bitcoin Magazine and is written by Mathew Di Salvo .",
-    "published": "2026-09-22T18:44:51+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
