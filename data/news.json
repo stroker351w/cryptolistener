@@ -1,5 +1,125 @@
 [
   {
+    "source": "CryptoSlate",
+    "title": "Galaxy adds $100M Sky token and institutional adoption is tested",
+    "link": "https://cryptoslate.com/galaxy-adds-100m-sky-token-and-institutional-adoption-is-tested/",
+    "summary": "Clients can pledge the savings token, though the companies disclosed no sUSDS-backed client loan volume. The post Galaxy adds $100M Sky token and institutional adoption is tested appeared first on CryptoSlate .",
+    "published": "2026-09-24T04:30:35+00:00",
+    "regulatory": false,
+    "institutional": true,
+    "category": "event"
+  },
+  {
+    "source": "NewsBTC",
+    "title": "Chainlink Releases Node v2.65.0 With Confidential Workflow Monitoring Fix",
+    "link": "https://www.newsbtc.com/technology/chainlink-releases-node-v2-65-0-with-confidential-workflow-monitoring-fix/",
+    "summary": "TL;DR Chainlink has published core node software v2.65.0. The release includes a monitoring change that separates user-caused confidential-workflow enclave failures from system-caused failures. It is an infrastructure maintenance release rather than a new Chainlink product launch. Chainlink has pushed out core node software v2.65.0, giving operators another incremental infrastructure update only d",
+    "published": "2026-09-24T04:30:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CoinDesk",
+    "title": "Dogecoin down 8%, bitcoin under $84,000 as Treasury yields hit highest level since 2007",
+    "link": "https://www.coindesk.com/markets/2026/09/24/dogecoin-down-8-bitcoin-under-usd84-000-as-treasury-yields-hit-highest-level-since-2007",
+    "summary": "A rebound in oil, the strongest U.S. business survey in five years and a poorly received five-year note sale pushed borrowing costs higher, with DOGE leading token losses.",
+    "published": "2026-09-24T04:13:01+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "Ripple (XRP) vs Pi Network (PI): Which Will Perform Better in Q4? (3 AIs Weigh in)",
+    "link": "https://cryptopotato.com/ripple-xrp-vs-pi-network-pi-which-will-perform-better-in-q4-3-ais-weigh-in/",
+    "summary": "\"PI has the higher lottery-ticket upside,\" Perplexity stated.",
+    "published": "2026-09-24T04:01:19+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "NewsBTC",
+    "title": "Aptos Ships Mainnet Node v1.49.1 As Validator Upgrade Cycle Continues",
+    "link": "https://www.newsbtc.com/altcoins/aptos-ships-mainnet-node-v1-49-1-as-validator-upgrade-cycle-continues/",
+    "summary": "TL;DR Aptos Labs has released mainnet node software v1.49.1 for validators and fullnode operators. The release follows the earlier v1.49.1 hotfix path and rolls a wider set of execution, consensus and state-sync changes into the public mainnet build. End users do not need to migrate tokens or take wallet action. Aptos node operators have a new production release to work through after the project p",
+    "published": "2026-09-24T03:30:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Defiant",
+    "title": "Trump Administration Weighs Overseas Stablecoin Push: Report",
+    "link": "https://thedefiant.io/converge/regulation/trump-administration-weighs-overseas-stablecoin-push-report",
+    "summary": "Treasury, State and DFC could participate in public-private ventures aimed at strengthening the dollar and demand for US debt.",
+    "published": "2026-09-24T02:57:21+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "Cardano proposal slashes fees by 55%, but it comes with a cost for small pools",
+    "link": "https://cryptoslate.com/cardano-proposal-slashes-fees-by-55-but-it-comes-with-a-cost-for-small-pools/",
+    "summary": "DReps and the committee now decide the narrower 75 ADA proposal; any delegator gain still depends on what pools charge. The post Cardano proposal slashes fees by 55%, but it comes with a cost for small pools appeared first on CryptoSlate .",
+    "published": "2026-09-24T02:50:26+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Defiant",
+    "title": "Variational Sets Q4 VAR Launch With 32% Airdrop",
+    "link": "https://thedefiant.io/news/tokens/variational-sets-q4-var-launch-with-32-airdrop",
+    "summary": "Points distributions will continue at 150,000 a week until launch, while team and investor tokens face a 12-month lock.",
+    "published": "2026-09-24T02:44:47+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "White hats recover 52 Bitcoin from Coldcard exploit, and a new public portal lets victims check eligibility",
+    "link": "https://cryptoslate.com/white-hats-recover-52-bitcoin-from-coldcard-exploit-and-a-new-public-portal-lets-victims-check-eligibility/",
+    "summary": "A Sept. 21 transaction points owners toward a trust address check for an earlier disclosed rescue, with any return subject to verification. The post White hats recover 52 Bitcoin from Coldcard exploit, and a new public portal lets victims check eligibility appeared first on CryptoSlate .",
+    "published": "2026-09-24T01:10:28+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Cointelegraph",
+    "title": "Kalshi says CFTC hasn’t contacted it over ‘unusual’ $5B trading activity",
+    "link": "https://cointelegraph.com/news/kalshi-says-cftc-hasnt-contacted-it-over-unusual-5b-trading-activity?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "Kalshi said nearly $5 billion in similarly sized Ether perpetual trades reflected its liquidity incentive programs and rejected allegations that the activity was wash trading.",
+    "published": "2026-09-24T00:53:09+00:00",
+    "regulatory": true,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "U.Today",
+    "title": "Bitcoin Cash (BCH), ZCash (ZEC), Uniswap (UNI) and Shiba Inu (SHIB) Price Analysis for September 24: Bulls Take Unexpected Bets",
+    "link": "https://u.today/price-analysis/bitcoin-cash-bch-zcash-zec-uniswap-uni-and-shiba-inu-shib-price-analysis-for-september-24-bulls",
+    "summary": "Bitcoin Cash explodes toward $350 on CME futures plans, Zcash pushes its massive rally into overbought territory, while Uniswap and Shiba Inu face sharp resistance after their latest breakouts.",
+    "published": "2026-09-24T00:01:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "Bitcoin slips below $85,000 as 5% Treasury yield returns to haunt risk assets",
+    "link": "https://cryptoslate.com/bitcoin-slips-below-85000-as-5-treasury-yield-returns-to-haunt-risk-assets/",
+    "summary": "Bitcoin fell below $85,000 on Sept. 23 after stronger-than-expected US business activity sent Treasury yields higher and flushed leveraged longs. The reversal broke the momentum behind a rebound that had accelerated as Bitcoin pushed through a large concentration of short positions earlier this week. Selling intensified after S&P Global released its September flash purchasing managers’ […] The pos",
+    "published": "2026-09-23T23:40:38+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
     "source": "Decrypt",
     "title": "Anthropic Says Claude Found Something Big in DNA. It Just Doesn't Know What",
     "link": "https://decrypt.co/379128/anthropic-claude-found-something-big-dna-doesnt-know-what",
@@ -550,16 +670,6 @@
     "category": "event"
   },
   {
-    "source": "CryptoSlate",
-    "title": "Coin Metrics revises 19 months of ETF wallet data but by how much?",
-    "link": "https://cryptoslate.com/coin-metrics-corrected-19-months-of-bitcoin-etf-wallet-data-without-saying-how-much-changed-publicly/",
-    "summary": "The update spans 35 daily and 25 hourly series, yet no cause, direction or numerical delta was disclosed. The post Coin Metrics revises 19 months of ETF wallet data but by how much? appeared first on CryptoSlate .",
-    "published": "2026-09-23T15:40:29+00:00",
-    "regulatory": true,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "The Block",
     "title": "Blockchain.com, NYSE plan access to tokenized US stocks and ETFs",
     "link": "https://www.theblock.co/news/web3/2026-09-23-blockchain-com-nyse-tokenized-us-stocks-etfs-416176",
@@ -620,16 +730,6 @@
     "category": "event"
   },
   {
-    "source": "CryptoSlate",
-    "title": "Bitcoin ETFs just erased a $5.7 billion hole, but profit-taking is swallowing the new demand",
-    "link": "https://cryptoslate.com/bitcoin-etfs-just-erased-a-5-7-billion-hole-but-profit-taking-is-swallowing-the-new-demand/",
-    "summary": "A second large inflow met weak price follow-through. Dated fund reports and an earlier rise in profit taking leave the seller behind the move unidentified. The post Bitcoin ETFs just erased a $5.7 billion hole, but profit-taking is swallowing the new demand appeared first on CryptoSlate .",
-    "published": "2026-09-23T15:10:03+00:00",
-    "regulatory": true,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "CoinDesk",
     "title": "Crypto Long & Short: Inside the chain settling $150 billion of stablecoins a week",
     "link": "https://www.coindesk.com/coindesk-indices/2026/09/23/crypto-long-and-short-inside-the-chain-settling-usd150-billion-of-stablecoins-a-week",
@@ -650,21 +750,21 @@
     "category": "event"
   },
   {
-    "source": "CryptoSlate",
-    "title": "Solana moves Alpenglow into testnet as SOL nears January highs",
-    "link": "https://cryptoslate.com/solana-moves-alpenglow-into-testnet-as-sol-nears-january-highs/",
-    "summary": "Anza began the rollout process, while the feature tracker and a live genesis-certificate check showed the consensus handoff had not yet occurred. The post Solana moves Alpenglow into testnet as SOL nears January highs appeared first on CryptoSlate .",
-    "published": "2026-09-23T14:40:54+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "CryptoPotato",
     "title": "Bitcoin Could Still Explode 5x, but the 10x Days Are Over: CryptoQuant CEO",
     "link": "https://cryptopotato.com/bitcoin-could-still-explode-5x-but-the-10x-days-are-over-cryptoquant-ceo/",
     "summary": "Young Ju argues that less explosive gains could also mean smaller crashes, a trade-off he believes may appeal to long-horizon capital.",
     "published": "2026-09-23T14:38:25+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Defiant",
+    "title": "Synthetic vs. Direct Tokenized Stocks: Who Wins After The SEC Exemption?",
+    "link": "https://thedefiant.io/podcasts-and-videos/podcast/synthetic-vs-direct-tokenized-stocks-who-wins-after-the-sec-exemption",
+    "summary": "The SEC's exemption for tokenized equities has reopened the question every issuer has been working around: should a tokenized stock be a synthetic instrument that tracks the price, or a direct claim on the underlying share? Camila Russo sits down with the lawyers and builders shaping that answer.",
+    "published": "2026-09-23T14:30:00+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -710,16 +810,6 @@
     "category": "event"
   },
   {
-    "source": "The Defiant",
-    "title": "Galaxy Adds $100 Million of sUSDS to Treasury, Approves It as Loan Collateral",
-    "link": "https://thedefiant.io/news/defi/galaxy-adds-100-million-of-susds-to-treasury-approves-it-as-loan-collateral",
-    "summary": "Clients can keep earning Sky’s 3.6% savings rate while pledging sUSDS to Galaxy, whose institutional lending business carries a $1.4 billion average loan book.",
-    "published": "2026-09-23T13:58:43+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "CryptoPotato",
     "title": "Bitcoin Price Analysis: BTC Faces First Major Test After 13% Weekly Rally",
     "link": "https://cryptopotato.com/bitcoin-price-analysis-btc-faces-first-major-test-after-13-weekly-rally/",
@@ -728,16 +818,6 @@
     "regulatory": false,
     "institutional": false,
     "category": "sentiment"
-  },
-  {
-    "source": "The Defiant",
-    "title": "Blockchain.com and NYSE Explore 24/7 Tokenized Stock Trading",
-    "link": "https://thedefiant.io/converge/tradfi-and-fintech/blockchain-com-and-nyse-explore-24-7-tokenized-stock-trading",
-    "summary": "The agreement would connect the crypto platform to NYSE’s planned digital venue and add two-way distribution of stock and crypto market data.",
-    "published": "2026-09-23T13:55:04+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
   },
   {
     "source": "Bitcoin Magazine",
@@ -786,16 +866,6 @@
     "summary": "Bitcoin Magazine Dave Weisberger on Why Bitcoin FOMO Hasn’t Even Started Yet CoinRoutes’ Dave Weisberger explains why ending Bitcoin's 100% bank collateral haircut will be bigger for institutions than ETFs or MSTR. This post Dave Weisberger on Why Bitcoin FOMO Hasn’t Even Started Yet first appeared on Bitcoin Magazine and is written by Patrick Green .",
     "published": "2026-09-23T13:31:49+00:00",
     "regulatory": true,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoSlate",
-    "title": "Altcoin demand meets $18B threat as flows move into RWA perps as just 19% of traders keep alts",
-    "link": "https://cryptoslate.com/altcoin-demand-faces-18b-threat-as-flows-move-into-rwa-perps-while-only-19-of-traders-keep-altcoins/",
-    "summary": "Traditional-asset perps filled a crypto-volume gap while Hyperliquid cohorts remained mostly segmented by their entry market. The post Altcoin demand meets $18B threat as flows move into RWA perps as just 19% of traders keep alts appeared first on CryptoSlate .",
-    "published": "2026-09-23T13:30:50+00:00",
-    "regulatory": false,
     "institutional": false,
     "category": "event"
   },
@@ -916,16 +986,6 @@
     "summary": "Crypto majors continue their climb while alt leaders hit new ATHs. What’s driving the recent run up?",
     "published": "2026-09-23T12:26:07+00:00",
     "regulatory": true,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "Cointelegraph",
-    "title": "EU watchdogs warn quantum computers could pick crypto’s locks",
-    "link": "https://cointelegraph.com/news/eu-watchdogs-quantum-computers-crypto-locks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "summary": "EU supervisors warn quantum computing could weaken blockchain security as Bitcoin developers weigh a draft migration plan and Ethereum targets 2029.",
-    "published": "2026-09-23T12:22:56+00:00",
-    "regulatory": false,
     "institutional": false,
     "category": "event"
   },
@@ -1140,26 +1200,6 @@
     "category": "event"
   },
   {
-    "source": "U.Today",
-    "title": "Ripple Pioneer Returns to SEC Case After Spotting Familiar Tactics Outside Crypto",
-    "link": "https://u.today/ripple-pioneer-returns-to-sec-case-after-spotting-familiar-tactics-outside-crypto",
-    "summary": "Ripple CTO Emeritus David Schwartz uncovers SEC-style regulatory traps in a high-profile US lawsuit outside crypto.",
-    "published": "2026-09-23T08:34:15+00:00",
-    "regulatory": true,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "NewsBTC",
-    "title": "Ethereum ETFs Pull In $270M As BlackRock Leads September 21 Rebound",
-    "link": "https://www.newsbtc.com/news/ethereum/ethereum-etfs-pull-in-270m-as-blackrock-leads-september-21-rebound/",
-    "summary": "TL;DR US spot Ethereum ETFs recorded $270.0 million of net inflows for the September 21 session. BlackRock’s ETHA led the day with $110.0 million, while Fidelity’s FETH added roughly $73.0 million. The numbers are single-session ETF flows, not direct purchases by the Ethereum network or protocol. US spot Ethereum ETFs bounced back with a $270 million net inflow day, giving the market one of its st",
-    "published": "2026-09-23T08:30:00+00:00",
-    "regulatory": true,
-    "institutional": true,
-    "category": "event"
-  },
-  {
     "source": "CryptoPotato",
     "title": "HYPE Hits New ATH Close to $100, BTC Stopped at $87K Again: Market Watch",
     "link": "https://cryptopotato.com/hype-hits-new-ath-close-to-100-btc-stopped-at-87k-again-market-watch/",
@@ -1188,36 +1228,6 @@
     "regulatory": false,
     "institutional": false,
     "category": "sentiment"
-  },
-  {
-    "source": "CoinDesk",
-    "title": "XRP Ledger retries upgrade that lets banks split payment and compliance duties",
-    "link": "https://www.coindesk.com/tech/2026/09/23/xrp-ledger-retries-upgrade-that-lets-banks-split-payment-and-compliance-duties",
-    "summary": "The upgrade could activate Oct. 5, letting businesses give another account limited powers such as making payments or approving customers without handing over full control.",
-    "published": "2026-09-23T07:37:46+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "NewsBTC",
-    "title": "SEC Clears ARK Venture Fund For Tokenized And Exchange-Traded Share Classes",
-    "link": "https://www.newsbtc.com/altcoins/sec-clears-ark-venture-fund-for-tokenized-and-exchange-traded-share-classes/",
-    "summary": "TL;DR The SEC granted ARK Venture Fund amended exemptive relief covering two new share classes. The structure allows an Exchange Class and a Tokenized Class whose ownership can be recorded through distributed-ledger technology. The order permits the structure, but ARK has not announced that the new shares are already trading. ARK Venture Fund has secured an SEC order that gives it room to experime",
-    "published": "2026-09-23T07:30:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoPotato",
-    "title": "BC.GAME’s BC Engine Rewards Surpass $8.6 Million as Ecosystem Growth Accelerates",
-    "link": "https://cryptopotato.com/bc-games-bc-engine-rewards-surpass-8-6-million-as-ecosystem-growth-accelerates/",
-    "summary": "[PRESS RELEASE – BELIZE CITY, BELIZE, September 23rd, 2026] Cumulative BC Engine rewards have grown more than fourfold since late May, while the average daily pace of reward accumulation has increased by approximately 46% compared with the previous period. BC.GAME’s BC Engine has reached another major milestone, with cumulative rewards earned by eligible $BC holders […]",
-    "published": "2026-09-23T06:52:20+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
   },
   {
     "source": "The Block",
@@ -1255,16 +1265,6 @@
     "link": "https://www.theblock.co/news/regulation/2026-09-22-cftc-selig-mass-tokenization-24-7-trading-416111",
     "summary": "The Trump administration is preparing for a financial market overhaul as tokenization and 24/7 trading move into the spotlight.",
     "published": "2026-09-22T21:08:20+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "The Defiant",
-    "title": "Bitcoin Cash Runs 27% on CME Futures Listing as Bitcoin Gives Up the Day",
-    "link": "https://thedefiant.io/news/markets/bitcoin-cash-cme-futures-listing-sep-22-2026",
-    "summary": "Bitcoin Cash gained 14% in the hour CME Group said it would list futures on the token and kept climbing through the afternoon, finishing the session up 27% on more than twice Monday's volume. Bitcoin SV rose 20% alongside it. Uniswap, named in the same release, spiked 11%, gave the whole move back",
-    "published": "2026-09-22T20:42:46+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
