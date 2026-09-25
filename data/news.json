@@ -1,11 +1,141 @@
 [
   {
     "source": "CryptoSlate",
+    "title": "Lightning Labs discloses critical bug marking canceled invoices paid, risking free product delivery",
+    "link": "https://cryptoslate.com/lightning-labs-discloses-critical-bug-marking-canceled-invoices-paid-risking-free-product-delivery/",
+    "summary": "The disclosed flaw affected older software and could mislead merchants; the tapd and lnd fixes shipped in 2025. The post Lightning Labs discloses critical bug marking canceled invoices paid, risking free product delivery appeared first on CryptoSlate .",
+    "published": "2026-09-25T00:40:46+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Cointelegraph",
+    "title": "Bitget CEO suspects North Korea behind $352M hack, citing IP clues",
+    "link": "https://cointelegraph.com/news/bitget-ceo-suspects-north-korea-behind-352m-hack-citing-ip-clues?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "Bitget CEO Gracy Chen said a preliminary investigation found IP addresses matching VPN choices associated with a DPRK hacking group.",
+    "published": "2026-09-25T00:32:46+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "NewsBTC",
+    "title": "Blockchain.com And NYSE Plan 24/7 Tokenized Stock Access",
+    "link": "https://www.newsbtc.com/technology/blockchain-com-and-nyse-plan-24-7-tokenized-stock-access/",
+    "summary": "TL;DR Blockchain.com and NYSE Group have signed an agreement to explore access to tokenized U.S.-listed stocks and ETFs. The proposed service would use NYSE’s planned digital trading venue and could support around-the-clock trading for eligible global users. Nothing is live yet: the project remains subject to the launch of NYSE’s digital ATS and required regulatory approvals. Blockchain.com and th",
+    "published": "2026-09-25T00:30:00+00:00",
+    "regulatory": true,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "U.Today",
+    "title": "XRP, Dogecoin (DOGE), Ethereum (ETH) and Stellar (XLM) Price Analysis For September 25: Bears Take Control",
+    "link": "https://u.today/price-analysis/xrp-dogecoin-doge-ethereum-eth-and-stellar-xlm-price-analysis-for-september-25-bears-take-control",
+    "summary": "XRP, Dogecoin, Ethereum and Stellar are trying to preserve their recent breakouts as correction covers the market.",
+    "published": "2026-09-25T00:01:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
+    "source": "The Defiant",
+    "title": "Evercrest Files BC Civil Claim Against LayerZero and Pellegrino, CEO Says",
+    "link": "https://thedefiant.io/news/regulation/evercrest-files-bc-civil-claim-against-layerzero-and-pellegrino-ceo-says",
+    "summary": "The LayerZero Labs CEO identified Evercrest as KelpDAO and called the claim 'meritless,' saying he would defend it in Vancouver.",
+    "published": "2026-09-24T23:54:59+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "NewsBTC",
+    "title": "Circle Takes FX Onchain With 24/7 Stablecoin Settlement On Arc",
+    "link": "https://www.newsbtc.com/technology/circle-takes-fx-onchain-with-24-7-stablecoin-settlement-on-arc/",
+    "summary": "TL;DR Circle has launched StableFX on Arc, giving approved institutions 24/7 access to stablecoin-based foreign exchange settlement. The system uses RFQ pricing from multiple liquidity providers and smart-contract settlement so both sides of a trade complete together. Circle is providing the software and settlement infrastructure rather than acting as the intermediary holding customer funds. Circl",
+    "published": "2026-09-24T23:30:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Cointelegraph",
+    "title": "Asia dominates Crypto Adoption Index, Bitget’s $352M hack: Asia Express",
+    "link": "https://cointelegraph.com/magazine/asia-dominates-crypto-adoption-index-bitgets-356m-hack-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "The APAC region accounts for half of the Global Crypto Adoption Index. Bitget suffers massive $352M loss and OpenAI forgets to mention its agents hacked the Australian Government.",
+    "published": "2026-09-24T23:27:17+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Defiant",
+    "title": "Paxos Labs Launches PAXGy, Adding Lending Yield to Tokenized Gold",
+    "link": "https://thedefiant.io/news/tokens/paxos-labs-launches-paxgy-adding-lending-yield-to-tokenized-gold",
+    "summary": "Holders bear borrower-default risk, while direct redemptions return PAXG through an approval-gated withdrawal queue.",
+    "published": "2026-09-24T23:05:56+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Bitcoin Magazine",
+    "title": "Nearly $352M Moved From Crypto Exchange Bitget Wallets in Suspected Hack",
+    "link": "https://bitcoinmagazine.com/news/bitget-suffers-352-million-hack",
+    "summary": "Bitcoin Magazine Nearly $352M Moved From Crypto Exchange Bitget Wallets in Suspected Hack Crypto exchange Bitget detected unauthorized transfers and has temporarily halted withdrawals. This post Nearly $352M Moved From Crypto Exchange Bitget Wallets in Suspected Hack first appeared on Bitcoin Magazine and is written by Mathew Di Salvo .",
+    "published": "2026-09-24T22:53:59+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "New York sues Polymarket, seeks triple gains and $100,000 penalties over prediction markets",
+    "link": "https://cryptoslate.com/new-york-sues-polymarket-seeks-triple-gains-and-100000-penalties-over-prediction-markets/",
+    "summary": "New York has sued Polymarket, alleging its US prediction market is an unlicensed gambling business operating across the state. On Sept. 24, Attorney General Letitia James asked a New York state court to stop QCX LLC, which operates as Polymarket US, from offering event contracts without a state gaming license and to order restitution, disgorgement, […] The post New York sues Polymarket, seeks trip",
+    "published": "2026-09-24T22:50:47+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CoinDesk",
+    "title": "New York sues Polymarket, alleging it is running an illegal gambling operation",
+    "link": "https://www.coindesk.com/policy/2026/09/24/new-york-sues-polymarket-alleging-it-is-running-an-illegal-gambling-operation",
+    "summary": "The state wants to block Polymarket from operating without a gambling license and recover allegedly illegal gains.",
+    "published": "2026-09-24T22:41:44+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CoinDesk",
+    "title": "U.S. Federal Reserve moves on proposals to implement GENIUS Act for stablecoins",
+    "link": "https://www.coindesk.com/policy/2026/09/24/u-s-federal-reserve-moves-on-proposals-to-implement-genius-act-for-stablecoins",
+    "summary": "The Fed proposed rules on putting last year's GENIUS Act into place with regulations, including those governing stablecoin yield programs.",
+    "published": "2026-09-24T22:28:49+00:00",
+    "regulatory": true,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
     "title": "Bitget’s $351.6 million hack pushes September crypto losses to 2026 high",
     "link": "https://cryptoslate.com/bitgets-351-6-million-hack-pushes-september-crypto-losses-to-2026-high/",
     "summary": "Bitget has suspended withdrawals after unauthorized transfers drained about $351.6 million from a limited number of its hot and warm wallets. The crypto exchange detected the transfers at 18:31 UTC on Sept. 24 and activated its emergency response procedures within minutes, Chief Executive Officer Gracy Chen said. Bitget’s cold wallets and most assets held on […] The post Bitget’s $351.6 million ha",
     "published": "2026-09-24T22:10:42+00:00",
     "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Cointelegraph",
+    "title": "Fed proposes new capital, redemption rules for stablecoin issuers",
+    "link": "https://cointelegraph.com/news/fed-proposes-new-capital-redemption-rules-for-stablecoin-issuers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "The Fed’s proposal would set capital requirements, a two-day redemption window and new reserve disclosures as regulators implement the GENIUS Act.",
+    "published": "2026-09-24T22:10:09+00:00",
+    "regulatory": true,
     "institutional": false,
     "category": "event"
   },
@@ -41,7 +171,7 @@
   },
   {
     "source": "Cointelegraph",
-    "title": "Bitget confirms $351M security breach, suspends withdrawals",
+    "title": "Bitget confirms $352M security breach, suspends withdrawals",
     "link": "https://cointelegraph.com/news/bitget-calls-security-withdrawal-claims-unverified-amid-178m-breach-reports?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "summary": "Bitget said unauthorized transfers affected a limited number of hot wallets, while cold wallets and most platform assets remained unaffected.",
     "published": "2026-09-24T21:47:17+00:00",
@@ -61,11 +191,21 @@
   },
   {
     "source": "The Defiant",
-    "title": "Bitget Disables Withdrawals For Every Asset After $165 Million Moves To One Address",
+    "title": "Bitget Suspends Withdrawals, Says $351.6 Million Affected In Hot Wallet Breach",
     "link": "https://thedefiant.io/news/cefi/bitget-disables-withdrawals-165-million-one-address-four-chains",
-    "summary": "Bitget's public API listed withdrawals as disabled on all 4,930 asset-network entries it returns. Deposits stayed enabled and spot trading stayed online.",
+    "summary": "The exchange said its cold wallets were unaffected and that the incident falls within a user protection fund holding more than $464 million.",
     "published": "2026-09-24T21:42:42+00:00",
     "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "Report: US Weighs Overseas Push for Dollar Stablecoins to Boost Treasury Demand",
+    "link": "https://cryptopotato.com/report-us-weighs-overseas-push-for-dollar-stablecoins-to-boost-treasury-demand/",
+    "summary": "The GENIUS Act established reserve requirements that could link wider stablecoin circulation to demand for dollars and short-term Treasuries.",
+    "published": "2026-09-24T21:30:07+00:00",
+    "regulatory": true,
     "institutional": false,
     "category": "event"
   },
@@ -240,6 +380,16 @@
     "category": "event"
   },
   {
+    "source": "CryptoPotato",
+    "title": "SUI Flashes a Key Macro Signal: Has the Bull Market Begun?",
+    "link": "https://cryptopotato.com/sui-flashes-a-key-macro-signal-has-the-bull-market-begun/",
+    "summary": "Despite the recent pullback, many market observers believe the asset is gearing up for a strong rally.",
+    "published": "2026-09-24T19:37:02+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
     "source": "Bitcoin Magazine",
     "title": "Jeff Booth: Why $1 Million BTC is Thinking too Small",
     "link": "https://bitcoinmagazine.com/videos/jeff-booth-why-1-million-btc-is-thinking-too-small",
@@ -370,11 +520,31 @@
     "category": "event"
   },
   {
+    "source": "CryptoPotato",
+    "title": "XRP and DOGE Are Deep in the Red: Could That Be a Bullish Signal?",
+    "link": "https://cryptopotato.com/xrp-and-doge-are-deep-in-the-red-could-that-be-a-bullish-signal/",
+    "summary": "Both XRP and DOGE are pulling back sharply, but deeply negative MVRV readings could keep long-term traders interested.",
+    "published": "2026-09-24T17:52:01+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
     "source": "Decrypt",
     "title": "New York Wants to Ban Polymarket, Lawsuit Calls It 'Illegal Gambling Operation'",
     "link": "https://decrypt.co/379244/new-york-ban-polymarket-lawsuit",
     "summary": "Attorney General Letitia James and Governor Kathy Hochul allege the prediction market operates without a license and exposes New Yorkers to gambling harms.",
     "published": "2026-09-24T17:51:31+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "New York Sues Polymarket Over Alleged Unlicensed Gambling and Underage Trading",
+    "link": "https://cryptopotato.com/new-york-sues-polymarket-over-alleged-unlicensed-gambling-and-underage-trading/",
+    "summary": "New York is suing Polymarket US, alleging the prediction market operates illegal gambling without a state license and allows users under 21 to bet.",
+    "published": "2026-09-24T17:42:12+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -510,6 +680,26 @@
     "category": "event"
   },
   {
+    "source": "CryptoPotato",
+    "title": "Bitcoin Up or Down in 5 Minutes? 1win Markets Launches Crypto Live",
+    "link": "https://cryptopotato.com/bitcoin-up-or-down-in-5-minutes-1win-markets-launches-crypto-live/",
+    "summary": "[PRESS RELEASE – Willemstad, Curaçao, September 24th, 2026] 1win Markets has launched Crypto Live, a new category for short-term cryptocurrency price predictions. The new format allows users to predict whether the price of major cryptocurrencies will move higher or lower over a selected period, with intervals ranging from five minutes to one day. Crypto Live […]",
+    "published": "2026-09-24T16:22:17+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "Streamex Converts Interest Into Capital as GLDY Investment Strategy Secures $1M+ Institutional Allocation",
+    "link": "https://cryptopotato.com/streamex-converts-interest-into-capital-as-gldy-investment-strategy-secures-1m-institutional-allocation/",
+    "summary": "[PRESS RELEASE – Miami, Florida, September 24th, 2026] A Metalayer Capital strategy backed by an initial institutional allocation uses GLDY as the long leg of a delta-neutral gold trade, creating a new channel for demand for Streamex’s yield-bearing tokenized gold, with follow-on investments anticipated. Streamex Corp., a Nasdaq-listed a technology company building the future of […]",
+    "published": "2026-09-24T16:21:38+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
     "source": "The Defiant",
     "title": "New York Sues Polymarket US Over Unlicensed Gambling",
     "link": "https://thedefiant.io/news/regulation/new-york-sues-polymarket-us-unlicensed-gambling",
@@ -528,6 +718,16 @@
     "regulatory": false,
     "institutional": false,
     "category": "event"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "2 Major On-Chain Signals Are Testing the Strength of Bitcoin’s Rally",
+    "link": "https://cryptopotato.com/2-major-on-chain-signals-are-testing-the-strength-of-bitcoins-rally/",
+    "summary": "Bitcoin miners face substantial costs, including electricity and equipment repairs, which can prompt big sales when the cryptocurrency's price goes up.",
+    "published": "2026-09-24T16:16:28+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "sentiment"
   },
   {
     "source": "U.Today",
@@ -610,16 +810,6 @@
     "category": "event"
   },
   {
-    "source": "The Defiant",
-    "title": "Only Four of Top 20 Crypto Treasury Firms Trade Above Holdings Value: DWF",
-    "link": "https://thedefiant.io/news/tradfi-and-fintech/only-four-of-top-20-crypto-treasury-firms-trade-above-holdings-value-dwf",
-    "summary": "Discounts undermine share-funded token accumulation, though Strategy’s latest filing shows purchases can continue using existing cash.",
-    "published": "2026-09-24T15:30:11+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "Cointelegraph",
     "title": "New York sues Polymarket over alleged illegal gambling business",
     "link": "https://cointelegraph.com/news/new-york-polymarket-illegal-gambling-operation-lawsuit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -636,16 +826,6 @@
     "summary": "Bitcoin’s latest bear market was milder than past crashes as ETFs, institutional investors and a maturing market reshape its cycles.",
     "published": "2026-09-24T15:26:34+00:00",
     "regulatory": true,
-    "institutional": true,
-    "category": "event"
-  },
-  {
-    "source": "The Defiant",
-    "title": "Ondo Launches Tokenized Portfolios Built on BlackRock Strategies",
-    "link": "https://thedefiant.io/converge/tradfi-and-fintech/ondo-launches-tokenized-portfolios-built-on-blackrock-strategies",
-    "summary": "Three portfolio tokens are available on Ethereum and BNB Chain for eligible non-US investors. BlackRock supplies the models; Ondo manages the products.",
-    "published": "2026-09-24T15:23:43+00:00",
-    "regulatory": false,
     "institutional": true,
     "category": "event"
   },
@@ -670,6 +850,16 @@
     "category": "event"
   },
   {
+    "source": "CryptoPotato",
+    "title": "Crypto Price Analysis Sep-24: ETH, XRP, ADA, BNB, and HYPE",
+    "link": "https://cryptopotato.com/crypto-price-analysis-sep-24-eth-xrp-ada-bnb-and-hype/",
+    "summary": "Today, we examine Ethereum, Ripple, Cardano, Binance Coin, and Hyperliquid in greater detail. Ethereum (ETH) This week, Ethereum rallied by 10% and managed to test the resistance at $2,800. However, sellers returned there to push the price into a pullback, but this could end up being just a brief pause before buyers push higher still. […]",
+    "published": "2026-09-24T15:07:07+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
     "source": "U.Today",
     "title": "Dogecoin (DOGE) Faces Deep Discount as Elon Musk Reappears on Crypto Timeline",
     "link": "https://u.today/dogecoin-doge-faces-deep-discount-as-elon-musk-reappears-on-crypto-timeline",
@@ -688,6 +878,16 @@
     "regulatory": false,
     "institutional": false,
     "category": "event"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "Zcash (ZEC) Slips 8% Daily: Here’s Why One Analyst Believes the Price Could Crash to $200",
+    "link": "https://cryptopotato.com/zcash-zec-slips-8-daily-heres-why-one-analyst-believes-the-price-could-crash-to-200/",
+    "summary": "Was the recent 10-year high the local top for ZEC?",
+    "published": "2026-09-24T14:46:26+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "sentiment"
   },
   {
     "source": "CoinDesk",
@@ -750,13 +950,13 @@
     "category": "sentiment"
   },
   {
-    "source": "CryptoSlate",
-    "title": "BitMEX opens fund recovery to customers it previously barred from the platform",
-    "link": "https://cryptoslate.com/bitmex-opens-fund-recovery-to-customers-it-previously-barred-from-the-platform/",
-    "summary": "A Sept. 24 policy update permits identity checks and withdrawals after trading ended, with asset minimums and sanctions rules still in force. The post BitMEX opens fund recovery to customers it previously barred from the platform appeared first on CryptoSlate .",
-    "published": "2026-09-24T13:30:14+00:00",
+    "source": "CryptoPotato",
+    "title": "FXRP Hits One Year as Flare Expands What XRP Can Do Onchain",
+    "link": "https://cryptopotato.com/fxrp-hits-one-year-as-flare-expands-what-xrp-can-do-onchain/",
+    "summary": "Flare's FXRP has evolved beyond liquidity pools, as lending, staking, vaults and credit markets have now added new uses for XRP.",
+    "published": "2026-09-24T13:35:13+00:00",
     "regulatory": false,
-    "institutional": false,
+    "institutional": true,
     "category": "event"
   },
   {
@@ -870,23 +1070,13 @@
     "category": "event"
   },
   {
-    "source": "Bitcoin Magazine",
-    "title": "Bloomberg’s James Seyffart: Why Trillions in Advisor Wealth Could Flow Into Bitcoin",
-    "link": "https://bitcoinmagazine.com/videos/bloombergs-james-seyffart-why-trillions-in-advisor-wealth-could-flow-into-bitcoin",
-    "summary": "Bitcoin Magazine Bloomberg’s James Seyffart: Why Trillions in Advisor Wealth Could Flow Into Bitcoin Trillions in advisor wealth remain on the sidelines. Bloomberg analyst James Seyffart explains how strict wirehouse rules still cap Bitcoin ETF adoption. This post Bloomberg’s James Seyffart: Why Trillions in Advisor Wealth Could Flow Into Bitcoin first appeared on Bitcoin Magazine and is written b",
-    "published": "2026-09-24T12:58:37+00:00",
-    "regulatory": true,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CoinDesk",
-    "title": "Crypto investment firm RockawayX is betting $150 million on yield becoming next big use case",
-    "link": "https://www.coindesk.com/business/2026/09/23/rockawayx-is-betting-usd150-million-on-yield-becoming-crypto-s-next-big-use-case",
-    "summary": "The $2 billion digital-asset investment firm rolls out an initiative to back, build and provide liquidity to projects bringing real-world yields into DeFi.",
-    "published": "2026-09-24T12:31:53+00:00",
+    "source": "CryptoPotato",
+    "title": "Why Blockchain Startups Need Different Marketing for Institutional Investors",
+    "link": "https://cryptopotato.com/why-blockchain-startups-need-different-marketing-for-institutional-investors/",
+    "summary": "Most crypto and fintech founders build their marketing for retail audiences first. That’s understandable — retail audiences are large, accessible, and respond to the energy that drives a project’s early community. But when the same founder walks into a family office meeting or pitches an institutional fund carrying materials built for someone else, the results […]",
+    "published": "2026-09-24T12:56:52+00:00",
     "regulatory": false,
-    "institutional": false,
+    "institutional": true,
     "category": "event"
   },
   {
@@ -900,24 +1090,34 @@
     "category": "event"
   },
   {
-    "source": "CoinDesk",
-    "title": "EU's financial regulator to make AI and tokenization a supervisory priority in 2027",
-    "link": "https://www.coindesk.com/policy/2026/09/24/eu-s-financial-regulator-to-make-ai-and-tokenization-a-supervisory-priority-in-2027",
-    "summary": "European regulators will map how financial firms use the technologies in client-facing products and begin checks on the most affected businesses.",
-    "published": "2026-09-24T12:26:43+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoSlate",
-    "title": "Alpen says AI identified Liquid’s $320M BTC exploit in an hour. Could a payout limit have stopped it?",
-    "link": "https://cryptoslate.com/alpen-says-ai-diagnosed-liquids-320-million-exploit-in-an-hour-could-a-payout-limit-have-stopped-it/",
-    "summary": "Its post-attack replay explains the cache flaw, while SideSwap says a 4,000 L-BTC order faced no size or velocity hold. The post Alpen says AI identified Liquid’s $320M BTC exploit in an hour. Could a payout limit have stopped it? appeared first on CryptoSlate .",
-    "published": "2026-09-24T12:20:10+00:00",
+    "source": "CryptoPotato",
+    "title": "Ethereum Price Prediction: ETH Failed at $2.8K – Which Levels Matter Now?",
+    "link": "https://cryptopotato.com/ethereum-price-prediction-eth-failed-at-2-8k-which-levels-matter-now/",
+    "summary": "Ethereum is consolidating after a sharp recovery from the $1.5K area and a subsequent breakout above the $2.1K region. The second-largest crypto asset is now trading around $2.64K, with the latest pullback occurring directly inside a major resistance zone. The broader structure remains constructive, although short-term momentum has weakened following the rejection near $2.8K. Ethereum […]",
+    "published": "2026-09-24T12:11:06+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "sentiment"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "Ripple Price Analysis: Is It All Doom and Gloom for XRP After the Latest Rejection at $1.60?",
+    "link": "https://cryptopotato.com/ripple-price-analysis-is-it-all-doom-and-gloom-for-xrp-after-the-latest-rejection-at-1-60/",
+    "summary": "XRP’s breakout from its descending channel delivered a strong rally, but the move has now met substantial selling pressure at a major resistance area. The resulting pullback puts the recent breakout to the test, with the next reaction around former resistance likely to be important for the short-term structure. Ripple Price Analysis: The Daily Chart […]",
+    "published": "2026-09-24T12:05:23+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "BTCC Exchange and Markets.com Announce Promotional Collaboration Ahead of TOKEN2049 Singapore",
+    "link": "https://cryptopotato.com/btcc-exchange-and-markets-com-announce-promotional-collaboration-ahead-of-token2049-singapore/",
+    "summary": "[PRESS RELEASE – GEORGE TOWN, Cayman Islands, September 23rd, 2026] BTCC, one of the world’s longest-serving cryptocurrency exchanges, today announced a promotional collaboration with Markets.com, a global CFD trading platform. The collaboration will see BTCC feature and promote the Markets.com brand to audiences interested in both digital assets and traditional financial markets. BTCC and Markets",
+    "published": "2026-09-24T12:01:18+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
   },
   {
     "source": "Cointelegraph",
@@ -950,6 +1150,16 @@
     "category": "event"
   },
   {
+    "source": "CryptoPotato",
+    "title": "Guardis Adds Tokenized Stocks and Commodities For Trading",
+    "link": "https://cryptopotato.com/guardis-adds-tokenized-stocks-and-commodities-for-trading/",
+    "summary": "[PRESS RELEASE – San José, Costa Rica, September 24th, 2026] Guardis, an on-chain trading and security platform that detects scams and tracks smart money, today announced the addition of tokenized stocks and commodities to its platform. The expansion lets traders track and trade equities and commodities issued on-chain, including assets from xStocks and Ondo. The […]",
+    "published": "2026-09-24T11:51:12+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
     "source": "U.Today",
     "title": "Mysterious Spike on XRP Ledger: 400% Rise in New Accounts",
     "link": "https://u.today/mysterious-spike-on-xrp-ledger-400-rise-in-new-accounts",
@@ -965,16 +1175,6 @@
     "link": "https://www.newsbtc.com/news/ethereum/optimism-says-superchain-tvl-has-crossed-14-billion/",
     "summary": "TL;DR Optimism says aggregate TVL across the Superchain has moved above $14 billion. The figure combines multiple OP Stack networks rather than representing OP Mainnet alone. The milestone highlights the growing economic footprint of Base, World Chain and other interconnected OP Stack chains. Optimism’s Superchain has crossed a reported $14 billion in aggregate total value locked, giving the OP St",
     "published": "2026-09-24T11:30:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "Cointelegraph",
-    "title": "Era of pure crypto exchanges is ending, Bybit CEO says",
-    "link": "https://cointelegraph.com/news/era-pure-crypto-exchanges-end-bybit-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "summary": "Bybit’s global campaign positions it as a broader financial platform, though its stock, gold and forex derivatives were already available.",
-    "published": "2026-09-24T11:24:07+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -1020,31 +1220,11 @@
     "category": "event"
   },
   {
-    "source": "Cointelegraph",
-    "title": "EU banking watchdog calls for crypto lending rules under MiCA",
-    "link": "https://cointelegraph.com/news/eu-eba-crypto-lending-defi-mica-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "summary": "The EBA outlined potential rules for crypto lending and firms providing access to DeFi protocols as part of the European Commission’s MiCA review.",
-    "published": "2026-09-24T10:30:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "NewsBTC",
     "title": "Base Activity Climbs To 7.5 Million Transactions In A Day",
     "link": "https://www.newsbtc.com/news/ethereum/base-activity-climbs-to-7-5-million-transactions-in-a-day/",
     "summary": "TL;DR Base network activity reached roughly 7.5 million transactions over a single day in the validated September 22 data. The count includes all recorded transactions, including low-value and automated activity. High transaction count is a usage metric, not proof of equivalent economic value. Base has pushed daily transaction activity to roughly 7.5 million, adding another scale milestone for Coi",
     "published": "2026-09-24T10:30:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "Cointelegraph",
-    "title": "Bitcoin falls below $84K as 10-year Treasury yield hits 19-year high",
-    "link": "https://cointelegraph.com/markets/bitcoin-fall-84k-treasury-yield-hits-19-year-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "summary": "Bitcoin traded near $83,200 as Fed hike odds reached about 75% and Treasury prepared a $6 billion buyback of long-dated bonds.",
-    "published": "2026-09-24T10:15:03+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -1100,16 +1280,6 @@
     "category": "event"
   },
   {
-    "source": "U.Today",
-    "title": "XRP Eyes $2 Billion ETF Milestone on Aggressive Dip Buying",
-    "link": "https://u.today/xrp-eyes-2-billion-etf-milestone-on-aggressive-dip-buying",
-    "summary": "Smart money pushes XRP ETFs toward $2 billion, locking over 1.1 billion tokens as Bitwise and Franklin buy the dip.",
-    "published": "2026-09-24T08:53:15+00:00",
-    "regulatory": true,
-    "institutional": true,
-    "category": "sentiment"
-  },
-  {
     "source": "NewsBTC",
     "title": "OKX Tightens European Institutional Trading Guidance Under MiCA",
     "link": "https://www.newsbtc.com/technology/okx-tightens-european-institutional-trading-guidance-under-mica/",
@@ -1125,26 +1295,6 @@
     "link": "https://www.theblock.co/news/regulation/2026-09-24-brooklyn-man-12-years-scheme-416231",
     "summary": "A court sentenced 23-year-old Ronald Spektor to four to 12 years in prison for a $15.9 million Coinbase phishing scheme.",
     "published": "2026-09-24T08:21:32+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "NewsBTC",
-    "title": "Sui Testnet v1.80.1 Expands Protocol 137 Features For Node Operators",
-    "link": "https://www.newsbtc.com/altcoins/sui-testnet-v1-80-1-expands-protocol-137-features-for-node-operators/",
-    "summary": "TL;DR Mysten Labs has released Sui testnet v1.80.1 using protocol version 137. The build includes updates across protocol logic, GraphQL, JSON-RPC and archival services. This is a testnet release and should not be described as a live Sui mainnet upgrade. Mysten Labs has published Sui testnet v1.80.1, giving developers and infrastructure operators an early look at protocol version 137 changes befor",
-    "published": "2026-09-24T07:30:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "NewsBTC",
-    "title": "Ondo Pushes USDY Deeper Into Solana DeFi",
-    "link": "https://www.newsbtc.com/altcoins/ondo-pushes-usdy-deeper-into-solana-defi/",
-    "summary": "TL;DR Ondo Finance says its USDY tokenized yield product is expanding across Solana DeFi venues. USDY is a yield-bearing tokenized note backed by short-term US Treasuries and bank deposits, not a conventional $1 stablecoin. The expansion builds on Ondo’s wider effort to make tokenized real-world assets usable inside DeFi rather than leaving them as passive holdings. Ondo Finance is pushing its tok",
-    "published": "2026-09-24T06:30:00+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
