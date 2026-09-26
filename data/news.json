@@ -1,5 +1,55 @@
 [
   {
+    "source": "NewsBTC",
+    "title": "Mantle Says Tokenized Asset Count Has Jumped From 71 To 1,473 This Year",
+    "link": "https://www.newsbtc.com/altcoins/mantle-says-tokenized-asset-count-has-jumped-from-71-to-1473-this-year/",
+    "summary": "TL;DR Mantle says the number of tokenized assets on its network has climbed to 1,473 from 71 at the start of 2026. Distributed Asset Value has reached about $476 million, up roughly 110% over the past 30 days. The network now hosts tokenized equities, ETFs, stablecoins and other real-world assets from several major issuers. Mantle is reporting a sharp acceleration in its tokenized-asset business, ",
+    "published": "2026-09-26T22:30:00+00:00",
+    "regulatory": true,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "Researchers Propose Zcash-Style Privacy for Bitcoin Without a Soft Fork",
+    "link": "https://cryptopotato.com/researchers-propose-zcash-style-privacy-for-bitcoin-without-a-soft-fork/",
+    "summary": "The proposal separates spending and viewing rights, allowing users to share transaction details without exposing spending authority.",
+    "published": "2026-09-26T21:44:57+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "NewsBTC",
+    "title": "US Charges Man After Crypto Scam Wallets Received More Than $53M",
+    "link": "https://www.newsbtc.com/technology/us-charges-man-after-crypto-scam-wallets-received-more-than-53m/",
+    "summary": "TL;DR U.S. prosecutors have charged a Vietnamese national with money laundering tied to alleged cryptocurrency “pig butchering” schemes. Prosecutors say wallets controlled by the defendant received roughly $53.3 million linked to fraud schemes targeting U.S. victims. One victim allegedly transferred about $16 million after being directed to a fake crypto investment platform. U.S. prosecutors have ",
+    "published": "2026-09-26T21:30:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "NewsBTC",
+    "title": "Blockchain Association CEO Summer Mersinger To Step Down In October",
+    "link": "https://www.newsbtc.com/regulation/blockchain-association-ceo-summer-mersinger-to-step-down-in-october/",
+    "summary": "TL;DR Blockchain Association CEO Summer Mersinger will step down on October 16 and remain as an adviser through the end of 2026. Founding leader Kristin Smith will return as interim CEO from October 17. The leadership change comes during an unusually active period for U.S. digital-asset legislation and regulation. One of Washington’s most influential crypto trade groups is changing leadership. Blo",
+    "published": "2026-09-26T20:30:00+00:00",
+    "regulatory": true,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "SEC clears regulatory hurdle as crypto token buybacks hit record $638 million",
+    "link": "https://cryptoslate.com/sec-clears-regulatory-hurdle-as-crypto-token-buybacks-hit-record-638-million/",
+    "summary": "Crypto projects spent about $638 million with token buybacks through late August 2026, according to Allium Labs data. That is already a record, up from $545 million over the same stretch of 2025. Hyperliquid accounted for roughly $370 million and Pump.fun for about $200 million, together close to 90% of the total. On Sept. 25, […] The post SEC clears regulatory hurdle as crypto token buybacks hit ",
+    "published": "2026-09-26T20:20:52+00:00",
+    "regulatory": true,
+    "institutional": false,
+    "category": "event"
+  },
+  {
     "source": "CryptoPotato",
     "title": "Institutions Watched Bitcoin Fall 50%: Yet None of 15 Bitwise Surveyed Investors Cut Exposure",
     "link": "https://cryptopotato.com/institutions-watched-bitcoin-fall-50-yet-none-of-15-bitwise-surveyed-investors-cut-exposure/",
@@ -143,7 +193,7 @@
     "source": "U.Today",
     "title": "XRP Forms Golden Cross Against BTC, but Timing Says Not Now",
     "link": "https://u.today/xrp-forms-golden-cross-against-btc-but-timing-says-not-now",
-    "summary": "XRP flashes bullish golden cross on its Bitcoin chart, with bulls now watching for what comes nex.t.",
+    "summary": "XRP flashes bullish golden cross on its Bitcoin chart, with bulls now watching for what comes next.",
     "published": "2026-09-26T16:20:00+00:00",
     "regulatory": false,
     "institutional": false,
@@ -520,16 +570,6 @@
     "category": "event"
   },
   {
-    "source": "CryptoSlate",
-    "title": "ARK partners with Securitize to put a venture fund on Ethereum, but leaves exit doors locked",
-    "link": "https://cryptoslate.com/ark-partners-with-securitize-to-put-venture-fund-on-ethereum-but-leaves-exit-doors-locked/",
-    "summary": "The tokenized ARKVX interest still comes with a fund-wide quarterly repurchase cap and no announced secondary venue. The post ARK partners with Securitize to put a venture fund on Ethereum, but leaves exit doors locked appeared first on CryptoSlate .",
-    "published": "2026-09-26T07:30:29+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "Cointelegraph",
     "title": "CFTC sues Cash FX, alleges $950M crypto-linked forex scheme",
     "link": "https://cointelegraph.com/news/cftc-sues-cash-fx-alleges-950m-crypto-linked-forex-scheme?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -625,36 +665,6 @@
     "link": "https://u.today/shiba-inu-shib-351-in-8-hours-market-volatility-goes-even-higher",
     "summary": "Shiba Inu is gaining more volatility as futures market receives fresh inflows.",
     "published": "2026-09-26T03:00:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "NewsBTC",
-    "title": "HIFI Raises $37M To Build Stablecoin And Tokenized Market Infrastructure",
-    "link": "https://www.newsbtc.com/technology/hifi-raises-37m-to-build-stablecoin-and-tokenized-market-infrastructure/",
-    "summary": "HIFI has raised a $37 million Series A led by Left Lane Capital. The company says the funding will expand stablecoin payments, cards and infrastructure for tokenized capital markets. HIFI says its platform currently processes more than $7 billion in annualized volume across 87 countries. **ID:** N25-08 **Site:** NewsBTC **Status:** READY **Author:** NewsBTC Editorial Team **Focus Keyword:** HIFI *",
-    "published": "2026-09-26T02:30:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "NewsBTC",
-    "title": "Solana Foundation Hires Former Binance CMO For Institutional Push",
-    "link": "https://www.newsbtc.com/altcoins/solana-foundation-hires-former-binance-cmo-for-institutional-push/",
-    "summary": "The Solana Foundation has appointed former Binance global CMO Rachel Conlan as chief strategy officer. Former Polygon Labs executive Jamal Raees has joined as general manager of payments. The Foundation says the hires are aimed at accelerating institutional adoption and payment activity on Solana. **ID:** N25-07 **Site:** NewsBTC **Status:** READY **Author:** NewsBTC Editorial Team **Focus Keyword",
-    "published": "2026-09-26T01:30:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "NewsBTC",
-    "title": "The Clearing House Picks Quant For US Tokenized Deposit Network",
-    "link": "https://www.newsbtc.com/technology/the-clearing-house-picks-quant-for-us-tokenized-deposit-network/",
-    "summary": "The Clearing House has selected Quant to provide the interoperability and transaction-management layer for its On-Chain Money Initiative. The planned network will let financial institutions clear and settle tokenized deposits while connecting to existing RTP and CHIPS payment rails. Participating institutions are expected to gain access in the first half of 2027. **ID:** N25-06 **Site:** NewsBTC *",
-    "published": "2026-09-26T00:30:00+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -1055,16 +1065,6 @@
     "link": "https://bitcoinmagazine.com/news/is-us-defence-secretary-pete-hegseth-a-bitcoiner-this-is-what-his-accounts-say",
     "summary": "Bitcoin Magazine Is US Defence Secretary Pete Hegseth a Bitcoiner? This Is What His Accounts Say U.S. Defence Secretary Pete Hegseth has millions of dollars in investments. But how much of it is in bitcoin? This post Is US Defence Secretary Pete Hegseth a Bitcoiner? This Is What His Accounts Say first appeared on Bitcoin Magazine and is written by Mathew Di Salvo .",
     "published": "2026-09-25T15:35:30+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoPotato",
-    "title": "Ethena Partners With Binance to Back USDe With a Tokenized Stock Basis Trade",
-    "link": "https://cryptopotato.com/ethena-partners-with-binance-to-back-usde-with-a-tokenized-stock-basis-trade/",
-    "summary": "Ethena is extending its yield strategy beyond crypto into tokenized equities.",
-    "published": "2026-09-25T15:33:02+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
