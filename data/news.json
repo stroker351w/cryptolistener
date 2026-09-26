@@ -1,5 +1,85 @@
 [
   {
+    "source": "CryptoPotato",
+    "title": "Institutions Watched Bitcoin Fall 50%: Yet None of 15 Bitwise Surveyed Investors Cut Exposure",
+    "link": "https://cryptopotato.com/institutions-watched-bitcoin-fall-50-yet-none-of-15-bitwise-surveyed-investors-cut-exposure/",
+    "summary": "The survey shows that institutions have not backed away from crypto, even as they remain picky about what they buy.",
+    "published": "2026-09-26T19:35:53+00:00",
+    "regulatory": false,
+    "institutional": true,
+    "category": "event"
+  },
+  {
+    "source": "NewsBTC",
+    "title": "KelpDAO Sues LayerZero Over $292M rsETH Bridge Exploit",
+    "link": "https://www.newsbtc.com/technology/kelpdao-sues-layerzero-over-292m-rseth-bridge-exploit/",
+    "summary": "TL;DR Evercrest Technologies, the company behind KelpDAO, has filed a civil claim against LayerZero entities and co-founder Bryan Pellegrino. The lawsuit concerns the April exploit that drained 116,500 rsETH, worth about $292 million at the time. KelpDAO alleges LayerZero reviewed and endorsed the bridge configuration later blamed for the attack; those claims have not been proven in court. The com",
+    "published": "2026-09-26T19:30:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "The NFT party is over and everybody now owes storage rent",
+    "link": "https://cryptoslate.com/the-nft-party-is-over-and-everybody-now-owes-storage-rent/",
+    "summary": "In 2021, Christie's sold a Beeple NFT for $69.35 million, and Sotheby's took another $24.40 million for 101 Bored Ape Yacht Club NFTs, giving cartoon primates the kind of auction-house treatment usually reserved for Fabergé eggs. But now, not five years later, one of the marketplaces that helped sell the digital art revolution is explaining […] The post The NFT party is over and everybody now owes",
+    "published": "2026-09-26T19:05:53+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "NewsBTC",
+    "title": "Strategy Wants To Pay Preferred Stock Dividends Every Day",
+    "link": "https://www.newsbtc.com/corporate/strategy-wants-to-pay-preferred-stock-dividends-every-day/",
+    "summary": "TL;DR Strategy is asking shareholders to approve daily dividend record dates for STRC, STRD, STRF and STRK. The proposed change would alter payment frequency without changing dividend rates or increasing total regular dividend obligations. Shareholders are expected to vote on the amendments at a special meeting on October 28. Strategy is proposing an unusual change to the preferred stocks that sit",
+    "published": "2026-09-26T18:30:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "Fed proposed stablecoin rule could trigger a 48-hour liquidation run",
+    "link": "https://cryptoslate.com/fed-proposed-stablecoin-rule-could-trigger-a-48-hour-liquidation-run/",
+    "summary": "The Federal Reserve's proposed rules for the payment stablecoin issuers it supervises include a crisis clock measured in hours. An issuer whose reserves fall below the value of its outstanding tokens would have 24 hours to notify the Fed and submit a plan to restore full backing. Unless it closes the gap or the Fed […] The post Fed proposed stablecoin rule could trigger a 48-hour liquidation run a",
+    "published": "2026-09-26T17:55:58+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "NewsBTC",
+    "title": "Apple And Nvidia Tokenized Stocks Can Now Back USDC Loans On Aave",
+    "link": "https://www.newsbtc.com/news/defi/apple-and-nvidia-tokenized-stocks-can-now-back-usdc-loans-on-aave/",
+    "summary": "TL;DR Aave V4 on Base has launched an Equities Hub accepting seven Coinbase tokenized U.S. stocks as collateral. Eligible non-U.S. users can deposit tokens representing Apple, Amazon, Alphabet, Meta, Microsoft, Nvidia and Tesla shares to borrow USDC. The tokenized equities are collateral-only at launch and use Chainlink market data for pricing. Tokenized stocks are starting to do something more in",
+    "published": "2026-09-26T17:30:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Block",
+    "title": "Bitcoin ETFs turn positive for 2026 with $2.4 billion weekly inflow, their largest since October",
+    "link": "https://www.theblock.co/news/markets/2026-09-26-bitcoin-etfs-turn-positive-for-2026-with-2-4-billion-weekly-inflow-their-largest-since-october-416944",
+    "summary": "The inflows pushed bitcoin ETFs' year-to-date net flows back above zero, after the funds sat roughly $5.8 billion in the red just two months ago.",
+    "published": "2026-09-26T17:24:12+00:00",
+    "regulatory": true,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Bitcoin Magazine",
+    "title": "Samourai Letter #7: Notes From The Inside",
+    "link": "https://bitcoinmagazine.com/culture/samourai-letter-7-notes-from-the-inside",
+    "summary": "Bitcoin Magazine Samourai Letter #7: Notes From The Inside Syndicated from The Rage: Samourai Wallet developer Keonne Rodriguez documents \"the absolute worst 30 days of my life.\" This post Samourai Letter #7: Notes From The Inside first appeared on Bitcoin Magazine and is written by Keonne Rodriguez .",
+    "published": "2026-09-26T17:06:47+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
     "source": "The Defiant",
     "title": "CleanSpark Closes $2.276 Billion Debt Deal for Sandersville Data Center",
     "link": "https://thedefiant.io/news/tradfi-and-fintech/cleanspark-closes-2-276-billion-debt-deal-for-sandersville-data-center",
@@ -480,16 +560,6 @@
     "category": "event"
   },
   {
-    "source": "CryptoSlate",
-    "title": "EU faces September 30 clock to decide future of DeFi loans",
-    "link": "https://cryptoslate.com/eu-faces-september-30-clock-to-decide-future-of-defi-loans/",
-    "summary": "Its MiCA review response points to crypto firms’ access routes while any new lending duties remain a future legislative choice. The post EU faces September 30 clock to decide future of DeFi loans appeared first on CryptoSlate .",
-    "published": "2026-09-26T05:10:00+00:00",
-    "regulatory": true,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "CoinDesk",
     "title": "Solana’s 150-millisecond settlement upgrade reaches second public test network",
     "link": "https://www.coindesk.com/tech/2026/09/26/solana-s-150-millisecond-settlement-upgrade-reaches-second-public-test-network",
@@ -560,16 +630,6 @@
     "category": "event"
   },
   {
-    "source": "CryptoSlate",
-    "title": "Swiss bank shields Bitget institutions while retail funds freeze",
-    "link": "https://cryptoslate.com/swiss-bank-shields-bitget-institutions-while-retail-funds-freeze/",
-    "summary": "Sygnum offers bank-held trading collateral to institutional clients, while Bitget's withdrawal pause leaves ordinary balances dependent on its own controls and fund. The post Swiss bank shields Bitget institutions while retail funds freeze appeared first on CryptoSlate .",
-    "published": "2026-09-26T02:30:16+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "NewsBTC",
     "title": "HIFI Raises $37M To Build Stablecoin And Tokenized Market Infrastructure",
     "link": "https://www.newsbtc.com/technology/hifi-raises-37m-to-build-stablecoin-and-tokenized-market-infrastructure/",
@@ -620,26 +680,6 @@
     "category": "sentiment"
   },
   {
-    "source": "NewsBTC",
-    "title": "IBM Connects Banks To Swift’s Blockchain Ledger For Tokenized Deposits",
-    "link": "https://www.newsbtc.com/technology/ibm-connects-banks-to-swifts-blockchain-ledger-for-tokenized-deposits/",
-    "summary": "IBM Digital Asset Haven can now connect financial institutions to Swift’s blockchain-based shared ledger through a beta integration. Banks can instruct tokenized-deposit transactions using existing ISO 20022 payment messages. Swift’s ledger is already being tested by 17 first-mover institutions, while IBM is also adding an on-premises version of Digital Asset Haven. **ID:** N25-05 **Site:** NewsBT",
-    "published": "2026-09-25T23:30:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "NewsBTC",
-    "title": "Ondo Puts BlackRock-Designed Portfolios Into Single Onchain Tokens",
-    "link": "https://www.newsbtc.com/altcoins/ondo-puts-blackrock-designed-portfolios-into-single-onchain-tokens/",
-    "summary": "Ondo has launched three tokenized portfolios based on investment strategies developed by BlackRock specifically for the platform. The products package baskets of tokenized assets into individual onchain tokens. BlackRock designed the model strategies, while Ondo Global Markets issues and operates the tokenized products. **ID:** N25-04 **Site:** NewsBTC **Status:** READY **Author:** NewsBTC Editori",
-    "published": "2026-09-25T22:30:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "CoinDesk",
     "title": "U.S. SEC's steadiest crypto advocate, Hester Peirce, to depart next week",
     "link": "https://www.coindesk.com/policy/2026/09/25/u-s-sec-s-steadiest-crypto-advocate-hester-peirce-to-depart-next-week",
@@ -658,16 +698,6 @@
     "regulatory": false,
     "institutional": false,
     "category": "event"
-  },
-  {
-    "source": "NewsBTC",
-    "title": "New York Sues Polymarket Over Alleged Illegal Gambling Operation",
-    "link": "https://www.newsbtc.com/regulation/new-york-sues-polymarket-over-alleged-illegal-gambling-operation/",
-    "summary": "New York Attorney General Letitia James and Governor Kathy Hochul have announced a lawsuit against Polymarket US. The state alleges the prediction platform is operating illegal, unlicensed gambling in New York. The lawsuit seeks to stop the activity and asks for fines, forfeiture of alleged illegal gains and restitution for users. **ID:** N25-03 **Site:** NewsBTC **Status:** READY **Author:** News",
-    "published": "2026-09-25T21:30:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "sentiment"
   },
   {
     "source": "Decrypt",
@@ -1050,16 +1080,6 @@
     "category": "event"
   },
   {
-    "source": "CryptoPotato",
-    "title": "CRO Climbs 6% as Crypto.com Files With CFTC for US Equity Perps",
-    "link": "https://cryptopotato.com/cro-climbs-6-as-crypto-com-files-with-cftc-for-us-equity-perps/",
-    "summary": "Crypto.com is joining a growing push to bring single-stock perpetuals into the U.S. market. Coinbase and Kalshi are pursuing similar products.",
-    "published": "2026-09-25T14:57:31+00:00",
-    "regulatory": true,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "The Defiant",
     "title": "Aave Adds Coinbase Stock Tokens as Collateral on Base",
     "link": "https://thedefiant.io/news/defi/aave-adds-coinbase-stock-tokens-as-collateral-on-base",
@@ -1270,16 +1290,6 @@
     "category": "event"
   },
   {
-    "source": "Bitcoin Magazine",
-    "title": "Nearly $352M Moved From Crypto Exchange Bitget Wallets in Suspected Hack",
-    "link": "https://bitcoinmagazine.com/news/bitget-suffers-352-million-hack",
-    "summary": "Bitcoin Magazine Nearly $352M Moved From Crypto Exchange Bitget Wallets in Suspected Hack Crypto exchange Bitget detected unauthorized transfers and has temporarily halted withdrawals. This post Nearly $352M Moved From Crypto Exchange Bitget Wallets in Suspected Hack first appeared on Bitcoin Magazine and is written by Mathew Di Salvo .",
-    "published": "2026-09-24T22:53:59+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "The Block",
     "title": "Bitget confirms $387.5 million security breach affecting exchange hot wallets",
     "link": "https://www.theblock.co/news/markets/2026-09-24-more-than-170-million-in-crypto-moves-from-bitget-wallets-unidentified-address-416345",
@@ -1328,16 +1338,6 @@
     "regulatory": false,
     "institutional": false,
     "category": "sentiment"
-  },
-  {
-    "source": "The Block",
-    "title": "New York moves to block Polymarket from the state, alleging it’s running an illegal gambling operation",
-    "link": "https://www.theblock.co/news/regulation/2026-09-24-new-york-block-polymarket-alleging-illegal-gambling-operation-416279",
-    "summary": "New York has sued Polymarket, accusing it of operating an illegal gambling operation and asking a court to block it from operating.",
-    "published": "2026-09-24T16:25:05+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
   },
   {
     "source": "SEC Press Releases",
@@ -1495,6 +1495,156 @@
     "link": "https://www.sec.gov/newsroom/press-releases/2026-79-sec-proposes-amendments-exchange-act-rule-3a12-8-add-european-union-debt-obligations",
     "summary": "The Securities and Exchange Commission today proposed amendments to Rule 3a12-8 under the Securities Exchange Act of 1934 to add the debt obligations of the European Union (EU) to the list of foreign government debt obligations designated as \"exempted…",
     "published": "2026-08-28T17:33:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Blockworks",
+    "title": "Venezuelaâs sanctions are stablecoinsâ proof of concept",
+    "link": "https://blockworks.com/news/venezuelas-sanctions-stablecoins",
+    "summary": "Banned from the dollar system, the country uses digital dollars instead",
+    "published": "2026-01-07T14:00:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Blockworks",
+    "title": "The Strategy playbook looks different in 2026",
+    "link": "https://blockworks.com/news/strategy-playbook-2026",
+    "summary": "The treasury company now holds 673,783 BTC, but flow is more likely to be episodic in this yearâs financial climate",
+    "published": "2026-01-06T17:36:33+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Blockworks",
+    "title": "Rangerâs ICO starts today, and MetaDAO eyes a reset",
+    "link": "https://blockworks.com/news/rangers-ico-metadao",
+    "summary": "Rangerâs Jan 6â10 sale could re-accelerate MetaDAO volumes and revenue",
+    "published": "2026-01-06T15:07:05+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Blockworks",
+    "title": "ETH derivatives reset and the next retail trade",
+    "link": "https://blockworks.com/news/eth-derivatives-reset",
+    "summary": "ETH derivatives show a disciplined rebuild of risk, with rising open interest pointing to healthier leverage",
+    "published": "2026-01-05T15:14:17+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Blockworks",
+    "title": "Friday charts: Finding good news, in spite of bad headlines",
+    "link": "https://blockworks.com/news/friday-charts-finding-good-news-in-spite-of-bad-headlines",
+    "summary": "2025 was far from perfect, but much better than we think it was.",
+    "published": "2026-01-02T23:41:06+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Blockworks",
+    "title": "DePIN and crypto gaming led a surprising end-of-year rebound",
+    "link": "https://blockworks.com/news/depin-gaming-surprising-rebound",
+    "summary": "BTC finished the week up 1.6%, while L2s, RWAs and the treasury trade continued to grind lower",
+    "published": "2026-01-02T16:53:02+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Blockworks",
+    "title": "Cantonâs $6T RWA rails and Lighterâs Hyperliquid multiple",
+    "link": "https://blockworks.com/news/cantons-rwa-rails",
+    "summary": "DTCC moves DTC-custodied Treasuries onchain via Canton, while Lighterâs LIT launches trading at a fees multiple in Hyperliquid territory",
+    "published": "2026-01-01T18:00:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Blockworks",
+    "title": "The long wait for cryptoâs âcoffee potâ moment",
+    "link": "https://blockworks.com/news/cryptos-coffee-pot-moment",
+    "summary": "In the 90s, rapt audiences worldwide watched a coffee pot â will that fascination ever turn to crypto?",
+    "published": "2026-01-01T14:00:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Blockworks",
+    "title": "Failure is an option in crypto finance",
+    "link": "https://blockworks.com/news/failure-is-an-option",
+    "summary": "Some systems improve by failing â and crypto has no choice",
+    "published": "2026-01-01T00:18:58+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Blockworks",
+    "title": "Yield Basis is making native BTC yield a reality",
+    "link": "https://blockworks.com/news/yield-basis-native-btc-yield",
+    "summary": "Yield Basis introduces an IL-free AMM design that already dominates BTC DEX liquidity",
+    "published": "2025-12-31T19:20:49+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Blockworks",
+    "title": "Users are the best investors to have",
+    "link": "https://blockworks.com/news/users-are-the-best-investors-to-have",
+    "summary": "Maybe tokenholders donât need the rights that corporate shareholders have come to expect",
+    "published": "2025-12-31T17:13:32+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Blockworks",
+    "title": "A sleeper in the perps category",
+    "link": "https://blockworks.com/news/boros-sleeper-perps",
+    "summary": "As Hyperliquid and Lighter battle for perps DEX dominance, Boros could capture the structural upside",
+    "published": "2025-12-30T17:50:45+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Blockworks",
+    "title": "The old story of investing in new technology",
+    "link": "https://blockworks.com/news/the-old-story-of-investing-in-new-technology",
+    "summary": "Investors are often right about the future, but wrong about the returns",
+    "published": "2025-12-30T15:24:59+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Blockworks",
+    "title": "2025 Reflections",
+    "link": "https://blockworks.com/news/blockworks-2025-reflections",
+    "summary": "A look back at 2025, reflections on our industry, and what it means for Blockworks in 2026",
+    "published": "2025-12-30T14:31:28+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Blockworks",
+    "title": "The perps wars are heating up",
+    "link": "https://blockworks.com/news/perps-wars-heating-up",
+    "summary": "Hyperliquidâs weekly volume trails newer rivals as a Lighter airdrop looms",
+    "published": "2025-12-29T16:13:32+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
