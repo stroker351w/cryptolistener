@@ -1,6 +1,26 @@
 [
   {
     "source": "NewsBTC",
+    "title": "Bitget Raises Hack Estimate To $387.5M And Sets Withdrawal Restart Plan",
+    "link": "https://www.newsbtc.com/technology/bitget-raises-hack-estimate-to-387-5m-and-sets-withdrawal-restart-plan/",
+    "summary": "TL;DR Bitget has increased the confirmed value of assets transferred to attacker-controlled addresses from $351.6 million to about $387.5 million. The exchange says the underlying vulnerability has been identified and remediated. Withdrawals are scheduled to return in stages beginning with Bitcoin on September 28 and continuing through October 2. Bitget has published a substantial update on this w",
+    "published": "2026-09-27T00:30:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "NewsBTC",
+    "title": "Socure Brings AI Identity Checks To Circle’s Arc Onramp",
+    "link": "https://www.newsbtc.com/technology/socure-brings-ai-identity-checks-to-circles-arc-onramp/",
+    "summary": "TL;DR Socure has integrated its RiskOS identity and fraud platform into the Arc Onramp experience. The system is designed to verify users and make fraud decisions as they move from fiat currency into USDC through applications built on Arc. The integration adds a compliance layer to Circle’s institution-focused blockchain without moving identity data directly into a public transaction flow. Circle’",
+    "published": "2026-09-26T23:30:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "NewsBTC",
     "title": "Mantle Says Tokenized Asset Count Has Jumped From 71 To 1,473 This Year",
     "link": "https://www.newsbtc.com/altcoins/mantle-says-tokenized-asset-count-has-jumped-from-71-to-1473-this-year/",
     "summary": "TL;DR Mantle says the number of tokenized assets on its network has climbed to 1,473 from 71 at the start of 2026. Distributed Asset Value has reached about $476 million, up roughly 110% over the past 30 days. The network now hosts tokenized equities, ETFs, stablecoins and other real-world assets from several major issuers. Mantle is reporting a sharp acceleration in its tokenized-asset business, ",
@@ -620,16 +640,6 @@
     "category": "event"
   },
   {
-    "source": "NewsBTC",
-    "title": "Bitget Confirms $351.6M Hot Wallet Breach And Pauses Withdrawals",
-    "link": "https://www.newsbtc.com/technology/bitget-confirms-351-6m-hot-wallet-breach-and-pauses-withdrawals/",
-    "summary": "Bitget says unauthorized transfers affected approximately $351.6 million held across parts of its hot and warm wallet infrastructure. The exchange says its cold wallets were not affected and its $464 million-plus User Protection Fund covers the loss. Withdrawals have been temporarily suspended while Bitget investigates the breach with law enforcement and security firms. **ID:** N25-10 **Site:** Ne",
-    "published": "2026-09-26T04:30:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "U.Today",
     "title": "AI Agents Opt for Ripple USD Not XRP, While BlackRock Makes Stunning New Prediction",
     "link": "https://u.today/ai-agents-opt-for-ripple-usd-not-xrp-while-blackrock-makes-stunning-new-prediction",
@@ -646,16 +656,6 @@
     "summary": "Public comments on the Fed's two stablecoin proposals will remain open for 60 days after publication in the Federal Register.",
     "published": "2026-09-26T03:55:33+00:00",
     "regulatory": true,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "NewsBTC",
-    "title": "Paxos Labs Launches Gold Token That Can Earn A Return In Gold",
-    "link": "https://www.newsbtc.com/altcoins/paxos-labs-launches-gold-token-that-can-earn-a-return-in-gold/",
-    "summary": "Paxos Labs has launched PAXGy, a token backed by PAXG that can increase in value relative to gold over time. The underlying reserves are deployed to vetted institutional borrowers through the gold-leasing market. PAXGy is live across platforms including OKX, X Layer, Uniswap, 0x and Ether.Fi, but the return is not guaranteed. **ID:** N25-09 **Site:** NewsBTC **Status:** READY **Author:** NewsBTC E",
-    "published": "2026-09-26T03:30:00+00:00",
-    "regulatory": false,
     "institutional": false,
     "category": "event"
   },
