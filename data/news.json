@@ -1,5 +1,185 @@
 [
   {
+    "source": "U.Today",
+    "title": "Apple Patches Critical iPhone Flaw Linked to Crypto Attacks",
+    "link": "https://u.today/apple-patches-critical-iphone-flaw-linked-to-crypto-attacks",
+    "summary": "Apple has patched a critical iPhone vulnerability that may already have been exploited in sophisticated attacks.",
+    "published": "2026-09-29T08:07:36+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "U.Today",
+    "title": "XRP Golden Cross Confirmed: But It's Too Late",
+    "link": "https://u.today/xrp-golden-cross-is-here-but-the-price-is-already-bearish",
+    "summary": "XRP's strong technical signal might be too late for the price to react positvely.",
+    "published": "2026-09-29T08:05:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "Chainlink CCIP 2.0 exposes bridge risk, and issuer gates trigger stalls",
+    "link": "https://cryptoslate.com/chainlink-ccip-2-0-lets-issuers-delay-delivery-after-a-cross-chain-transfer-starts/",
+    "summary": "An optional required verifier can hold up destination tokens after a source-chain lock or burn; named production use remains unverified. The post Chainlink CCIP 2.0 exposes bridge risk, and issuer gates trigger stalls appeared first on CryptoSlate .",
+    "published": "2026-09-29T08:00:09+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "Internet Computer (ICP) Soars 35% Monthly as Analysts Eye a Pump Above $10: Details",
+    "link": "https://cryptopotato.com/internet-computer-icp-soars-35-monthly-as-analysts-eye-a-pump-above-10-details/",
+    "summary": "ICP has outperformed BTC, ETH, XRP, and many other popular cryptocurrencies over the last four weeks.",
+    "published": "2026-09-29T06:57:04+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
+    "source": "The Defiant",
+    "title": "Ethlabs Says CCIP 2.0 Cuts Ethereum Confirmation Wait to Seconds",
+    "link": "https://thedefiant.io/news/infrastructure/ethlabs-says-ccip-2-0-cuts-ethereum-confirmation-wait-to-seconds",
+    "summary": "Faster transfers require opt-in settings, while Ethereum’s full-finality guarantees and CCIP’s default wait remain unchanged.",
+    "published": "2026-09-29T06:26:21+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CoinDesk",
+    "title": "Near Intents blocks $50 million in Bitget hacker swaps, here's what happened",
+    "link": "https://www.coindesk.com/tech/2026/09/29/usd50-million-in-bitget-hacker-swaps-puts-near-intents-permissionless-claim-to-the-test",
+    "summary": "The swap service identified more than $50 million in attempted transfers, although most rejected funds subsequently moved through other providers.",
+    "published": "2026-09-29T06:23:47+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "U.Today",
+    "title": "Peter Brandt Names Stellar (XLM) as Long-Shot Crypto Pick",
+    "link": "https://u.today/peter-brandt-names-stellar-xlm-as-long-shot-crypto-pick",
+    "summary": "Veteran commodity trader Peter Brandt has named Stellar (XLM) as a potential long-term winner, telling traders that the cryptocurrency could be a good \"long shot\" bet over the next several years as its price jumps nearly 7%.",
+    "published": "2026-09-29T06:16:56+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "Tether Freezes Nearly $550M in Iran-Linked USDT in 2026 as US Crackdown Expands",
+    "link": "https://cryptopotato.com/tether-freezes-nearly-550m-in-iran-linked-usdt-in-2026-as-us-crackdown-expands/",
+    "summary": "Tether highlighted that blockchain data is becoming a powerful tool for sanctions enforcement, allowing authorities to track funds on-chain, identify specific wallets, and work with issuers to freeze them.",
+    "published": "2026-09-29T06:10:54+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "Coinbase powers Citi’s new stablecoin rails, and corporate banking faces a major shift",
+    "link": "https://cryptoslate.com/coinbase-powers-citis-new-stablecoin-rails-and-corporate-banking-faces-a-major-shift/",
+    "summary": "Coinbase Virtual Accounts also gain automatic fiat conversion through Citi infrastructure, while customer usage remains undisclosed. The post Coinbase powers Citi’s new stablecoin rails, and corporate banking faces a major shift appeared first on CryptoSlate .",
+    "published": "2026-09-29T06:00:50+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CoinDesk",
+    "title": "Anthropic plans to spend $518 billion on AI infrastructure. Pre-IPO perps barely blink.",
+    "link": "https://www.coindesk.com/markets/2026/09/29/anthropic-plans-to-spend-usd518-billion-on-ai-infrastructure-pre-ipo-perps-barely-blink",
+    "summary": "Anthropic's prospectus seen by Reuters shows big spending plans despite heavy losses. Still, pre-IPO perps barely moved on cryptocurrency exchanges.",
+    "published": "2026-09-29T05:31:44+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Cointelegraph",
+    "title": "Tether says it helped freeze $550M in Iran-linked USDT this year",
+    "link": "https://cointelegraph.com/news/tether-says-it-helped-freeze-550m-in-iran-linked-usdt-this-year?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "The disclosure came as Senate Democratic investigators alleged USDT had become a key part of Iran’s shadow banking network.",
+    "published": "2026-09-29T05:29:28+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CoinDesk",
+    "title": "Bitcoin holds $83,000 as ZEC drops 12% and oil climbs again",
+    "link": "https://www.coindesk.com/markets/2026/09/29/bitcoin-holds-usd83-000-as-zec-drops-12-and-oil-climbs-again",
+    "summary": "Global stocks fell to a one-week low as Brent rose for a second day and traders added to bets on more Federal Reserve rate hikes ahead of Wednesday's PCE inflation data.",
+    "published": "2026-09-29T04:17:20+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "Ethereum Just Defied the September Curse But a Major Resistance Wall Still Stands",
+    "link": "https://cryptopotato.com/ethereum-just-defied-the-september-curse-but-a-major-resistance-wall-still-stands/",
+    "summary": "Ethereum is attracting stronger buying interest from several corners of the market, though a major resistance level remains in focus.",
+    "published": "2026-09-29T04:11:39+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "US bank group taps Quant for tokenized deposits, but QNT’s role is left in doubt",
+    "link": "https://cryptoslate.com/us-bank-group-taps-quant-for-tokenized-deposits-but-qnts-role-is-left-in-doubt/",
+    "summary": "The planned bank network has a software supplier and a 2027 target, but no disclosed formula for QNT purchases. The post US bank group taps Quant for tokenized deposits, but QNT’s role is left in doubt appeared first on CryptoSlate .",
+    "published": "2026-09-29T04:10:16+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Cointelegraph",
+    "title": "Coinbase gets CFTC approval for US derivatives clearinghouse",
+    "link": "https://cointelegraph.com/news/coinbase-gets-cftc-approval-for-us-derivatives-clearinghouse?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "Coinbase joins Kraken in bringing US derivatives infrastructure in-house, after Kraken’s parent acquired Bitnomial and its CFTC-regulated exchange, clearinghouse and brokerage in May.",
+    "published": "2026-09-29T04:02:29+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Cointelegraph",
+    "title": "Nvidia unveils AI safety platform to rein in ‘rogue’ AI agents",
+    "link": "https://cointelegraph.com/news/nvidia-unveils-ai-safety-platform-to-rein-in-rogue-ai-agents?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "The launch comes after several AI agents breached their testing environments this year, adding to calls for companies to slow the development of autonomous AI systems.",
+    "published": "2026-09-29T02:32:36+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "Compound DAO used protocol reserves to buy $52 million worth of COMP, and delegates call it a mandate breach",
+    "link": "https://cryptoslate.com/compound-dao-used-protocol-reserves-to-buy-52-million-worth-of-comp-and-delegates-call-it-a-mandate-breach/",
+    "summary": "Bitquery says 344,780 COMP pushed supporters above half of delegated voting power; the Foundation says the move fit its DAO mandate. The post Compound DAO used protocol reserves to buy $52 million worth of COMP, and delegates call it a mandate breach appeared first on CryptoSlate .",
+    "published": "2026-09-29T02:30:29+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Block",
+    "title": "Coinbase receives DCO approval from CFTC, completing full derivatives stack",
+    "link": "https://www.theblock.co/news/business/2026-09-28-coinbase-dco-approval-417105",
+    "summary": "This completes Coinbase's derivatives infrastructure, allowing it to list, broker, and clear fully collateralized products in-house.",
+    "published": "2026-09-29T02:02:36+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
     "source": "The Defiant",
     "title": "Coinbase Wins CFTC Approval for In-House Derivatives Clearing",
     "link": "https://thedefiant.io/converge/tradfi-and-fintech/coinbase-wins-cftc-approval-for-in-house-derivatives-clearing",
@@ -25,16 +205,6 @@
     "link": "https://cryptoslate.com/robinhood-chains-1-5-billion-boom-is-attracting-memecoin-rug-factories/",
     "summary": "A second suspected memecoin rug factory has surfaced on Robinhood Chain as the fast-growing network attracts increasingly coordinated scam activity. On Sept. 28, blockchain security firm GoPlus said it identified a high-risk operation behind hundreds of memecoins that routed more than $9 million through a common fund-consolidation network over the past 30 days. The operation […] The post Robinhood",
     "published": "2026-09-29T00:20:34+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "U.Today",
-    "title": "Meme Coin Digest for September 29: $35 Billion Market Faces Major Reality Check",
-    "link": "https://u.today/meme-coin-digest-for-september-29-35-billion-market-faces-major-reality-check",
-    "summary": "The meme sector is trading as a collection of separate stories, not one trend: capital rotates quickly between narratives, large caps drift with the wider market, and small tokens spike and reverse within hours.",
-    "published": "2026-09-29T00:01:00+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -343,7 +513,7 @@
     "source": "The Defiant",
     "title": "Compound Foundation Denies V2 Reserve Misuse Allegation",
     "link": "https://thedefiant.io/news/defi/compound-foundation-denies-v2-reserve-misuse-allegation",
-    "summary": "Records show 344,780 COMP increased the Foundation’s voting power before a $52 million V4 budget vote. The proposal had enough support to pass without those tokens.",
+    "summary": "Records show 344,780 COMP took the proposal’s supporters from 45.1% to 50.1% of delegated voting power before the $52 million V4 budget vote. No one voted against it.",
     "published": "2026-09-28T18:00:52+00:00",
     "regulatory": false,
     "institutional": false,
@@ -430,16 +600,6 @@
     "category": "event"
   },
   {
-    "source": "CryptoSlate",
-    "title": "USDT grew on Ethereum through 2024, but smart contract holdings stalled, BIS data show",
-    "link": "https://cryptoslate.com/usdt-growth-does-not-prove-more-defi-demand-on-ethereum-or-tron-bis-data-show/",
-    "summary": "Ethereum's historical contract-held share fell as issuance expanded, while Tron's hovered near 1% in the study. The post USDT grew on Ethereum through 2024, but smart contract holdings stalled, BIS data show appeared first on CryptoSlate .",
-    "published": "2026-09-28T17:30:09+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "The Block",
     "title": "Citi expands Coinbase partnership to power stablecoin payments for businesses",
     "link": "https://www.theblock.co/news/business/2026-09-28-citi-coinbase-stablecoin-payments-corporate-clients-417082",
@@ -485,16 +645,6 @@
     "link": "https://thedefiant.io/converge/tradfi-and-fintech/dune-flags-yield-shortfall-at-tokenized-money-funds",
     "summary": "WisdomTree’s Treasury money fund trailed its T-bill benchmark by 15 basis points over a year. Issuer disclosures show how expenses and liquidity terms affect returns.",
     "published": "2026-09-28T16:30:43+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoSlate",
-    "title": "Russia lets crypto exchanges apply October 5 – but even Bitcoin lacks final retail clearance",
-    "link": "https://cryptoslate.com/russia-sets-october-5-crypto-exchange-entry-rules-but-investor-access-still-waits/",
-    "summary": "Applications can begin under the new rules, while firms still need Bank of Russia decisions and retail asset eligibility remains separate. The post Russia lets crypto exchanges apply October 5 – but even Bitcoin lacks final retail clearance appeared first on CryptoSlate .",
-    "published": "2026-09-28T16:30:12+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -590,16 +740,6 @@
     "category": "event"
   },
   {
-    "source": "CryptoSlate",
-    "title": "OKX US to sell USD trading bot positions if users miss Sept 30 deadline",
-    "link": "https://cryptoslate.com/okx-us-to-sell-usd-trading-bot-positions-if-users-miss-sept-30-deadline/",
-    "summary": "Grid and Smart Portfolio holdings face automatic sales if affected bots remain on old USD pairs. The post OKX US to sell USD trading bot positions if users miss Sept 30 deadline appeared first on CryptoSlate .",
-    "published": "2026-09-28T15:30:15+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "Decrypt",
     "title": "Bitcoin Falls Lower as Trump's Iran Snub Sends Oil, Yields Higher",
     "link": "https://decrypt.co/379438/bitcoin-price-falls-trump-iran-oil-yields",
@@ -666,16 +806,6 @@
     "summary": "Bitcoin Magazine Trezor Safe 7 Review: The FOSS Self Custody Hardware Wallet Trezor’s $249 Safe 7 pairs a 20-word SLIP-39 Shamir backup with TROPIC01, Optiga, and STM32 entropy — and Bluetooth that the review treats as warm storage, not cold. This post Trezor Safe 7 Review: The FOSS Self Custody Hardware Wallet first appeared on Bitcoin Magazine and is written by Juan Galt .",
     "published": "2026-09-28T14:32:00+00:00",
     "regulatory": true,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoSlate",
-    "title": "Bitget had 30 minutes to contain its hack before $290 million started moving",
-    "link": "https://cryptoslate.com/bitget-had-30-minutes-to-contain-its-hack-before-290-million-started-moving/",
-    "summary": "Hypernative places the major transfer waves roughly 30 and 45 minutes after Bitget's reported detection. The post Bitget had 30 minutes to contain its hack before $290 million started moving appeared first on CryptoSlate .",
-    "published": "2026-09-28T14:30:12+00:00",
-    "regulatory": false,
     "institutional": false,
     "category": "event"
   },
@@ -790,16 +920,6 @@
     "category": "event"
   },
   {
-    "source": "CryptoPotato",
-    "title": "Ethereum Price Analysis: Is a Drop to $2.4K Next After ETH’s Latest Rejection?",
-    "link": "https://cryptopotato.com/ethereum-price-analysis-is-a-drop-to-2-4k-next-after-eths-latest-rejection/",
-    "summary": "Ethereum is consolidating below $2.7K after a sharp recovery from the June lows. The charts show a constructive medium-term structure, although momentum has cooled after ETH failed to sustain its move into the $2.7K resistance area. The key question now is whether the price can hold above the rising trendline and the nearby demand zone […]",
-    "published": "2026-09-28T13:09:30+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "sentiment"
-  },
-  {
     "source": "CoinDesk",
     "title": "AI agents could drain cheap bank deposits, Apollo's Torsten Slok warns",
     "link": "https://www.coindesk.com/markets/2026/09/28/ai-agents-could-drain-cheap-bank-deposits-apollo-s-torsten-slok-warns",
@@ -845,16 +965,6 @@
     "link": "https://thedefiant.io/converge/tradfi-and-fintech/citi-taps-coinbase-for-corporate-stablecoin-payments-wsj",
     "summary": "The firms’ October 2025 collaboration initially focused on fiat funding and withdrawals for Coinbase’s on- and off-ramps.",
     "published": "2026-09-28T12:29:31+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoPotato",
-    "title": "Strive Loads Up on Another 1,100 Bitcoin as Total Holdings Approach 27,500",
-    "link": "https://cryptopotato.com/strive-loads-up-on-another-1100-bitcoin-as-total-holdings-approach-27500/",
-    "summary": "The company has been announcing new BTC purchases for months now.",
-    "published": "2026-09-28T12:23:16+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -950,32 +1060,12 @@
     "category": "sentiment"
   },
   {
-    "source": "CryptoPotato",
-    "title": "Saylor’s Strategy Buys Another 1,665 BTC in Second Consecutive Weekly Purchase",
-    "link": "https://cryptopotato.com/saylors-strategy-buys-another-1665-btc-in-second-consecutive-weekly-purchase/",
-    "summary": "The purchase from last week wasn't a one-time thing, it appears.",
-    "published": "2026-09-28T12:06:14+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "Decrypt",
     "title": "Morning Minute: SEC Clears Token Buybacks for Crypto Networks",
     "link": "https://decrypt.co/379412/morning-minute-sec-clears-token-buybacks-for-crypto-networks",
     "summary": "The Gary Gensler era is long gone and now the SEC is providing clarity on what crypto protocols can and can’t do with their tokens.",
     "published": "2026-09-28T12:03:21+00:00",
     "regulatory": true,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "The Defiant",
-    "title": "Bitwise NEAR ETF Clears Listing and Registration Hurdles",
-    "link": "https://thedefiant.io/converge/tradfi-and-fintech/bitwise-near-etf-clears-listing-and-registration-hurdles",
-    "summary": "The NRR product plans to stake its NEAR holdings, with a 0.75% annual management fee and a separate charge on staking rewards.",
-    "published": "2026-09-28T11:41:53+00:00",
-    "regulatory": false,
     "institutional": false,
     "category": "event"
   },
@@ -988,16 +1078,6 @@
     "regulatory": false,
     "institutional": false,
     "category": "sentiment"
-  },
-  {
-    "source": "Cointelegraph",
-    "title": "Bitget resumes Bitcoin withdrawals as hacker swaps ETH via THORChain",
-    "link": "https://cointelegraph.com/news/bitget-btc-withdrawal-hacker-eth-swap-thorchain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "summary": "Ether withdrawals are scheduled to return Tuesday and USDt on Wednesday as Bitget restores services following last week’s $388 million hack.",
-    "published": "2026-09-28T11:05:24+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
   },
   {
     "source": "CoinDesk",
@@ -1015,16 +1095,6 @@
     "link": "https://www.newsbtc.com/news/mexc-launches-mexc-cli-connecting-ai-agents-from-trading-intent-to-execution/",
     "summary": "Mutsamudu, Comoros, September 28, 2026 – MEXC, a pioneer in 0-fee digital asset trading, today announced the launch of MEXC CLI, a new command-line tool that lets users connect their own AI Agents directly to MEXC and move more seamlessly from trading intent to execution. Once installed, MEXC CLI enables users to express what they want to do in natural language within AI environments they already ",
     "published": "2026-09-28T10:38:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "U.Today",
-    "title": "XRP Faces 980% Liquidation Imbalance as Longs Take Hit in Market Selloff",
-    "link": "https://u.today/xrp-faces-980-liquidation-imbalance-as-longs-take-hit-in-market-selloff",
-    "summary": "980% liquidation imbalance rocks XRP market as longs face fresh pressure.",
-    "published": "2026-09-28T10:20:12+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -1050,31 +1120,11 @@
     "category": "sentiment"
   },
   {
-    "source": "U.Today",
-    "title": "1.1 Million XRP Ledger Payments: What Pushes It So High?",
-    "link": "https://u.today/11-million-xrp-ledger-payments-what-pushes-it-so-high",
-    "summary": "XRP Ledger payments have surged to roughly 1.1 million per day, significantly exceeding the 30-day average as network activity accelerates.",
-    "published": "2026-09-28T10:15:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "sentiment"
-  },
-  {
     "source": "CoinDesk",
     "title": "Live updates: Bitcoin remains under pressure as Iran denies report of peace progress",
     "link": "https://www.coindesk.com/business/2026/09/28/live-updates-bitcoin-sinks-below-usd83-000-as-iran-talks-stall-and-oil-climbs",
     "summary": "The U.S. 10-year Treasury yield is sharply higher again, rising to a new cycle high above 5.27%.",
     "published": "2026-09-28T10:02:37+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "Cointelegraph",
-    "title": "Hong Kong regulators expand financial reporting oversight to licensed crypto firms",
-    "link": "https://cointelegraph.com/news/hong-kong-sfc-afrc-crypto-financial-reporting-mou?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "summary": "The SFC and AFRC signed a new MoU extending financial reporting, audit and compliance cooperation to licensed virtual asset service providers.",
-    "published": "2026-09-28T09:58:31+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -1110,16 +1160,6 @@
     "category": "sentiment"
   },
   {
-    "source": "Cointelegraph",
-    "title": "Scammers steal $2M in ETH as fake GIWA network fools DYORSWAP",
-    "link": "https://cointelegraph.com/news/fake-giwa-blockchain-scam-drains-2m-eth?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "summary": "DYORSWAP said it paid more than 200 ETH in compensation, while Upbit operator Dunamu’s GIWA warned that its mainnet had not launched.",
-    "published": "2026-09-28T09:19:50+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "The Block",
     "title": "Bitget starts phased withdrawal resumption following $388 million exploit",
     "link": "https://www.theblock.co/news/business/2026-09-28-bitget-starts-phased-withdrawal-resumption-416965",
@@ -1135,36 +1175,6 @@
     "link": "https://www.newsbtc.com/news/jumper-to-launch-jump-token-sale-on-legion-as-it-spins-out-to-build-the-super-app-for-onchain-finance/",
     "summary": "With more than $40 billion in lifetime volume and over 100,000 monthly active users, Jumper is entering its next phase of growth as an independent company. September 28, 2026 | British Virgin Islands – Jumper, one of the leading consumer applications for moving and trading assets onchain, today announced plans for its first JUMP token sale through Legion as it becomes an independent company. Jumpe",
     "published": "2026-09-28T08:17:12+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CoinDesk",
-    "title": "RedotPay completes financial audit as it presses ahead with U.S. IPO plans",
-    "link": "https://www.coindesk.com/business/2026/09/28/redotpay-completes-financial-audit-as-it-presses-ahead-with-u-s-ipo-plans",
-    "summary": "The stablecoin payments company said the audit is part of its preparations to go public, disputing an August report that the listing had been put on hold.",
-    "published": "2026-09-28T07:50:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CoinDesk",
-    "title": "California's Newsom signs memecoin ban and calls it 'The Opposite of Trump'",
-    "link": "https://www.coindesk.com/markets/2026/09/28/california-s-newsom-signs-memecoin-ban-and-calls-it-the-opposite-of-trump",
-    "summary": "The California Governor signed AB 2409 as part of an anti-corruption package, framing it as a response to President Trump's $TRUMP fiasco.",
-    "published": "2026-09-28T06:21:52+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CoinDesk",
-    "title": "Solana ETFs draw record $188 million in a week as Bitwise takes two-thirds of inflows",
-    "link": "https://www.coindesk.com/markets/2026/09/28/solana-etfs-draw-record-usd188-million-in-a-week-as-bitwise-takes-two-thirds-of-inflows",
-    "summary": "All seven funds attracted money, while Friday’s $87 million intake set a daily record.",
-    "published": "2026-09-28T06:21:06+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -1336,16 +1346,6 @@
     "summary": "Promoting a network’s current uses generally would not create an expectation of profit, SEC staff said.",
     "published": "2026-09-25T20:32:40+00:00",
     "regulatory": true,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "The Block",
-    "title": "Blockchain Association CEO Summer Mersinger to step down, Kristin Smith to return as interim CEO",
-    "link": "https://www.theblock.co/news/regulation/2026-09-25-blockchain-association-ceo-summer-mersinger-tstep-down-kristin-smith-interim-ceo-416913",
-    "summary": "The Blockchain Association is switching up its leadership with CEO Summer Mersinger set to step down next month.",
-    "published": "2026-09-25T19:48:07+00:00",
-    "regulatory": false,
     "institutional": false,
     "category": "event"
   },
