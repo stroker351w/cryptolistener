@@ -1,10 +1,80 @@
 [
   {
+    "source": "The Defiant",
+    "title": "Coinbase Wins CFTC Approval for In-House Derivatives Clearing",
+    "link": "https://thedefiant.io/converge/tradfi-and-fintech/coinbase-wins-cftc-approval-for-in-house-derivatives-clearing",
+    "summary": "The new clearinghouse can handle fully collateralized contracts; Coinbase will keep outside partners for margined futures and planned single-stock perpetuals.",
+    "published": "2026-09-29T01:23:54+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Cointelegraph",
+    "title": "NEAR Intents says it blocked $50M tied to Bitget hackers",
+    "link": "https://cointelegraph.com/news/near-intents-says-it-blocked-50m-tied-to-bitget-hackers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "The cross-chain protocol said it actively prevents stolen funds from being laundered, drawing a contrast with THORChain’s position that it does not selectively censor transactions.",
+    "published": "2026-09-29T01:17:49+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "Robinhood Chain’s $1.5 billion boom is attracting memecoin rug factories",
+    "link": "https://cryptoslate.com/robinhood-chains-1-5-billion-boom-is-attracting-memecoin-rug-factories/",
+    "summary": "A second suspected memecoin rug factory has surfaced on Robinhood Chain as the fast-growing network attracts increasingly coordinated scam activity. On Sept. 28, blockchain security firm GoPlus said it identified a high-risk operation behind hundreds of memecoins that routed more than $9 million through a common fund-consolidation network over the past 30 days. The operation […] The post Robinhood",
+    "published": "2026-09-29T00:20:34+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "U.Today",
+    "title": "Meme Coin Digest for September 29: $35 Billion Market Faces Major Reality Check",
+    "link": "https://u.today/meme-coin-digest-for-september-29-35-billion-market-faces-major-reality-check",
+    "summary": "The meme sector is trading as a collection of separate stories, not one trend: capital rotates quickly between narratives, large caps drift with the wider market, and small tokens spike and reverse within hours.",
+    "published": "2026-09-29T00:01:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "Nearly 5,000 BTC leaves Bitget as hackers begin laundering $387 million haul",
+    "link": "https://cryptoslate.com/nearly-5000-btc-leaves-bitget-as-hackers-begin-laundering-387-million-haul/",
+    "summary": "Nearly 5,000 Bitcoin has left Bitget’s tracked reserves after the crypto exchange reopened withdrawals following its $387.5 million hack. On Sept. 28, Bitget Chief Executive Officer Gracy Chen said the exchange had processed 9,585 withdrawal orders totaling 4,098.036 BTC as of 17:00 UTC+8, shortly after it resumed Bitcoin withdrawals. Separate DeFiLlama data showed Bitget’s tracked […] The post Ne",
+    "published": "2026-09-28T22:50:12+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "THORChain Faces Backlash Over Stolen Bitget Funds Routed Through Swaps",
+    "link": "https://cryptopotato.com/thorchain-faces-backlash-over-stolen-bitget-funds-routed-through-swaps/",
+    "summary": "Bitget's live tracker lists 2,377 attacker addresses, and 1,497 of them are marked as having moved funds through THORChain swaps so far.",
+    "published": "2026-09-28T22:17:06+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
     "source": "Decrypt",
     "title": "OpenAI Halts Model Training as Rogue Agents Target US Government Sites",
     "link": "https://decrypt.co/379508/openai-ai-agents-target-us-government-sites",
     "summary": "OpenAI says its agents keep landing on government websites because they treat them as reliable sources, but it's pausing training while it adds safeguards.",
     "published": "2026-09-28T21:46:03+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "U.Today",
+    "title": "Monero Releases New Stressnet Version",
+    "link": "https://u.today/monero-releases-new-stressnet-version",
+    "summary": "Monero has released a new version of its beta stressnet software as the privacy-focused network moves closer to testing major upgrades FCMP++ and CARROT.",
+    "published": "2026-09-28T21:43:06+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -670,16 +740,6 @@
     "category": "event"
   },
   {
-    "source": "CryptoSlate",
-    "title": "California signs into law restrictions banning public officers from issuing crypto meme coins",
-    "link": "https://cryptoslate.com/newsom-signs-california-law-barring-public-officers-and-certain-employees-from-issuing-meme-coins/",
-    "summary": "AB 2409 also limits listings for California residents of official-linked coins issued on or after Jan. 1, 2027. The post California signs into law restrictions banning public officers from issuing crypto meme coins appeared first on CryptoSlate .",
-    "published": "2026-09-28T13:30:58+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "U.Today",
     "title": "Binance to Temporarily Suspend Withdrawals on Coinbase L2 Base This Date: Reason",
     "link": "https://u.today/binance-to-temporarily-suspend-withdrawals-on-coinbase-l2-base-this-date-reason",
@@ -765,16 +825,6 @@
     "link": "https://cointelegraph.com/news/strategy-1665-bitcoin-buy-holdings-847666-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "summary": "Strategy sold 1.47 million MSTR shares for $246.2 million, using the proceeds for Bitcoin purchases and STRC preferred stock repurchases.",
     "published": "2026-09-28T12:38:01+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoSlate",
-    "title": "Bitcoin dips below $83,000 to start the week as Asia markets sell, extending last week’s retreat",
-    "link": "https://cryptoslate.com/bitcoin-dips-below-83000-on-monday-extending-last-weeks-retreat/",
-    "summary": "The Asia-session quote crossed the lower edge of Friday's range while oil and Treasury yields rose in the wider market. The post Bitcoin dips below $83,000 to start the week as Asia markets sell, extending last week’s retreat appeared first on CryptoSlate .",
-    "published": "2026-09-28T12:30:41+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -940,16 +990,6 @@
     "category": "sentiment"
   },
   {
-    "source": "CryptoPotato",
-    "title": "Quant (QNT) Surges 260% in a Week, but This Trader Just Sold Everything: Here’s Why",
-    "link": "https://cryptopotato.com/quant-qnt-surges-260-in-a-week-but-this-trader-just-sold-everything-heres-why/",
-    "summary": "\"Even if I sold early and it goes higher, I’m happy with my decision,\" Doctor Profit stated.",
-    "published": "2026-09-28T11:11:52+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "sentiment"
-  },
-  {
     "source": "Cointelegraph",
     "title": "Bitget resumes Bitcoin withdrawals as hacker swaps ETH via THORChain",
     "link": "https://cointelegraph.com/news/bitget-btc-withdrawal-hacker-eth-swap-thorchain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -1080,26 +1120,6 @@
     "category": "event"
   },
   {
-    "source": "Cointelegraph",
-    "title": "Bitcoin drops under $83K as liquidity hunting keeps bulls from targeting yearly open",
-    "link": "https://cointelegraph.com/markets/bitcoin-drops-under-83k-as-liquidity-hunting-keeps-bulls-from-targeting-yearly-open?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "summary": "Bitcoin joined US stock futures in dropping on Monday after US president Donald Trump did not commit to permanently halting strikes on Iran.",
-    "published": "2026-09-28T09:03:20+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "U.Today",
-    "title": "SEC and CFTC Push Forward on Crypto Rules: What Bitcoin, XRP and Altcoin Holders Must Know",
-    "link": "https://u.today/sec-and-cftc-push-forward-on-crypto-rules-what-bitcoin-xrp-and-altcoin-holders-must-know",
-    "summary": "Following the Senate deadlock SEC and CFTC push direct crypto rules as BTC XRP and in-demand altcoins hold strong near local price highs.",
-    "published": "2026-09-28T08:52:15+00:00",
-    "regulatory": true,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "The Block",
     "title": "Bitget starts phased withdrawal resumption following $388 million exploit",
     "link": "https://www.theblock.co/news/business/2026-09-28-bitget-starts-phased-withdrawal-resumption-416965",
@@ -1118,16 +1138,6 @@
     "regulatory": false,
     "institutional": false,
     "category": "event"
-  },
-  {
-    "source": "U.Today",
-    "title": "Is Crypto Uptober Coming? Analyzing History of Most Bullish Month",
-    "link": "https://u.today/is-crypto-uptober-coming-analyzing-history-of-most-bullish-month",
-    "summary": "The most bullish month in the history of the market might not be that bullish this year.",
-    "published": "2026-09-28T08:10:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "sentiment"
   },
   {
     "source": "CoinDesk",
@@ -1175,16 +1185,6 @@
     "link": "https://decrypt.co/379402/ai-agents-keep-escaping-creators-control",
     "summary": "An OpenAI agent's breach of an Australian government website is the starkest example yet of a pattern building for months—and of how hard autonomous AI is to contain.",
     "published": "2026-09-27T16:01:03+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "The Defiant",
-    "title": "THORChain Pushes Back on Bitget’s Demand to Block Hacker Addresses",
-    "link": "https://thedefiant.io/news/defi/thorchain-pushes-back-on-bitget-s-demand-to-block-hacker-addresses",
-    "summary": "An address flagged by Bitget completed an XRP-to-bitcoin swap after the request, while OKX’s Star Xu challenged THORChain’s comparison with Bitcoin.",
-    "published": "2026-09-27T14:45:19+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
