@@ -1,5 +1,185 @@
 [
   {
+    "source": "CryptoSlate",
+    "title": "Three hidden flaws in Uniswap’s StablePair hook drain LP returns",
+    "link": "https://cryptoslate.com/three-hidden-flaws-in-uniswaps-stablepair-hook-drain-lp-returns/",
+    "summary": "StablePair can retain rebalancing value for liquidity providers, but fees anchored to a configured rate leave token and inventory risk with LPs. The post Three hidden flaws in Uniswap’s StablePair hook drain LP returns appeared first on CryptoSlate .",
+    "published": "2026-10-01T05:10:32+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CoinDesk",
+    "title": "Dogecoin gets DeFi testnet as DogeOS bets miners will eventually secure its apps",
+    "link": "https://www.coindesk.com/tech/2026/10/01/dogecoin-gets-defi-testnet-as-dogeos-bets-miners-will-eventually-secure-its-apps",
+    "summary": "DogeOS wants to turn DOGE into more than a payments and speculation asset, but its applications still rely on selected operators rather than Dogecoin miners.",
+    "published": "2026-10-01T04:58:52+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Cointelegraph",
+    "title": "Crypto hacks top $768M in September, worst month of 2026",
+    "link": "https://cointelegraph.com/news/crypto-hacks-total-766m-in-september-peckshield?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "The $388 million Bitget breach and $320 million Liquid Network exploit accounted for most of September’s losses, though more than $270 million from the latter was later returned.",
+    "published": "2026-10-01T04:44:33+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CoinDesk",
+    "title": "Bitcoin's soft-inflation pop to $85,500 fades as bond yields refuse to fall",
+    "link": "https://www.coindesk.com/markets/2026/10/01/bitcoin-s-soft-inflation-pop-to-usd85-500-fades-as-bond-yields-refuse-to-fall",
+    "summary": "A cooler-than-expected PCE report sent bitcoin briefly above $85,000 on Wednesday. Treasury yields held near their highest since 2002 and the gains drained away.",
+    "published": "2026-10-01T04:15:20+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "XRP in October: Will Ripple’s Streak Continue After 3 Consecutive Green Months?",
+    "link": "https://cryptopotato.com/xrp-in-october-will-ripples-streak-continue-after-3-consecutive-green-months/",
+    "summary": "October has been somewhat controversial for XRP, despite its 'Uptober' nickname.",
+    "published": "2026-10-01T04:12:06+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
+    "source": "The Defiant",
+    "title": "Sentora’s Morpho Vaults See Sharp Outflows Amid MetaMask Staking Incident",
+    "link": "https://thedefiant.io/news/defi/sentora-s-morpho-vaults-see-sharp-outflows-amid-metamask-staking-incident",
+    "summary": "The RLUSD and PYUSD vaults had about $8.46 million and $2.38 million of available liquidity, respectively, in Morpho’s latest snapshots.",
+    "published": "2026-10-01T03:19:58+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "Bitcoin enters its best season after a 43% surge, with $147,000 suddenly on the math",
+    "link": "https://cryptoslate.com/bitcoin-enters-its-best-season-after-a-43-surge-with-147000-suddenly-on-the-math/",
+    "summary": "Bitcoin is closing its strongest quarter since 2024 after leaving US stocks and gold far behind despite surging bond yields. The largest digital asset has gained about 43% in the third quarter, putting it on course for its second-best third-quarter since 2013 and its third-strongest quarterly advance since US spot Bitcoin exchange-traded funds began trading […] The post Bitcoin enters its best sea",
+    "published": "2026-10-01T03:10:09+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
+    "source": "NewsBTC",
+    "title": "Kraken Completes Acquisition Of TradeStation Crypto Infrastructure Assets",
+    "link": "https://www.newsbtc.com/exchanges/kraken-completes-acquisition-of-tradestation-crypto-infrastructure-ass/",
+    "summary": "In a major development confirmed on SEPTEMBER 30, 2026, Confirmed announcement/filing for Kraken Completes Acquisition Of TradeStation Crypto Infrastructure Assets. This operational move highlights expanding activity across the digital asset ecosystem and underscores key developments for market participants. Key Operational Milestones & Context According to primary regulatory and corporate filings",
+    "published": "2026-10-01T02:00:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "New Bitcoin upgrade catches hidden key leaks hiding the exact fix",
+    "link": "https://cryptoslate.com/new-bitcoin-upgrade-catches-hidden-key-leaks-hiding-the-exact-fix/",
+    "summary": "BIP461 would make compliant ECDSA signatures reproducible, enabling comparisons that flag deviations without proving malicious firmware. The post New Bitcoin upgrade catches hidden key leaks hiding the exact fix appeared first on CryptoSlate .",
+    "published": "2026-10-01T01:20:32+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Cointelegraph",
+    "title": "CFTC seeks to define event contracts as swaps amid prediction market fight",
+    "link": "https://cointelegraph.com/news/cftc-seeks-to-define-event-contracts-as-swaps-amid-prediction-market-fight?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "The classification could assist the CFTC’s claim that it has exclusive federal jurisdiction over event contracts offered on regulated prediction markets.",
+    "published": "2026-10-01T01:07:46+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "NewsBTC",
+    "title": "WisdomTree Deploys Tokenized Real World Asset Funds Natively On Arbitrum",
+    "link": "https://www.newsbtc.com/institutional/wisdomtree-deploys-tokenized-real-world-asset-funds-natively-on-arbitr/",
+    "summary": "In a major development confirmed on SEPTEMBER 30, 2026, Confirmed announcement/filing for WisdomTree Deploys Tokenized Real World Asset Funds Natively On Arbitrum. This operational move highlights expanding activity across the digital asset ecosystem and underscores key developments for market participants. Key Operational Milestones & Context According to primary regulatory and corporate filings ",
+    "published": "2026-10-01T01:00:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Bitcoin Magazine",
+    "title": "Bitcoin Privacy Breakthrough a Zcash Killer? | Misha Komorov, Alloc Innit",
+    "link": "https://bitcoinmagazine.com/videos/bitcoin-privacy-breakthrough-a-zcash-killer-misha-komorov-alloc-innit",
+    "summary": "Bitcoin Magazine Bitcoin Privacy Breakthrough a Zcash Killer? | Misha Komorov, Alloc Innit Misha Komarov explains Shielded Bitcoin—a proposed ZK privacy protocol using Bitcoin PIPEs to hide transactions with no soft fork needed. This post Bitcoin Privacy Breakthrough a Zcash Killer? | Misha Komorov, Alloc Innit first appeared on Bitcoin Magazine and is written by Patrick Green .",
+    "published": "2026-10-01T00:57:35+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Bitcoin Magazine",
+    "title": "Bitcoin’s Institutional Era Has Arrived | Robinhood VP of Crypto Institutions Nicola White",
+    "link": "https://bitcoinmagazine.com/videos/bitcoins-institutional-era-has-arrived-robinhood-vp-of-crypto-institutions-nicola-white",
+    "summary": "Bitcoin Magazine Bitcoin’s Institutional Era Has Arrived | Robinhood VP of Crypto Institutions Nicola White Robinhood VP Nicola White explains how 10x crypto perpetual futures arrived in the US and why Robinhood is pushing for 24/7 global markets. This post Bitcoin’s Institutional Era Has Arrived | Robinhood VP of Crypto Institutions Nicola White first appeared on Bitcoin Magazine and is written b",
+    "published": "2026-10-01T00:52:03+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
+    "source": "Bitcoin Magazine",
+    "title": "Mark Moss: The Bitcoin Endgame – BTC to $1 Million by 2030",
+    "link": "https://bitcoinmagazine.com/videos/mark-moss-the-bitcoin-endgame-btc-to-1-million-by-2030",
+    "summary": "Bitcoin Magazine Mark Moss: The Bitcoin Endgame – BTC to $1 Million by 2030 Mark Moss explains why Bitcoin keeps climbing post-Fed rate hike, benefiting from both currency debasement and a booming tech future. This post Mark Moss: The Bitcoin Endgame – BTC to $1 Million by 2030 first appeared on Bitcoin Magazine and is written by Patrick Green .",
+    "published": "2026-10-01T00:45:15+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Cointelegraph",
+    "title": "MetaMask exits Ethereum validators amid undisclosed security incident",
+    "link": "https://cointelegraph.com/news/metamask-exits-lido-validators-as-it-investigates-security-incident?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "MetaMask said it is investigating the threat internally and said it has found no immediate threat to its wallets.",
+    "published": "2026-10-01T00:15:55+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "U.Today",
+    "title": "Near Protocol (NEAR), Hyperliquid (HYPE), Ethereum (ETH) and XRP Price Analysis for October 1: Unexpected Turnaround on Crypto Market",
+    "link": "https://u.today/price-analysis/near-protocol-near-hyperliquid-hype-ethereum-eth-and-xrp-price-analysis-for-october-1-unexpected",
+    "summary": "The crypto market remains broadly bullish, although momentum is becoming increasingly uneven as some assets consolidate or correct after September’s strong gains.",
+    "published": "2026-10-01T00:01:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
+    "source": "The Defiant",
+    "title": "MetaMask Staking Exits Lido Validators After Infrastructure Compromise",
+    "link": "https://thedefiant.io/news/security/metamask-staking-exits-lido-validators-after-infrastructure-compromise",
+    "summary": "Lido estimates the exit, withdrawal and re-entry cycle could take up to about 45 days. Aave’s founder says its markets are operating normally.",
+    "published": "2026-10-01T00:00:43+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "NewsBTC",
+    "title": "Solana Validator Codebase Tag v2.1.0 Released On Testnet",
+    "link": "https://www.newsbtc.com/all/solana-validator-codebase-tag-v2-1-0-released-on-testnet/",
+    "summary": "In a major development confirmed on SEPTEMBER 30, 2026, Confirmed announcement/filing for Solana Validator Codebase Tag v2.1.0 Released On Testnet. This operational move highlights expanding activity across the digital asset ecosystem and underscores key developments for market participants. Key Operational Milestones & Context According to primary regulatory and corporate filings verified on SEPT",
+    "published": "2026-10-01T00:00:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
     "source": "Decrypt",
     "title": "Gemini 4 Is Here, and Google’s Flagship Tops All Other AI Models on Cybersecurity",
     "link": "https://decrypt.co/379784/gemini-4-google-flagship-tops-ai-models-cybersecurity",
@@ -610,16 +790,6 @@
     "category": "event"
   },
   {
-    "source": "CryptoSlate",
-    "title": "Stablecoin cards enter ‘hyper growth’ mode as monthly spending hits record $1.17 billion",
-    "link": "https://cryptoslate.com/stablecoin-cards-enter-hyper-growth-mode-as-monthly-spending-hits-record-1-17-billion/",
-    "summary": "Paymentscan's Sept. 29 snapshot shows a new tracked volume high and a higher implied amount per transaction. The post Stablecoin cards enter ‘hyper growth’ mode as monthly spending hits record $1.17 billion appeared first on CryptoSlate .",
-    "published": "2026-09-30T16:20:48+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "The Block",
     "title": "Bitcoin steadies as soft PCE cools October Fed rate hike bets",
     "link": "https://www.theblock.co/news/markets/2026-09-30-bitcoin-pce-inflation-october-rate-hike-417335",
@@ -645,16 +815,6 @@
     "link": "https://bitcoinmagazine.com/news/dutch-government-introduce-capital-gains",
     "summary": "Bitcoin Magazine Tax on Bitcoin Gains? Dutch Government to Introduce Capital Gains Tax From 2028 The Dutch government plans to impose a capital gains levy from 2028 on major assets. Bitcoin may be included. This post Tax on Bitcoin Gains? Dutch Government to Introduce Capital Gains Tax From 2028 first appeared on Bitcoin Magazine and is written by Mathew Di Salvo .",
     "published": "2026-09-30T16:02:33+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "NewsBTC",
-    "title": "HANetf Teams Up With HSBC To Launch First GBP & EUR-Hedged Bitcoin Products",
-    "link": "https://www.newsbtc.com/institutional/hanetf-teams-up-with-hsbc-to-launch-first-gbp-eur-hedged-bitcoin-produ/",
-    "summary": "In a major development confirmed on SEPTEMBER 30, 2026, Confirmed announcement/filing for HANetf Teams Up With HSBC To Launch First GBP & EUR-Hedged Bitcoin Products. This operational move highlights expanding activity across the digital asset ecosystem and underscores key developments for market participants. Key Operational Milestones & Context According to primary regulatory and corporate filin",
-    "published": "2026-09-30T16:00:00+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -710,16 +870,6 @@
     "category": "event"
   },
   {
-    "source": "CryptoSlate",
-    "title": "Robinhood Chain kept producing blocks through a roughly 40-minute app disruption",
-    "link": "https://cryptoslate.com/robinhood-chain-kept-producing-blocks-through-a-roughly-40-minute-app-disruption/",
-    "summary": "New full-day measurements correct the block-halt claim, while separate data show a steep drop in successful app traffic. The post Robinhood Chain kept producing blocks through a roughly 40-minute app disruption appeared first on CryptoSlate .",
-    "published": "2026-09-30T15:20:28+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "CoinDesk",
     "title": "U.S. CFTC  seeks event contract definitions that may defy states' gambling claims",
     "link": "https://www.coindesk.com/policy/2026/09/30/u-s-cftc-seeks-event-contract-definitions-that-may-defy-states-gambling-claims",
@@ -760,16 +910,6 @@
     "category": "event"
   },
   {
-    "source": "NewsBTC",
-    "title": "Goldman Sachs Connects $100 Billion Treasury Fund To Crypto Institutional Rails",
-    "link": "https://www.newsbtc.com/institutional/goldman-sachs-connects-100-billion-treasury-fund-to-crypto-institution/",
-    "summary": "In a major development confirmed on SEPTEMBER 29, 2026, Confirmed announcement/filing for Goldman Sachs Connects $100 Billion Treasury Fund To Crypto Institutional Rails. This operational move highlights expanding activity across the digital asset ecosystem and underscores key developments for market participants. Key Operational Milestones & Context According to primary regulatory and corporate f",
-    "published": "2026-09-30T15:00:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "CoinDesk",
     "title": "Crypto Long & Short: What will the AI agents run on?",
     "link": "https://www.coindesk.com/coindesk-indices/2026/09/30/crypto-long-and-short-what-will-the-ai-agents-run-on",
@@ -780,32 +920,12 @@
     "category": "sentiment"
   },
   {
-    "source": "CryptoSlate",
-    "title": "SEC changes token buyback guidance as spending hits $638M",
-    "link": "https://cryptoslate.com/sec-changes-token-buyback-guidance-as-spending-hits-638m/",
-    "summary": "The staff added a no-central-party condition, raising a harder question than how much a project buys back. The post SEC changes token buyback guidance as spending hits $638M appeared first on CryptoSlate .",
-    "published": "2026-09-30T14:20:59+00:00",
-    "regulatory": true,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "CoinDesk",
     "title": "Clock's ticking: UK's crypto regulatory application window opens with February deadline",
     "link": "https://www.coindesk.com/policy/2026/09/30/the-clock-s-ticking-uk-s-crypto-regulatory-application-window-opens-with-february-deadline",
     "summary": "The five-month application window precedes the new regulatory framework’s planned introduction in October 2027, after years of legislative development.",
     "published": "2026-09-30T14:04:19+00:00",
     "regulatory": true,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "NewsBTC",
-    "title": "Morgan Stanley Launches ‘Digital Asset Lab’ To Test Wall Street Crypto Infrastructure",
-    "link": "https://www.newsbtc.com/institutional/morgan-stanley-launches-digital-asset-lab-to-test-wall-street-crypto-i/",
-    "summary": "In a major development confirmed on SEPTEMBER 29, 2026, Confirmed announcement/filing for Morgan Stanley Launches ‘Digital Asset Lab’ To Test Wall Street Crypto Infrastructure. This operational move highlights expanding activity across the digital asset ecosystem and underscores key developments for market participants. Key Operational Milestones & Context According to primary regulatory and corpo",
-    "published": "2026-09-30T14:00:00+00:00",
-    "regulatory": false,
     "institutional": false,
     "category": "event"
   },
@@ -1150,16 +1270,6 @@
     "category": "event"
   },
   {
-    "source": "The Defiant",
-    "title": "Gate: Same-Name Error Triggers Liquidations in Perp Market",
-    "link": "https://thedefiant.io/news/cefi/gate-ben-market-logs-92-liquidations-after-scheduled-dividend-adjustment",
-    "summary": "Two self-identified Gate managers said a same-name asset error affected 200 accounts and that balance displays were being restored.",
-    "published": "2026-09-30T10:27:01+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "CoinDesk",
     "title": "Live updates: Bitcoin closing out best quarter since 2024, ether its best since 2021",
     "link": "https://www.coindesk.com/markets/2026/09/30/live-updates-bitcoin-below-usd84-000-ahead-of-pce-inflation-data-micron-earnings",
@@ -1200,81 +1310,11 @@
     "category": "event"
   },
   {
-    "source": "Cointelegraph",
-    "title": "Crypto hardware wallets compared for 2026",
-    "link": "https://cointelegraph.com/magazine/crypto-hardware-wallets-compared-for-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "summary": "From touchscreen and QR-code devices to NFC cards and Bitcoin-only models, this guide compares hardware wallets by security, connectivity, usability and recovery options to help users choose the right fit.",
-    "published": "2026-09-30T10:11:12+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "The Defiant",
-    "title": "Stable Announces Visa Direct Integration for Bank and Mobile Wallet Payouts",
-    "link": "https://thedefiant.io/converge/tradfi-and-fintech/stable-announces-visa-direct-integration-for-bank-and-mobile-wallet-payouts",
-    "summary": "Visa previously announced stablecoin funding and payout pilots; Stable has not specified when its connection will be available or which markets it will cover.",
-    "published": "2026-09-30T10:10:10+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "Cointelegraph",
-    "title": "SlowMist traces Bitget hack activity to Aug. 31 zero-day exploit",
-    "link": "https://cointelegraph.com/news/bitget-hack-zero-day-slowmist-investigation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "summary": "SlowMist identified malicious activity weeks before the Bitget theft, involving a zero-day vulnerability, two security products and a custom withdrawal tool.",
-    "published": "2026-09-30T10:05:39+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoPotato",
-    "title": "BetFury Offers Futures With an x1000 Multiplier and Slippage-Free Crypto Trading",
-    "link": "https://cryptopotato.com/betfury-offers-futures-with-an-x1000-multiplier-and-slippage-free-crypto-trading/",
-    "summary": "[PRESS RELEASE – WILLEMSTAD, Curaçao, September 30th, 2026] BetFury, a leading crypto casino, offers BetFury Futures – a crypto derivatives product built into the ecosystem with up to a x1000 multiplier. It provides a unique combination of top-volume Bitcoin trading and the proprietary FuryWaves game tool. This setup merges traditional crypto markets with in-house gaming, serving […]",
-    "published": "2026-09-30T09:51:38+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CoinDesk",
-    "title": "OpenAI seeks $30 billion in funding at whopping $1.4 trillion valuation after delaying IPO",
-    "link": "https://www.coindesk.com/markets/2026/09/30/openai-targets-usd1-4-trillion-valuation-and-unveils-dots-ai-agent",
-    "summary": "The ChatGPT maker is pursuing fresh funding after delaying its public listing, while expanding its AI tools despite mounting safety concerns.",
-    "published": "2026-09-30T08:50:22+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "U.Today",
     "title": "'Do You Own Enough Crypto?': Tom Lee Answers Binance Founder Holding $16 Billion in Ethereum",
     "link": "https://u.today/do-you-own-enough-crypto-tom-lee-answers-binance-founder-holding-16-billion-in-ethereum",
     "summary": "Following CZ's viral teaser, Fundstrat's Tom Lee challenges whether the market is owning enough crypto while his fund controls $16 billion in ETH.",
     "published": "2026-09-30T08:34:05+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CoinDesk",
-    "title": "Winklevoss-owned Gemini switches Zcash software ahead of faster 25-second blocks",
-    "link": "https://www.coindesk.com/tech/2026/09/30/winklevoss-owned-gemini-switches-zcash-software-ahead-of-faster-25-second-blocks",
-    "summary": "The new Zakura nodes caught up with the network in just over six hours in Gemini’s deployments. The crypto exchange’s previous software took close to a day.",
-    "published": "2026-09-30T08:27:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "U.Today",
-    "title": "Hyperliquid (HYPE) Invalidates Critical Bull Market Threshold",
-    "link": "https://u.today/hyperliquid-hype-invalidates-critical-bull-market-threshold",
-    "summary": "Hyperliquid found itself invalidating an important support level that shouldn't have been touched.",
-    "published": "2026-09-30T08:10:00+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -1305,36 +1345,6 @@
     "link": "https://bitcoinmagazine.com/news/bitget-customers-withdraw-4000-bitcoins",
     "summary": "Bitcoin Magazine Bitget Customers Withdraw Over 4,000 Bitcoins in One Hour Following $388M Hack Bitget this week resumed customer withdrawals and within one hour, users had taken over 4,000 bitcoins off the exchange. This post Bitget Customers Withdraw Over 4,000 Bitcoins in One Hour Following $388M Hack first appeared on Bitcoin Magazine and is written by Mathew Di Salvo .",
     "published": "2026-09-29T21:14:45+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "Bitcoin Magazine",
-    "title": "Bitwise Head of Research: Sovereigns Selling Gold for Bitcoin | Ryan Rasmussen",
-    "link": "https://bitcoinmagazine.com/videos/bitwise-head-of-research-sovereigns-selling-gold-for-bitcoin-ryan-rasmussen",
-    "summary": "Bitcoin Magazine Bitwise Head of Research: Sovereigns Selling Gold for Bitcoin | Ryan Rasmussen Bitwise’s Ryan Rasmussen breaks down institutional crypto adoption, revealing why pensions and sovereign funds bought the dip from $125K to $60K. This post Bitwise Head of Research: Sovereigns Selling Gold for Bitcoin | Ryan Rasmussen first appeared on Bitcoin Magazine and is written by Patrick Green .",
-    "published": "2026-09-29T20:54:37+00:00",
-    "regulatory": false,
-    "institutional": true,
-    "category": "sentiment"
-  },
-  {
-    "source": "Bitcoin Magazine",
-    "title": "Tracy Shuchart: BTC & the Commodities Supercycle",
-    "link": "https://bitcoinmagazine.com/videos/tracy-shuchart-btc-the-commodities-supercycle",
-    "summary": "Bitcoin Magazine Tracy Shuchart: BTC & the Commodities Supercycle Tracy Shuchart breaks down Strait of Hormuz oil disruptions, warning that GCC output losses and crack spreads signal a worsening winter energy pinch. This post Tracy Shuchart: BTC & the Commodities Supercycle first appeared on Bitcoin Magazine and is written by Patrick Green .",
-    "published": "2026-09-29T20:49:46+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "Bitcoin Magazine",
-    "title": "Dan Tapiero: “We’ve Begun a Bull Phase” in Bitcoin",
-    "link": "https://bitcoinmagazine.com/videos/dan-tapiero-weve-begun-a-bull-phase-in-bitcoin",
-    "summary": "Bitcoin Magazine Dan Tapiero: “We’ve Begun a Bull Phase” in Bitcoin Dan Tapiero reveals why a new bull phase has begun, pointing to core revenue growth across stablecoins, tokenization, and Hyperliquid. This post Dan Tapiero: “We’ve Begun a Bull Phase” in Bitcoin first appeared on Bitcoin Magazine and is written by Patrick Green .",
-    "published": "2026-09-29T20:42:58+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -1465,16 +1475,6 @@
     "link": "https://www.sec.gov/newsroom/press-releases/2026-86-sec-charges-founder-his-two-new-jersey-based-companies-alleged-16-million-ponzi-scheme",
     "summary": "The Securities and Exchange Commission today charged Ernest Ossei Boateng and two New Jersey-based companies he controls, Intercontinental Wealth Network LLC and I Wealth Network LP, for allegedly raising approximately $16 million from more than 200…",
     "published": "2026-09-10T17:45:22+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "Cointelegraph",
-    "title": "Here’s what happened in crypto today",
-    "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-    "published": "2026-09-09T21:30:00+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
