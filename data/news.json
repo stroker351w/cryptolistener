@@ -1,5 +1,75 @@
 [
   {
+    "source": "CryptoSlate",
+    "title": "Bitcoin’s $85,000 recovery awaits proof that ETF investors kept buying after payrolls",
+    "link": "https://cryptoslate.com/bitcoins-85000-recovery-awaits-proof-that-etf-investors-kept-buying-after-payrolls/",
+    "summary": "Glassnode estimated the probability of an additional quarter-point hike at the Oct. 28 meeting fell from 66% on Sept. 28 to 22% by 15:00 UTC on Oct. 2. The post Bitcoin’s $85,000 recovery awaits proof that ETF investors kept buying after payrolls appeared first on CryptoSlate .",
+    "published": "2026-10-04T20:45:36+00:00",
+    "regulatory": true,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "IMF Approves $138M for El Salvador After Bitcoin Accumulation Waiver",
+    "link": "https://cryptopotato.com/imf-approves-138m-for-el-salvador-after-bitcoin-accumulation-waiver/",
+    "summary": "While El Salvador remains one of the most closely watched countries for its Bitcoin strategy, the IMF agreement calls for less direct state involvement in crypto assets.",
+    "published": "2026-10-04T20:01:34+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "Bitcoin Core’s new fix closes gap that could redirect funds without stealing keys",
+    "link": "https://cryptoslate.com/bitcoin-cores-new-fix-closes-gap-that-could-redirect-funds-without-stealing-keys/",
+    "summary": "A missing-output SIGHASH_SINGLE request can leave recipients unbound; Core’s merged PSBT repair has no confirmed fixed-release destination. The post Bitcoin Core’s new fix closes gap that could redirect funds without stealing keys appeared first on CryptoSlate .",
+    "published": "2026-10-04T19:40:34+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "New Treasury rules could change how stablecoin issuers get your dollars back",
+    "link": "https://cryptoslate.com/new-treasury-rules-could-change-how-stablecoin-issuers-get-your-dollars-back/",
+    "summary": "US government debt is one of the easiest assets in the world to borrow against, which lets financial companies get cash without giving up their investments for good. Washington is rewriting the rules for that borrowing, and the result will reach crypto through the companies that keep Treasury securities behind their dollar tokens. The SEC […] The post New Treasury rules could change how stablecoin",
+    "published": "2026-10-04T18:40:36+00:00",
+    "regulatory": true,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CoinDesk",
+    "title": "There's an election next month: State of Crypto",
+    "link": "https://www.coindesk.com/policy/2026/10/04/there-s-an-election-next-month-state-of-crypto",
+    "summary": "Congress is gone from Washington for the final pre-election recess, and it's time to take stock of what's going on ahead of November.",
+    "published": "2026-10-04T18:30:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "U.Today",
+    "title": "Shiba Inu (SHIB) Goes Live on Solana Network",
+    "link": "https://u.today/shiba-inu-shib-goes-live-on-solana-network",
+    "summary": "Shiba Inu (SHIB) has expanded to Solana through Wormhole Labs-powered Sunrise.",
+    "published": "2026-10-04T18:28:07+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "India’s local crypto exchanges get just 0.7% of inflows, Chainalysis reports",
+    "link": "https://cryptoslate.com/indias-local-crypto-exchanges-get-just-0-7-of-inflows-chainalysis-reports/",
+    "summary": "Chainalysis’s new regional chapters separate national crypto participation from domestic exchange business, with Brazil-based platforms receiving 12.5% of inflows. The post India’s local crypto exchanges get just 0.7% of inflows, Chainalysis reports appeared first on CryptoSlate .",
+    "published": "2026-10-04T18:20:31+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
     "source": "CryptoPotato",
     "title": "Bitcoin and Ethereum ETF Weekly Flows: The Good, the Bad, and the Concerning",
     "link": "https://cryptopotato.com/bitcoin-and-ethereum-etf-weekly-flows-the-good-the-bad-and-the-concerning/",
@@ -340,16 +410,6 @@
     "category": "sentiment"
   },
   {
-    "source": "CryptoSlate",
-    "title": "Stablecoins may not drain banks of dollars but they can still make lending more expensive",
-    "link": "https://cryptoslate.com/stablecoins-may-not-drain-banks-of-dollars-but-they-can-still-make-lending-more-expensive/",
-    "summary": "Here's a hypothetical scenario: you want to use $100 out of your bank account to buy newly issued stablecoins. The company issuing the stablecoins takes your dollars, puts them in its own bank account, and gives you a balance you can send around on a blockchain. You got the product you wanted, and somewhere in […] The post Stablecoins may not drain banks of dollars but they can still make lending ",
-    "published": "2026-10-04T07:30:08+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "Cointelegraph",
     "title": "Russia’s Finance Ministry pays wages in digital rubles for first time",
     "link": "https://cointelegraph.com/news/russias-finance-ministry-pays-wages-in-digital-rubles-for-first-time?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -410,41 +470,11 @@
     "category": "event"
   },
   {
-    "source": "U.Today",
-    "title": "88 Trillion SHIB Threshold Back in Play as Shiba Inu Loses New Price Target",
-    "link": "https://u.today/88-trillion-shib-threshold-back-in-play-as-shiba-inu-loses-new-price-target",
-    "summary": "Shiba Inu may be facing intense selling pressure again as its exchange reserve sharply rises back above the closely watched 88 trillion threshold.",
-    "published": "2026-10-03T22:01:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "sentiment"
-  },
-  {
-    "source": "CryptoSlate",
-    "title": "Bankers sue to overturn OCC trust-bank rule used by crypto firms",
-    "link": "https://cryptoslate.com/bankers-sue-to-overturn-occ-trust-bank-rule-used-by-crypto-firms/",
-    "summary": "The Independent Community Bankers of America sued the OCC in federal court in Washington on Oct. 2, two weeks after the agency approved Agora National Trust Bank, Catena Trust Bank and Bastion Platforms. American Banker reported that the complaint asked the court to vacate the OCC's national trust bank rule and Interpretive Letter 1176. It […] The post Bankers sue to overturn OCC trust-bank rule u",
-    "published": "2026-10-03T20:00:08+00:00",
-    "regulatory": true,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "CryptoPotato",
     "title": "US Banking Group Sues OCC After Wave of Crypto Trust Bank Approvals",
     "link": "https://cryptopotato.com/us-banking-group-sues-occ-after-wave-of-crypto-trust-bank-approvals/",
     "summary": "The push to bring crypto companies deeper into the US federal banking system is facing new backlash.",
     "published": "2026-10-03T19:35:13+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoSlate",
-    "title": "Hedge funds built a $1.2 trillion Treasury trade on money they have to keep borrowing",
-    "link": "https://cryptoslate.com/hedge-funds-built-a-1-2-trillion-treasury-trade-on-money-they-have-to-keep-borrowing/",
-    "summary": "Companies can own a mountain of US government debt without betting that bond prices will rise. Hedge funds buy Treasury securities and sell futures against them to collect a small pricing gap, borrowing most of the purchase money to make the return worthwhile. The government gets another buyer, whose interest lasts as long as the […] The post Hedge funds built a $1.2 trillion Treasury trade on mon",
-    "published": "2026-10-03T18:40:22+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -486,16 +516,6 @@
     "summary": "The YouTuber says OpenAI suspended his account twice while he trained a small, uncensored model built to run on your own computer.",
     "published": "2026-10-03T16:01:03+00:00",
     "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoSlate",
-    "title": "ESMA proposes ending EU custody and transfer services for non-compliant stablecoins",
-    "link": "https://cryptoslate.com/esma-proposes-ending-eu-custody-and-transfer-services-for-non-compliant-stablecoins/",
-    "summary": "Non-compliant tokens could lose licensed custody and transfer access if the proposal becomes law, with exit rules still unresolved. The post ESMA proposes ending EU custody and transfer services for non-compliant stablecoins appeared first on CryptoSlate .",
-    "published": "2026-10-03T16:00:54+00:00",
-    "regulatory": true,
     "institutional": false,
     "category": "event"
   },
@@ -578,16 +598,6 @@
     "regulatory": false,
     "institutional": false,
     "category": "event"
-  },
-  {
-    "source": "CryptoPotato",
-    "title": "Bitcoin’s $87K Rally Was a Trap: Could $82.5K Be the Real Buying Opportunity?",
-    "link": "https://cryptopotato.com/bitcoins-87k-rally-was-a-trap-could-82-5k-be-the-real-buying-opportunity/",
-    "summary": "BTC's surge past $87,000 came to a quick halt, leaving analysts to reassess whether the move a genuine breakout or simply another rejection inside the current range.",
-    "published": "2026-10-03T12:08:03+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "sentiment"
   },
   {
     "source": "Cointelegraph",
@@ -1065,16 +1075,6 @@
     "link": "https://www.coindesk.com/daybook-us/2026/10/02/wall-street-s-fear-gauge-vix-could-get-a-crypto-style-makeover",
     "summary": "Your day-ahead look for Oct. 2, 2026",
     "published": "2026-10-02T11:30:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CoinDesk",
-    "title": "Live updates: Bitcoin reverses big early gains following soft U.S. jobs data",
-    "link": "https://www.coindesk.com/tech/2026/10/02/live-updates-bitcoin-gold-and-tech-futures-edge-higher-as-markets-await-u-s-jobs-report",
-    "summary": "Bond yields also suffered a major whipsaw, turning higher by the afternoon after early declines.",
-    "published": "2026-10-02T11:22:40+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
