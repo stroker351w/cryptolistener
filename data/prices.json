@@ -1,74 +1,74 @@
 {
-  "fetched_at": "2026-10-05T06:55:59.102968+00:00",
+  "fetched_at": "2026-10-05T15:55:35.746447+00:00",
   "coins": [
     {
       "symbol": "BTC",
       "name": "Bitcoin",
-      "price": 86062,
-      "change_24h": 1.28939,
+      "price": 85252,
+      "change_24h": -0.08097,
       "market_cap_rank": 1
     },
     {
       "symbol": "ETH",
       "name": "Ethereum",
-      "price": 2717.35,
-      "change_24h": 0.92111,
+      "price": 2696.13,
+      "change_24h": -0.11811,
       "market_cap_rank": 2
     },
     {
       "symbol": "BNB",
       "name": "BNB",
-      "price": 792.59,
-      "change_24h": 0.58162,
+      "price": 787.05,
+      "change_24h": -0.04027,
       "market_cap_rank": 3
     },
     {
       "symbol": "XRP",
       "name": "XRP",
-      "price": 1.51,
-      "change_24h": 1.2859,
+      "price": 1.49,
+      "change_24h": -0.91188,
       "market_cap_rank": 4
     },
     {
       "symbol": "SOL",
       "name": "Solana",
-      "price": 121.27,
-      "change_24h": 0.34264,
+      "price": 119.25,
+      "change_24h": -1.96481,
       "market_cap_rank": 5
     },
     {
       "symbol": "TRX",
       "name": "TRON",
-      "price": 0.335054,
-      "change_24h": -0.06257,
+      "price": 0.336427,
+      "change_24h": 0.2235,
       "market_cap_rank": 6
     },
     {
       "symbol": "ZEC",
       "name": "Zcash",
-      "price": 1326.31,
-      "change_24h": -0.60018,
+      "price": 1295.58,
+      "change_24h": -2.23906,
       "market_cap_rank": 7
     },
     {
       "symbol": "HYPE",
       "name": "Hyperliquid",
-      "price": 91.49,
-      "change_24h": 1.87057,
+      "price": 92.94,
+      "change_24h": 3.31037,
       "market_cap_rank": 8
     },
     {
       "symbol": "DOGE",
       "name": "Dogecoin",
-      "price": 0.095782,
-      "change_24h": 2.99974,
+      "price": 0.094519,
+      "change_24h": 0.23477,
       "market_cap_rank": 9
     },
     {
-      "symbol": "LINK",
-      "name": "Chainlink",
-      "price": 14.15,
-      "change_24h": 0.9077,
+      "symbol": "XMR",
+      "name": "Monero",
+      "price": 551.9,
+      "change_24h": 0.84626,
       "market_cap_rank": 10
     }
   ]
