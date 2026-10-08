@@ -1,5 +1,85 @@
 [
   {
+    "source": "The Defiant",
+    "title": "Samsung Wallet to Add USDC on Sui in Late October",
+    "link": "https://thedefiant.io/news/tradfi-and-fintech/samsung-wallet-to-add-usdc-on-sui-in-late-october",
+    "summary": "Bastion and Coinbase will custody the balances, while transfers to bank accounts in more than 60 countries will carry separate fees.",
+    "published": "2026-10-08T02:30:16+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Defiant",
+    "title": "Justin Drake Urges 'Bunker Mode' Migration to Fresh Crypto Addresses",
+    "link": "https://thedefiant.io/news/security/justin-drake-urges-bunker-mode-migration-to-fresh-crypto-addresses",
+    "summary": "His personal warning about an AI-assisted cryptographic break drew pushback from Ledger’s CTO, who said a mass migration could cause costly mistakes.",
+    "published": "2026-10-08T02:22:39+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "NewsBTC",
+    "title": "Grayscale Adds BitGo To Hyperliquid Staking ETF Custody Setup",
+    "link": "https://www.newsbtc.com/business/grayscale-adds-bitgo-to-hyperliquid-staking-etf-custody-setup/",
+    "summary": "Grayscale has added BitGo Bank & Trust as an additional custodian for a portion of the HYPE held by its Hyperliquid Staking ETF. The SEC filing shows how increasingly complex altcoin and staking products are building institutional custody structures around assets that once traded almost entirely inside crypto-native venues.",
+    "published": "2026-10-08T02:00:00+00:00",
+    "regulatory": true,
+    "institutional": true,
+    "category": "event"
+  },
+  {
+    "source": "NewsBTC",
+    "title": "Avalanche Tokenized Treasury Market Reaches $545 Million After Rapid Growth",
+    "link": "https://www.newsbtc.com/altcoins/avalanche-tokenized-treasury-market-reaches-545-million-after-rapid/",
+    "summary": "Tokenized US Treasury assets on Avalanche have reached roughly $545 million, according to data highlighted this week. The segment has expanded about fourfold over the past year, adding another example of institutional financial products moving onto public blockchain infrastructure.",
+    "published": "2026-10-08T01:00:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CoinDesk",
+    "title": "Crypto news site Cointelegraph seeks buyer after web traffic plunges",
+    "link": "https://www.coindesk.com/business/2026/10/07/crypto-news-site-cointelegraph-seeks-buyer-after-web-traffic-plunges",
+    "summary": "The amount of money the crypto media firm has been shopping itself for was not revealed.",
+    "published": "2026-10-08T00:35:24+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
+    "source": "Cointelegraph",
+    "title": "Vitalik Buterin backs crypto ‘bunker mode’ amid rapid AI math advances",
+    "link": "https://cointelegraph.com/news/justin-drake-urges-crypto-bunker-mode-as-ai-could-break-wallet-security-within-months?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "Ethereum researchers say crypto users should consider an orderly migration of funds to fresh addresses, warning AI could threaten private-key security before quantum computers do.",
+    "published": "2026-10-08T00:04:32+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "US government moves $470 million in seized crypto to Coinbase wallets, raising Bitcoin sale questions",
+    "link": "https://cryptoslate.com/us-government-moves-470-million-in-seized-crypto-to-coinbase-linked-wallets-reviving-bitcoin-sale-questions/",
+    "summary": "The US government moved about $470 million in seized crypto to likely Coinbase Prime addresses, according to Arkham, reviving questions over potential asset sales. On Oct. 7, blockchain analytics firm Arkham Intelligence said the transfers included Bitcoin, wrapped Bitcoin and USDT. Arkham linked the transferred assets to seizures involving the 2016 Bitfinex hack and Alameda […] The post US govern",
+    "published": "2026-10-08T00:00:12+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "NewsBTC",
+    "title": "Metaplanet Sold 10,000 Bitcoin, Then Bought 11,000 Back. Here’s Why",
+    "link": "https://www.newsbtc.com/news/bitcoin/metaplanet-sold-10-000-bitcoin-then-bought-11-000-back-here-s-why/",
+    "summary": "Metaplanet disclosed that it sold 10,000 BTC during the third quarter for roughly $790 million before buying 11,000 BTC for around $950 million. The company says the exercise was designed to demonstrate that its Bitcoin treasury can provide liquidity when required, while leaving it with a net increase of 1,000 BTC.",
+    "published": "2026-10-08T00:00:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
     "source": "NewsBTC",
     "title": "Arbitrum DAO Weighs 100 Million ARB Push To Make USDG A Core Stablecoin",
     "link": "https://www.newsbtc.com/technology/arbitrum-dao-weighs-100-million-arb-push-to-make-usdg-a-core/",
@@ -760,16 +840,6 @@
     "category": "event"
   },
   {
-    "source": "The Defiant",
-    "title": "Moody's Rates Sky B3, Flagging Thin Capital Buffer",
-    "link": "https://thedefiant.io/news/defi/moody-s-rates-sky-b3-flagging-thin-capital-buffer",
-    "summary": "The stable-outlook rating puts Sky in Moody's speculative-grade category, with roughly $90 million in equity against $10 billion in managed assets.",
-    "published": "2026-10-07T13:13:05+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "sentiment"
-  },
-  {
     "source": "U.Today",
     "title": "Shiba Inu (SHIB) Rare 'Golden Cross' Breakout Meets Immediate Reality Check",
     "link": "https://u.today/shiba-inu-shib-rare-golden-cross-breakout-meets-immediate-reality-check",
@@ -887,16 +957,6 @@
     "published": "2026-10-07T11:54:29+00:00",
     "regulatory": false,
     "institutional": true,
-    "category": "event"
-  },
-  {
-    "source": "CryptoSlate",
-    "title": "S&P brings ratings-style scrutiny to $10 billion crypto vault market as $6 million Base incident exposes risks",
-    "link": "https://cryptoslate.com/sp-brings-ratings-style-scrutiny-to-10-billion-crypto-vault-market-as-6-million-base-incident-exposes-risks/",
-    "summary": "The vault framework compares impairment risk while leaving capital protection and future returns unpromised. The post S&P brings ratings-style scrutiny to $10 billion crypto vault market as $6 million Base incident exposes risks appeared first on CryptoSlate .",
-    "published": "2026-10-07T11:40:51+00:00",
-    "regulatory": false,
-    "institutional": false,
     "category": "event"
   },
   {
@@ -1040,16 +1100,6 @@
     "category": "sentiment"
   },
   {
-    "source": "NewsBTC",
-    "title": "DSA White Paper Named Among the 2026 DC Fintech Week Winning Papers",
-    "link": "https://www.newsbtc.com/news/dsa-white-paper-named-among-the-2026-dc-fintech-week-winning-papers/",
-    "summary": "Washington, D.C., October 7, 2026 — The Digital Sovereignty Alliance (DSA), a nonprofit organization dedicated to advancing clear and ethical public policy, research, and education related to emerging technologies, announced today that its white paper, “Modern Foundations of Personal Finance: Literacy and Infrastructure in the Digital Economy,” has been named one of five winning papers in DC Finte",
-    "published": "2026-10-07T10:02:54+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "Decrypt",
     "title": "Prosecutors Cite Bitcoin Fog Ruling Against Roman Storm's Venue Challenge",
     "link": "https://decrypt.co/380260/prosecutors-cite-bitcoin-fog-ruling-against-roman-storms-venue-challenge",
@@ -1110,31 +1160,11 @@
     "category": "event"
   },
   {
-    "source": "Cointelegraph",
-    "title": "Bitcoin ETFs rebound with $119M inflow as Ether extends losses",
-    "link": "https://cointelegraph.com/markets/bitcoin-etf-rebound-119m-inflow-ether-extend-losses?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "summary": "Bitcoin ETFs returned to net inflows with $119 million on Tuesday despite falling prices, while Ether funds reached a six-session outflow streak totaling $408 million.",
-    "published": "2026-10-07T09:03:38+00:00",
-    "regulatory": true,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "Decrypt",
     "title": "Ledger Launches Bitcoin Loans, Letting Holders Borrow Without Selling",
     "link": "https://decrypt.co/380224/ledger-bitcoin-loans-holders-borrow-without-selling",
     "summary": "Unveiled at TOKEN2049 Singapore, the Morpho-powered Crypto Loan feature lets users borrow stablecoins against wrapped Bitcoin while keeping private keys and final approval on their hardware device.",
     "published": "2026-10-07T09:01:03+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CoinDesk",
-    "title": "Robinhood adds $25 million of bitcoin to its balance sheet",
-    "link": "https://www.coindesk.com/markets/2026/10/07/robinhood-adds-bitcoin-worth-usd25-million-to-its-balance-sheet-report",
-    "summary": "Robinhood has added bitcoin worth $25 million to its balance sheet, senior vice president and general manager of crypto and international, told the Starting Block Wednesday.",
-    "published": "2026-10-07T08:53:27+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -1205,16 +1235,6 @@
     "link": "https://www.theblock.co/news/markets/2026-10-06-bitcoin-slides-crypto-long-liquidations-surge-417882",
     "summary": "Crypto liquidations amounted to $555.6 million over the past 24 hours, including $487.2 million in long positions, according to CoinGlass.",
     "published": "2026-10-07T03:57:21+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "The Defiant",
-    "title": "Muneeb Ali Pledges IP Transfer to Stacks Endowment in CEO Plan",
-    "link": "https://thedefiant.io/news/blockchains/muneeb-ali-pledges-ip-transfer-to-stacks-endowment-in-ceo-plan",
-    "summary": "The Stacks Labs chief also promised a two-year roadmap covering Bitcoin privacy and post-quantum technology, plus a public holder call within 30 days.",
-    "published": "2026-10-07T03:40:39+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -1316,26 +1336,6 @@
     "summary": "Winklevoss Asset Services filed for a spot Zcash ETF under ticker WINK, with Gemini as custodian and a 0.25% fee, rivaling Grayscale's ZCSH.",
     "published": "2026-10-06T16:43:41+00:00",
     "regulatory": true,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "NewsBTC",
-    "title": "Fairshake Backs 32 House Candidates As Crypto Election Spending Ramps Up",
-    "link": "https://www.newsbtc.com/policy/fairshake-backs-32-house-candidates-as-crypto-election-spending-ramps-up/",
-    "summary": "TL;DR Fairshake has named 32 U.S. House candidates it plans to support ahead of the November midterms. Six races are receiving $1 million in outside spending each, for an initial disclosed commitment of $6 million. The slate is bipartisan, with 19 Republicans and 13 Democrats, and the money is spent independently rather than handed directly to candidates. Crypto’s largest political spending networ",
-    "published": "2026-10-06T16:00:48+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "NewsBTC",
-    "title": "CFTC Lets Exchanges Convert Index Futures Into True Perpetual Contracts",
-    "link": "https://www.newsbtc.com/markets/cftc-lets-exchanges-convert-index-futures-into-true-perpetual-contracts/",
-    "summary": "TL;DR CFTC staff has issued temporary no-action relief allowing designated contract markets to convert certain broad-based security index futures into true perpetual contracts. Exchanges can remove expiration dates if they meet customer-protection, notice and filing conditions. The relief is narrow, applies to existing qualifying contracts and expires on October 20. The U.S. derivatives market is ",
-    "published": "2026-10-06T16:00:46+00:00",
-    "regulatory": false,
     "institutional": false,
     "category": "event"
   },
