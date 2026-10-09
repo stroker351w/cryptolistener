@@ -1,74 +1,74 @@
 {
-  "fetched_at": "2026-10-09T19:29:35.080211+00:00",
+  "fetched_at": "2026-10-09T23:59:17.815760+00:00",
   "coins": [
     {
       "symbol": "BTC",
       "name": "Bitcoin",
-      "price": 82436,
-      "change_24h": 0.97804,
+      "price": 82557,
+      "change_24h": 1.07514,
       "market_cap_rank": 1
     },
     {
       "symbol": "ETH",
       "name": "Ethereum",
-      "price": 2483.12,
-      "change_24h": 1.16112,
+      "price": 2485.8,
+      "change_24h": 0.56009,
       "market_cap_rank": 2
     },
     {
       "symbol": "BNB",
       "name": "BNB",
-      "price": 739.96,
-      "change_24h": 1.50613,
+      "price": 741.92,
+      "change_24h": 0.88741,
       "market_cap_rank": 3
     },
     {
       "symbol": "XRP",
       "name": "XRP",
       "price": 1.39,
-      "change_24h": 1.53979,
+      "change_24h": 1.16407,
       "market_cap_rank": 4
     },
     {
       "symbol": "SOL",
       "name": "Solana",
-      "price": 109.29,
-      "change_24h": 0.38377,
+      "price": 109.12,
+      "change_24h": -0.33354,
       "market_cap_rank": 5
     },
     {
       "symbol": "TRX",
       "name": "TRON",
-      "price": 0.33278,
-      "change_24h": -0.05469,
+      "price": 0.331766,
+      "change_24h": -0.227,
       "market_cap_rank": 6
     },
     {
       "symbol": "ZEC",
       "name": "Zcash",
-      "price": 1209.88,
-      "change_24h": 5.70666,
+      "price": 1205.88,
+      "change_24h": 1.64042,
       "market_cap_rank": 7
     },
     {
       "symbol": "HYPE",
       "name": "Hyperliquid",
-      "price": 84.1,
-      "change_24h": 0.31558,
+      "price": 84.17,
+      "change_24h": 0.02068,
       "market_cap_rank": 8
     },
     {
       "symbol": "DOGE",
       "name": "Dogecoin",
-      "price": 0.084624,
-      "change_24h": 1.41173,
+      "price": 0.085347,
+      "change_24h": 1.63906,
       "market_cap_rank": 9
     },
     {
-      "symbol": "XMR",
-      "name": "Monero",
-      "price": 522.49,
-      "change_24h": -0.20747,
+      "symbol": "LINK",
+      "name": "Chainlink",
+      "price": 12.8,
+      "change_24h": 0.85691,
       "market_cap_rank": 10
     }
   ]
