@@ -1,5 +1,135 @@
 [
   {
+    "source": "CoinDesk",
+    "title": "Nearly $1 billion in crypto bets liquidated as bitcoin, ether and XRP slide",
+    "link": "https://www.coindesk.com/markets/2026/10/15/nearly-usd1-billion-in-crypto-bets-liquidated-as-bitcoin-ether-and-xrp-slide",
+    "summary": "Ether accounted for nearly 60% of the forced closures across the two largest cryptocurrencies, falling roughly twice as much as bitcoin.",
+    "published": "2026-10-15T04:25:15+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CoinDesk",
+    "title": "Bitcoin mining pool once handling 2.3% of network shuts after hashrate falls 65%",
+    "link": "https://www.coindesk.com/markets/2026/10/15/bitcoin-mining-pool-once-handling-2-3-of-network-shuts-after-hashrate-falls-65",
+    "summary": "Computing power directed at Binance Pool has fallen from 26 EH/s in December to about 9 EH/s. Its remaining miners must choose another provider before a Nov. 10 cutoff.",
+    "published": "2026-10-15T04:13:56+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "473M XRP at Work: Evernorth’s Game Plan Takes Shape With Ripple, Coinbase, Kraken, and BitGo",
+    "link": "https://cryptopotato.com/473m-xrp-at-work-evernorths-game-plan-takes-shape-with-ripple-coinbase-kraken-and-bitgo/",
+    "summary": "Evernorth has named Ripple, Kraken, Coinbase, and BitGo as partners to help deploy its 473 million XRP treasury starting in Q4 2026.",
+    "published": "2026-10-15T04:07:10+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CoinDesk",
+    "title": "Bitcoin wilts as Fed rate uncertainty weighs. Kospi plunges 8%",
+    "link": "https://www.coindesk.com/markets/2026/10/15/bitcoin-is-back-below-usd81-000-as-fed-rate-uncertainty-weighs",
+    "summary": "Bets on an October Fed rate hike briefly spiked to nearly 50% after Wednesday’s inflation report, but have since cooled.",
+    "published": "2026-10-15T03:57:45+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "Making Millions in 2 Years: Here’s How This Hyperliquid (HYPE) Trader Did It",
+    "link": "https://cryptopotato.com/making-millions-in-2-years-heres-how-this-hyperliquid-hype-trader-did-it/",
+    "summary": "Apart from the major gains, the whales keeps holding more than $2 million worth of HYPE.",
+    "published": "2026-10-15T03:37:09+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Cointelegraph",
+    "title": "Bitcoin miners plunge up to 13% in Wall Street’s worst selloff since July",
+    "link": "https://cointelegraph.com/markets/bitcoin-miners-plunge-up-to-13-in-wall-streets-worst-selloff-since-july?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "TeraWulf, Core Scientific, Cipher Mining and IREN each lost more than 12% as hotter inflation hit AI infrastructure companies.",
+    "published": "2026-10-15T03:29:22+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
+    "source": "The Defiant",
+    "title": "Ledger Wallet Tampering: What Is Confirmed and What Owners Should Know",
+    "link": "https://thedefiant.io/news/security/ledger-wallet-tampering-what-is-confirmed-and-what-owners-should-know",
+    "summary": "Ledger tells CryptoBilis buyers to leave unused wallets uninitialized and move assets from already-set-up devices to a new device with a new recovery phrase.",
+    "published": "2026-10-15T02:53:59+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Defiant",
+    "title": "US Event-Contract Rules: What the CFTC Has Changed and What Remains Unresolved",
+    "link": "https://thedefiant.io/news/regulation/us-event-contract-rules-what-the-cftc-has-changed-and-what-remains-unresolved",
+    "summary": "A guide to the proposed swap definition, the adopted casino-wager exclusion and the court split over state gambling laws—and why each has a different legal effect.",
+    "published": "2026-10-15T02:53:06+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "Firelight forces XRP-linked tokens lockup as withdrawal delay queue grows",
+    "link": "https://cryptoslate.com/firelight-forces-xrp-linked-tokens-lockup-as-withdrawal-delay-queue-grows/",
+    "summary": "The October 6 activation moved existing FXRP stakes automatically into pooled cover backing, pairing fee income with claim exposure and longer withdrawals. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+    "published": "2026-10-15T01:30:51+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Cointelegraph",
+    "title": "VanEck seeks to withdraw application for Lido staked Ether ETF",
+    "link": "https://cointelegraph.com/news/vaneck-seeks-to-withdraw-application-for-lido-staked-ether-etf?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "VanEck initially filed an S-1 registration statement for the exchange-traded fund in October last year.",
+    "published": "2026-10-15T01:21:52+00:00",
+    "regulatory": true,
+    "institutional": true,
+    "category": "event"
+  },
+  {
+    "source": "Cointelegraph",
+    "title": "Polygon gains US payments licenses after closing Coinme deal",
+    "link": "https://cointelegraph.com/news/polygon-gains-us-payments-licenses-after-closing-coinme-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "The deal gives Polygon access to 37 money transmitter licenses and 11 state exemptions.",
+    "published": "2026-10-15T00:55:21+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "U.Today",
+    "title": "Near Protocol (NEAR), XRP, Zcash (ZEC) and Chainlink (LINK) Price Analysis for October 15: Can Bulls Sustain Liquidity?",
+    "link": "https://u.today/price-analysis/near-protocol-near-xrp-zcash-zec-and-chainlink-link-price-analysis-for-october-15-can-bulls-sustain",
+    "summary": "The market is heading down towards major local support levels where bulls and bears are going to clash.",
+    "published": "2026-10-15T00:01:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "Solana sets October 21 for massive Alpenglow upgrade that could make transactions 99% faster to finalize",
+    "link": "https://cryptoslate.com/solana-sets-october-21-for-massive-alpenglow-upgrade-that-could-make-transactions-99-faster-to-finalize/",
+    "summary": "The mainnet plan calls for a live consensus replacement, with roughly 150ms finality dependent on network conditions and a coordinated validator handoff. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+    "published": "2026-10-15T00:00:17+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
     "source": "CryptoSlate",
     "title": "Coins.ph users face app lockout as central bank intervenes",
     "link": "https://cryptoslate.com/coins-ph-users-face-app-lockout-as-central-bank-intervenes/",
@@ -550,16 +680,6 @@
     "category": "event"
   },
   {
-    "source": "CryptoSlate",
-    "title": "Bitcoin plunges to $81,300 support as Fed hike odds hit 55% amid $100 million crypto wipeout",
-    "link": "https://cryptoslate.com/bitcoin-plunges-to-81300-support-as-fed-hike-odds-hit-55-amid-100-million-crypto-wipeout/",
-    "summary": "Bitcoin fell below $83,000 on Wednesday as hotter-than-expected US core inflation data revived expectations of further Federal Reserve interest rate hikes, triggering a fresh wave of liquidations across the cryptocurrency market. CoinGlass data showed that over $100 million in leveraged positions were liquidated in the hour after the inflation report was released. This also pushed… Read the full s",
-    "published": "2026-10-14T15:00:32+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "sentiment"
-  },
-  {
     "source": "The Block",
     "title": "StarkWare launches OffMarket to let Polymarket users trade more privately",
     "link": "https://www.theblock.co/news/ecosystems/2026-10-14-starkware-launches-offmarket-to-let-polymarket-users-trade-more-privately-418567",
@@ -638,16 +758,6 @@
     "regulatory": false,
     "institutional": false,
     "category": "event"
-  },
-  {
-    "source": "CryptoSlate",
-    "title": "Low East Coast diesel stocks could delay inflation relief for Bitcoin investors",
-    "link": "https://cryptoslate.com/bitcoins-inflation-relief-case-faces-an-east-coast-winter-diesel-stock-gap/",
-    "summary": "EIA forecasts winter distillate inventories 20–30% below normal, while falling diesel prices keep the inflation and Bitcoin implications conditional. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-    "published": "2026-10-14T14:30:46+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "sentiment"
   },
   {
     "source": "Bitcoin Magazine",
@@ -730,31 +840,11 @@
     "category": "event"
   },
   {
-    "source": "The Defiant",
-    "title": "Richard Heart Detained in Istanbul on Interpol Notice, Turkish Media Report",
-    "link": "https://thedefiant.io/news/regulation/richard-heart-detained-in-istanbul-on-interpol-notice-turkish-media-report",
-    "summary": "Interpol’s public record identifies Finland as the requesting jurisdiction and lists aggravated tax fraud; Heart’s separate SEC case was dismissed in 2025.",
-    "published": "2026-10-14T14:05:53+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "Decrypt",
     "title": "Hex Founder Richard Heart Detained in Istanbul on Interpol Red Notice: Report",
     "link": "https://decrypt.co/380948/hex-founder-richard-heart-detained-in-istanbul-on-interpol-red-notice-report",
     "summary": "Turkish police and intelligence officers reportedly seized cash, phones, jewelry and firearms at the crypto founder's address in Beşiktaş.",
     "published": "2026-10-14T14:03:20+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "The Defiant",
-    "title": "Bastion Demands $3.50 SkyAI Tender Price and Board Overhaul",
-    "link": "https://thedefiant.io/converge/tradfi-and-fintech/bastion-demands-3-50-skyai-tender-price-and-board-overhaul",
-    "summary": "The shareholder says it will not participate on current terms. SkyAI’s latest filing reports 600,000 SOL remaining and cash covering about 80% of the proposed offer.",
-    "published": "2026-10-14T13:59:39+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -1030,16 +1120,6 @@
     "category": "event"
   },
   {
-    "source": "Cointelegraph",
-    "title": "Coins.ph says Philippine central bank license intact amid revocation claims",
-    "link": "https://cointelegraph.com/news/coinsph-says-bsp-license-intact-amid-claims-of-potential-revocation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "summary": "Coins.ph says its Philippine central bank license remains intact amid reports of possible revocation over alleged offshore gambling transactions.",
-    "published": "2026-10-14T11:05:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "CryptoPotato",
     "title": "Bitway (BTW) Rockets 250% in a Month: Perfect Time to Short?",
     "link": "https://cryptopotato.com/bitway-btw-rockets-250-in-a-month-perfect-time-to-short/",
@@ -1068,36 +1148,6 @@
     "regulatory": false,
     "institutional": false,
     "category": "sentiment"
-  },
-  {
-    "source": "CoinDesk",
-    "title": "S&P 500 options are the hottest bet on this Hyperliquid exchange",
-    "link": "https://www.coindesk.com/markets/2026/10/14/s-and-p-500-options-are-the-hottest-bet-on-this-hyperliquid-exchange",
-    "summary": "Hypercall, an exchange built on Hyperliquid, says most of its $640 million in volume since June has come from the index.",
-    "published": "2026-10-14T10:38:47+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "Cointelegraph",
-    "title": "CryptoQuant’s 3 charts keeping Bitcoin’s ‘Uptober’ thesis valid",
-    "link": "https://cointelegraph.com/markets/cryptoquant-charts-bitcoin-uptober-thesis-valid?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "summary": "Bitcoin onchain analysis eyed a “potential bottom” for BTC price action in early October as demand weathered external headwinds.",
-    "published": "2026-10-14T10:38:22+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "Cointelegraph",
-    "title": "Sam Bankman-Fried’s lawyer lays out ex-FTX CEO’s Supreme Court case",
-    "link": "https://cointelegraph.com/news/ftx-sam-bankman-fried-lawyer-supreme-court-appeal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "summary": "Should US high court justices grant review of the case, they could release a decision as early as June 2027.",
-    "published": "2026-10-14T10:29:47+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
   },
   {
     "source": "Decrypt",
@@ -1130,41 +1180,11 @@
     "category": "event"
   },
   {
-    "source": "CoinDesk",
-    "title": "Live updates: Bitcoin falls back to $82,000 after inflation rises more than forecast",
-    "link": "https://www.coindesk.com/business/2026/10/14/live-updates-bitcoin-tumbles-from-near-usd84-000-ahead-of-u-s-inflation-data",
-    "summary": "An historic turnaround lower in interest rates suggests the possibility that the bond bear market may have run its course.",
-    "published": "2026-10-14T09:45:53+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "sentiment"
-  },
-  {
     "source": "U.Today",
     "title": "XRP-Fueled Evernorth Set for NASDAQ Bell Amid $450 Million Valuation Disconnect",
     "link": "https://u.today/xrp-fueled-evernorth-set-for-nasdaq-bell-amid-450-million-valuation-disconnect",
     "summary": "Evernorth hits the NASDAQ podium today, facing a $450 million asset markdown as the bell rings.",
     "published": "2026-10-14T09:36:10+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CoinDesk",
-    "title": "Proposed 31.4% French tax on regulated stablecoins could drive crypto traders offshore",
-    "link": "https://www.coindesk.com/policy/2026/10/14/proposed-french-tax-on-regulated-stablecoins-could-drive-crypto-traders-offshore",
-    "summary": "Chainalysis' regional sales director in France Francois Volpoet warned the proposed 31.4% tax on regulated stablecoins could push traders toward unmonitored offshore channels.",
-    "published": "2026-10-14T08:48:11+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "U.Today",
-    "title": "2,200% on Hyperliquid (HYPE): Whale Who Bought at $3.5 Cashes Out",
-    "link": "https://u.today/2200-on-hyperliquid-hype-whale-who-bought-at-35-cashes-out",
-    "summary": "Hyperliquid whales take profits after successfully shoveling the token at a relatively low price.",
-    "published": "2026-10-14T08:30:00+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -1185,26 +1205,6 @@
     "link": "https://cryptopotato.com/bitcoin-dominance-on-the-rise-as-altcoins-retreat-ahead-of-cpi-market-watch/",
     "summary": "Some of the biggest losers over the past 24 hours include TIA, M, CRV, and RENDER.",
     "published": "2026-10-14T07:05:01+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoPotato",
-    "title": "Optimism (OP) Price Jumps Nearly 20% as Unichain Moves to OP Enterprise",
-    "link": "https://cryptopotato.com/optimism-op-price-jumps-nearly-20-as-unichain-moves-to-op-enterprise/",
-    "summary": "Despite a 30-day gain of 64%, the token still sits roughly 68% below its price from a year ago and 97% below its all-time high.",
-    "published": "2026-10-14T06:18:10+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoPotato",
-    "title": "Bybit Expands Beyond Crypto as CEO Outlines Next Phase of Financial Platform",
-    "link": "https://cryptopotato.com/bybit-expands-beyond-crypto-as-ceo-outlines-next-phase-of-financial-platform/",
-    "summary": "[PRESS RELEASE – Dubai, United Arab Emirates, October 13th, 2026] Bybit Co-founder and CEO Ben Zhou has outlined the latest stage of the company’s expansion from a crypto exchange into The New Financial Platform, highlighting new products and collaborations across traditional and digital markets. The updates were presented during Bybit’s latest biannual “Keynote with Ben” […]",
-    "published": "2026-10-14T05:38:55+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
