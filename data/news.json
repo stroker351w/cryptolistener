@@ -1,5 +1,125 @@
 [
   {
+    "source": "Decrypt",
+    "title": "Google Says It Just Cracked One of Quantum Computing's Biggest Bottlenecks",
+    "link": "https://decrypt.co/381102/google-cracked-quantum-computing-biggest-bottlenecks",
+    "summary": "Google's Willow chip cut errors 40x on the scarce “magic states” quantum computers burn through, a step toward smaller, useful machines—and toward ones that could threaten today's encryption.",
+    "published": "2026-10-15T21:46:04+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Block",
+    "title": "Farcaster acquired by Balaji’s Network School, with new ‘social smart contract’ for users",
+    "link": "https://www.theblock.co/news/ecosystems/2026-10-15-network-school-acquires-farcaster-from-neynar-418720",
+    "summary": "Balaji Srinivasan's Network School acquired Farcaster from Neynar. Users must sign a \"social smart contract\" or drop to read-only access.",
+    "published": "2026-10-15T21:41:14+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Defiant",
+    "title": "Aave V4’s Arc Markets Connect Dollar-Euro Loans to Shared Liquidity",
+    "link": "https://thedefiant.io/news/defi/aave-v4-s-arc-markets-connect-dollar-euro-loans-to-shared-liquidity",
+    "summary": "The deployment launched Sept. 16 with four reserve assets. Its Forex market lets borrowers pledge EURC, which is not eligible collateral in Arc’s Main market.",
+    "published": "2026-10-15T21:18:33+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "Two firms control corporate Bitcoin buys, even as business adoption broadens",
+    "link": "https://cryptoslate.com/two-firms-control-corporate-bitcoin-buys-even-as-business-adoption-broadens/",
+    "summary": "River’s net holdings figures show concentration, while issuer disclosures separate fresh purchases from merger transfers, expected financing and share buybacks. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+    "published": "2026-10-15T21:10:08+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "Bitcoin Could Jump 50% If Developers Agree on Quantum Plan: Capriole CEO",
+    "link": "https://cryptopotato.com/bitcoin-could-jump-50-if-developers-agree-on-quantum-plan-capriole-ceo/",
+    "summary": "Bitcoin developers have a six-to-12-month window to establish a quantum-security plan before the threat weighs more heavily on value.",
+    "published": "2026-10-15T20:41:14+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "U.Today",
+    "title": "Saylor Reacts to AI Money Study With Bullish Bitcoin Message",
+    "link": "https://u.today/saylor-reacts-to-ai-money-study-with-bullish-bitcoin-message",
+    "summary": "Strategy executive chairman Michael Saylor has reacted to a new study examining AI models' monetary preferences with a bullish Bitcoin statement.",
+    "published": "2026-10-15T20:34:16+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
+    "source": "Decrypt",
+    "title": "Russia Will Soon Ban Peer-to-Peer Bitcoin Trading, Central Bank Confirms",
+    "link": "https://decrypt.co/381079/russia-ban-peer-to-peer-bitcoin-trading",
+    "summary": "Russians have until July 1, 2027 to buy and sell crypto directly with each other. After that, every trade runs through a broker or exchange approved by the Bank of Russia.",
+    "published": "2026-10-15T20:31:04+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Bitcoin Magazine",
+    "title": "Bitcoin’s Volatility Has Fallen Within S&P 500 Ranks, Study Shows",
+    "link": "https://bitcoinmagazine.com/news/bitcoins-volatility-has-fallen-study-shows",
+    "summary": "Bitcoin Magazine Bitcoin’s Volatility Has Fallen Within S&P 500 Ranks, Study Shows Grayscale research shows that bitcoin’s realized volatility is in the same range as a number of S&P 500 stocks. This post Bitcoin’s Volatility Has Fallen Within S&P 500 Ranks, Study Shows first appeared on Bitcoin Magazine and is written by Mathew Di Salvo .",
+    "published": "2026-10-15T20:30:46+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Cointelegraph",
+    "title": "Binance.US seeks $1B valuation in potential $100M funding round: Report",
+    "link": "https://cointelegraph.com/news/binance-us-funding-valuation-billion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "The crypto exchange was reportedly looking to use the additional funding to regain market share following Binance’s 2023 settlement with US authorities.",
+    "published": "2026-10-15T20:21:11+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "84 million XRP added to exchange wallets as price slipped toward $1.30",
+    "link": "https://cryptoslate.com/xrp-exchange-wallets-added-84-million-tokens-in-three-days-as-price-slipped-toward-1-30/",
+    "summary": "The October 12–15 custody build raises a supply question, but the balance data cannot establish completed sales. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+    "published": "2026-10-15T20:00:30+00:00",
+    "regulatory": true,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "Pi Network (PI) Plunges Near Its ATL: 3 AIs Speculate Whether Q4 Will Bring More Pain",
+    "link": "https://cryptopotato.com/pi-network-pi-plunges-near-its-atl-3-ais-speculate-whether-q4-will-bring-more-pain/",
+    "summary": "Perplexity assigned a 15% to 25% probability to a scenario in which PI nosedives to $0.05 in the months ahead.",
+    "published": "2026-10-15T19:20:13+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
+    "source": "Decrypt",
+    "title": "Boom or Bust, Bitcoin Wins the AI Trade, Bitwise CIO Says",
+    "link": "https://decrypt.co/381077/bitwise-cio-bitcoin-wins-ai-boom-or-bust",
+    "summary": "In a note to investors, Matt Hougan used a “Choose Your Own Adventure” framework to argue that superabundance, an AI bust or a muddle-through economy all ultimately funnel to the same place: Bitcoin higher.",
+    "published": "2026-10-15T19:16:04+00:00",
+    "regulatory": false,
+    "institutional": true,
+    "category": "event"
+  },
+  {
     "source": "CryptoSlate",
     "title": "South Korea names two crypto firms in breach wave that also hit major banks",
     "link": "https://cryptoslate.com/south-korea-names-two-crypto-firms-in-breach-wave-that-also-hit-major-banks/",
@@ -570,16 +690,6 @@
     "category": "event"
   },
   {
-    "source": "The Defiant",
-    "title": "Safe Launches Safenet Aegis Security Network on Three Chains",
-    "link": "https://thedefiant.io/news/security/safe-launches-safenet-aegis-security-network-on-three-chains",
-    "summary": "Checks cost 0.40 USDC, paid to security providers, while onchain enforcement requires enabling a Guard on the Safe account.",
-    "published": "2026-10-15T13:38:04+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "Bitcoin Magazine",
     "title": "Latin America’s MSTR: How OranjeBTC is Running the Saylor Playbook in Brazil | Gui Gomes",
     "link": "https://bitcoinmagazine.com/videos/latin-americas-mstr-how-oranjebtc-is-running-the-saylor-playbook-in-brazil-gui-gomes",
@@ -840,16 +950,6 @@
     "category": "event"
   },
   {
-    "source": "CryptoSlate",
-    "title": "Bitcoin’s AI-driven rally faces a hidden danger if the machines get richer but workers don’t",
-    "link": "https://cryptoslate.com/bitcoins-ai-driven-rally-faces-a-hidden-danger-if-the-machines-get-richer-but-workers-dont/",
-    "summary": "Bitwise CIO Matt Hougan argued in an Oct. 14 memo that nearly every macroeconomic path ends with Bitcoin higher, including an extraordinary AI productivity boom that makes scarce assets more valuable. Two days earlier, the Bank for International Settlements published a working paper that models a fourth path. In it, AI automates work and lifts… Read the full story on CryptoSlate Understand the cry",
-    "published": "2026-10-15T11:00:07+00:00",
-    "regulatory": false,
-    "institutional": true,
-    "category": "sentiment"
-  },
-  {
     "source": "CoinDesk",
     "title": "Altcoins lead crypto declines as Asian stocks drop; bitcoin little changed since midnight",
     "link": "https://www.coindesk.com/markets/2026/10/15/bitcoin-holds-above-usd80-000-as-an-asian-stock-rout-drags-altcoins-lower",
@@ -881,9 +981,9 @@
   },
   {
     "source": "CoinDesk",
-    "title": "Live updates: Bitcoin bounces after first fall below $80,000 in one month",
+    "title": "Live updates: Bitcoin bounces back to $82,000 after first fall below $80,000 in one month",
     "link": "https://www.coindesk.com/business/2026/10/15/live-updates-bitcoin-back-under-usd81-000-as-ai-selloff-worsens",
-    "summary": "Stocks have also turned positive after big early losses, helped by sharply lower bond yields.",
+    "summary": "Stocks also turned positive after big early losses, helped by sharply lower bond yields.",
     "published": "2026-10-15T10:16:15+00:00",
     "regulatory": false,
     "institutional": false,
@@ -970,16 +1070,6 @@
     "category": "event"
   },
   {
-    "source": "CryptoSlate",
-    "title": "Bitcoin’s $80,000 buy wall hides a liquidation trap that could send prices toward $78,000",
-    "link": "https://cryptoslate.com/bitcoins-80000-buy-wall-hides-a-liquidation-trap-that-could-send-prices-toward-78000/",
-    "summary": "Bitcoin registered an intraday low of $81,514.28 on Oct. 14 as September CPI came in hotter than forecast, with headline inflation at 3.7% year over year against 3.6% expected and core at 2.6% against 2.5%. Glassnode's latest on-chain data suggests a calmer holder base than the price action. The harder test sits near $80,000, where… Read the full story on CryptoSlate Understand the crypto stories ",
-    "published": "2026-10-15T09:40:18+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "sentiment"
-  },
-  {
     "source": "U.Today",
     "title": "Ripple CEO Ends Speculation on What's Ahead for XRP Ledger",
     "link": "https://u.today/ripple-ceo-ends-speculation-on-whats-ahead-for-xrp-ledger",
@@ -990,31 +1080,11 @@
     "category": "event"
   },
   {
-    "source": "Cointelegraph",
-    "title": "Thailand crypto ETFs may see slow start despite new rules: CoinShares",
-    "link": "https://cointelegraph.com/news/thailand-crypto-etfs-slow-start-new-rules-coinshares?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "summary": "Thailand’s new Bitcoin and Ether ETF rules take effect Friday, but CoinShares expects modest initial inflows as existing investment options compete for demand.",
-    "published": "2026-10-15T09:36:20+00:00",
-    "regulatory": true,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "CoinDesk",
     "title": "Hex founder Richard Heart arrested in Istanbul, Turkish media report",
     "link": "https://www.coindesk.com/policy/2026/10/15/hex-founder-richard-heart-arrested-in-istanbul-turkish-media-report",
     "summary": "Police reportedly seized $4 million in cash and 64 luxury watches during a raid on the crypto founder's Istanbul residence.",
     "published": "2026-10-15T09:20:57+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "U.Today",
-    "title": "Vitalik Buterin Reveals New Key Priority for Ethereum (ETH)",
-    "link": "https://u.today/vitalik-buterin-reveals-new-key-priority-for-ethereum-eth",
-    "summary": "Ethereum is evolving rapidly and its creator just laid down the new large goal for the future.",
-    "published": "2026-10-15T08:30:00+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -1040,16 +1110,6 @@
     "category": "event"
   },
   {
-    "source": "CryptoPotato",
-    "title": "Ethereum Just Tanked to 2-Month Low as Wintermute Keeps Shorting ETH",
-    "link": "https://cryptopotato.com/ethereum-just-tanked-to-2-month-low-as-wintermute-keeps-shorting-eth/",
-    "summary": "Almost $270 million worth of ETH longs were wrecked in the past 24 hours.",
-    "published": "2026-10-15T06:30:48+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "sentiment"
-  },
-  {
     "source": "CoinDesk",
     "title": "BlackRock's Fink names a U.S. recession trigger, sounds alarm over $40 trillion national debt",
     "link": "https://www.coindesk.com/markets/2026/10/15/blackrock-s-larry-fink-names-a-u-s-recession-trigger-and-its-tied-to-ai",
@@ -1058,16 +1118,6 @@
     "regulatory": false,
     "institutional": false,
     "category": "event"
-  },
-  {
-    "source": "CryptoPotato",
-    "title": "Why Did Bitcoin Suddenly Crash to $80K?",
-    "link": "https://cryptopotato.com/why-did-bitcoin-suddenly-crash-to-80k/",
-    "summary": "Bitcoin's latest leg down took place during the Asian trading hours - coincidence?",
-    "published": "2026-10-15T05:53:39+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "sentiment"
   },
   {
     "source": "The Block",
@@ -1150,36 +1200,6 @@
     "category": "event"
   },
   {
-    "source": "Decrypt",
-    "title": "AI Agents Made 138 Million Crypto Payments in a Year. Most Were Tiny",
-    "link": "https://decrypt.co/380989/ai-agents-138-million-crypto-payments-one-year",
-    "summary": "A new Chainalysis report found payments through Coinbase’s x402 protocol surged from about 1,500 in mid-2025 to more than 138 million by Q3 2026, with U.S. wallets dominating spending on AI models.",
-    "published": "2026-10-14T20:16:05+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "sentiment"
-  },
-  {
-    "source": "Decrypt",
-    "title": "Russia's Biggest Bank Sberbank Wins Approval to Trade Bitcoin",
-    "link": "https://decrypt.co/380981/sberbank-russia-bank-trade-crypto-bitcoin",
-    "summary": "Sberbank now holds both custody and exchange status under Russia's new crypto law, and plans to bring Bitcoin, Ethereum and USDT to apps used by 110 million retail clients.",
-    "published": "2026-10-14T19:46:03+00:00",
-    "regulatory": true,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "Decrypt",
-    "title": "Solana Sets a Date for Its Next Major Upgrade",
-    "link": "https://decrypt.co/380974/solana-alpenglow-upgrade-date",
-    "summary": "Solana's Alpenglow upgrade replaces the TowerBFT voting system on October 21, cutting finality from 12.8 seconds to a target of 150ms and pulling vote transactions out of blocks entirely.",
-    "published": "2026-10-14T19:16:04+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "sentiment"
-  },
-  {
     "source": "The Block",
     "title": "Major shareholder presses SkyAI on Solana sales after treasury shrinks 70% in a month",
     "link": "https://www.theblock.co/news/business/2026-10-14-solana-treasury-skyai-bastion-sol-sales-tender-offer-418598",
@@ -1225,26 +1245,6 @@
     "link": "https://bitcoinmagazine.com/news/kraken-parent-company-to-buy-saldo-bank",
     "summary": "Bitcoin Magazine Kraken Parent Company Payward to Buy Saldo Bank in European Banking Push Top crypto exchange Kraken is pushing to offer other services other than digital assets. This post Kraken Parent Company Payward to Buy Saldo Bank in European Banking Push first appeared on Bitcoin Magazine and is written by Mathew Di Salvo .",
     "published": "2026-10-14T16:30:01+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "Bitcoin Magazine",
-    "title": "Standard Chartered Debuts Bitcoin Trading For Wealthy UAE Clients",
-    "link": "https://bitcoinmagazine.com/news/standard-chartered-debuts-bitcoin-trading-2",
-    "summary": "Bitcoin Magazine Standard Chartered Debuts Bitcoin Trading For Wealthy UAE Clients The service allows affluent clients to buy bitcoin via their bank accounts. This post Standard Chartered Debuts Bitcoin Trading For Wealthy UAE Clients first appeared on Bitcoin Magazine and is written by Mathew Di Salvo .",
-    "published": "2026-10-14T16:22:15+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "The Block",
-    "title": "Hex and PulseChain founder Richard Heart detained in Istanbul: reports",
-    "link": "https://www.theblock.co/news/regulation/2026-10-14-hex-pulsechain-founder-richard-heart-detained-istanbul-turkish-media-reports-418574",
-    "summary": "Turkish reports say $4 million and 64 watches were seized. Police have yet to confirm Heart’s detention.",
-    "published": "2026-10-14T15:53:15+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
