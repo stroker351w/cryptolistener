@@ -1,5 +1,65 @@
 [
   {
+    "source": "NewsBTC",
+    "title": "Charles Schwab Opens Bitcoin And Ethereum Transfers As Crypto Rollout Expands",
+    "link": "https://www.newsbtc.com/crypto-news/charles-schwab-opens-bitcoin-and-ethereum-transfers-as-crypto-rollout/",
+    "summary": "TL;DR: Charles Schwab is expanding its direct Bitcoin and Ethereum services, including phased external wallet transfers. The move brings digital asset ownership further into the company’s conventional brokerage experience. Charles Schwab is moving its cryptocurrency service closer to the features customers expect from a dedicated digital asset platform. The brokerage has been rolling out direct Bi",
+    "published": "2026-10-17T19:13:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "Who opened your crypto wallet before it reached your hands?",
+    "link": "https://cryptoslate.com/who-handled-your-wallet-before-you-did/",
+    "summary": "In early October, customers in Southeast Asia discovered that their crypto had disappeared from Ledger hardware wallets that still seemed to be working normally. They bought the devices through CryptoBilis, an authorized reseller, and believed their private keys were protected inside a device built for that purpose. What they couldn't see was a second piece… Read the full story on CryptoSlate Unde",
+    "published": "2026-10-17T19:00:25+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
+    "source": "The Block",
+    "title": "Turkey confirms Hex founder Richard Heart’s arrest, says police seized $7.15 million and six cold wallets",
+    "link": "https://www.theblock.co/news/regulation/2026-10-17-turkey-confirms-hex-founder-richard-hearts-arrest-says-police-seized-7-15-million-and-six-cold-wallets-418852",
+    "summary": "Police reportedly seized $7.15 million in cash, six cold wallets, seven firearms and 1,400 rounds of ammunition in searches of 15 addresses.",
+    "published": "2026-10-17T18:14:43+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "NewsBTC",
+    "title": "Crypto Giants Feature In $210 Million Political Donations Report As Regulatory Scrutiny Grows",
+    "link": "https://www.newsbtc.com/regulation/crypto-giants-feature-in-210-million-political-donations-report-as-reg/",
+    "summary": "TL;DR: An October 8 Public Citizen report links corporations and individuals benefiting from cancelled federal enforcement actions to approximately $210.5 million in donations and pledges to Trump-aligned political committees. Major cryptocurrency companies feature among the reported contributors. A report examining corporate political donations and changes to federal enforcement has placed severa",
+    "published": "2026-10-17T18:13:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "NewsBTC",
+    "title": "Binance.US Seeks $100 Million Funding Round At $1 Billion Valuation",
+    "link": "https://www.newsbtc.com/crypto-news/binance-us-seeks-100-million-funding-round-at-1-billion-valuation/",
+    "summary": "TL;DR: Binance.US is reportedly seeking up to $100 million from private investors at a proposed valuation of approximately $1 billion. The financing discussions come as the American exchange attempts to rebuild after several difficult years. Binance.US is reportedly pursuing a $100 million fundraising round as it seeks to strengthen its presence in the American cryptocurrency market. Bloomberg rep",
+    "published": "2026-10-17T17:13:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Defiant",
+    "title": "Injective Activates Fixed Gas Costs for Exchange Transactions",
+    "link": "https://thedefiant.io/news/blockchains/injective-activates-fixed-gas-costs-for-exchange-transactions",
+    "summary": "Traders and app developers can use published gas budgets for orders, cancellations, deposits and withdrawals instead of simulating each transaction.",
+    "published": "2026-10-17T17:12:35+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
     "source": "Decrypt",
     "title": "Crypto Super PAC Fairshake Pours Millions More Into Defeating Sherrod Brown",
     "link": "https://decrypt.co/381238/crypto-super-pac-fairshake-pours-millions-more-into-defeating-sherrod-brown",
@@ -35,6 +95,16 @@
     "link": "https://cryptopotato.com/the-sp-500-is-near-record-highs-but-most-stocks-are-already-in-a-bear-market/",
     "summary": "Although the S&P 500 is inches away from a record high, the picture looks dramatically weaker beneath the surface.",
     "published": "2026-10-17T16:55:48+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "U.Today",
+    "title": "'Checkmate Satoshi?' Adam Back Reacts to Ledger Cofounder's Take on AI's ECDSA Findings",
+    "link": "https://u.today/checkmate-satoshi-adam-back-reacts-to-ledger-cofounders-take-on-ais-ecdsa-findings",
+    "summary": "Claude reveals ECDSA curve origins, solving 26 year old cryptography mystery.",
+    "published": "2026-10-17T16:30:13+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -330,16 +400,6 @@
     "category": "event"
   },
   {
-    "source": "NewsBTC",
-    "title": "MSCI Tightens Index Rules As Strategy And Other Bitcoin Treasury Firms Face Fresh Scrutiny",
-    "link": "https://www.newsbtc.com/regulation/msci-tightens-index-rules-as-strategy-and-other-bitcoin-treasury-firms/",
-    "summary": "TL;DR: MSCI has revised its methodology for classifying non-operating companies, putting Bitcoin-heavy treasury businesses under closer index scrutiny. Any possible exclusion of companies such as Strategy must be assessed against the actual screening criteria and protections for existing index constituents. One of the most important questions facing publicly listed Bitcoin treasury companies may n",
-    "published": "2026-10-17T09:13:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "CryptoPotato",
     "title": "Bitcoin’s Road to $125K Could Include a Brutal Drop to $68K: Analyst",
     "link": "https://cryptopotato.com/bitcoins-road-to-125k-could-include-a-brutal-drop-to-68k-analyst/",
@@ -595,16 +655,6 @@
     "link": "https://thedefiant.io/news/security/anthropic-says-claude-traced-nist-curve-seeds-to-1990s-timestamps",
     "summary": "The finding is not a cryptographic break; published code covers five NIST prime-curve seeds and four binary-curve seeds.",
     "published": "2026-10-16T21:32:28+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoSlate",
-    "title": "Cardano governance hits a wall as treasury reaches 91% cap",
-    "link": "https://cryptoslate.com/cardano-has-42-6-million-ada-left-under-its-current-treasury-spending-limit/",
-    "summary": "Thirty enacted withdrawals have used 457.4 million ADA of the 500 million allowance, which incoming funds and refunds do not replenish. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-    "published": "2026-10-16T21:10:02+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -930,16 +980,6 @@
     "category": "event"
   },
   {
-    "source": "U.Today",
-    "title": "Deutsche Bank to Launch Bitcoin and Ethereum Custody Within Weeks",
-    "link": "https://u.today/deutsche-bank-to-launch-bitcoin-and-ethereum-custody-within-weeks",
-    "summary": "Deutsche Bank, Germany's largest bank, is preparing to launch Bitcoin and Ethereum custody services within weeks.",
-    "published": "2026-10-16T15:31:12+00:00",
-    "regulatory": true,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "The Defiant",
     "title": "Deutsche Bank Plans Crypto Custody Launch Within Weeks",
     "link": "https://thedefiant.io/converge/tradfi-and-fintech/deutsche-bank-plans-crypto-custody-launch-within-weeks",
@@ -955,16 +995,6 @@
     "link": "https://thedefiant.io/converge/tradfi-and-fintech/mizuho-mufg-and-smbc-complete-joint-yen-stablecoin-pilot",
     "summary": "The July trial covered issuance, transfer and redemption for Mitsubishi Corporation, while the banks have targeted commercial transactions in fiscal 2026.",
     "published": "2026-10-16T15:04:54+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "The Defiant",
-    "title": "Binance.US Seeks Up to $100 Million at $1 Billion Valuation, Bloomberg Reports",
-    "link": "https://thedefiant.io/news/cefi/binance-us-seeks-up-to-100-million-at-1-billion-valuation-bloomberg-reports",
-    "summary": "Trump-affiliated World Liberty Financial was made aware of the fundraising but is not participating, according to Bloomberg.",
-    "published": "2026-10-16T15:04:47+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -1180,26 +1210,6 @@
     "category": "event"
   },
   {
-    "source": "NewsBTC",
-    "title": "MEXC Releases October 2026 Proof of Reserves, Reinforcing User Trust Through Verifiable Transparency",
-    "link": "https://www.newsbtc.com/news/mexc-releases-october-2026-proof-of-reserves-reinforcing-user-trust-through-verifiable-transparency/",
-    "summary": "Mutsamudu, Comoros, October 16, 2026 – MEXC, a pioneer in 0-fee digital asset trading, has released its October 2026 Proof of Reserves (PoR) report. Independently audited by Hacken, the report confirms that the platform’s reserves continue to fully cover user holdings across all major reserve assets. As part of its commitment to putting users first, MEXC publishes monthly reserve data that users c",
-    "published": "2026-10-16T10:34:30+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "NewsBTC",
-    "title": "MEXC AI Trading Report Reveals 85% of Crypto Traders Use AI, But Most Limit Its Control Over Funds",
-    "link": "https://www.newsbtc.com/news/mexc-ai-trading-report-reveals-85-of-crypto-traders-use-ai-but-most-limit-its-control-over-funds/",
-    "summary": "Mutsamudu, Comoros, October 16, 2026 — MEXC, a global cryptocurrency exchange, released its AI Trading Report, based on a survey of 3,708 crypto traders. The report examines how respondents use AI, how much trading authority they would delegate, and what protective measures they expect from platforms. Blockchain security firm Hacken contributed technical analysis of risks associated with AI agent ",
-    "published": "2026-10-16T10:31:38+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "sentiment"
-  },
-  {
     "source": "Cointelegraph",
     "title": "CONNECT recap: Liquidity is tokenization’s next challenge, everyday stablecoins",
     "link": "https://cointelegraph.com/news/connect-recap-tokenizations-next-challenge-is-building-liquidity-gsr-executive-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -1325,16 +1335,6 @@
     "link": "https://www.theblock.co/news/markets/2026-10-15-defi-development-chad-dividend-rate-14-418694",
     "summary": "DeFi Development is raising the dividend rate on its CHAD preferred stock to 14% from 13% as it taps CHAD sales to grow its Solana treasury.",
     "published": "2026-10-15T15:48:32+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "The Block",
-    "title": "Ripple Prime adds RWA swaps referencing perpetual futures listed on Hyperliquid",
-    "link": "https://www.theblock.co/news/business/2026-10-15-ripple-prime-rwa-swaps-perpetual-futures-hyperliquid-418681",
-    "summary": "Ripple Prime has added RWA perpetual swaps tied to equities, ETFs, metals, energy and currencies, with 24/7 trading and settlement.",
-    "published": "2026-10-15T14:43:35+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
