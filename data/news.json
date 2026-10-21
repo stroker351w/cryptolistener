@@ -1,5 +1,95 @@
 [
   {
+    "source": "CoinDesk",
+    "title": "A company that vouches for websites had secret keys so weak that 8 of them were cracked",
+    "link": "https://www.coindesk.com/tech/2026/10/21/a-company-that-vouches-for-websites-had-secret-keys-so-weak-that-8-of-them-were-cracked",
+    "summary": "Eight secret keys at eMudhra, an Indian firm that vouches for websites, were compromised. Browsers and software makers are rushing out fixes.",
+    "published": "2026-10-21T04:11:58+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CoinDesk",
+    "title": "Bitcoin hovers around $83,000 as AI earnings revive tech, ZEC jumps 11%",
+    "link": "https://www.coindesk.com/markets/2026/10/21/bitcoin-hovers-around-usd83-000-as-ai-earnings-revive-tech-zec-jumps-11",
+    "summary": "Strong results from SpaceX and Super Micro sent Asian chip stocks surging, and ZEC led crypto higher after developers set a date for its next network upgrade.",
+    "published": "2026-10-21T04:07:07+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "What Are Quinelings? Charles Hoskinson’s New Digital Lifeform Experiment",
+    "link": "https://cryptopotato.com/what-are-quinelings-charles-hoskinsons-new-digital-lifeform-experiment/",
+    "summary": "The Quinelings package has not yet been published to npm, and its documented scope is limited to local computation with simulated effects.",
+    "published": "2026-10-21T04:04:38+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Block",
+    "title": "MoonPay, Upbit parent Dunamu explore collaboration on stablecoin payments, GIWA expansion",
+    "link": "https://www.theblock.co/news/business/2026-10-20-moonpay-upbit-dunamu-421476",
+    "summary": "The companies also plan to explore ways to broaden global access to Dunamu's Ethereum Layer 2, GIWA chain.",
+    "published": "2026-10-21T02:30:08+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "Kazakhstan shuts down mobile access to 6 major crypto exchanges",
+    "link": "https://cryptoslate.com/kazakhstan-shuts-down-mobile-access-to-6-major-crypto-exchanges/",
+    "summary": "September orders bind Apple and Google upon service and target unauthorized services in the AIFC; implementation remains unconfirmed. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+    "published": "2026-10-21T02:20:32+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Cointelegraph",
+    "title": "Musk says SpaceX-Tesla merger a ‘good idea’ as AI revenue jumps ninefold",
+    "link": "https://cointelegraph.com/markets/musk-says-spacex-tesla-merger-a-good-idea-as-ai-revenue-jumps-ninefold?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "A merger would bring Tesla into the same corporate group as Grok developer SpaceXAI and social media platform X.",
+    "published": "2026-10-21T01:19:14+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Defiant",
+    "title": "Pendle Daily Volume Hits $159 Million, Led by Ethereum",
+    "link": "https://thedefiant.io/news/defi/pendle-daily-volume-hits-159-million-led-by-ethereum",
+    "summary": "Ethereum accounted for $121.5 million of trading, while the protocol's locked value rose only modestly during the day.",
+    "published": "2026-10-21T00:16:04+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "Kraken’s $80 stablecoin fee gap exposes hidden costs",
+    "link": "https://cryptoslate.com/krakens-80-stablecoin-fee-gap-exposes-hidden-costs/",
+    "summary": "An 80-basis-point trading-fee gap changes a conditional comparison, while payouts, account access and remaining route costs determine the full price. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+    "published": "2026-10-21T00:10:07+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "U.Today",
+    "title": "XRP, Shiba Inu (SHIB), Tron (TRX) and Solana (SOL) Price Analysis For October 21: When Do Headliners Pick Up Bullish Pace?",
+    "link": "https://u.today/price-analysis/xrp-shiba-inu-shib-tron-trx-and-solana-sol-price-analysis-for-october-21-when-do-headliners-pick-up",
+    "summary": "The market headliners are yet to catch up wi the market growth, despite the relatively weak pressure that is coming from bears right now.",
+    "published": "2026-10-21T00:01:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
     "source": "Cointelegraph",
     "title": "Qubic restarts blockchain, opens recovery claims after $1.4M hack",
     "link": "https://cointelegraph.com/news/qubic-restarts-blockchain-opens-recovery-claims-after-14m-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -860,16 +950,6 @@
     "category": "event"
   },
   {
-    "source": "The Defiant",
-    "title": "Issuer Blacklists Recovered Nothing in 60 Crypto Exploits, Blockaid Finds",
-    "link": "https://thedefiant.io/news/security/issuer-blacklists-recovered-nothing-in-60-crypto-exploits-blockaid-finds",
-    "summary": "Victims got back $9.8 million of the $1.18 billion traced between January and August, and every dollar frozen or returned came through governance or validator action",
-    "published": "2026-10-20T13:22:35+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "U.Today",
     "title": "Stellar (XLM) Alert Issued by Japanese Crypto Exchange: Here's the Reason",
     "link": "https://u.today/stellar-xlm-alert-issued-by-japanese-crypto-exchange-heres-the-reason",
@@ -935,16 +1015,6 @@
     "link": "https://www.sec.gov/newsroom/press-releases/2026-107-sec-fsa-hold-autumn-financial-regulatory-dialogue",
     "summary": "The U.S. Securities and Exchange Commission (SEC) and the Financial Services Agency of Japan (FSA) convened the Autumn SEC-FSA Financial Regulatory Dialogue in Tokyo on Oct. 19, 2026.The SEC–FSA Dialogue builds upon longstanding efforts between the two…",
     "published": "2026-10-20T12:51:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoSlate",
-    "title": "Super League shareholders approve Metaplanet’s 2,100 BTC investment",
-    "link": "https://cryptoslate.com/metaplanets-3-4-billion-bitcoin-financing-plan-takes-major-step-toward-wall-street/",
-    "summary": "Shareholders cleared a condition for Metaplanet's investment, with the Superplanet name and SUPA ticker contingent on a fourth-quarter closing. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-    "published": "2026-10-20T12:50:21+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -1040,16 +1110,6 @@
     "category": "event"
   },
   {
-    "source": "Cointelegraph",
-    "title": "Lloyds and Barclays among UK banks named in crypto transfer complaints, advocacy group says",
-    "link": "https://cointelegraph.com/news/uk-banks-crypto-transfer-complaints-stand-with-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "summary": "UK banks are facing scrutiny over crypto transfer limits and bans as Stand With Crypto reports thousands of complaints ahead of the country’s 2027 regulatory regime.",
-    "published": "2026-10-20T12:13:44+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "CryptoPotato",
     "title": "Worldcoin (WLD) Jumps 9% Daily: What Happened and What’s Next?",
     "link": "https://cryptopotato.com/worldcoin-wld-jumps-9-daily-what-happened-and-whats-next/",
@@ -1085,16 +1145,6 @@
     "link": "https://www.newsbtc.com/crypto-news/visa-and-mesh-want-crypto-wallet-balances-to-work-at-175-million-merchants/",
     "summary": "TL;DR: Mesh and Visa have announced a partnership intended to let consumers spend cryptocurrency and stablecoins from participating wallet apps wherever Visa payments are accepted. Holding stablecoins is one thing. Actually spending them in a shop usually involves moving funds to an exchange, selling them, or relying on a separate payment product. Visa and Mesh are pitching a way to make that proc",
     "published": "2026-10-20T12:00:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoSlate",
-    "title": "Bitcoin fell 1.3% while Nasdaq-100 lost 5.5% in last week’s tech selloff",
-    "link": "https://cryptoslate.com/bitcoin-holds-up-as-hedge-funds-dump-tech-at-fastest-pace-in-a-decade/",
-    "summary": "Bitcoin lost less than the Nasdaq-100 in last week's tech selloff. Hedge funds cut technology positions at the fastest pace since at least 2016 over the five trading sessions through Oct. 15, according to a report citing Goldman Sachs prime brokerage data. The Nasdaq-100 fell 5.49% from its Oct. 9 close of 30,883.15 to 29,187.55… Read the full story on CryptoSlate Understand the crypto stories tha",
-    "published": "2026-10-20T11:50:45+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -1240,16 +1290,6 @@
     "category": "event"
   },
   {
-    "source": "CryptoPotato",
-    "title": "Major Bitcoin ETF Inflows Fail to Stop BTC From Sliding Further: Market Watch",
-    "link": "https://cryptopotato.com/major-bitcoin-etf-inflows-fail-to-stop-btc-from-sliding-further-market-watch/",
-    "summary": "ETH, XRP, and SOL are also in the red daily.",
-    "published": "2026-10-20T09:11:16+00:00",
-    "regulatory": true,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "CoinDesk",
     "title": "Bitcoin ETFs just saw their biggest day in a month thanks entirely to BlackRock",
     "link": "https://www.coindesk.com/business/2026/10/20/bitcoin-etfs-just-saw-their-biggest-day-in-a-month-thanks-entirely-to-blackrock",
@@ -1257,16 +1297,6 @@
     "published": "2026-10-20T08:24:01+00:00",
     "regulatory": true,
     "institutional": true,
-    "category": "event"
-  },
-  {
-    "source": "U.Today",
-    "title": "Stay Cautious: ZEC Whale Buys Nullmask (MASK), Massive Token Concentration Raises Red Flags",
-    "link": "https://u.today/stay-cautious-zec-whale-buys-nullmask-mask-massive-token-concentration-raises-red-flags",
-    "summary": "Nullmask is a hot choice right now, but investors must stay cautious considering the token distribution.",
-    "published": "2026-10-20T08:10:00+00:00",
-    "regulatory": false,
-    "institutional": false,
     "category": "event"
   },
   {
@@ -1320,16 +1350,6 @@
     "category": "event"
   },
   {
-    "source": "CoinDesk",
-    "title": "Tether: Senator's investigation misses positive work that's led to lower Iran volumes",
-    "link": "https://www.coindesk.com/policy/2026/10/19/tether-senator-s-investigation-misses-positive-work-that-s-led-to-lower-iran-volumes",
-    "summary": "The stablecoin issuer's CEO, Paolo Ardoino, has been defending against accusations that the firm's stablecoins have fueled financial activity in Iran.",
-    "published": "2026-10-19T20:21:13+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "Bitcoin Magazine",
     "title": "The Architecture of Money: Mapping Financial Power in the Age of Bitcoin",
     "link": "https://bitcoinmagazine.com/culture/the-architecture-of-money-mapping-financial-power-in-the-age-of-bitcoin",
@@ -1345,26 +1365,6 @@
     "link": "https://www.sec.gov/newsroom/press-releases/2026-106-sec-announces-roundtable-machine-understandable-data-age-super-intelligence",
     "summary": "The Securities and Exchange Commission announced today that it will host a roundtable on November 9, 2026, to discuss the use of machine-understandable data and Super Intelligence (SI) and related risks and costs.“In the age of SI, high-quality…",
     "published": "2026-10-19T17:19:43+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CoinDesk",
-    "title": "U.S. CFTC rebuffs CME legal stance in consequential fight over perpetual futures",
-    "link": "https://www.coindesk.com/policy/2026/10/19/u-s-cftc-rebuffs-cme-legal-stance-in-consequential-fight-over-perpetual-futures",
-    "summary": "The future of perps in the U.S. may be at stake as the CFTC argues that CME hasn't shown the new policy is hurting it after the agency OK'd its first bitcoin perp.",
-    "published": "2026-10-19T16:47:00+00:00",
-    "regulatory": true,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "The Block",
-    "title": "Mesh taps Visa to let users spend crypto without a separate card",
-    "link": "https://www.theblock.co/news/business/2026-10-19-mesh-visa-partner-spend-crypto-stablecoins-421058",
-    "summary": "Mesh and Visa will let users spend crypto and stablecoin balances from wallet apps, with no need to sell or transfer assets first.",
-    "published": "2026-10-19T16:10:02+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
