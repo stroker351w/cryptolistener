@@ -1,5 +1,145 @@
 [
   {
+    "source": "CryptoPotato",
+    "title": "Why XRP May Retest $1 Before Its Next Major Rally: Analyst",
+    "link": "https://cryptopotato.com/why-xrp-may-retest-1-before-its-next-major-rally-analyst/",
+    "summary": "XRP's recovery rests on weekly closes above $1.33; failure to regain that level leaves the $1 region exposed, an analyst warned today.",
+    "published": "2026-10-22T04:02:13+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
+    "source": "The Defiant",
+    "title": "Matter Labs Introduces Prividium Commander for Existing Blockchains",
+    "link": "https://thedefiant.io/converge/tradfi-and-fintech/matter-labs-introduces-prividium-commander-for-existing-blockchains",
+    "summary": "Institutions can add application permissions without moving to Prividium Ledger, while retaining their existing custody and signing providers.",
+    "published": "2026-10-22T03:52:39+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CoinDesk",
+    "title": "Bitcoin gives back its run at $85,000 as Tesla and Meta fail to calm AI nerves",
+    "link": "https://www.coindesk.com/markets/2026/10/22/bitcoin-gives-back-its-run-at-usd85-000-as-tesla-and-meta-fail-to-calm-ai-nerves",
+    "summary": "BTC broke through its $84,000 ceiling late Wednesday, then slid back to the $82,500 support analysts are watching as tech futures fell.",
+    "published": "2026-10-22T03:51:34+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Defiant",
+    "title": "Developer Links $370,000 Theft to Railway Secrets Exposure",
+    "link": "https://thedefiant.io/news/security/developer-links-370-000-theft-to-railway-secrets-exposure",
+    "summary": "Railway restored Enterprise builds late Wednesday, while customers on other plans were still waiting to redeploy with replacement credentials.",
+    "published": "2026-10-22T03:42:40+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Defiant",
+    "title": "Cloudflare CEO Reports Millions of PHP2Shell Exploit Attempts",
+    "link": "https://thedefiant.io/news/security/cloudflare-ceo-reports-millions-of-php2shell-exploit-attempts",
+    "summary": "PHP has shipped fixes for four supported branches. The flaws can let attackers run code on vulnerable web servers without logging in.",
+    "published": "2026-10-22T03:39:17+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Defiant",
+    "title": "How Elliptic-Curve Signatures Work: A Toy ECDSA Example",
+    "link": "https://thedefiant.io/news/security/how-elliptic-curve-signatures-work-a-toy-ecdsa-example",
+    "summary": "A deliberately insecure curve makes the signing arithmetic small enough to follow. The verifier needs the message and public key, but neither signing secret.",
+    "published": "2026-10-22T03:29:18+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Defiant",
+    "title": "Mastercard Crypto Credential, KYC, Travel Rule and Screening Compared",
+    "link": "https://thedefiant.io/converge/tradfi-and-fintech/mastercard-crypto-credential-kyc-travel-rule-and-screening-compared",
+    "summary": "Identity checks, transfer-party information and blockchain risk alerts serve different purposes. Providers remain responsible for deciding whether a payment can proceed.",
+    "published": "2026-10-22T03:24:18+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "OCC waiver rule puts active stablecoin issuers on notice",
+    "link": "https://cryptoslate.com/occ-waiver-rule-puts-active-stablecoin-issuers-on-notice/",
+    "summary": "Existing US issuers awaiting OCC approval need discretionary relief to keep issuing from Jan. 18, 2027; filing alone is insufficient. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+    "published": "2026-10-22T03:20:53+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Defiant",
+    "title": "Pendle Expands One-Click Looping to Yield Assets and Tokenized Stocks",
+    "link": "https://thedefiant.io/news/defi/pendle-expands-one-click-looping-to-yield-assets-and-tokenized-stocks",
+    "summary": "Stock longs on Base use Aave loans, while PendleLoop fees on non-PT positions are waived through Dec. 31.",
+    "published": "2026-10-22T02:12:57+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Defiant",
+    "title": "Collector Crypt Reports Record $24.3 Million Day",
+    "link": "https://thedefiant.io/news/nfts-and-web3/collector-crypt-reports-record-24-3-million-day",
+    "summary": "Users opened 123,425 packs, while the reported gross receipts equaled roughly 13% of DefiLlama's trailing 30-day pack-sales total.",
+    "published": "2026-10-22T01:44:47+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Defiant",
+    "title": "Aero Launches as Aerodrome and Velodrome Merge Across Seven Chains",
+    "link": "https://thedefiant.io/news/defi/aero-launches-aerodrome-velodrome-merge-seven-chains",
+    "summary": "The combined exchange went live across seven networks, with VELO converting at 0.044 AERO and locked positions becoming sAERO",
+    "published": "2026-10-22T01:25:39+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Cointelegraph",
+    "title": "PHP Foundation admits ‘structural failure’ delayed critical security fix",
+    "link": "https://cointelegraph.com/news/php-foundation-admits-structural-failure-delayed-critical-security-fix?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "Government websites and online services were disrupted after concerns about a PHP bug that could allow attackers to take control of vulnerable servers.",
+    "published": "2026-10-22T00:44:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "U.Today",
+    "title": "Near Protocol (NEAR), Zcash (ZEC), Dogecoin (DOGE) and Ethereum (ETH) Price Analysis for October 22: Unexpected Wave of Bullishness",
+    "link": "https://u.today/price-analysis/near-protocol-near-zcash-zec-dogecoin-doge-and-ethereum-eth-price-analysis-for-october-22",
+    "summary": "NEAR, ZEC, DOGE and ETH are all rebounding on green daily candles, but each still needs to clear key resistance to confirm the next move higher.",
+    "published": "2026-10-22T00:01:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
+    "source": "The Block",
+    "title": "Aerodrome and Velodrome merge to launch Aero across seven blockchain networks",
+    "link": "https://www.theblock.co/news/defi/2026-10-21-aerodrome-velodrome-merge-aero-421514",
+    "summary": "Aerodrome and Velodrome have merged to launch Aero across Ethereum mainnet, Base, Robinhood Chain, Ink, OP Mainnet, Arc, and Arbitrum.",
+    "published": "2026-10-22T00:00:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
     "source": "CryptoSlate",
     "title": "Irish drug lord’s lost Bitcoin fortune comes back to life as $41 million moves to Coinbase",
     "link": "https://cryptoslate.com/irish-drug-lords-lost-bitcoin-fortune-comes-back-to-life-as-41-million-moves-to-coinbase/",
@@ -140,26 +280,6 @@
     "category": "event"
   },
   {
-    "source": "The Defiant",
-    "title": "Yuga Labs Launches Mudwater Trading-Card NFTs on Solana",
-    "link": "https://thedefiant.io/news/nfts-and-web3/yuga-labs-launches-mudwater-trading-card-nfts-on-solana",
-    "summary": "Each Bored Ape qualifies for 10 packs and each Mutant Ape for two, while OpenSea reports 78.3 ETH in pack trading volume.",
-    "published": "2026-10-21T20:29:33+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "The Defiant",
-    "title": "Trump Touts Crypto Scam Crackdown as DOJ Reports $938 Million Restrained",
-    "link": "https://thedefiant.io/news/regulation/trump-touts-crypto-scam-crackdown-as-doj-reports-938-million-restrained",
-    "summary": "Attorney General Todd Blanche described a nationwide scam prosecution initiative deploying dozens of prosecutors across all 94 US Attorneys’ Offices.",
-    "published": "2026-10-21T20:29:24+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "Cointelegraph",
     "title": "Tether backs Bolivian fintech bringing USDT payments to food delivery and banking",
     "link": "https://cointelegraph.com/news/tether-backs-bolivian-fintech-bringing-usdt-payments-to-food-delivery-and-banking?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -210,51 +330,11 @@
     "category": "event"
   },
   {
-    "source": "The Defiant",
-    "title": "Dolomite Adds $100 Million in Concrete’s Bitcoin-Backed Collateral",
-    "link": "https://thedefiant.io/news/defi/dolomite-adds-100-million-in-concrete-s-bitcoin-backed-collateral",
-    "summary": "Concrete can borrow against Bitcoin held at BitGo, but liquidations require offchain custody settlement rather than an instant onchain sale.",
-    "published": "2026-10-21T19:52:18+00:00",
-    "regulatory": true,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "U.Today",
     "title": "Legendary Trader John Bollinger Spots Hidden Bitcoin Game",
     "link": "https://u.today/legendary-trader-john-bollinger-spots-hidden-bitcoin-game",
     "summary": "Legendary trader John Bollinger has discovered a hidden Bitcoin-themed arcade game on CoinMarketCap that challenges players to navigate BTC's historical price movements while staying within his famous Bollinger Bands.",
     "published": "2026-10-21T19:50:32+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "The Defiant",
-    "title": "13 JPMD Lookalikes Emerge Amid JPMorgan’s Ethereum Launch",
-    "link": "https://thedefiant.io/converge/security/13-jpmd-lookalikes-emerge-amid-jpmorgan-s-ethereum-launch",
-    "summary": "The bank’s genuine Ethereum token showed zero supply and holders, while its documentation warns that same-name tokens at other addresses are unaffiliated.",
-    "published": "2026-10-21T19:48:15+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "The Defiant",
-    "title": "Krak vs. PayPal vs. Cash App: Fees, Reach and Bank Withdrawals",
-    "link": "https://thedefiant.io/news/cefi/krak-vs-paypal-vs-cash-app-fees-reach-and-bank-withdrawals",
-    "summary": "Cash App requires US residency, while Krak and PayPal support US-to-UK personal payments. Conversion and bank withdrawal terms determine the cost beyond the in-app transfer.",
-    "published": "2026-10-21T19:47:52+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "The Defiant",
-    "title": "Polymarket US vs. Kalshi: What a 100-Contract Trade Costs",
-    "link": "https://thedefiant.io/news/cefi/polymarket-us-vs-kalshi-what-a-100-contract-trade-costs",
-    "summary": "A hypothetical buy at 40 cents and sale at 60 cents produces nearly identical taker profits. Resting orders and funding methods can change the comparison.",
-    "published": "2026-10-21T19:47:17+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -390,16 +470,6 @@
     "category": "event"
   },
   {
-    "source": "The Defiant",
-    "title": "Polymarket US Sues Ohio to Block Sports-Contract Crackdown",
-    "link": "https://thedefiant.io/news/regulation/polymarket-us-sues-ohio-to-block-sports-contract-crackdown",
-    "summary": "The exchange seeks preliminary and permanent injunctions after Ohio demanded an immediate halt to sports contracts and written confirmation of compliance by Oct. 16.",
-    "published": "2026-10-21T17:15:03+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "Cointelegraph",
     "title": "Treasury Secretary Bessent likens GENIUS Act to Lincoln-era banking reform",
     "link": "https://cointelegraph.com/news/occ-finalizes-stablecoin-rules-genius-act-bessent?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -415,16 +485,6 @@
     "link": "https://cryptoslate.com/crypto-security-chiefs-sound-alarm-as-php-emergency-patch-scrambles-devs-worldwide/",
     "summary": "PHP released fixes on Oct. 21 for two critical vulnerabilities that can let unauthenticated attackers run code on web servers, as crypto security executives urged operators to patch and check overlooked infrastructure. The PHP team's security advisory identifies CVE-2026-109618 and CVE-2026-109619, following its Oct. 20 advance warning. Both have a critical CVSS v4.0 severity score… Read the full ",
     "published": "2026-10-21T17:00:04+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "The Defiant",
-    "title": "OKX Combines Euro and EURC Liquidity in One Spot Order Book",
-    "link": "https://thedefiant.io/converge/cefi/okx-combines-euro-and-eurc-liquidity-in-one-spot-order-book",
-    "summary": "Eligible EEA users can convert euros to EURC at 1:1 and choose either settlement asset, with fees depending on their tier and transaction.",
-    "published": "2026-10-21T16:54:03+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -740,16 +800,6 @@
     "category": "event"
   },
   {
-    "source": "CryptoSlate",
-    "title": "Crypto rallies point to slower USDC growth and faster USDT growth, study finds",
-    "link": "https://cryptoslate.com/usdc-and-usdt-growth-challenge-bitcoins-dry-powder-signal/",
-    "summary": "Coin Metrics finds opposite relationships with prior non-stablecoin crypto returns, complicating the case that combined issuance measures fresh Bitcoin demand. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-    "published": "2026-10-21T13:50:28+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "Bitcoin Magazine",
     "title": "Blockchain.com CEO: “Crypto Spring” has Arrived – Institutions Driving the Market",
     "link": "https://bitcoinmagazine.com/videos/blockchain-com-ceo-crypto-spring-has-arrived-institutions-driving-the-market",
@@ -1020,16 +1070,6 @@
     "category": "event"
   },
   {
-    "source": "Cointelegraph",
-    "title": "PancakeSwap TVL tops $380M as major fee overhaul heads to vote",
-    "link": "https://cointelegraph.com/markets/pancakeswap-tvl-jumps-19-percent-fee-overhaul?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "summary": "PancakeSwap’s proposed fee-sharing overhaul would give liquidity providers 88% of swap fees and cut CAKE emissions by 69%, as BNB Chain’s DeFi activity expands.",
-    "published": "2026-10-21T10:50:52+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "U.Today",
     "title": "Tom Lee's BitMine Stakes Nearly $400 Million in Ethereum",
     "link": "https://u.today/tom-lees-bitmine-stakes-nearly-400-million-in-ethereum",
@@ -1150,26 +1190,6 @@
     "category": "sentiment"
   },
   {
-    "source": "CoinDesk",
-    "title": "Zcash developers confirm November date for upgrade that triples payment speed",
-    "link": "https://www.coindesk.com/markets/2026/10/21/zcash-developers-confirm-november-date-for-upgrade-that-triples-payment-speed",
-    "summary": "The NU7 upgrade will cut the time between Zcash blocks to 25 seconds from 75 seconds. The chosen block height still has to be merged into the spec and shipped in node software.",
-    "published": "2026-10-21T08:10:12+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "U.Today",
-    "title": "XRP Death Cross Is Not Final Yet: How Price Can Avoid It",
-    "link": "https://u.today/xrp-death-cross-is-not-final-yet-how-price-can-avoid-it",
-    "summary": "The market and XRP in particular is yet to decide the direction in which it's going to move.",
-    "published": "2026-10-21T07:45:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "CryptoPotato",
     "title": "France’s National Assembly Votes 38 to 37 to Tax Crypto-to-Stablecoin Swaps From 2027",
     "link": "https://cryptopotato.com/frances-national-assembly-votes-38-to-37-to-tax-crypto-to-stablecoin-swaps-from-2027/",
@@ -1186,16 +1206,6 @@
     "summary": "When the SEC sued in 2020, XRP fell about 70% within days. A 2023 court ruling then added roughly $21 billion, and exchanges relisted it.",
     "published": "2026-10-21T06:07:52+00:00",
     "regulatory": true,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoPotato",
-    "title": "Shiba Inu (SHIB) Burn Rate Explodes Nearly 500% in a Day, But There Is a Catch",
-    "link": "https://cryptopotato.com/shiba-inu-shib-burn-rate-explodes-nearly-500-in-a-day-but-there-is-a-catch/",
-    "summary": "Almost 2.7 million tokens have been scorched in the last 24 hours.",
-    "published": "2026-10-21T05:12:37+00:00",
-    "regulatory": false,
     "institutional": false,
     "category": "event"
   },
@@ -1238,16 +1248,6 @@
     "regulatory": false,
     "institutional": false,
     "category": "sentiment"
-  },
-  {
-    "source": "The Block",
-    "title": "Bitcoin yield platform HoneyB developer raises $5 million at $30 million valuation",
-    "link": "https://www.theblock.co/news/deals/2026-10-20-bitcoin-yield-platform-honeyb-funding-valuation-421430",
-    "summary": "Nectar Group, the developer of bitcoin income platform HoneyB, has raised $5 million in a seed funding round.",
-    "published": "2026-10-20T17:11:47+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
   },
   {
     "source": "NewsBTC",
