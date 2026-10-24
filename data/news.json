@@ -1,6 +1,76 @@
 [
   {
     "source": "CryptoSlate",
+    "title": "Circle’s new USDC auctions let institutions collect the fees others pay to cash out",
+    "link": "https://cryptoslate.com/circles-new-usdc-auctions-let-institutions-collect-the-fees-others-pay-to-cash-out/",
+    "summary": "Eligible institutions can collect rebates funded by matched redeemers, whose auction fees are capped at the Express rate. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+    "published": "2026-10-24T20:00:46+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "NewsBTC",
+    "title": "FCA Proposes Crypto Crime Guidance On Wallet Checks And Blockchain Analytics",
+    "link": "https://www.newsbtc.com/crypto-regulation/fca-crypto-financial-crime-guide-wallet-checks/",
+    "summary": "The FCA’s Financial Crime Guide consultation sets out proposed examples of good and poor practice as crypto firms prepare for wider supervision.",
+    "published": "2026-10-24T20:00:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Defiant",
+    "title": "X100 Exploit Proceeds Split Into Four 400-ETH Wallets",
+    "link": "https://thedefiant.io/news/hacks/x100-exploit-proceeds-split-into-four-400-eth-wallets",
+    "summary": "The first exploiter swapped about 4.75 million USDT into ether, while the distribution wallet retained another 423 ETH.",
+    "published": "2026-10-24T19:41:15+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "Scott Bessent Calls GENIUS Act a ‘Watershed Moment’ as OCC Sets Stablecoin Rules",
+    "link": "https://cryptopotato.com/scott-bessent-calls-genius-act-a-watershed-moment-as-occ-sets-stablecoin-rules/",
+    "summary": "The OCC's final rule laid out regulatory requirements for stablecoin issuance and certain custody activities, while leaving some compliance matters for later rules.",
+    "published": "2026-10-24T19:21:29+00:00",
+    "regulatory": true,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Defiant",
+    "title": "Keystone Website Breach Exposes Customer Addresses and Order Details",
+    "link": "https://thedefiant.io/news/security/keystone-website-breach-exposes-customer-addresses-and-order-details",
+    "summary": "The hardware-wallet maker says it blocked access and fixed the vulnerability. Payment details, recovery phrases and private keys were not exposed, according to the company.",
+    "published": "2026-10-24T19:06:10+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "Kraken drops Monero spending questions but keeps a $1,500 rolling 30-day withdrawal cap for individuals",
+    "link": "https://cryptoslate.com/kraken-drops-monero-spending-questions-but-keeps-a-1500-rolling-30-day-withdrawal-cap-for-individuals/",
+    "summary": "Crypto exchange Kraken has withdrawn intrusive compliance demands sent to Monero customers after its co-CEO admitted the requests were unjustified. On Oct. 24, Arjun Sethi said that customers who purchased and withdrew Monero (XMR) had received emails requesting information about their employers, sources of funds, and intended use of the cryptocurrency. He acknowledged that no… Read the full story",
+    "published": "2026-10-24T19:00:37+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "NewsBTC",
+    "title": "New York Seeks $1.3 Billion From NovaTech Founders In Crypto Fraud Case",
+    "link": "https://www.newsbtc.com/crypto-regulation/new-york-novatech-founders-1-3-billion-relief/",
+    "summary": "A new court filing seeks monetary relief from NovaTech’s founders after an earlier default judgment, alongside settlements with promoters.",
+    "published": "2026-10-24T19:00:00+00:00",
+    "regulatory": true,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
     "title": "Arthur Hayes exits crypto trading positions as analysts track $26 million in sales",
     "link": "https://cryptoslate.com/arthur-hayes-exits-crypto-trading-positions-as-analysts-track-26-million-in-sales/",
     "summary": "Arthur Hayes has exited Maelstrom's directional crypto positions, and on-chain analysts are tracking about $26 million in token sales. In an Oct. 24 statement, Hayes said he had taken profits on Ethereum (ETH), Ethena (ENA), Uniswap (UNI), and other cryptocurrencies, citing mounting macroeconomic and geopolitical uncertainty. The decision follows blockchain analytics firm Santiment's Oct. 23… Read",
@@ -520,26 +590,6 @@
     "category": "sentiment"
   },
   {
-    "source": "NewsBTC",
-    "title": "Bloomberg Adds Basel Crypto Exposure Classification For Banks And Asset Managers",
-    "link": "https://www.newsbtc.com/crypto-regulation/bloomberg-basel-crypto-exposure-classification-analytics/",
-    "summary": "Bloomberg has expanded its crypto analytics to classify bank exposure under Basel standards, including indirect holdings hidden inside funds, derivatives and corporate securities.",
-    "published": "2026-10-24T10:30:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "NewsBTC",
-    "title": "Bybit Wins Dubai VARA Approval For Spot Crypto Exchange Services",
-    "link": "https://www.newsbtc.com/crypto-regulation/bybit-dubai-vara-spot-exchange-licence-approval/",
-    "summary": "Bybit says its Dubai entity has secured a VARA virtual-asset service provider licence covering spot exchange activity; derivatives permission remains a future objective.",
-    "published": "2026-10-24T09:45:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "U.Today",
     "title": "1 XRP for 1 BTC? This Date Remains Etched in XRPL History",
     "link": "https://u.today/1-xrp-for-1-btc-this-date-remains-etched-in-xrpl-history",
@@ -580,16 +630,6 @@
     "category": "sentiment"
   },
   {
-    "source": "CryptoSlate",
-    "title": "JST Buyback & Burn Upgrade: GasFree Revenue and $20.34M Surplus Injected as JUST’s Ecosystem Trio Solidifies JST Token Value",
-    "link": "https://cryptoslate.com/jst-buyback-burn-upgrade-gasfree-revenue-and-20-34m-surplus-injected-as-justs-ecosystem-trio-solidifies-jst-token-value/",
-    "summary": "Summary: The upgraded JST Buyback and Burn program features the following highlights: $50M Treasury Reserve Cushion: Establishes a safety buffer for sustainable ecosystem operations. Expanded Funding Sources: Integrates GasFree revenue alongside JustLend and USDD to cover 100% of JUST core products. ~$20.34M Capital Injection: Unlocks legacy surplus funds to be released in phases for future… Read ",
-    "published": "2026-10-24T06:38:41+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "CryptoPotato",
     "title": "Tesla and SpaceX Could Unite $2.5B in Bitcoin Without Buying a Single BTC",
     "link": "https://cryptopotato.com/tesla-and-spacex-could-unite-2-5b-in-bitcoin-without-buying-a-single-btc/",
@@ -606,16 +646,6 @@
     "summary": "Hayes-linked wallets transferred 8,000 ETH and six other tokens, contrasting with his Oct. 15 declaration that he was long Bitcoin and Ether.",
     "published": "2026-10-24T06:28:11+00:00",
     "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoSlate",
-    "title": "New York demands $1.3B from NovaTech and 11,000 victims face delay",
-    "link": "https://cryptoslate.com/new-york-demands-1-3b-from-novatech-and-11000-victims-face-delay/",
-    "summary": "The October 22 motion follows a 2025 liability ruling, while separate promoter obligations include Ciceron’s installments through 2029. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-    "published": "2026-10-24T05:50:59+00:00",
-    "regulatory": true,
     "institutional": false,
     "category": "event"
   },
@@ -800,16 +830,6 @@
     "category": "sentiment"
   },
   {
-    "source": "The Defiant",
-    "title": "Arbitrum Proposal Would Reopen Stylus Activations With Foundation Sign-Off",
-    "link": "https://thedefiant.io/news/blockchains/arbitrum-proposal-would-reopen-stylus-activations-with-foundation-sign-off",
-    "summary": "Existing active contracts and renewals would remain permissionless, while the DAO could revoke the Foundation’s signing authority.",
-    "published": "2026-10-23T18:57:39+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "CryptoPotato",
     "title": "Pepe (PEPE) Rises 11% Daily: Further Pump or Correction on the Way?",
     "link": "https://cryptopotato.com/pepe-pepe-rises-11-daily-further-pump-or-correction-on-the-way/",
@@ -835,16 +855,6 @@
     "link": "https://cointelegraph.com/news/initia-halts-blockchain-exploit-drained?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "summary": "The blockchain suspended its layer-1 network and rollups after security researchers identified unauthorized token minting and millions in assets transferred to Ethereum.",
     "published": "2026-10-23T18:39:02+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "The Defiant",
-    "title": "Netanyahu Says He Requested Blockchain Plan for Potential Banking Sanctions",
-    "link": "https://thedefiant.io/converge/regulation/netanyahu-says-he-requested-blockchain-plan-for-potential-banking-sanctions",
-    "summary": "The Israeli premier called blockchain one of several alternatives as Britain threatens action against businesses supporting settlement construction.",
-    "published": "2026-10-23T18:23:34+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -1005,16 +1015,6 @@
     "link": "https://cointelegraph.com/markets/bitcoin-seeks-support-above-81k-as-brent-crude-oil-hits-highest-level-since-march?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "summary": "Bitcoin dipped below $81,000 as stocks fell and Brent crude hit its highest level since March, leaving the 50-day moving average in focus.",
     "published": "2026-10-23T15:39:17+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoPotato",
-    "title": "Coinbase Will Temporarily Stop Certain Services This Weekend: Details Inside",
-    "link": "https://cryptopotato.com/coinbase-will-temporarily-stop-certain-services-this-weekend-details-inside/",
-    "summary": "\"During the maintenance, trading futures and perpetual futures on Coinbase Financial Markets will be unavailable,\" the announcement reads.",
-    "published": "2026-10-23T15:33:48+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
