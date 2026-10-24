@@ -1,5 +1,55 @@
 [
   {
+    "source": "NewsBTC",
+    "title": "Stellar Updates Bell Upgrade Guide Ahead Of November Votes",
+    "link": "https://www.newsbtc.com/crypto-news/stellar-bell-protocol-30-upgrade-guide-november-votes/",
+    "summary": "Stellar’s October 23 Bell guide update sets out software preparation for November votes, with new address handling and ledger decoding requirements.",
+    "published": "2026-10-24T23:00:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "UAE-Led Operation Flags $39B Linked to Crypto and Online Scams",
+    "link": "https://cryptopotato.com/uae-led-operation-flags-39b-linked-to-crypto-and-online-scams/",
+    "summary": "The 3-month operation led to over 960 arrests, while authorities blocked thousands of bank accounts and closed hundreds of social accounts.",
+    "published": "2026-10-24T22:09:47+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "NewsBTC",
+    "title": "BCG Study Puts Custody At The Center Of Banks’ Digital Asset Plans",
+    "link": "https://www.newsbtc.com/business/bcg-ripple-custody-bank-digital-asset-study/",
+    "summary": "New BCG research examines how custody controls, technology choices and integration affect banks’ plans for digital asset services.",
+    "published": "2026-10-24T22:00:00+00:00",
+    "regulatory": true,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "Firedancer makes bounty hunters burn 1 SOL even for duplicate bug reports",
+    "link": "https://cryptoslate.com/firedancer-makes-bounty-hunters-burn-1-sol-even-for-duplicate-bug-reports/",
+    "summary": "The spring contest allowed eligible duplicates to earn rewards, while Bhatt's retrospective links repeated discoveries partly to slow review. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+    "published": "2026-10-24T21:00:59+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "NewsBTC",
+    "title": "Kraken Parent Payward Wins In-Principle Approval For Kazakhstan Expansion",
+    "link": "https://www.newsbtc.com/business/kraken-payward-kazakhstan-in-principle-approval/",
+    "summary": "Payward’s Kazakhstan plan moves forward with preliminary approval for trading and custody, while full licensing remains a separate step.",
+    "published": "2026-10-24T21:00:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
     "source": "CryptoSlate",
     "title": "Circle’s new USDC auctions let institutions collect the fees others pay to cash out",
     "link": "https://cryptoslate.com/circles-new-usdc-auctions-let-institutions-collect-the-fees-others-pay-to-cash-out/",
@@ -450,16 +500,6 @@
     "category": "event"
   },
   {
-    "source": "NewsBTC",
-    "title": "CoinShares BTF Liquidation Sets Cash Payout And Earlier Options Expiry",
-    "link": "https://www.newsbtc.com/bitcoin-news/coinshares-btf-liquidation-cash-payout-options-expiry/",
-    "summary": "The BTF fund’s closure now has a fixed cash value, while its remaining options move onto an accelerated settlement timetable.",
-    "published": "2026-10-24T13:00:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "CryptoPotato",
     "title": "Ethereum Staking Demand Is Skyrocketing Even as Yields Sink Toward 2.5%",
     "link": "https://cryptopotato.com/ethereum-staking-demand-is-skyrocketing-even-as-yields-sink-toward-2-5/",
@@ -475,16 +515,6 @@
     "link": "https://u.today/coinbase-warns-of-bitcoin-long-liquidation-risks",
     "summary": "Bitcoin long entry level has become a key test for traders.",
     "published": "2026-10-24T12:45:03+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "NewsBTC",
-    "title": "JST Buyback & Burn Upgrade: GasFree Revenue and $20.34M Surplus Injected as JUST’s Ecosystem Trio Solidifies JST Token Value",
-    "link": "https://www.newsbtc.com/news/jst-buyback-burn-upgrade-gasfree-revenue-and-20-34m-surplus-injected-as-justs-ecosystem-trio-solidifies-jst-token-value/",
-    "summary": "Summary: The upgraded JST Buyback and Burn program features the following highlights: $50M Treasury Reserve Cushion: Establishes a safety buffer for sustainable ecosystem operations. Expanded Funding Sources: Integrates GasFree revenue alongside JustLend and USDD to cover 100% of JUST core products. ~$20.34M Capital Injection: Unlocks legacy surplus funds to be released in phases for future buybac",
-    "published": "2026-10-24T12:27:15+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -514,16 +544,6 @@
     "title": "$0 SHIB Burned in 24 Hours: What's Happening to Burns?",
     "link": "https://u.today/0-shib-burned-in-24-hours-whats-happening-to-burns",
     "summary": "Shiba Inu briefly saw a period of zero burns before this quickly reversed.",
-    "published": "2026-10-24T12:00:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "NewsBTC",
-    "title": "Bitcoin Core Speeds Up Bug Fixes As AI Changes Disclosure Rules",
-    "link": "https://www.newsbtc.com/bitcoin-news/bitcoin-core-ai-bug-fixes-disclosure-rules/",
-    "summary": "A change to Bitcoin Core’s security policy makes rapid patch releases the priority when keeping a vulnerability secret offers little protection.",
     "published": "2026-10-24T12:00:00+00:00",
     "regulatory": false,
     "institutional": false,
@@ -618,16 +638,6 @@
     "regulatory": true,
     "institutional": false,
     "category": "event"
-  },
-  {
-    "source": "CryptoSlate",
-    "title": "Ethereum staking yield is losing to cash rates, so why are investors still lining up?",
-    "link": "https://cryptoslate.com/ethereum-staking-yield-is-losing-to-cash-rates-so-why-are-investors-still-lining-up/",
-    "summary": "Put €10,000 into Ethereum staking at a 2.2% annual return and, if ETH's price stays unchanged, you'll earn about €220 over a year. That's just €7 more than the same amount would earn at the average rate on new euro household deposits with maturities up to one year, but with Ethereum's price volatility attached to… Read the full story on CryptoSlate Understand the crypto stories that matter and wha",
-    "published": "2026-10-24T07:00:27+00:00",
-    "regulatory": false,
-    "institutional": true,
-    "category": "sentiment"
   },
   {
     "source": "CryptoPotato",
@@ -955,16 +965,6 @@
     "link": "https://bitcoinmagazine.com/news/bitcoin-etfs-lose-over-635-million",
     "summary": "Bitcoin Magazine Bitcoin ETFs Lose Over $635M In One Day Following Oil Price Spike Investors this week were buying bitcoin ETFs but that all changed on Thursday. This post Bitcoin ETFs Lose Over $635M In One Day Following Oil Price Spike first appeared on Bitcoin Magazine and is written by Mathew Di Salvo .",
     "published": "2026-10-23T16:46:36+00:00",
-    "regulatory": true,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoPotato",
-    "title": "Bitcoin to $10K? Bloomberg Analyst Warns of Brutal Scenario if Stocks Slide 20%",
-    "link": "https://cryptopotato.com/bitcoin-to-10k-bloomberg-analyst-warns-of-brutal-scenario-if-stocks-slide-20/",
-    "summary": "McGlone believes BTC's mainstream adoption through ETFs changed its investment profile, leaving it more exposed to familiar market risks.",
-    "published": "2026-10-23T16:36:56+00:00",
     "regulatory": true,
     "institutional": false,
     "category": "event"
