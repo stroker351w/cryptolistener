@@ -1,6 +1,66 @@
 [
   {
     "source": "NewsBTC",
+    "title": "Bitcoin ETF Flows Trail Price Moves, DWF Study Finds",
+    "link": "https://www.newsbtc.com/bitcoin-news/bitcoin-etf-flows-trail-price-dwf-study/",
+    "summary": "DWF’s ETF-flow study raises questions about using a daily fund-flow total as a price forecast.",
+    "published": "2026-10-25T04:00:00+00:00",
+    "regulatory": true,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
+    "source": "NewsBTC",
+    "title": "WhiteBIT’s W Group Backs SwapGlobal’s Push Into Pre-IPO Derivatives",
+    "link": "https://www.newsbtc.com/crypto-news/whitebit-w-group-swapglobal-pre-ipo-derivatives-investment/",
+    "summary": "WhiteBIT’s W Group has backed SwapGlobal, whose institutional derivatives model separates pre-IPO exposure from direct ownership.",
+    "published": "2026-10-25T03:00:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "NewsBTC",
+    "title": "Aave Says V3.8 Security Proposal Preserves Flash-Loan Liquidations",
+    "link": "https://www.newsbtc.com/news/defi/aave-v3-8-flash-loan-liquidation-guard-proposal/",
+    "summary": "Aave’s V3.8 clarification addresses how its proposed security guard would interact with flash-loan integrations and liquidations.",
+    "published": "2026-10-25T02:00:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "NewsBTC",
+    "title": "Aave Opens Its First Externally Curated V4 Markets With Sentora",
+    "link": "https://www.newsbtc.com/news/defi/aave-v4-sentora-externally-curated-markets/",
+    "summary": "Sentora is managing Aave V4’s first externally curated markets, bringing a new division of lending strategy, liquidity and governance controls to Ethereum.",
+    "published": "2026-10-25T01:00:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "U.Today",
+    "title": "Dogecoin Contributor Outlines Steps for Real DOGE Ecosystem Growth",
+    "link": "https://u.today/dogecoin-contributor-outlines-steps-for-real-doge-ecosystem-growth",
+    "summary": "Dogecoin community member reveals what must be done to help DOGE thrive.",
+    "published": "2026-10-25T00:01:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "NewsBTC",
+    "title": "Circle Gateway Adds Bitcoin And Euro Balances With cirBTC And EURC",
+    "link": "https://www.newsbtc.com/crypto-news/circle-gateway-cirbtc-eurc-balances/",
+    "summary": "Circle has expanded Gateway to cirBTC and EURC, bringing bitcoin and euro assets into its unified-balance system with different network and payment limits.",
+    "published": "2026-10-25T00:00:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "NewsBTC",
     "title": "Stellar Updates Bell Upgrade Guide Ahead Of November Votes",
     "link": "https://www.newsbtc.com/crypto-news/stellar-bell-protocol-30-upgrade-guide-november-votes/",
     "summary": "Stellar’s October 23 Bell guide update sets out software preparation for November votes, with new address handling and ledger decoding requirements.",
@@ -130,16 +190,6 @@
     "category": "event"
   },
   {
-    "source": "NewsBTC",
-    "title": "SEC Puts Tokenization On Its 2027 Examination Agenda",
-    "link": "https://www.newsbtc.com/crypto-regulation/sec-tokenization-2027-examination-priorities/",
-    "summary": "The SEC’s new examination agenda puts tokenized securities, clearing infrastructure and technology controls under the spotlight.",
-    "published": "2026-10-24T18:00:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "The Defiant",
     "title": "Electrum Patches Wallet Flaw Exploited Through Malicious Servers",
     "link": "https://thedefiant.io/news/security/electrum-patches-wallet-flaw-exploited-through-malicious-servers",
@@ -185,16 +235,6 @@
     "link": "https://cryptoslate.com/nyses-owner-is-backing-24-7-stock-tokens-without-wall-streets-usual-price-rules/",
     "summary": "The company that owns the New York Stock Exchange wants people to be able to buy stocks 24/7. Given the trading volume crypto and other tokenized assets have seen in the past year or so, the decision to introduce stock tokens comes as no surprise. People want to trade all the time, and now institutions… Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch ",
     "published": "2026-10-24T17:00:27+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "NewsBTC",
-    "title": "Bitcoin Hashrate Reclaims One Zettahash As Mining Competition Rebounds",
-    "link": "https://www.newsbtc.com/bitcoin-news/bitcoin-hashrate-one-zettahash-mining-competition-rebounds/",
-    "summary": "A seven-day hashrate rebound above one zettahash shows why company-level exits cannot be read as a simple decline in Bitcoin mining competition.",
-    "published": "2026-10-24T17:00:00+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -258,16 +298,6 @@
     "regulatory": true,
     "institutional": false,
     "category": "sentiment"
-  },
-  {
-    "source": "NewsBTC",
-    "title": "Capital Research Raises Metaplanet Voting Stake To 11.11%",
-    "link": "https://www.newsbtc.com/bitcoin-news/capital-research-metaplanet-voting-stake-11-11-percent/",
-    "summary": "Capital Research’s reported Metaplanet voting stake crossed 10%, with the company’s October buyback also affecting the calculation.",
-    "published": "2026-10-24T16:00:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
   },
   {
     "source": "CryptoSlate",
@@ -334,16 +364,6 @@
     "title": "Why McDonalds, Microsoft and Google saying no to tokenized stocks isn't a dealbreaker",
     "link": "https://www.coindesk.com/business/2026/10/23/why-mcdonalds-microsoft-and-google-saying-no-to-tokenized-stocks-isn-t-a-dealbreaker",
     "summary": "Some of the world's biggest companies objected to being listed on the first tokenized securities trading venue under the SEC's innovation exemption. But the early pushback may say more about issuer caution than about rejection of tokenization itself.",
-    "published": "2026-10-24T15:00:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "NewsBTC",
-    "title": "Sygnum Launches Bitcoin Loans With Collateral Keys Shared Across Parties",
-    "link": "https://www.newsbtc.com/bitcoin-news/sygnum-multisyg-bitcoin-loans-shared-collateral-keys/",
-    "summary": "Sygnum’s MultiSYG lending service distributes Bitcoin collateral keys among clients, the bank and independent institutional key holders.",
     "published": "2026-10-24T15:00:00+00:00",
     "regulatory": false,
     "institutional": false,
@@ -456,16 +476,6 @@
     "summary": "Borrowing against bitcoin and earning income to build their BTC holdings are becoming priorities for long-term investors, Xapo Bank CEO Seamus Rocca told CoinDesk.",
     "published": "2026-10-24T14:00:00+00:00",
     "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "NewsBTC",
-    "title": "Franklin Moves Bitcoin DRIP ETFs Toward Nasdaq With Dividend Reinvestment Plan",
-    "link": "https://www.newsbtc.com/bitcoin-news/franklin-bitcoin-drip-etfs-nasdaq-dividend-reinvestment/",
-    "summary": "Two Franklin ETF filings combine US equities with a Bitcoin allocation funded through dividends, adding a different route to crypto exposure.",
-    "published": "2026-10-24T14:00:00+00:00",
-    "regulatory": true,
     "institutional": false,
     "category": "event"
   },
@@ -875,16 +885,6 @@
     "link": "https://www.theblock.co/news/markets/2026-10-23-netanyahu-israel-blockchain-plan-possible-sanctions-427792",
     "summary": "Netanyahu says blockchain could help Israel prepare for possible sanctions targeting its banking system.",
     "published": "2026-10-23T18:15:55+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "U.Today",
-    "title": "Ripple CEO Brad Garlinghouse Mourns Loss of Father",
-    "link": "https://u.today/ripple-ceo-brad-garlinghouse-mourns-loss-of-father",
-    "summary": "Ripple CEO Brad Garlinghouse has announced the death of his father, prominent Kansas businessman and philanthropist B. Kent Garlinghouse Sr., sharing an emotional tribute that prompted condolences from major figures in the cryptocurrency industry.",
-    "published": "2026-10-23T18:05:53+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
