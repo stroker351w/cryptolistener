@@ -1,5 +1,185 @@
 [
   {
+    "source": "CoinDesk",
+    "title": "Ripple gets a final go-ahead to launch its own U.S. national trust bank",
+    "link": "https://www.coindesk.com/markets/2026/10/27/ripple-gets-a-final-go-ahead-to-launch-its-own-u-s-national-trust-bank",
+    "summary": "The Office of the Comptroller of the Currency has approved Ripple National Trust Bank (RNTB), Ripple's CEO Brad Garlinghouse announced on X.",
+    "published": "2026-10-27T04:28:49+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Cointelegraph",
+    "title": "RedotPay weighs confidential US IPO filing by year-end: Bloomberg",
+    "link": "https://cointelegraph.com/news/redotpay-weighs-confidential-us-ipo-filing-by-year-end-bloomberg?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "The stablecoin payments company previously disputed reports that its US listing had been delayed.",
+    "published": "2026-10-27T04:26:51+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "Faster Solana slots fail to stop memecoin bot snipers",
+    "link": "https://cryptoslate.com/solana-study-finds-rapid-pump-fun-buying-persisted-as-blocks-sped-up/",
+    "summary": "Bitquery measured outside buying within roughly 1.3 seconds at 53% versus 52% in samples that predate the final 200ms reduction. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+    "published": "2026-10-27T04:20:34+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "NewsBTC",
+    "title": "ESMA Draws a Hard Line Around Non-Compliant Stablecoins in EU Services",
+    "link": "https://www.newsbtc.com/regulation/esma-draws-a-hard-line-around-non-compliant-stablecoins-in-eu-services/",
+    "summary": "ESMA says EU-licensed crypto service providers should cease services involving stablecoins that do not meet MiCA requirements.",
+    "published": "2026-10-27T04:00:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Block",
+    "title": "StoneX lifts Strive price target 34% as new stock offering bolsters bitcoin strategy",
+    "link": "https://www.theblock.co/news/business/2026-10-26-stonex-lifts-strive-price-target-431818",
+    "summary": "StoneX has raised its price target for bitcoin treasury company Strive to $43 from $32 and reiterated its Buy rating on the stock.",
+    "published": "2026-10-27T03:58:07+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
+    "source": "NewsBTC",
+    "title": "SEC’s Crypto Custody Proposal Could Change How Funds Hold Digital Assets",
+    "link": "https://www.newsbtc.com/regulation/sec-s-crypto-custody-proposal-could-change-how-funds-hold-digital-assets/",
+    "summary": "The SEC has proposed a tailored crypto custody framework for advisers and regulated funds, but the changes are not yet final.",
+    "published": "2026-10-27T03:00:00+00:00",
+    "regulatory": true,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Block",
+    "title": "Ripple gains final OCC approval to launch national trust bank and bring RLUSD under federal oversight",
+    "link": "https://www.theblock.co/news/regulation/2026-10-26-ripple-gains-final-occ-approval-rlusd-431810",
+    "summary": "Ripple's structure places reserve management and custody under federal supervision while leaving issuance with the New York-regulated entity.",
+    "published": "2026-10-27T02:28:18+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "NewsBTC",
+    "title": "Visa’s Agent Payment Pilot Highlights the Next Question for Crypto Wallets",
+    "link": "https://www.newsbtc.com/technology/visa-s-agent-payment-pilot-highlights-the-next-question-for-crypto-wallets/",
+    "summary": "Visa, BILL and Billtrust are piloting trusted AI agents that complete approved invoice payments through supplier portals.",
+    "published": "2026-10-27T02:00:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Cointelegraph",
+    "title": "Keystone breach deepens: Hackers stole key used to verify wallets as genuine",
+    "link": "https://cointelegraph.com/news/keystone-breach-deepens-hackers-stole-key-used-to-verify-wallets-as-genuine?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "Keystone initially disclosed a leak of customer information but has since disclosed that hackers also stole a key that could allow counterfeit wallets to pass authenticity checks.",
+    "published": "2026-10-27T01:55:03+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "How Optimism’s draft manual silently strips tokenholder elections",
+    "link": "https://cryptoslate.com/how-optimisms-draft-manual-silently-strips-tokenholder-elections/",
+    "summary": "The Foundation’s proposed rewrite would end cohort elections and seat nominees unless a veto reaches 20% of active votable OP supply. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+    "published": "2026-10-27T01:30:08+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Block",
+    "title": "BlackRock joins SBI and Startale to link tokenized MMFs with Japanese yen stablecoins",
+    "link": "https://www.theblock.co/news/business/2026-10-26-blackrock-sbi-startale-mou-431642",
+    "summary": "BlackRock, SBI Holdings, and Startale will explore connecting tokenized money market funds with SBI's Japanese yen-pegged stablecoin JPYSC.",
+    "published": "2026-10-27T01:00:00+00:00",
+    "regulatory": false,
+    "institutional": true,
+    "category": "event"
+  },
+  {
+    "source": "NewsBTC",
+    "title": "Visa’s Stablecoin Funding Moves Beyond the Pilot Stage",
+    "link": "https://www.newsbtc.com/stablecoins/visa-s-stablecoin-funding-moves-beyond-the-pilot-stage/",
+    "summary": "Visa says Inyo Global is the first enabler to bring its stablecoin-enabled Visa Direct prefunding into production for eligible clients.",
+    "published": "2026-10-27T01:00:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "Zcash (ZEC) Rallied Hard This Year, But Is the Party Finally Over?",
+    "link": "https://cryptopotato.com/zcash-zec-rallied-hard-this-year-but-is-the-party-finally-over/",
+    "summary": "Grayscale's ZEC ETF attracted $41.09 million last week, but the fresh inflow has yet to ease concerns about a potential correction.",
+    "published": "2026-10-27T00:49:35+00:00",
+    "regulatory": true,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Cointelegraph",
+    "title": "Ripple wins final US approval for national trust bank",
+    "link": "https://cointelegraph.com/news/ripple-wins-final-us-approval-for-national-trust-bank?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "The approval clears the way for Ripple to manage reserves backing its RLUSD stablecoin and provide digital asset custody.",
+    "published": "2026-10-27T00:06:41+00:00",
+    "regulatory": true,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "U.Today",
+    "title": "Binance Chain (BNB), Zcash (ZEC), Tron (TRX) and Shiba Inu (SHIB) Price Analysis for October 26: Bearish Trend Is Stable",
+    "link": "https://u.today/price-analysis/binance-chain-bnb-zcash-zec-tron-trx-and-shiba-inu-shib-price-analysis-for-october-26-bearish-trend",
+    "summary": "Despite the fact that multiple assets are holding above their respected key levels, the market has barely any fuel left for a proper recovery.",
+    "published": "2026-10-27T00:01:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
+    "source": "Bitcoin Magazine",
+    "title": "Cold Storage Goes South: bitcoin++ Announces Antarctica Edition",
+    "link": "https://bitcoinmagazine.com/news/cold-storage-bitcoin-antarctica",
+    "summary": "Bitcoin Magazine Cold Storage Goes South: bitcoin++ Announces Antarctica Edition bitcoin++ is planning its first cold-storage edition on a 13-day expedition to the Antarctic Peninsula. This post Cold Storage Goes South: bitcoin++ Announces Antarctica Edition first appeared on Bitcoin Magazine and is written by Micah Zimmerman .",
+    "published": "2026-10-27T00:00:04+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "NewsBTC",
+    "title": "DriveWealth Taps RLUSD for the Cross-Border Funding Problem Behind Stock Trading",
+    "link": "https://www.newsbtc.com/institutional/drivewealth-taps-rlusd-for-the-cross-border-funding-problem-behind-stock-tr/",
+    "summary": "DriveWealth plans to integrate Ripple's stablecoin, payments and custody technology, initially focusing on European settlement.",
+    "published": "2026-10-27T00:00:00+00:00",
+    "regulatory": true,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "3 payment rules control Aave’s native Bitcoin market, but only WBTC settles them",
+    "link": "https://cryptoslate.com/3-payment-rules-control-aaves-native-bitcoin-market-but-only-wbtc-settles-them/",
+    "summary": "Babylon’s proposed direct route can bypass pool funding, while fees, borrower surplus and WBTC-denominated debt retain separate payment requirements. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+    "published": "2026-10-26T23:50:22+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
     "source": "The Defiant",
     "title": "Ripple Wins Final OCC Trust Bank Approval for RLUSD Reserves and Custody",
     "link": "https://thedefiant.io/converge/tradfi-and-fintech/ripple-wins-final-occ-trust-bank-approval-for-rlusd-reserves-and-custody",
@@ -360,16 +540,6 @@
     "category": "event"
   },
   {
-    "source": "NewsBTC",
-    "title": "SEC Puts Tokenisation and AI on Its 2027 Examination Watchlist",
-    "link": "https://www.newsbtc.com/regulation/sec-puts-tokenisation-and-ai-on-its-2027-examination-watchlist/",
-    "summary": "The SEC's new examination priorities identify tokenisation and advanced technology risks among areas attracting supervisory attention in fiscal 2027.",
-    "published": "2026-10-26T18:00:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "The Block",
     "title": "Y Combinator-backed Mochatrade raises $5.5 million to offer US stock perpetuals to Indian traders",
     "link": "https://www.theblock.co/news/deals/2026-10-26-y-combinator-mochatrade-funding-crypto-431775",
@@ -460,16 +630,6 @@
     "category": "event"
   },
   {
-    "source": "NewsBTC",
-    "title": "Stablecoin Issuers Face a January Deadline as OCC Finalises GENIUS Act Rules",
-    "link": "https://www.newsbtc.com/regulation/stablecoin-issuers-face-a-january-deadline-as-occ-finalises-genius-act-rule/",
-    "summary": "The OCC's final GENIUS Act rule takes effect on January 18, 2027, setting federal requirements for payment stablecoin issuers under its jurisdiction.",
-    "published": "2026-10-26T17:00:00+00:00",
-    "regulatory": true,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "The Defiant",
     "title": "OKX Offers 10x Anthropic Valuation Bets After IPO Filing",
     "link": "https://thedefiant.io/news/markets/okx-offers-10x-anthropic-valuation-bets-after-ipo-filing",
@@ -495,16 +655,6 @@
     "link": "https://decrypt.co/381834/india-coindcx-confirms-16-million-loss-ceo-called-false-alarm",
     "summary": "The Mumbai-based exchange says 15.99 million USDT was drained from wallets it retired after last year’s $44 million hack, bringing its combined losses to nearly $60 million—and it’s absorbing the hit.",
     "published": "2026-10-26T16:36:03+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "NewsBTC",
-    "title": "Justin Sun Prize Partners With MathDB, Led by Caltech Professor Tony Yue Yu, on 50-Problem Pilot",
-    "link": "https://www.newsbtc.com/news/justin-sun-prize-partners-with-mathdb-led-by-caltech-professor-tony-yue-yu-on-50-problem-pilot/",
-    "summary": "Geneva, Switzerland — October 26, 2026 — The Office of Justin Sun today announced a pilot program for the Justin Sun Prize in collaboration with MathDB, a mathematical research platform developed by Caltech Professor Tony Yue Yu and his team. The Justin Sun Prize was established to become the “Nobel Prize of the AI Era,” responding to the profound transformation of scientific research and incentiv",
-    "published": "2026-10-26T16:32:36+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -950,16 +1100,6 @@
     "category": "event"
   },
   {
-    "source": "Bitcoin Magazine",
-    "title": "PHP Hack: How Bitcoin Will Respond to the “Cyber Pandemic”",
-    "link": "https://bitcoinmagazine.com/videos/php-hack-how-bitcoin-will-respond-to-the-cyber-pandemic",
-    "summary": "▶ Bitcoin Magazine PHP Hack: How Bitcoin Will Respond to the “Cyber Pandemic” As global sites go offline over PHP flaws, Bitcoin Magazine's Shinobi explains memory bugs, AI-driven hacking speeds, and whether Bitcoin faces any exposure. This post PHP Hack: How Bitcoin Will Respond to the “Cyber Pandemic” first appeared on Bitcoin Magazine and is written by Patrick Green .",
-    "published": "2026-10-26T13:21:59+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "The Block",
     "title": "Strive closes in on second-largest corporate bitcoin treasury with $511 million purchase",
     "link": "https://www.theblock.co/news/business/2026-10-26-strive-closes-in-second-largest-corporate-bitcoin-treasury-511-million-purchase-431729",
@@ -978,16 +1118,6 @@
     "regulatory": false,
     "institutional": false,
     "category": "sentiment"
-  },
-  {
-    "source": "CryptoSlate",
-    "title": "BTCPay’s API key fix is merged as patch goes live",
-    "link": "https://cryptoslate.com/a-btcpay-api-key-limited-to-one-bitcoin-store-could-exceed-its-permissions/",
-    "summary": "The October 19 merge restricts broad store-scoped grants, while the latest listed release still predates the change. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-    "published": "2026-10-26T13:00:44+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
   },
   {
     "source": "CryptoPotato",
@@ -1010,16 +1140,6 @@
     "category": "event"
   },
   {
-    "source": "CryptoSlate",
-    "title": "Bitcoin hacking challenge finally falls as researcher proves critical PHP flaw is exploitable",
-    "link": "https://cryptoslate.com/bitcoin-hacking-challenge-finally-falls-as-researcher-proves-critical-php-flaw-is-exploitable/",
-    "summary": "The operator accepted the PHP challenge solve despite a wallet mistake, while the harder question remains who turns discoveries into deployed fixes. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-    "published": "2026-10-26T12:30:03+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "CryptoPotato",
     "title": "Strive Makes Largest-Ever Bitcoin Purchase With 6,182 BTC Buy",
     "link": "https://cryptopotato.com/strive-makes-largest-ever-bitcoin-purchase-with-6182-btc-buy/",
@@ -1035,16 +1155,6 @@
     "link": "https://u.today/satoshis-most-underrated-bitcoin-innovation-has-litecoin-dogecoin-in-it",
     "summary": "Satoshi’s Bitcoin legacy runs deeper with Litecoin, Dogecoin, Zcash in focus.",
     "published": "2026-10-26T12:10:47+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoSlate",
-    "title": "Bitcoin’s next Fed test comes with a hidden problem in America’s inflation data",
-    "link": "https://cryptoslate.com/bitcoins-next-fed-test-comes-with-a-hidden-problem-in-americas-inflation-data/",
-    "summary": "September’s 66.3% commodities-and-services quote collection rate shows survey coverage while leaving the direction of any inflation bias unresolved. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-    "published": "2026-10-26T12:00:11+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -1140,26 +1250,6 @@
     "category": "sentiment"
   },
   {
-    "source": "CryptoPotato",
-    "title": "Bitcoin (BTC) Risks Dropping to $72,500, But That Could Be a Blessing in Disguise: Analyst",
-    "link": "https://cryptopotato.com/bitcoin-btc-risks-dropping-to-72500-but-that-could-be-a-blessing-in-disguise-analyst/",
-    "summary": "BTC could plunge by nearly 10% if its fails to reclaim $82K, Martinez claimed.",
-    "published": "2026-10-26T11:00:43+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "sentiment"
-  },
-  {
-    "source": "Cointelegraph",
-    "title": "BTC price risks $80K loss into FOMC, earnings: Three things to know in Bitcoin this week",
-    "link": "https://cointelegraph.com/markets/btc-price-risks-80k-loss-into-fomc-earnings-three-things-to-know-in-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "summary": "Bitcoin bulls fought for $80,000 support over the weekend ahead of a heavy week of US tech earnings and inflation data.",
-    "published": "2026-10-26T10:49:55+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "CoinDesk",
     "title": "Calpers pulls back from big tech as AI jitters deepen neocloud sell-off",
     "link": "https://www.coindesk.com/markets/2026/10/26/calpers-pulls-back-from-big-tech-as-ai-jitters-deepen-neocloud-sell-off",
@@ -1168,16 +1258,6 @@
     "regulatory": false,
     "institutional": false,
     "category": "sentiment"
-  },
-  {
-    "source": "Cointelegraph",
-    "title": "Securitize’s tokenized stock value halves as Circle widens lead",
-    "link": "https://cointelegraph.com/markets/securitizes-tokenized-stock-circle-lead?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "summary": "SECZ’s onchain market cap fell to $208.6 million as Circle-linked tokens reached a combined $383.6 million across several issuers in the $3.3 billion tokenized equities market.",
-    "published": "2026-10-26T10:25:01+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
   },
   {
     "source": "U.Today",
@@ -1210,16 +1290,6 @@
     "category": "event"
   },
   {
-    "source": "U.Today",
-    "title": "Crypto Without Buying Crypto: Expert Decodes Franklin Templeton's New Bitcoin Play",
-    "link": "https://u.today/crypto-without-buying-crypto-expert-decodes-franklin-templetons-new-bitcoin-play",
-    "summary": "Nate Geraci calls it smart product design: Franklin Templeton’s new ETFs give Bitcoin exposure through dividends, not direct coin purchases.",
-    "published": "2026-10-26T09:50:45+00:00",
-    "regulatory": true,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "CoinDesk",
     "title": "Fed, ECB and BOJ interest-rate decisions, Coinbase earnings: Crypto Week Ahead",
     "link": "https://www.coindesk.com/markets/2026/10/26/fed-ecb-and-boj-interest-rate-decisions-coinbase-earnings-crypto-week-ahead",
@@ -1230,31 +1300,11 @@
     "category": "event"
   },
   {
-    "source": "Cointelegraph",
-    "title": "Bitcoin ETFs break 2-week outflow streak with $301M comeback",
-    "link": "https://cointelegraph.com/markets/bitcoin-etfs-rebound-weekly-inflow-301-million?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "summary": "US spot Bitcoin ETFs finished the week with $301 million in net inflows after a strong three-day start gave way to heavy withdrawals.",
-    "published": "2026-10-26T08:20:49+00:00",
-    "regulatory": true,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "CoinDesk",
     "title": "Over 11 million bitcoin has no known owner. Here's what it means",
     "link": "https://www.coindesk.com/markets/2026/10/26/over-11-million-btc-can-t-be-linked-to-any-known-owner-even-after-wall-street-buying",
     "summary": "The large number of coins held in unidentified wallets shows that retail investors have been in this market for years, observers said. But this interpretation comes with a caveat.",
     "published": "2026-10-26T07:18:24+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "NewsBTC",
-    "title": "LND Tests A Guardrail Against Extreme External Bitcoin Fee Estimates",
-    "link": "https://www.newsbtc.com/bitcoin-news/lnd-0215-release-candidate-external-bitcoin-fee-estimate-cap/",
-    "summary": "LND's October 22 release candidate brings attention to a quiet source of wallet risk: outside fee estimates that software treats too generously. The 0.21.5 development notes describe a ceiling for values received through an external fee API, alongside fixes to other node operations.",
-    "published": "2026-10-26T06:00:00+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -1280,62 +1330,12 @@
     "category": "event"
   },
   {
-    "source": "NewsBTC",
-    "title": "Reflect Makes Branded Token Issuance Easier While Leaving The Collateral In Charge",
-    "link": "https://www.newsbtc.com/news/defi/reflect-create-solana-branded-tokens-collateral-yield/",
-    "summary": "Reflect's Create launch, promoted by Solana on October 22, offers a fast route to issuing a branded yield-bearing token. The interface can simplify issuance, but the economics still come from the collateral behind the token and the way its interest is shared.",
-    "published": "2026-10-26T05:00:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CoinDesk",
-    "title": "Bitcoin slips under $80,000 as traders de-risk ahead of Fed meeting",
-    "link": "https://www.coindesk.com/markets/2026/10/26/bitcoin-slips-under-usd80-000-as-traders-de-risk-ahead-of-fed-meeting",
-    "summary": "Ether and XRP led losses among the majors as the AI trade took another hit in Asia, where Goldman Sachs cut its Kospi target by 25%.",
-    "published": "2026-10-26T04:37:02+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "The Block",
     "title": "CoinDCX confirms $16 million loss from retired wallets days after CEO called breach reports a ‘false alarm’",
     "link": "https://www.theblock.co/news/business/2026-10-25-coindcx-confirms-16-million-loss-from-retired-wallets-days-after-ceo-called-breach-reports-a-false-alarm-431617",
     "summary": "CEO Sumit Gupta had told X users on Wednesday that early reports of a breach sounded like \"a false alarm.\"",
     "published": "2026-10-25T18:46:21+00:00",
     "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "The Block",
-    "title": "Keystone customers say breach exposed data the hardware wallet maker promised to delete",
-    "link": "https://www.theblock.co/news/business/2026-10-25-keystone-customers-say-breach-exposed-data-the-hardware-wallet-maker-promised-to-delete-431613",
-    "summary": "Keystone has said it deletes customer information 180 days after their orders in most cases, though X users have cast doubt on that claim.",
-    "published": "2026-10-25T15:56:30+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "The Block",
-    "title": "Crypto longs lose $404 million in four hours as bitcoin briefly slips below $80,000",
-    "link": "https://www.theblock.co/news/markets/2026-10-24-crypto-longs-lose-404-million-in-four-hours-as-bitcoin-briefly-slips-below-80000-431608",
-    "summary": "Spot bitcoin ETFs lost $773 million on Thursday and Friday after three days of net inflows, per SoSoValue data.",
-    "published": "2026-10-24T17:44:36+00:00",
-    "regulatory": true,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "The Block",
-    "title": "Argentine judge clears Milei and 10 others in LIBRA case, finding no ‘criminally relevant deception’",
-    "link": "https://www.theblock.co/news/regulation/2026-10-24-argentine-judge-clears-milei-and-10-others-in-libra-case-finding-no-criminally-relevant-deception-431606",
-    "summary": "The judge's 60-page ruling concluded Argentine President Javier Milei's post promoting the LIBRA token did not, by itself, establish fraud.",
-    "published": "2026-10-24T16:24:13+00:00",
-    "regulatory": true,
     "institutional": false,
     "category": "event"
   },
