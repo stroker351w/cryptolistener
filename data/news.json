@@ -1,6 +1,136 @@
 [
   {
     "source": "NewsBTC",
+    "title": "Ondo Brings Seven Tokenized Investment Portfolios to Solana",
+    "link": "https://www.newsbtc.com/news/ondo-brings-seven-tokenized-investment-portfolios-to-solana/",
+    "summary": "Ondo launched seven investment-portfolio tokens on Solana for eligible non-US investors. Its reported $45 million in earlier portfolio TVL refers to",
+    "published": "2026-11-01T07:00:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "U.Today",
+    "title": "Binance to Resume XRP, Bitcoin, Ethereum and Other Crypto Withdrawals",
+    "link": "https://u.today/binance-to-resume-xrp-bitcoin-ethereum-and-other-crypto-withdrawals",
+    "summary": "Cryptocurrency exchange Binance is set to resume withdrawals for XRP, Bitcoin (BTC), Ethereum (ETH), Solana (SOL) and other major cryptocurrencies on Nov. 1 after recovering 95% of the assets affected by a massive $6.3 billion security breach.",
+    "published": "2026-11-01T06:50:59+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "Binance Starts Withdrawal Recovery as FBI Blames North Korea for $6B+ Hack",
+    "link": "https://cryptopotato.com/binance-starts-withdrawal-recovery-as-fbi-blames-north-korea-for-6b-hack/",
+    "summary": "Deposits have remained available throughout the incident and were not affected, the company noted.",
+    "published": "2026-11-01T06:30:41+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Defiant",
+    "title": "Binance Begins Reopening Withdrawals With Bitcoin After $6.3 Billion Hack",
+    "link": "https://thedefiant.io/news/hacks/binance-begins-reopening-withdrawals-with-bitcoin-after-6-3-billion-hack",
+    "summary": "The exchange says it has replenished about 95% of the impacted amount, with less-liquid tokens accounting for the remaining 5%.",
+    "published": "2026-11-01T06:25:43+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "Bitcoin Price Prediction for the Week: Will BTC Reclaim $80K or Dump Toward $70K?",
+    "link": "https://cryptopotato.com/bitcoin-price-prediction-for-the-week-will-btc-reclaim-80k-or-dump-toward-70k/",
+    "summary": "Bitcoin’s decline has accelerated into the $77K region after buyers lost the $80K support area. The price is now testing a major daily demand zone, while on-chain data shows it approaching the average cost basis of recent holders. Bitcoin Price Analysis: The Daily Chart On the daily timeframe, Bitcoin has decisively broken beneath the ascending […]",
+    "published": "2026-11-01T05:57:23+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "Solana’s reward records leave stakers with a gap in validator fee data",
+    "link": "https://cryptoslate.com/solanas-reward-records-leave-stakers-with-a-gap-in-validator-fee-data/",
+    "summary": "Agave leaves the applied-rate field empty, so verifying a staking fee requires historical validator state and delegation evidence. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+    "published": "2026-11-01T05:10:57+00:00",
+    "regulatory": false,
+    "institutional": true,
+    "category": "event"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "Bitcoin to $1.6 Million? Bitwise Raises 2036 Price Target Despite Brutal Market Downturn",
+    "link": "https://cryptopotato.com/bitcoin-to-1-6-million-bitwise-raises-2036-price-target-despite-brutal-market-downturn/",
+    "summary": "Bitwise sees Bitcoin reaching $1.6 million by 2036, even as gold attracts most store-of-value investment and ETF inflows slow.",
+    "published": "2026-11-01T04:58:19+00:00",
+    "regulatory": true,
+    "institutional": true,
+    "category": "sentiment"
+  },
+  {
+    "source": "The Defiant",
+    "title": "Attacker Drains About $437,000 in Collateral From Premia Vaults",
+    "link": "https://thedefiant.io/news/hacks/attacker-drains-about-437-000-in-collateral-from-premia-vaults",
+    "summary": "The attack moved vault collateral into option pools before withdrawing it as liquidity, according to Blockaid.",
+    "published": "2026-11-01T04:25:39+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "NewsBTC",
+    "title": "Aave Expands Stock-Backed USDC Loans on Base for Eligible Investors",
+    "link": "https://www.newsbtc.com/news/aave-expands-stock-backed-usdc-loans-on-base-for-eligible-investors/",
+    "summary": "The case study listed seven stocks accepted as collateral at the time and said the market supports continuous borrowing and repayment. Geographic",
+    "published": "2026-11-01T04:00:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "NewsBTC",
+    "title": "Polygon Adds Agent Payment Limits to Open Money Stack",
+    "link": "https://www.newsbtc.com/news/polygon-adds-agent-payment-limits-to-open-money-stack/",
+    "summary": "Polygon described use cases such as software agents buying API calls, compute capacity or digital services without seeking a fresh human signature",
+    "published": "2026-11-01T03:00:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "NewsBTC",
+    "title": "Chainalysis Finds $443B MENA Crypto Economy as UAE Growth Outpaces Region",
+    "link": "https://www.newsbtc.com/news/chainalysis-finds-443b-mena-crypto-economy-as-uae-growth-outpaces-region/",
+    "summary": "The United Arab Emirates was reported to have grown 32% to about $104.8 billion, while Türkiye remained larger at around $144.5 billion. The",
+    "published": "2026-11-01T02:00:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "Bitcoin’s recovery faces rising derivatives exposure and $643 million in ETF outflows",
+    "link": "https://cryptoslate.com/bitcoins-recovery-faces-rising-derivatives-exposure-and-643-million-in-etf-outflows/",
+    "summary": "Higher selected derivatives exposure and ETF redemptions leave the recovery facing a demand test before November 6 payrolls. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+    "published": "2026-11-01T01:10:55+00:00",
+    "regulatory": true,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CoinDesk",
+    "title": "FBI confirms North Korea's role in $6 billion Binance hack, asks DeFi community to block BTC, ETH, SOL addresses",
+    "link": "https://www.coindesk.com/policy/2026/10/31/fbi-confirms-north-korea-s-role-in-usd6-billion-binance-hack-asks-defi-community-to-block-btc-eth-sol-addresses",
+    "summary": "While the FBI listed hundreds of addresses in its notice, Chainalysis said the Binance attackers have already used \"thousands addresses,\" and expects this number to continue growing.",
+    "published": "2026-11-01T01:10:05+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "NewsBTC",
     "title": "Further Asset Management Taps Chainlink ACE for Abu Dhabi Compliance Platform",
     "link": "https://www.newsbtc.com/news/further-asset-management-taps-chainlink-ace-for-abu-dhabi-compliance-platform/",
     "summary": "The company described jurisdiction-specific rules that can be encoded into workflows so institutions can assess requirements before a tokenized asset",
@@ -120,16 +250,6 @@
     "category": "event"
   },
   {
-    "source": "NewsBTC",
-    "title": "Chainlink Unveils 24/7 Pricing for Tokenized Assets as Aave Adopts Feeds",
-    "link": "https://www.newsbtc.com/news/chainlink-unveils-24-7-pricing-for-tokenized-assets-as-aave-adopts-feeds/",
-    "summary": "The service extends a prior 24/5 equity-data product into weekends and holidays. An oracle feed is not a guarantee of a redeemable cash-market price,",
-    "published": "2026-10-31T19:00:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "The Defiant",
     "title": "Morpho Borrow Rates Hit Roughly 40% as PT Market Liquidity Dries Up",
     "link": "https://thedefiant.io/news/defi/morpho-borrow-rates-hit-roughly-40-as-pt-market-liquidity-dries-up",
@@ -170,16 +290,6 @@
     "category": "event"
   },
   {
-    "source": "NewsBTC",
-    "title": "Uniswap Opens TJAR Fee Conversion Beyond Protocol as Robinhood Joins",
-    "link": "https://www.newsbtc.com/news/uniswap-opens-tjar-fee-conversion-beyond-protocol-as-robinhood-joins/",
-    "summary": "Searchers compete to exchange the chosen payout token for assets accumulated in the jar. Open searcher competition does not eliminate execution costs",
-    "published": "2026-10-31T18:00:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "The Defiant",
     "title": "THORChain Swaps Remain Paused on 12 Chains After Reported Refund Error",
     "link": "https://thedefiant.io/news/defi/thorchain-swaps-remain-paused-on-12-chains-after-reported-refund-error",
@@ -205,16 +315,6 @@
     "link": "https://thedefiant.io/news/security/intersect-urges-cardano-operators-to-patch-critical-linux-flaw",
     "summary": "Ubuntu fixes were still in progress in its Oct. 30 tracker update, while AlmaLinux had patched kernels available for testing.",
     "published": "2026-10-31T17:32:07+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "NewsBTC",
-    "title": "Polygon Extends Open Money Stack to Solana for Stablecoin Payment Flows",
-    "link": "https://www.newsbtc.com/news/polygon-extends-open-money-stack-to-solana-for-stablecoin-payment-flows/",
-    "summary": "The company said customers can fund accounts through bank transfers, cards, cash or digital assets, then route supported tokens between Solana,",
-    "published": "2026-10-31T17:00:00+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -410,16 +510,6 @@
     "category": "event"
   },
   {
-    "source": "NewsBTC",
-    "title": "Binance Details $6.3B Hot-Wallet Breach as Exchange Pledges to Cover Losses",
-    "link": "https://www.newsbtc.com/news/binance-details-6-3b-hot-wallet-breach-as-exchange-pledges-to-cover-losses/",
-    "summary": "The company reported approximately $3 billion of affected assets frozen on-chain through coordination with issuers, investigators and other industry",
-    "published": "2026-10-31T15:00:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "The Defiant",
     "title": "Binance Says 90% of Stolen Assets Replenished, Targets Nov. 1 Restart",
     "link": "https://thedefiant.io/news/hacks/binance-says-90-of-stolen-assets-replenished-targets-nov-1-restart",
@@ -540,16 +630,6 @@
     "category": "event"
   },
   {
-    "source": "The Defiant",
-    "title": "CertiK Puts 2026 Crypto Losses at Record $9.2 Billion",
-    "link": "https://thedefiant.io/news/security/certik-puts-2026-crypto-losses-at-record-9-2-billion",
-    "summary": "Its live dashboard records $3.03 billion frozen or returned in October, reducing the month's adjusted losses to $3.47 billion.",
-    "published": "2026-10-31T13:11:20+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "Decrypt",
     "title": "Why AI Models Cheat: Reward Hacking, Explained",
     "link": "https://decrypt.co/382274/why-ai-models-cheat-reward-hacking-explained",
@@ -578,16 +658,6 @@
     "regulatory": false,
     "institutional": false,
     "category": "sentiment"
-  },
-  {
-    "source": "The Defiant",
-    "title": "Lido Revenue Jumps to $605,000 on Execution-Reward Windfall",
-    "link": "https://thedefiant.io/news/defi/lido-revenue-jumps-to-605-000-on-execution-reward-windfall",
-    "summary": "The DAO received 269.69 stETH in staking fees, but its next daily reward report delivered a much smaller treasury payment.",
-    "published": "2026-10-31T12:59:28+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
   },
   {
     "source": "CoinDesk",
@@ -760,16 +830,6 @@
     "category": "event"
   },
   {
-    "source": "CryptoSlate",
-    "title": "Aave reopens frozen markets but blocks new collateral loans",
-    "link": "https://cryptoslate.com/aave-reopens-frozen-markets-but-blocks-new-collateral-loans/",
-    "summary": "LlamaRisk reports the main emergency batches executed, while available liquidity and collateral rules still determine practical access. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-    "published": "2026-10-31T03:40:43+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "U.Today",
     "title": "3 Shiba Inu (SHIB) Indicators Paint Worrying Picture: Where Can Its Price Drop?",
     "link": "https://u.today/3-shiba-inu-shib-indicators-paint-worrying-picture-where-can-its-price-drop",
@@ -815,16 +875,6 @@
     "link": "https://www.coindesk.com/business/2026/10/30/openai-reportedly-cuts-fundraising-target-amid-ai-jitters",
     "summary": "Anxiety about the AI boom has sent the Nasdaq 100 slumping by about 10% in just three weeks since hitting a record high on October 6, including a 4.5% drop on Friday.",
     "published": "2026-10-31T00:48:56+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoSlate",
-    "title": "Maple locks $280M in XRP collateral and upcoming maturity dates threaten liquidations",
-    "link": "https://cryptoslate.com/maple-locks-280m-in-xrp-collateral-and-upcoming-maturity-dates-threaten-liquidations/",
-    "summary": "About 225 million XRP supports three stablecoin loan positions, but December and January maturities do not guarantee automatic collateral releases. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-    "published": "2026-10-31T00:10:43+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -910,16 +960,6 @@
     "category": "sentiment"
   },
   {
-    "source": "CryptoPotato",
-    "title": "Viral Altcoin Pumps and Dumps, PEPE Stays Green Amid the Market Sell-Оff: Bits Recap October 30",
-    "link": "https://cryptopotato.com/viral-altcoin-pumps-and-dumps-pepe-stays-green-amid-the-market-sell-off-bits-recap-october-30/",
-    "summary": "Here's everything most interesting surrounding Q, PEPE, and Binance.",
-    "published": "2026-10-30T20:51:30+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "Decrypt",
     "title": "Worried About Crypto Hacks? Buy Bitcoin Proxies in Stock Market Instead, Say Wall Street Firms",
     "link": "https://decrypt.co/382282/crypto-hacks-buy-bitcoin-proxies-stock-market-wall-street",
@@ -955,16 +995,6 @@
     "link": "https://www.sec.gov/newsroom/press-releases/2026-111-sec-issues-exemptive-relief-treasury-clearing-requirements-certain-inter-affiliate-non-us-repo",
     "summary": "The Securities and Exchange Commission took another step forward today to assist broker-dealers and other market participants on the path to central clearing of U.S. Treasury securities by issuing exemptive relief related to inter-affiliate repo…",
     "published": "2026-10-30T19:30:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoPotato",
-    "title": "Coinbase CEO Brian Armstrong and 2 Insiders File to Sell Up to $2B in Stock",
-    "link": "https://cryptopotato.com/coinbase-ceo-brian-armstrong-and-2-insiders-file-to-sell-up-to-2b-in-stock/",
-    "summary": "Armstrong's plan covers about 60% of the 13.6 million shares, with the others being president Emilie Choi and board member Frederick Ehrsam.",
-    "published": "2026-10-30T19:25:31+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -1010,16 +1040,6 @@
     "category": "event"
   },
   {
-    "source": "CryptoPotato",
-    "title": "Binance Hack: This Is What Bitcoin Did After 6 Earlier Crypto Disasters",
-    "link": "https://cryptopotato.com/binance-hack-this-is-what-bitcoin-did-after-6-earlier-crypto-disasters/",
-    "summary": "Bitcoin has survived several major hacks, often seeing its value drop, then setting off on a run that often ended in new all-time highs.",
-    "published": "2026-10-30T18:01:19+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "Decrypt",
     "title": "Secret Service, FBI Join Binance Hack Probe as Circle Freezes $823 Million",
     "link": "https://decrypt.co/382268/secret-service-fbi-binance-hack-probe",
@@ -1047,16 +1067,6 @@
     "published": "2026-10-30T17:09:31+00:00",
     "regulatory": true,
     "institutional": true,
-    "category": "event"
-  },
-  {
-    "source": "U.Today",
-    "title": "Solana (SOL) Moves In on Hong Kong Banks to Scale Its $14 Billion Stablecoin Market",
-    "link": "https://u.today/solana-sol-moves-in-on-hong-kong-banks-to-scale-its-14-billion-stablecoin-market",
-    "summary": "While China bans crypto, Solana secures a regulated Hong Kong dollar gateway via a licensed Standard Chartered venture.",
-    "published": "2026-10-30T17:01:05+00:00",
-    "regulatory": false,
-    "institutional": false,
     "category": "event"
   },
   {
@@ -1145,16 +1155,6 @@
     "link": "https://decrypt.co/resources/what-is-eip-7702-the-ethereum-upgrade-behind-the-6-4b-binance-hack",
     "summary": "EIP-7702 lets ordinary Ethereum wallets run smart contract code, enabling batched and sponsored transactions. Here's how it works.",
     "published": "2026-10-30T14:17:34+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CoinDesk",
-    "title": "Wall Street analysts urge investors to buy crypto stocks after $6.3 billion Binance hack",
-    "link": "https://www.coindesk.com/markets/2026/10/30/wall-street-analysts-urge-investors-to-buy-crypto-stocks-on-weakness-after-usd6-3-billion-binance-hack",
-    "summary": "Analysts at Cantor Fitzgerald, TD Cowen and Compass Point say the $6.3 billion Binance hack is unlikely to derail the crypto market's recovery.",
-    "published": "2026-10-30T14:13:34+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
