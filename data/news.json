@@ -1,10 +1,770 @@
 [
   {
+    "source": "CryptoSlate",
+    "title": "Bitcoin Lightning fix blocks a probe linking private channels to onchain funding",
+    "link": "https://cryptoslate.com/bitcoin-lightning-fix-blocks-a-probe-linking-private-channels-to-onchain-funding/",
+    "summary": "LDK’s October 25 fix rejects a funding-location lookup used by a probe requiring connections to both endpoints of an unannounced channel. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+    "published": "2026-11-03T15:00:18+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Defiant",
+    "title": "Fake Job Interview Opened Path to $6.34 Billion Hack, Binance Says",
+    "link": "https://thedefiant.io/news/hacks/fake-job-interview-opened-path-to-6-34-billion-hack-binance-says",
+    "summary": "Attackers used an internal AI tool to reach wallet engineers, while persistent onchain permissions complicated containment.",
+    "published": "2026-11-03T14:57:12+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CoinDesk",
+    "title": "Binance's $6.3 billion hack began with a fake job interview, exchange says",
+    "link": "https://www.coindesk.com/business/2026/11/03/binance-s-usd6-3-billion-hack-began-with-a-fake-job-interview-exchange-says",
+    "summary": "North Korea-linked attackers spent months compromising Binance employees and internal systems before exploiting its hot-wallet signing infrastructure through Ethereum's EIP-7702 mechanism.",
+    "published": "2026-11-03T14:53:19+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Bitcoin Magazine",
+    "title": "CFTC Opens U.S. Stock Market to Equity Perpetual Futures",
+    "link": "https://bitcoinmagazine.com/news/cftc-opens-equity-perpetual-futures",
+    "summary": "Bitcoin Magazine CFTC Opens U.S. Stock Market to Equity Perpetual Futures The CFTC has cleared perpetual futures on individual stocks to trade on dual-registered U.S. exchanges for the first time. This post CFTC Opens U.S. Stock Market to Equity Perpetual Futures first appeared on Bitcoin Magazine and is written by Micah Zimmerman .",
+    "published": "2026-11-03T14:50:58+00:00",
+    "regulatory": true,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Defiant",
+    "title": "Binance Details Months-Long Campaign Behind $6.34 Billion Hack",
+    "link": "https://thedefiant.io/news/hacks/binance-details-months-long-campaign-behind-6-34-billion-hack",
+    "summary": "The exchange says 98% of impacted tokens have been replenished; its report explains why pausing withdrawals did not stop every outflow.",
+    "published": "2026-11-03T14:43:08+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CoinDesk",
+    "title": "South Korea asks its biggest banks how a major crypto hack would hit them",
+    "link": "https://www.coindesk.com/business/2026/11/03/south-korea-asks-its-biggest-banks-how-a-major-crypto-hack-would-hit-them",
+    "summary": "In its first such survey, the BOK also asked about a crypto price crash, losses at another firm, and each firm’s crypto teams, budgets and investments.",
+    "published": "2026-11-03T14:42:30+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "U.Today",
+    "title": "Michael Saylor's Bitcoin Treasury Secures Nearly $1 Billion in Profit",
+    "link": "https://u.today/michael-saylors-bitcoin-treasury-secures-nearly-1-billion-in-profit",
+    "summary": "Michael Saylor's Strategy now boasts over $1 billion in unrealized profit as Bitcoin maintains stamina above its cost basis despite ongoing volatility.",
+    "published": "2026-11-03T14:40:33+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Bitcoin Magazine",
+    "title": "New Jersey Drops Coinbase Staking Order After Three Years",
+    "link": "https://bitcoinmagazine.com/news/new-jersey-drops-coinbase-staking-order",
+    "summary": "Bitcoin Magazine New Jersey Drops Coinbase Staking Order After Three Years New Jersey’s securities regulator has rescinded its 2023 cease-and-desist order and $5 million penalty against Coinbase’s staking service. This post New Jersey Drops Coinbase Staking Order After Three Years first appeared on Bitcoin Magazine and is written by Micah Zimmerman .",
+    "published": "2026-11-03T14:26:13+00:00",
+    "regulatory": false,
+    "institutional": true,
+    "category": "event"
+  },
+  {
+    "source": "CoinDesk",
+    "title": "CZ warns of more AI-driven hacks following Binance’s historic $6.4 billion heist",
+    "link": "https://www.coindesk.com/business/2026/11/03/cz-warns-of-more-ai-driven-hacks-following-binance-s-historic-usd6-4-billion-heist",
+    "summary": "While investigators found no evidence that AI agents laundered the stolen Binance funds, Zhao stressed that automated tools are lowering the barrier for complex breaches.",
+    "published": "2026-11-03T14:22:09+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Defiant",
+    "title": "Crypto Recovery Services: What to Check Before Paying",
+    "link": "https://thedefiant.io/news/security/crypto-recovery-services-what-to-check-before-paying",
+    "summary": "Tracing stolen crypto is different from getting it back. US consumers should verify a provider’s identity, written deliverables, fees and access to sensitive data.",
+    "published": "2026-11-03T14:17:54+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Defiant",
+    "title": "Aztec Launches Tierra Upgrade With Faster Ethereum Messaging",
+    "link": "https://thedefiant.io/news/blockchains/aztec-launches-tierra-upgrade-with-faster-ethereum-messaging",
+    "summary": "The new rollup requires contract recompilation and new addresses, while V5 gets roughly 30 days of funded migration support.",
+    "published": "2026-11-03T14:09:11+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Decrypt",
+    "title": "Ethereum Privacy Network Aztec Rolls Out Major Security and Speed Upgrade",
+    "link": "https://decrypt.co/382387/ethereum-privacy-network-aztec-security-speed-upgrade",
+    "summary": "The “Tierra” upgrade resolves a critical bug from the prior version, adds formal verification, and an AI-powered testing harness.",
+    "published": "2026-11-03T14:01:02+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "Stronger US factory activity complicates Bitcoin’s hopes for lower rates",
+    "link": "https://cryptoslate.com/stronger-us-factory-activity-complicates-bitcoins-hopes-for-lower-rates/",
+    "summary": "ISM’s production index reached 59.0 as factory price increases became less widespread, leaving growth and funding signals in tension. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+    "published": "2026-11-03T14:00:45+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CoinDesk",
+    "title": "LO:TECH raises $12 million to expand crypto trading into U.S. and Asia",
+    "link": "https://www.coindesk.com/business/2026/11/03/lo-tech-raises-usd12-million-to-expand-crypto-trading-into-u-s-and-asia",
+    "summary": "LO:TECH is betting on round-the-clock tokenized stock trading but didn’t say if it trades them now; a WFE study found stock exchanges still set prices.",
+    "published": "2026-11-03T14:00:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Block",
+    "title": "Ethereum Layer 2 Aztec gets Tierra V6 upgrade to support faster private apps",
+    "link": "https://www.theblock.co/news/defi/2026-11-03-ethereum-l2-aztec-tierra-v6-upgrade-private-apps-432399",
+    "summary": "Aztec Foundation has rolled out Tierra V6, saying it fixes earlier security issues and doubles the speed of private transaction proof generation.",
+    "published": "2026-11-03T14:00:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Cointelegraph",
+    "title": "What’s at stake for crypto as the US votes in the 2026 midterms?",
+    "link": "https://cointelegraph.com/news/us-midterms-2026-stake-crypto-election-day?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "Crypto groups spent about $176 million ahead of the US midterms, with control of Congress and the future of crypto legislation at stake.",
+    "published": "2026-11-03T13:53:07+00:00",
+    "regulatory": true,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "Ethereum Supply on Exchanges Hits a Decade Low: Is ETH Preparing for a Major Move?",
+    "link": "https://cryptopotato.com/ethereum-supply-on-exchanges-hits-a-decade-low-is-eth-preparing-for-a-major-move/",
+    "summary": "Binance ETH reserves have dropped 37.1% from their 2025 peak.",
+    "published": "2026-11-03T13:50:55+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
+    "source": "Bitcoin Magazine",
+    "title": "Bitcoin Price Trades Near $77,500 as Midterm Voting Begins",
+    "link": "https://bitcoinmagazine.com/markets/bitcoin-price-trades-near-77500-midterm",
+    "summary": "Bitcoin Magazine Bitcoin Price Trades Near $77,500 as Midterm Voting Begins Bitcoin price trades near $77,500 as midterm voting begins, pressured by a record $6.3 billion Binance hack, ETF outflows, a Fed leaning toward a December hike and oil above $100 on Iran tensions. This post Bitcoin Price Trades Near $77,500 as Midterm Voting Begins first appeared on Bitcoin Magazine and is written by Micah",
+    "published": "2026-11-03T13:46:39+00:00",
+    "regulatory": true,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "Aave borrowers faced up to 36% APR while a freeze blocked fresh collateral",
+    "link": "https://cryptoslate.com/borrowers-faced-36-interest-rates-as-aave-froze-deposits-during-binance-hack/",
+    "summary": "Borrowers in Aave's frozen reserves kept paying interest while the restrictions prevented fresh deposits, including the extra collateral they might normally supply to protect a loan. Suppliers were still able to request their money back, provided enough tokens were available, so withdrawals could make borrowing more expensive even though new borrowing was blocked in those… Read the full story on C",
+    "published": "2026-11-03T13:30:58+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "U.Today",
+    "title": "131 Million ADA Delegated to Dead Cardano Pools, Not Earning",
+    "link": "https://u.today/131-million-ada-delegated-to-dead-cardano-pools-not-earning",
+    "summary": "Over 131 million ADA tied to retired pools as Cardano stakers face reward loss.",
+    "published": "2026-11-03T13:20:29+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "Essential Privacy and Security Tools for Crypto Investors",
+    "link": "https://cryptopotato.com/essential-privacy-and-security-tools-for-crypto-investors/",
+    "summary": "As lucrative as the crypto market is, many individuals and businesses remain hesitant to enter the ecosystem. The reason? For many, it is the fear of falling victim to security exploits. Others worry about privacy, especially because blockchain transactions are publicly accessible. What if there were tools that could make crypto investing more secure and […]",
+    "published": "2026-11-03T13:17:55+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Cointelegraph",
+    "title": "Moscow Exchange to launch Bitcoin, Ether and USDT trading in December",
+    "link": "https://cointelegraph.com/news/moscow-exchange-bitcoin-ether-usdt-trading-december?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "Moscow Exchange plans to launch crypto trading on Dec. 1 under Russia’s new law, with annual purchase limits for non-qualified investors.",
+    "published": "2026-11-03T13:15:47+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Decrypt",
+    "title": "Morning Minute: Tom Lee Calls the Binance Hack Bullish for Ethereum",
+    "link": "https://decrypt.co/382410/morning-minute-tom-lee-calls-the-binance-hack-bullish-for-ethereum",
+    "summary": "Meanwhile, both the BTC ETFs and ETH ETFs bleed outflows in the Binance hack aftermath, dragging down prices.",
+    "published": "2026-11-03T13:11:47+00:00",
+    "regulatory": true,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
+    "source": "U.Today",
+    "title": "Hyperliquid Whale Refuses to Sell 35 Million XRP as Market Slumps: Main Crypto News This Morning",
+    "link": "https://u.today/hyperliquid-whale-refuses-to-sell-35-million-xrp-as-market-slumps-main-crypto-news-this-morning",
+    "summary": "Crypto news this morning, Nov 3: a whale defends XRP with a $44 million long despite $398 million outflows from US ETFs and Binance drain.",
+    "published": "2026-11-03T13:11:05+00:00",
+    "regulatory": true,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "Bitcoin’s year-end liquidity hopes face a projected $150 billion Treasury cash rebuild",
+    "link": "https://cryptoslate.com/bitcoins-year-end-liquidity-hopes-face-a-projected-150-billion-treasury-cash-rebuild/",
+    "summary": "Any year-end reserve relief depends on actual cash flows and funding costs, with a larger first-quarter Treasury cash rebuild already assumed. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+    "published": "2026-11-03T13:00:37+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CoinDesk",
+    "title": "Binance net outflows reach $5.3 billion after record hack. CEO says recovery underway",
+    "link": "https://www.coindesk.com/business/2026/11/03/binance-net-outflows-reach-usd5-3b-after-record-hack-though-ceo-cites-recovery",
+    "summary": "Nearly $11 billion left the exchange over 46 hours, although CEO Richard Teng said hourly deposits were beginning to exceed withdrawals.",
+    "published": "2026-11-03T12:57:28+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Cointelegraph",
+    "title": "NEAR token sinks 7% as proposal to cut annual token issuance passes",
+    "link": "https://cointelegraph.com/markets/near-sinks-7-proposal-cut-annual-token-issuance-passes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "The proposed issuance cut would prevent 11.8 million NEAR from entering circulation over two years, worth about $45 million at today’s price.",
+    "published": "2026-11-03T12:30:13+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CoinDesk",
+    "title": "Bitcoin is breaking a midterm election pattern going back to 2014",
+    "link": "https://www.coindesk.com/daybook-us/2026/11/03/bitcoin-is-breaking-a-midterm-election-pattern-going-back-to-2014",
+    "summary": "Your day-ahead look for Nov. 3, 2026",
+    "published": "2026-11-03T12:30:09+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Defiant",
+    "title": "Kraken Restricts Accounts Amid Suspected $133 Million-Plus EU Theft",
+    "link": "https://thedefiant.io/news/hacks/kraken-restricts-accounts-amid-suspected-133-million-plus-eu-theft",
+    "summary": "The exchange says its own systems and customer accounts were not compromised and that it is working with law enforcement on recovery.",
+    "published": "2026-11-03T12:24:03+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Decrypt",
+    "title": "Binance Misses Monthly Luna Classic Burn for First Time Since 2023",
+    "link": "https://decrypt.co/382401/binance-misses-monthly-luna-classic-burn-for-first-time-since-2023",
+    "summary": "LUNC holders are waiting for Binance’s November burn, but it hasn’t arrived as the exchange recovers from a record $6.3 billion hack.",
+    "published": "2026-11-03T12:15:29+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "Wall Street’s Bear Market Is No Longer So Stealthy",
+    "link": "https://cryptopotato.com/wall-streets-bear-market-is-no-longer-so-stealthy/",
+    "summary": "Intel (INTC) suffered one of its worst periods to date, with a massive nosedive.",
+    "published": "2026-11-03T12:14:44+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "U.Today",
+    "title": "No Ethereum (ETH)? Exchanges Report Substantial Outflows",
+    "link": "https://u.today/no-ethereum-eth-exchanges-report-substantial-outflows",
+    "summary": "Ethereum's exchange supply has fallen after the Binance hack, but the data points to a liquidity shift rather than panic.",
+    "published": "2026-11-03T12:07:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CoinDesk",
+    "title": "ETHGas wants to bring Wall Street to public Ethereum by selling advance block reservations",
+    "link": "https://www.coindesk.com/business/2026/11/03/ethgas-courts-wall-street-with-ethereum-blockspace-but-compensation-for-missed-trades-is-zero",
+    "summary": "But there’s a catch: validators that fail to deliver on their commitments currently face no financial compensation requirement under the service.",
+    "published": "2026-11-03T12:01:05+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "Tether freezes $1.5 billion in 30 minutes after Binance hack, but $729 million escapes",
+    "link": "https://cryptoslate.com/tether-freezes-1-5-billion-in-30-minutes-after-binance-hack-but-729-million-escapes/",
+    "summary": "Tether describes immobilized USDT, while US precedents show separate decisions governing custody, ownership and return. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+    "published": "2026-11-03T12:00:53+00:00",
+    "regulatory": true,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Defiant",
+    "title": "Binance Lacks Cyber Insurance for $6.3 Billion Hack, Bloomberg Law Reports",
+    "link": "https://thedefiant.io/news/hacks/binance-lacks-cyber-insurance-for-6-3-billion-hack-bloomberg-law-reports",
+    "summary": "The exchange says it reserved more than $6.34 billion in company funds and is drawing on emergency and futures reserves to replace stolen assets.",
+    "published": "2026-11-03T11:59:23+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Block",
+    "title": "Liquid Network restores full bitcoin backing following $320 million exploit",
+    "link": "https://www.theblock.co/news/ecosystems/2026-11-03-liquid-network-restores-full-bitcoin-backing-following-exploit-432387",
+    "summary": "Liquid Network said its bitcoin reserves are back to full backing after September's exploit, with Blockstream providing the funds.",
+    "published": "2026-11-03T11:49:20+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "NewsBTC",
+    "title": "MEXC Upgrades Futures Earn to Empower Retail Traders With a Clearer, More Intuitive Experience",
+    "link": "https://www.newsbtc.com/news/mexc-upgrades-futures-earn-to-empower-retail-traders-with-a-clearer-more-intuitive-experience/",
+    "summary": "Mutsamudu, Comoros, November 3, 2026 – MEXC, a pioneer in 0-fee digital asset trading, announced an upgrade to Futures Earn. This product helps retail traders use their capital more efficiently by allowing eligible futures account balances to earn interest while users continue trading. The upgrade is designed to improve the overall user experience and make the product easier to understand and use.",
+    "published": "2026-11-03T11:33:52+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Cointelegraph",
+    "title": "Binance’s net inflows turn positive at $2.3B as withdrawals expand",
+    "link": "https://cointelegraph.com/news/binances-daily-inflows-positive-18b-withdrawals?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "Binance led exchanges in 24-hour net inflows, reversing Monday’s heavy outflows as it restored access to funds after its $6.3 billion hack.",
+    "published": "2026-11-03T11:32:02+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CoinDesk",
+    "title": "Bitcoin steadies after dip to $76,300 as ETF outflows and midterm elections weigh on crypto",
+    "link": "https://www.coindesk.com/markets/2026/11/03/bitcoin-steadies-after-dip-to-usd76-300-as-etf-outflows-and-midterm-elections-weigh-on-crypto",
+    "summary": "Bitcoin edged up 0.2% to around $76,900 since midnight UTC as spot ETFs lost $399 million for a second day and Binance customers pulled a net $4.72 billion.",
+    "published": "2026-11-03T11:28:00+00:00",
+    "regulatory": true,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
+    "source": "Decrypt",
+    "title": "Liquid Network Restores Full Bitcoin Backing Two Months After $320M Exploit",
+    "link": "https://decrypt.co/382397/liquid-network-restores-full-bitcoin-backing-two-months-after-320m-exploit",
+    "summary": "Blockstream CEO Adam Back said the sidechain's defenses have been hardened, and warned developers not to trust AI-suggested fixes blindly.",
+    "published": "2026-11-03T11:22:10+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Defiant",
+    "title": "France Delays Budget Vote Again, Leaving Stablecoin Tax Pending",
+    "link": "https://thedefiant.io/news/regulation/france-delays-budget-vote-again-leaving-stablecoin-tax-pending",
+    "summary": "Lawmakers defeated a proposal to tax unrealized crypto gains when residents move abroad, but a stablecoin-swap tax remains in the provisional budget text.",
+    "published": "2026-11-03T11:13:54+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "XRP Is About to Make a Big Move: These Levels Could Decide the Direction",
+    "link": "https://cryptopotato.com/xrp-is-about-to-make-a-big-move-these-levels-could-decide-the-direction/",
+    "summary": "XRP's Bollinger Bands are signalling a major move is right upon us.",
+    "published": "2026-11-03T11:12:33+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CoinDesk",
+    "title": "Liquid’s bitcoin IOUs are fully backed again after a $320 million exploit",
+    "link": "https://www.coindesk.com/markets/2026/11/03/liquid-s-bitcoin-ious-are-fully-backed-again-after-a-usd320-million-exploit",
+    "summary": "A final 250 BTC transfer closed the hole left by September’s bug, but the federation behind the network still hasn’t said who paid to fill it.",
+    "published": "2026-11-03T11:12:12+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Defiant",
+    "title": "Backpack Warns of Fake Tokenized Stock Airdrops",
+    "link": "https://thedefiant.io/news/security/backpack-warns-of-fake-tokenized-stock-airdrops",
+    "summary": "Scammers may cite genuine token addresses to appear legitimate, the company said, directing users to its official Solana mint directory.",
+    "published": "2026-11-03T11:07:50+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Cointelegraph",
+    "title": "France postpones 2027 budget vote, crypto exit-tax proposals scrapped",
+    "link": "https://cointelegraph.com/news/france-postpones-2027-budget-vote-reject-crypto-exit-tax?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "The National Assembly postponed the vote on the budget’s revenue section for the second time, while the Nov. 17 deadline for the first reading examination nears.",
+    "published": "2026-11-03T10:49:26+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "Bybit and Bitget see crypto deposits surge following Binance’s $6.3 billion hack",
+    "link": "https://cryptoslate.com/bybit-and-bitget-see-crypto-deposits-surge-following-binances-6-3-billion-hack/",
+    "summary": "Bybit and Bitget recorded larger address counts during the shutdown, but the data do not establish Binance customer migration. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+    "published": "2026-11-03T10:40:42+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
+    "source": "U.Today",
+    "title": "Ripple CTO Emeritus Clarifies Current Role at Ripple",
+    "link": "https://u.today/ripple-cto-emeritus-clarifies-current-role-at-ripple",
+    "summary": "Ripple CTO Emeritus David Schwartz responds to question about his current role at the company.",
+    "published": "2026-11-03T10:30:56+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Decrypt",
+    "title": "North Korea Denies $6.3B Binance Hack, Calls FBI Finding a 'Political Provocation'",
+    "link": "https://decrypt.co/382394/north-korea-denies-6-3b-binance-hack-calls-fbi-finding-a-political-provocation",
+    "summary": "Kim Yo Jong suggested the U.S. itself could be behind the theft, as Binance said hourly deposits had begun to exceed withdrawals.",
+    "published": "2026-11-03T10:18:48+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CoinDesk",
+    "title": "Tether holds 150,000 bitcoin worth $11.5 billion, CEO Paolo Ardoino says",
+    "link": "https://www.coindesk.com/business/2026/11/03/tether-holds-150-000-bitcoin-worth-usd11-5-billion-ceo-paolo-ardoino-says",
+    "summary": "Ardoino didn’t say where the extra coins sit. Holdings outside USDT reserves, such as Tether’s investments, wouldn’t appear in the report.",
+    "published": "2026-11-03T10:15:53+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "ZEC and NEAR Tank Again, BTC Dives Ahead of US Midterm Elections: Market Watch",
+    "link": "https://cryptopotato.com/zec-and-near-tank-again-btc-dives-ahead-of-us-midterm-elections-market-watch/",
+    "summary": "RAIN is among the few alts today to defy the overall market weakness.",
+    "published": "2026-11-03T10:05:53+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
+    "source": "Cointelegraph",
+    "title": "Bitcoin price threatens $77.7K support loss with recent buyers underwater",
+    "link": "https://cointelegraph.com/markets/bitcoin-price-support-loss-recent-buyers-underwater?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "Bitcoin fell below the realized price of the one-to-three-month-old buyer cohort in a move that risked flipping it to new resistance.",
+    "published": "2026-11-03T10:04:05+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "U.Today",
+    "title": "Shiba Inu (SHIB) Withdrawals on Binance Are Back",
+    "link": "https://u.today/shiba-inu-shib-withdrawals-on-binance-are-back",
+    "summary": "Binance has restored SHIB withdrawals, but the token's chart still points to further downside.",
+    "published": "2026-11-03T10:00:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CoinDesk",
+    "title": "Live news: Bitcoin faces fifth weekly loss as midterm elections weigh on markets",
+    "link": "https://www.coindesk.com/markets/2026/11/03/live-news-bitcoin-faces-fifth-weekly-loss-as-midterm-uncertainty-and-apple-warning-weigh-on-markets",
+    "summary": "A fifth straight weekly decline would mark bitcoin’s joint third-longest losing streak, as oil rebounds and Apple’s margin warning adds to investor caution ahead of the U.S. midterms.",
+    "published": "2026-11-03T09:50:16+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CoinDesk",
+    "title": "North Korea denies role in $6.4 billion Binance hack after FBI points to TraderTraitor",
+    "link": "https://www.coindesk.com/business/2026/11/03/north-korea-denies-role-in-usd6-4-billion-binance-hack-after-fbi-points-to-tradertraitor",
+    "summary": "The high-profile denial follows FBI alerts identifying North Korean-controlled wallet addresses tied to the largest cryptocurrency exploit in history.",
+    "published": "2026-11-03T09:40:32+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "U.Today",
+    "title": "XRP Defies Bear Market: New Wallets Double Despite Price Pressure",
+    "link": "https://u.today/xrp-defies-bear-market-new-wallets-double-despite-price-pressure",
+    "summary": "Instead of selling, XRP investors opened nearly 8,000 new wallets in 24 hours after the Binance hack.",
+    "published": "2026-11-03T09:24:20+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "BTCPay urges Bitcoin merchants to replace wallets after hackers steal an estimated $1.6 million",
+    "link": "https://cryptoslate.com/btcpay-urges-bitcoin-merchants-to-replace-wallets-after-hackers-steal-an-estimated-1-6-million/",
+    "summary": "The November 2 update links hot-wallet thefts to an August-patched flaw and says updating cannot remove access already gained. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+    "published": "2026-11-03T09:20:39+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Block",
+    "title": "NEAR governance approves proposal to cut token issuance ceiling to 1.6%",
+    "link": "https://www.theblock.co/news/defi/2026-11-03-near-governance-approves-proposal-to-cut-token-issuance-432378",
+    "summary": "NEAR's House of Stake passed HSP-029, which lowers the network's maximum annual issuance rate from 2.5% to 1.6% over 24 months.",
+    "published": "2026-11-03T09:19:41+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "US Midterms Are Here: History Points to a Stock Rally but Trouble for Bitcoin",
+    "link": "https://cryptopotato.com/us-midterms-are-here-history-points-to-a-stock-rally-but-trouble-for-bitcoin/",
+    "summary": "History points to a surprisingly bullish setup for the S&P 500 despite the current struggles, while BTC could be heading for another leg down.",
+    "published": "2026-11-03T09:14:43+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
+    "source": "The Defiant",
+    "title": "Mercado Bitcoin Promises No Customer Asset Losses After Hack",
+    "link": "https://thedefiant.io/news/hacks/mercado-bitcoin-promises-no-customer-asset-losses-after-hack",
+    "summary": "The exchange says $11 million has been blocked, but its assurance does not specify a funding source or reimbursement deadline.",
+    "published": "2026-11-03T09:08:33+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Defiant",
+    "title": "Binance Flips to $1.82 Billion in Daily Net Inflows After Withdrawal Restart",
+    "link": "https://thedefiant.io/news/cefi/binance-flips-to-1-82-billion-in-daily-net-inflows-after-withdrawal-restart",
+    "summary": "Seven-day net outflows remained at $11.832 billion despite the positive daily reading on DefiLlama's exchange dashboard.",
+    "published": "2026-11-03T09:04:59+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "NewsBTC",
+    "title": "ZeroBeta and Lynq Connect Tokenized Treasury Collateral to Lending and Margin",
+    "link": "https://www.newsbtc.com/news/zerobeta-and-lynq-connect-tokenized-treasury-collateral-to-lending-and-margin/",
+    "summary": "ZeroBeta’s integration with Lynq lets institutions pledge tokenized assets while interest continues to accrue, putting collateral control at the centre of the workflow.",
+    "published": "2026-11-03T09:00:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CoinDesk",
+    "title": "Mercado Bitcoin pledges to cover all user losses after near $40 million hack",
+    "link": "https://www.coindesk.com/business/2026/11/03/mercado-bitcoin-pledges-to-cover-all-user-losses-after-near-usd40-million-hack",
+    "summary": "Partners like Tether, Circle, and Chainalysis helped freeze $11M of the stolen assets.",
+    "published": "2026-11-03T08:56:48+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Block",
+    "title": "Consensys launches cross-ledger settlement and routing stack for institutional networks",
+    "link": "https://www.theblock.co/news/ecosystems/2026-11-03-consensys-cross-ledger-settlement-routing-stack-432375",
+    "summary": "Consensys launched a technology stack enabling banks to route and settle transactions across independent ledgers without moving assets.",
+    "published": "2026-11-03T08:56:07+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CoinDesk",
+    "title": "Bitcoin’s latest chart signal looks a lot like the ones before its big crashes",
+    "link": "https://www.coindesk.com/markets/2026/11/03/bitcoin-s-price-chart-is-flashing-a-red-signal",
+    "summary": "The Guppy Multiple Moving Average bands signal a bearish momentum, even as seasonality and post-midterm history lean bullish.",
+    "published": "2026-11-03T08:50:56+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
+    "source": "Cointelegraph",
+    "title": "ARK buys $17M in Coinbase, Circle shares while trimming Bullish",
+    "link": "https://cointelegraph.com/news/ark-buys-coinbase-circle-trims-bullish?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "ARK Invest added Coinbase and Circle shares across two trading sessions while selling about $8 million in Bullish as crypto stocks declined.",
+    "published": "2026-11-03T08:35:13+00:00",
+    "regulatory": false,
+    "institutional": true,
+    "category": "sentiment"
+  },
+  {
+    "source": "U.Today",
+    "title": "Near Protocol (NEAR) Super-Rally Is Over: Almost 50% Is Gone",
+    "link": "https://u.today/near-protocol-near-super-rally-is-over-almost-50-is-gone",
+    "summary": "NEAR has dropped sharply from its recent rally high, and the question whether key support will hold is now the most relevant one.",
+    "published": "2026-11-03T08:30:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "North Korea Denies Responsibility for $6.3B Binance Hack",
+    "link": "https://cryptopotato.com/north-korea-denies-responsibility-for-6-3b-binance-hack/",
+    "summary": "North Korea is questioning whether the US could benefit financially from recovering the stolen crypto through its strategic reserve.",
+    "published": "2026-11-03T08:28:27+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Cointelegraph",
+    "title": "Kraken restricts accounts amid suspected $133M EU crypto theft",
+    "link": "https://cointelegraph.com/news/zachxbt-eu-crypto-theft-133m-alleged-cover-up?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "Crypto.com also took steps to block funds tied to the suspected theft, while Kraken said its systems and customer accounts were not compromised.",
+    "published": "2026-11-03T08:18:22+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "Dollar stablecoin use stayed elevated after capital controls ended, new research suggests",
+    "link": "https://cryptoslate.com/dollar-stablecoin-use-stayed-elevated-after-capital-controls-ended-new-research-suggests/",
+    "summary": "Historical estimates show no detectable reversal after restrictions are lifted, while the monetary-policy consequences remain unresolved. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+    "published": "2026-11-03T08:00:58+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "NewsBTC",
+    "title": "Tria Lets AI Agents Trade Perpetuals With Restricted Keys",
+    "link": "https://www.newsbtc.com/news/tria-lets-ai-agents-trade-perpetuals-with-restricted-keys/",
+    "summary": "Tria’s new agentic trading feature separates withdrawal authority from trading access, while its documentation makes clear that connected trades use real markets.",
+    "published": "2026-11-03T08:00:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "U.Today",
+    "title": "Coinbase Data Shows XRP May See 8.7% Price Move",
+    "link": "https://u.today/coinbase-data-shows-xrp-may-see-87-price-move",
+    "summary": "Coinbase options data suggests XRP could see an 8.7% price swing by Nov. 8, potentially pushing its price toward $1.36 or $1.14.",
+    "published": "2026-11-03T07:58:39+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "Cointelegraph",
+    "title": "BlackRock’s IBIT sees biggest Bitcoin ETF outflows since June",
+    "link": "https://cointelegraph.com/markets/blackrocks-ibit-biggest-bitcoin-etf-outflow-june?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "BlackRock’s Bitcoin ETF shed $405.3 million on Monday as US spot Bitcoin funds opened November with nearly $399 million in net outflows.",
+    "published": "2026-11-03T07:49:51+00:00",
+    "regulatory": true,
+    "institutional": true,
+    "category": "event"
+  },
+  {
+    "source": "NewsBTC",
+    "title": "DMG Says Client Assets Are Secure and Highlights Layered Transaction Controls",
+    "link": "https://www.newsbtc.com/news/dmg-says-client-assets-are-secure-and-highlights-layered-transaction-controls/",
+    "summary": "DMG’s October 31 statement separates its reported asset safety from the wider question of how approval controls limit a compromised device’s authority.",
+    "published": "2026-11-03T07:00:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "Solana study finds wider spreads outside aggregators at five of six sampled pools",
+    "link": "https://cryptoslate.com/solana-study-finds-wider-spreads-outside-aggregators-at-five-of-six-sampled-pools/",
+    "summary": "A September comparison found wider non-aggregator round-trip spreads at five of six venues, without proving current per-swap savings. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+    "published": "2026-11-03T06:50:46+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "Analyst Explains What a Democratic Midterm Sweep Means for Crypto",
+    "link": "https://cryptopotato.com/analyst-explains-what-a-democratic-midterm-sweep-means-for-crypto/",
+    "summary": "A Democratic win would only move sentiment, one analyst argues, because crypto market rules in the US Congress are a bipartisan effort.",
+    "published": "2026-11-03T06:44:18+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
     "source": "U.Today",
     "title": "Binance Restores Withdrawals for Ripple's RLUSD Stablecoin",
     "link": "https://u.today/binance-restores-withdrawals-for-ripples-rlusd-stablecoin",
     "summary": "Binance has restored withdrawals for Ripple's RLUSD stablecoin on Ethereum as the exchange gradually resumes services following its massive $6.3 billion hack.",
     "published": "2026-11-03T06:11:49+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "NewsBTC",
+    "title": "Kraken Adds Native USDG Transfers on Arbitrum One",
+    "link": "https://www.newsbtc.com/news/kraken-adds-native-usdg-transfers-on-arbitrum-one/",
+    "summary": "Kraken added USDG deposits and withdrawals on Arbitrum One on October 29, extending funding access for the stablecoin already traded on the exchange.",
+    "published": "2026-11-03T06:00:00+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -30,16 +790,6 @@
     "category": "event"
   },
   {
-    "source": "CoinDesk",
-    "title": "Arbitrum’s council moved $30 million of Binance hack funds without the hacker’s key",
-    "link": "https://www.coindesk.com/tech/2026/11/03/arbitrum-s-council-moved-usd30-million-of-binance-hack-funds-without-the-hacker-s-key",
-    "summary": "A 12-person committee briefly rewrote one of Arbitrum’s core contracts to spend from an address it held no key for, then put the code back. It’s the second time this year.",
-    "published": "2026-11-03T05:25:12+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "Cointelegraph",
     "title": "Crypto.com to withdraw Hong Kong consumer app citing regulatory changes",
     "link": "https://cointelegraph.com/news/crypto-com-hong-kong-app-shutdown-license-pending?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -60,24 +810,14 @@
     "category": "event"
   },
   {
-    "source": "CoinDesk",
-    "title": "Bitcoin drops below $77,000 as chip rout deepens ahead of U.S. midterm vote",
-    "link": "https://www.coindesk.com/markets/2026/11/03/bitcoin-drops-below-usd77-000-as-chip-rout-deepens-ahead-of-u-s-midterm-vote",
-    "summary": "ZEC tumbled nearly 10% and BNB fell under $700 as the Nasdaq 100 slid into a correction, dragging Asian stocks lower.",
-    "published": "2026-11-03T04:48:17+00:00",
+    "source": "NewsBTC",
+    "title": "Bitcoin Faces a U.S. Jobs Data Week With November 6 Payrolls in Focus",
+    "link": "https://www.newsbtc.com/news/bitcoin-faces-a-u-s-jobs-data-week-with-november-6-payrolls-in-focus/",
+    "summary": "U.S. labor releases on November 3 and 6 will test the rates outlook. For Bitcoin, the details and market reaction matter more than one headline.",
+    "published": "2026-11-03T05:00:00+00:00",
     "regulatory": false,
     "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoSlate",
-    "title": "Ethena’s trading team can approve borrowers of assets backing USDe under new rules",
-    "link": "https://cryptoslate.com/ethenas-trading-team-can-approve-borrowers-of-assets-backing-usde-under-new-rules/",
-    "summary": "The October 29 framework retains committee oversight but specifies no numerical lending ceiling, and its first use remains unverified. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-    "published": "2026-11-03T04:30:59+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
+    "category": "sentiment"
   },
   {
     "source": "Cointelegraph",
@@ -85,6 +825,16 @@
     "link": "https://cointelegraph.com/markets/australia-lifts-rates-as-ai-boom-energy-costs-fuel-inflation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "summary": "The Reserve Bank of Australia raised its benchmark rate to 4.85% on rising technology costs from AI investment and higher energy prices.",
     "published": "2026-11-03T04:14:32+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "NewsBTC",
+    "title": "Circle’s November 4 Results Will Put USDC Growth and Reserve Economics in Focus",
+    "link": "https://www.newsbtc.com/news/circle-s-november-4-results-will-put-usdc-growth-and-reserve-economics-in-focus/",
+    "summary": "Circle reports Q3 results on November 4. Average balances, reserve returns and distribution costs will be central to interpreting the numbers.",
+    "published": "2026-11-03T04:00:00+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -100,16 +850,6 @@
     "category": "event"
   },
   {
-    "source": "CryptoSlate",
-    "title": "Kinetic’s $24 million XRP-linked lending market showed a 0.04% base rate before rewards",
-    "link": "https://cryptoslate.com/kinetics-24-million-xrp-linked-lending-market-showed-a-0-04-base-rate-before-rewards/",
-    "summary": "Kinetic’s November 1 snapshots separate modest FXRP loan demand from collateral use and incentive-supported returns. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-    "published": "2026-11-03T03:20:37+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "Cointelegraph",
     "title": "Binance begins second withdrawal phase, exchange outflows slow",
     "link": "https://cointelegraph.com/news/binance-begins-second-withdrawal-phase-following-record-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -120,21 +860,21 @@
     "category": "event"
   },
   {
-    "source": "The Block",
-    "title": "Ark Invest buys $3.4 million in Coinbase, adds Circle and Robinhood as stocks trade lower",
-    "link": "https://www.theblock.co/news/business/2026-11-02-ark-invest-buys-coinbase-circle-robinhood-432352",
-    "summary": "Cathie Wood's Ark Invest bought $3.4 million of Coinbase shares, $2.6 million of Circle, and $645,820 of Robinhood on Monday.",
-    "published": "2026-11-03T02:57:33+00:00",
+    "source": "NewsBTC",
+    "title": "Spiko Reports $2.38B in SAFO as Tokenized Cash Funds Reach Business Treasuries",
+    "link": "https://www.newsbtc.com/news/spiko-reports-2-38b-in-safo-as-tokenized-cash-funds-reach-business-treasuries/",
+    "summary": "Spiko’s October update puts SAFO at $2.38 billion. The more useful question is how tokenized shares fit companies’ everyday cash needs.",
+    "published": "2026-11-03T03:00:00+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
   },
   {
-    "source": "CryptoSlate",
-    "title": "Binance can cut a winning Bitcoin hedge even when customer assets are backed",
-    "link": "https://cryptoslate.com/binance-can-cut-a-winning-bitcoin-hedge-even-when-customer-assets-are-backed/",
-    "summary": "Binance says only surplus futures reserves were reallocated, while ADL rules can still reduce an opposing profitable position. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-    "published": "2026-11-03T02:10:33+00:00",
+    "source": "The Block",
+    "title": "Ark Invest buys $3.4 million in Coinbase, adds Circle and Robinhood as stocks trade lower",
+    "link": "https://www.theblock.co/news/business/2026-11-02-ark-invest-buys-coinbase-circle-robinhood-432352",
+    "summary": "Cathie Wood's Ark Invest bought $3.4 million of Coinbase shares, $2.6 million of Circle, and $645,820 of Robinhood on Monday.",
+    "published": "2026-11-03T02:57:33+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -160,16 +900,6 @@
     "category": "event"
   },
   {
-    "source": "CryptoSlate",
-    "title": "Tom Lee calls Ethereum’s 4% post-hack fall bullish",
-    "link": "https://cryptoslate.com/tom-lee-calls-ethereums-4-post-hack-fall-bullish-but-the-bybit-comparison-has-a-catch/",
-    "summary": "Tom Lee believes crypto's muted reaction to Binance's $6.3 billion hack is another sign that a bull market is underway. The BitMine chairman pointed to Ethereum's roughly 4% decline following the Oct. 29 theft, which was more than four times larger than the $1.5 billion stolen from Bybit in February 2025. Ethereum fell 8% on… Read the full story on CryptoSlate Understand the crypto stories that ma",
-    "published": "2026-11-03T01:05:23+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "sentiment"
-  },
-  {
     "source": "NewsBTC",
     "title": "Ripple and Water.org Expand Stablecoin Work as Aid Payments Move Faster",
     "link": "https://www.newsbtc.com/news/ripple-and-water-org-expand-stablecoin-work-as-aid-payments-move-faster/",
@@ -185,16 +915,6 @@
     "link": "https://thedefiant.io/news/hacks/chainalysis-puts-mercado-bitcoin-hack-at-49-million-across-17-chains",
     "summary": "Mercado Bitcoin separately says $11 million has been blocked and promises no customer losses, while access to services remains suspended.",
     "published": "2026-11-03T00:56:08+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoSlate",
-    "title": "Binance warns of second wave of crypto theft as $6.3 billion hack recovery continues",
-    "link": "https://cryptoslate.com/binance-warns-of-second-wave-of-crypto-theft-as-6-3-billion-hack-recovery-continues/",
-    "summary": "The November 2 update says the full proof is complete, while replenishment remains about 95% and broader token coverage is planned. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-    "published": "2026-11-03T00:30:20+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -220,51 +940,11 @@
     "category": "sentiment"
   },
   {
-    "source": "NewsBTC",
-    "title": "Taurus Adds Stellar Smart-Contract Assets to Institutional Custody and Issuance",
-    "link": "https://www.newsbtc.com/news/taurus-adds-stellar-smart-contract-assets-to-institutional-custody-and-issuance/",
-    "summary": "Taurus says its Stellar integration now supports smart-contract assets, extending the tasks institutions can perform through existing custody controls.",
-    "published": "2026-11-03T00:00:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "Decrypt",
     "title": "Claude Fable 5.5, GPT 6.2 Astra Could Be Right Around the Corner, Leaks Suggest",
     "link": "https://decrypt.co/382390/claude-mythos-fable-5-5-gpt-6-2-astra-leaks",
     "summary": "Users say Claude is routing some requests to a stronger unreleased model, a Mythos 5.5 label appeared in Anthropic’s site code, and OpenAI appears to be testing GPT-6.2 Astra.",
     "published": "2026-11-02T23:10:25+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "Cointelegraph",
-    "title": "North Korea denies role in $6.3B Binance hack, points finger at US",
-    "link": "https://cointelegraph.com/news/north-korea-denies-role-in-63b-binance-hack-points-finger-at-us?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "summary": "Pyongyang has pushed back against the FBI’s attribution of the Binance attack, with Kim Yo Jong calling the US allegations politically motivated.",
-    "published": "2026-11-02T23:07:07+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoSlate",
-    "title": "Tether freezes $4.5 million as Mercado Bitcoin hacker holds $46 million in crypto",
-    "link": "https://cryptoslate.com/tether-freezes-4-5-million-as-mercado-bitcoin-hacker-holds-46-million-in-crypto/",
-    "summary": "The exchange said restoration work was continuing and released tracking addresses, without giving a reopening timetable or financial amount. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-    "published": "2026-11-02T23:00:12+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "NewsBTC",
-    "title": "Airtm and BVNK Plan Wallet Payments for Merchants in Emerging Markets",
-    "link": "https://www.newsbtc.com/news/airtm-and-bvnk-plan-wallet-payments-for-merchants-in-emerging-markets/",
-    "summary": "Airtm’s planned BVNK integration connects wallet balances to merchant payments, testing whether digital dollars can move beyond storage and transfers.",
-    "published": "2026-11-02T23:00:00+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -290,26 +970,6 @@
     "category": "event"
   },
   {
-    "source": "CryptoSlate",
-    "title": "Strategy’s deployable cash falls 45% as buybacks outpace Bitcoin purchases",
-    "link": "https://cryptoslate.com/strategys-deployable-cash-falls-45-as-buybacks-outpace-bitcoin-purchases/",
-    "summary": "Strategy‘s deployable USD Cash fell 45.3% during the week ended Nov. 1, from $242 million to $133 million, as preferred-stock buybacks exceeded its Bitcoin purchases. That balance is available for broader treasury uses. Strategy also held a separate $4.79 billion USD Reserve intended for preferred-stock dividends and debt interest. The company bought 811 Bitcoin between… Read the full story on Cry",
-    "published": "2026-11-02T22:25:25+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "Cointelegraph",
-    "title": "New Jersey drops Coinbase staking order ahead of crypto’s midterm test",
-    "link": "https://cointelegraph.com/news/new-jersey-coinbase-staking?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "summary": "New Jersey lifted its staking ban and dropped a $5 million penalty, clearing the way for Coinbase to restore staking access for users in the US state.",
-    "published": "2026-11-02T22:22:30+00:00",
-    "regulatory": false,
-    "institutional": true,
-    "category": "event"
-  },
-  {
     "source": "Decrypt",
     "title": "Bitcoin Firm Strive Climbs Up the Treasury Ranks With Another Big Buy",
     "link": "https://decrypt.co/382385/bitcoin-firm-strive-treasury-ranks-another-big-buy",
@@ -320,61 +980,11 @@
     "category": "event"
   },
   {
-    "source": "NewsBTC",
-    "title": "WalletConnect Adds Stellar Payments as Bermuda Ticketing Rollout Targets 2027",
-    "link": "https://www.newsbtc.com/news/walletconnect-adds-stellar-payments-as-bermuda-ticketing-rollout-targets-2027/",
-    "summary": "WalletConnect Pay now supports Stellar, while its planned Bermuda ticketing integration is expected in the second quarter of 2027.",
-    "published": "2026-11-02T22:00:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "Cointelegraph",
-    "title": "AI poses greater threat to Bitcoin than quantum computing, Swan founder says",
-    "link": "https://cointelegraph.com/news/ai-hackers-threat-bitcoin-quantum-computing-swan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "summary": "The Swan Bitcoin founder warned that hackers are using large language models to exploit security flaws with just a few prompts.",
-    "published": "2026-11-02T21:54:41+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoSlate",
-    "title": "Vitalik is making private Ethereum payments without a crypto website",
-    "link": "https://cryptoslate.com/vitalik-is-making-private-ethereum-payments-without-a-crypto-website/",
-    "summary": "Retaining local code can reduce repeated website delivery while leaving package updates, signatures and submission as separate trust decisions. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-    "published": "2026-11-02T21:40:13+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CoinDesk",
-    "title": "Big crypto wants the one thing it can’t buy: your vote",
-    "link": "https://www.coindesk.com/opinion/2026/11/02/big-crypto-wants-the-one-thing-it-can-t-buy-your-vote",
-    "summary": "Our loyalty has been to the technology. This election, the trap is to let the biggest intermediaries claim it for themselves, argues Berkeley Law lecturer Hermine Wong.",
-    "published": "2026-11-02T21:38:53+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "The Defiant",
     "title": "North Korea Rejects FBI Blame for $6.3 Billion Binance Hack",
     "link": "https://thedefiant.io/news/hacks/north-korea-rejects-fbi-blame-for-6-3-billion-binance-hack",
     "summary": "Kim Yo Jong called the US accusation “absurd rhetoric,” while Chainalysis cited stolen funds mixing with proceeds of an earlier exploit.",
     "published": "2026-11-02T21:25:45+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "Cointelegraph",
-    "title": "Crypto investigators flag suspected $106M theft, $786K Solana bot drain",
-    "link": "https://cointelegraph.com/news/zachxbt-flags-suspected-106m-crypto-theft-as-solana-bot-faces-possible-786k-drain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "summary": "A European entity may have lost $106 million from exchange accounts, while a wallet associated with a Solana arbitrage bot may have lost another $786,000.",
-    "published": "2026-11-02T21:16:24+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -410,31 +1020,11 @@
     "category": "event"
   },
   {
-    "source": "NewsBTC",
-    "title": "Hashdex Adds Jane Street to Crypto Index ETF Authorized Participants",
-    "link": "https://www.newsbtc.com/news/hashdex-adds-jane-street-to-crypto-index-etf-authorized-participants/",
-    "summary": "An October 30 prospectus supplement adds Jane Street Capital to Hashdex’s authorized participants, expanding its listed creation-and-redemption network.",
-    "published": "2026-11-02T21:00:00+00:00",
-    "regulatory": true,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "U.Today",
     "title": "Lisk Officially Shuts Down Blockchain After 10 Years",
     "link": "https://u.today/lisk-officially-shuts-down-blockchain-after-10-years",
     "summary": "Veteran blockchain project Lisk has officially shut down its network after 10 years, announcing a 5.23 million LSK token burn as it shifts its focus to a new financial platform for businesses.",
     "published": "2026-11-02T20:56:19+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoSlate",
-    "title": "Arthur Hayes wants to hedge AI compute bills, but FLOP token swings could change the cost",
-    "link": "https://cryptoslate.com/arthur-hayes-wants-to-hedge-ai-compute-bills-but-flop-token-swings-could-change-the-cost/",
-    "summary": "His proposed dollar-settled contracts track a FLOP-priced benchmark, leaving inference buyers to match token, model and rollover exposure. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-    "published": "2026-11-02T20:40:01+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -448,16 +1038,6 @@
     "regulatory": false,
     "institutional": false,
     "category": "event"
-  },
-  {
-    "source": "Cointelegraph",
-    "title": "Coinbase hit with 50% price target cut as post-earnings rout deepens",
-    "link": "https://cointelegraph.com/news/morgan-stanley-cuts-coinbase-target-to-120-as-earnings-recovery-outlook-weakens?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "summary": "Slowing trading activity and fallout from the Binance hack are clouding Coinbase’s revenue prospects, prompting Morgan Stanley to lower its rating on the stock.",
-    "published": "2026-11-02T20:22:23+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "sentiment"
   },
   {
     "source": "The Block",
@@ -476,26 +1056,6 @@
     "summary": "The upgrade introduces a default 5% gas reservation for eligible payments, while token listings and CAS20 activation require separate governance steps.",
     "published": "2026-11-02T20:07:33+00:00",
     "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "The Defiant",
-    "title": "Akash Stakers Approve Move From Cosmos to Solana",
-    "link": "https://thedefiant.io/news/blockchains/akash-stakers-approve-move-from-cosmos-to-solana",
-    "summary": "AKT can launch on Solana after two audits, but moving the compute marketplace and ending staking rewards still require a separate cutover vote.",
-    "published": "2026-11-02T20:04:42+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "NewsBTC",
-    "title": "Solmate Discloses 1.26M SOL Custody Positions and Says It Has No Binance Exposure",
-    "link": "https://www.newsbtc.com/news/solmate-discloses-1-26m-sol-custody-positions-and-says-it-has-no-binance-exposure/",
-    "summary": "Solmate says its 1.26 million SOL were held with Kraken, Anchorage Digital or BitGo, offering a dated snapshot of treasury custody.",
-    "published": "2026-11-02T20:00:00+00:00",
-    "regulatory": true,
     "institutional": false,
     "category": "event"
   },
@@ -530,71 +1090,11 @@
     "category": "event"
   },
   {
-    "source": "The Defiant",
-    "title": "NEAR Governance Approves Plan to Lower Issuance Cap to 1.6%",
-    "link": "https://thedefiant.io/news/tokens/near-governance-approves-plan-to-lower-issuance-cap-to-1-6",
-    "summary": "The 24-month reduction would lower staking rewards, but Security Council ratification and a validator-adopted protocol upgrade still stand between the vote and activation.",
-    "published": "2026-11-02T19:37:34+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "The Defiant",
-    "title": "Mercado Bitcoin Breach Wallet Sends 2,800 ETH Onward",
-    "link": "https://thedefiant.io/news/hacks/mercado-bitcoin-breach-wallet-sends-2-800-eth-onward",
-    "summary": "Other transfers moved 2.24 million USDC and 1.7 million TRX, while deposits and withdrawals remained suspended.",
-    "published": "2026-11-02T19:35:40+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "Cointelegraph",
-    "title": "Bitcoin risks drop below $76K as 7% oil slide fails to spark BTC price rally",
-    "link": "https://cointelegraph.com/markets/bitcoin-risks-sub-76k-drop-as-7-fall-in-oil-fails-to-spark-btc-price-rally?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "summary": "Bitcoin fell around 1.7% on Monday as stocks pared early gains fueled by hopes of a diplomatic resolution to the US-Iran war.",
-    "published": "2026-11-02T19:27:58+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "sentiment"
-  },
-  {
     "source": "The Block",
     "title": "DTCC’s tokenization launch could accelerate adoption and boost Securitize, StoneX says",
     "link": "https://www.theblock.co/news/markets/2026-11-02-stonex-dtcc-tokenization-validates-securitize-secz-432331",
     "summary": "StoneX says DTCC's tokenization service validates Securitize's model, reiterating its buy rating on SECZ as the firm expands tokenized stocks.",
     "published": "2026-11-02T19:15:48+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "The Defiant",
-    "title": "New Jersey Rescinds Coinbase Staking Order, Clearing Path for Restart",
-    "link": "https://thedefiant.io/news/regulation/new-jersey-rescinds-coinbase-staking-order-clearing-path-for-restart",
-    "summary": "The state withdrew its $5 million penalty and staking restrictions without prejudice; Coinbase says customer access will return ‘very soon.’",
-    "published": "2026-11-02T19:11:35+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "Cointelegraph",
-    "title": "Mercado Bitcoin wallets show post-hack transfers after $46M theft",
-    "link": "https://cointelegraph.com/news/mercado-bitcoin-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "summary": "Brazil’s exchange Mercado Bitcoin paused deposits and withdrawals after a security breach, saying customer funds and data were safe.",
-    "published": "2026-11-02T19:05:35+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "NewsBTC",
-    "title": "Devcon Opens in Mumbai This Week With Ethereum Builders Facing a Delivery Test",
-    "link": "https://www.newsbtc.com/news/devcon-opens-in-mumbai-this-week-with-ethereum-builders-facing-a-delivery-test/",
-    "summary": "Devcon runs November 3–6 in Mumbai. The useful signal will be which research and product ideas become testable work after the event.",
-    "published": "2026-11-02T19:00:00+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -630,36 +1130,6 @@
     "category": "event"
   },
   {
-    "source": "The Defiant",
-    "title": "SEC Staff Clarifies When Token Voters Are Not a 'Central Party'",
-    "link": "https://thedefiant.io/news/regulation/sec-staff-clarifies-when-token-voters-are-not-a-central-party",
-    "summary": "The guidance distinguishes independent governance participation from coordinated control and identifies unilateral powers that amount to overseeing a crypto system.",
-    "published": "2026-11-02T18:28:35+00:00",
-    "regulatory": true,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "The Defiant",
-    "title": "How to Read Crypto Funding Rate Charts Across Exchanges",
-    "link": "https://thedefiant.io/news/markets/how-to-read-crypto-funding-rate-charts-across-exchanges",
-    "summary": "A smaller percentage can imply the same daily funding rate when payment intervals differ. Heatmap colors describe an aggregate, not a count of bullish or bearish traders.",
-    "published": "2026-11-02T18:22:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "sentiment"
-  },
-  {
-    "source": "The Defiant",
-    "title": "Horizen’s Nov. 4 Bridge Cutoff Leaves USDC.e Outside DAO Recovery Plan",
-    "link": "https://thedefiant.io/news/blockchains/horizen-s-nov-4-bridge-cutoff-leaves-usdc-e-outside-dao-recovery-plan",
-    "summary": "The DAO plans to return remaining ZEN, including staking rewards, and eligible ETH balances on Base in the second half of November.",
-    "published": "2026-11-02T18:20:26+00:00",
-    "regulatory": false,
-    "institutional": true,
-    "category": "event"
-  },
-  {
     "source": "U.Today",
     "title": "NEAR Intents Head Names 3 Survival Rules for Crypto Wallets",
     "link": "https://u.today/near-intents-head-names-3-survival-rules-for-crypto-wallets",
@@ -680,41 +1150,11 @@
     "category": "event"
   },
   {
-    "source": "CoinDesk",
-    "title": "Bitcoin traders eye post-election rally as exchange outflows point to supply squeeze",
-    "link": "https://www.coindesk.com/markets/2026/11/02/bitcoin-traders-eye-post-election-rally-as-exchange-outflows-point-to-supply-squeeze",
-    "summary": "Bulls are watching short positions, exchange withdrawals and key price levels for signs of a rebound after the midterms.",
-    "published": "2026-11-02T18:13:57+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "sentiment"
-  },
-  {
     "source": "CryptoPotato",
     "title": "Mercado Bitcoin Halts Withdrawals After Security Incident as Hypernative Flags $40M Outflows",
     "link": "https://cryptopotato.com/mercado-bitcoin-halts-withdrawals-after-security-incident-as-hypernative-flags-40m-outflows/",
     "summary": "Tether has blacklisted two more of the attacker's addresses, on Ethereum and Tron, freezing the USDT sitting inside them.",
     "published": "2026-11-02T18:01:52+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "Cointelegraph",
-    "title": "Animoca Brands clears final hurdle for Abu Dhabi fund management",
-    "link": "https://cointelegraph.com/news/animoca-brands-expands-asset-management-business-with-abu-dhabi-approval?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "summary": "The former mobile games company is building out its fund management business in Abu Dhabi as it targets institutional demand for stablecoins and tokenized assets.",
-    "published": "2026-11-02T18:00:16+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "NewsBTC",
-    "title": "Horizen Holders Face November 4 Bridge Cutoff Before L3 Wind-Down",
-    "link": "https://www.newsbtc.com/news/horizen-holders-face-november-4-bridge-cutoff-before-l3-wind-down/",
-    "summary": "Horizen has set a November 4 bridge cutoff. Its recovery plan treats ZEN, ETH and bridged USDC differently as the ecosystem moves to Base.",
-    "published": "2026-11-02T18:00:00+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -740,61 +1180,11 @@
     "category": "event"
   },
   {
-    "source": "CryptoPotato",
-    "title": "3 Signals That Could Shape Bitcoin’s Next Move After Binance Hack",
-    "link": "https://cryptopotato.com/3-signals-that-could-shape-bitcoins-next-move-after-binance-hack/",
-    "summary": "The hacker moving the stolen funds could create localized selling pressure while also making their recovery and attribution harder.",
-    "published": "2026-11-02T17:29:02+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CoinDesk",
-    "title": "EU entity suspected of losing $106 million from crypto exchange accounts, ZachXBT says",
-    "link": "https://www.coindesk.com/tech/2026/11/02/eu-entity-suspected-of-losing-usd106-million-from-crypto-exchange-accounts-zachxbt-says",
-    "summary": "The unidentified attacker moved funds through ether, instant exchanges and Monero, but the victim and affected exchanges remain unknown.",
-    "published": "2026-11-02T17:21:04+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "Decrypt",
     "title": "Elon Musk Mocks Sam Altman Over Claim Home PCs Are Wasting RAM",
     "link": "https://decrypt.co/382345/elon-musk-mocks-sam-altman-over-claim-home-pcs-are-wasting-ram",
     "summary": "The OpenAI CEO said it's \"quite terrible\" for DRAM to sit largely idle in personal computers while AI data centers face a supply crunch.",
     "published": "2026-11-02T17:07:28+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "The Defiant",
-    "title": "Researcher Puts Mercado Bitcoin Freezes Near $7 Million",
-    "link": "https://thedefiant.io/news/hacks/researcher-puts-mercado-bitcoin-freezes-near-7-million",
-    "summary": "Onchain records show Circle freezing USDC on Polygon and Paxos freezing gold tokens on Ethereum, while exchange withdrawals remain suspended.",
-    "published": "2026-11-02T17:07:05+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "NewsBTC",
-    "title": "Base Sets November 5 Denim Activation as Apps Prepare for Native 200ms Blocks",
-    "link": "https://www.newsbtc.com/news/base-sets-november-5-denim-activation-as-apps-prepare-for-native-200ms-blocks/",
-    "summary": "Base plans to activate Denim on November 5. The upgrade changes block handling, giving node operators and applications separate readiness tasks.",
-    "published": "2026-11-02T17:00:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoPotato",
-    "title": "Over $106M in Crypto Stolen From EU Entity? ZachXBT Tracks Attacker’s Laundering Trail",
-    "link": "https://cryptopotato.com/over-106m-in-crypto-stolen-from-eu-entity-zachxbt-tracks-attackers-laundering-trail/",
-    "summary": "ZachXBT said that multiple laundering indicators give him high confidence that the North Korean threat actor Lazarus Group is not responsible.",
-    "published": "2026-11-02T16:56:04+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -810,16 +1200,6 @@
     "category": "event"
   },
   {
-    "source": "The Defiant",
-    "title": "NYSE Taps Broadridge for Onchain Shareholder Voting",
-    "link": "https://thedefiant.io/converge/tradfi-and-fintech/nyse-taps-broadridge-for-onchain-shareholder-voting",
-    "summary": "Token holders would use wallets, broker interfaces or ProxyVote, while the planned trading venue still awaits regulatory approval.",
-    "published": "2026-11-02T16:48:54+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "Decrypt",
     "title": "Brazil's Largest Exchange Mercado Bitcoin Halts Withdrawals After $40 Million Hack",
     "link": "https://decrypt.co/382341/mercado-bitcoin-halts-withdrawals-40-million-hack",
@@ -828,46 +1208,6 @@
     "regulatory": false,
     "institutional": false,
     "category": "event"
-  },
-  {
-    "source": "The Defiant",
-    "title": "SBI Plans $100 Million Investment in US Digital Bank Erebor",
-    "link": "https://thedefiant.io/converge/cefi/sbi-plans-100-million-investment-in-us-digital-bank-erebor",
-    "summary": "Erebor held more than $7 billion in deposits in September, SBI says, and supports blockchain settlement outside banking hours.",
-    "published": "2026-11-02T16:44:33+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CoinDesk",
-    "title": "NYSE tokenized stock plans take shape as four more transfer agents join",
-    "link": "https://www.coindesk.com/business/2026/11/02/nyse-taps-wall-street-giant-broadridge-to-bring-shareholder-voting-onto-blockchain-rails",
-    "summary": "Broadridge, Computershare, Equiniti and Superstate join the exchange's planned blockchain market, bringing shareholder records and voting services onchain.",
-    "published": "2026-11-02T16:41:46+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoPotato",
-    "title": "Ripple Price Analysis: What Happens to XRP If $1.2 Support Is Lost?",
-    "link": "https://cryptopotato.com/ripple-price-analysis-what-happens-to-xrp-if-1-2-support-is-lost/",
-    "summary": "XRP is attempting to stabilize around $1.25 after briefly slipping toward $1.20 last week, extending the decline that has been unfolding since late September. The token is now back inside a key support zone, where the buyers’ response would likely decide whether the correction pauses or extends toward lower demand. Ripple Price Analysis: The USDT […]",
-    "published": "2026-11-02T16:26:59+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "sentiment"
-  },
-  {
-    "source": "Decrypt",
-    "title": "Bitmine Buys More Ethereum as Tom Lee Calls the Binance Hack Bullish",
-    "link": "https://decrypt.co/382340/bitmine-buys-more-ethereum-tom-lee-binance-hack-bullish",
-    "summary": "The chairman laid out six reasons the market’s “muted” 4% ETH drop after the record Binance theft shows crypto is “increasingly resilient,” as the firm’s stash neared its 5% supply goal.",
-    "published": "2026-11-02T16:23:24+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "sentiment"
   },
   {
     "source": "U.Today",
@@ -890,86 +1230,6 @@
     "category": "event"
   },
   {
-    "source": "CryptoPotato",
-    "title": "Bitcoin Price Analysis: Is the September Rally Structure in Danger as BTC Hangs by a Thread?",
-    "link": "https://cryptopotato.com/bitcoin-price-analysis-is-the-september-rally-structure-in-danger-as-btc-hangs-by-a-thread/",
-    "summary": "Bitcoin is attempting to stabilize around $78K after posting its fourth straight weekly loss, with sentiment weighed down by the record Binance hack and a $643.3 million withdrawal from U.S. spot Bitcoin ETFs on Friday. The asset now sits inside a key demand zone that could decide whether the September rally structure survives. Meanwhile, the […]",
-    "published": "2026-11-02T16:06:43+00:00",
-    "regulatory": true,
-    "institutional": false,
-    "category": "sentiment"
-  },
-  {
-    "source": "CoinDesk",
-    "title": "Brazil’s Mercado Bitcoin halts withdrawals after $40 million drained across 10 chains",
-    "link": "https://www.coindesk.com/business/2026/11/02/brazil-s-mercado-bitcoin-halts-withdrawals-after-usd40-million-drained-across-10-chains",
-    "summary": "The Brazilian exchange paused deposits and withdrawals after wallets on at least 10 chains were emptied, days after the $6.3 billion Binance hack.",
-    "published": "2026-11-02T15:53:29+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "U.Today",
-    "title": "Solana Officially Scores 1,000 Days Without Outage",
-    "link": "https://u.today/solana-officially-scores-1000-days-without-outage",
-    "summary": "Solana has officially reached 1,000 days without a network-wide outage, marking a major turnaround for a blockchain once notorious for frequent disruptions and highlighting significant improvements in network reliability.",
-    "published": "2026-11-02T15:32:25+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CoinDesk",
-    "title": "Nvidia, Costco and Nike join pushback against OKX–ICE tokenized stock plans",
-    "link": "https://www.coindesk.com/business/2026/11/02/nvidia-costco-and-nike-join-pushback-against-okx-ice-tokenized-stock-plans",
-    "summary": "Nearly 70% of the companies initially picked for trading have opted out, while 19 firms including Apple, Tesla and Amazon have no disclosed objection as the 30-day response window nears its end.",
-    "published": "2026-11-02T15:26:43+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoPotato",
-    "title": "Ethereum (ETH) Whales Buy Like ‘Crazy:’ Price Rally Incoming?",
-    "link": "https://cryptopotato.com/ethereum-eth-whales-buy-like-crazy-price-rally-incoming/",
-    "summary": "The latest price pullback does not appear to have scared certain whales, which have instead increased their exposure to ETH.",
-    "published": "2026-11-02T15:21:15+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "sentiment"
-  },
-  {
-    "source": "CoinDesk",
-    "title": "Anthropic swings to third quarter operating loss as compute costs surge ahead of IPO",
-    "link": "https://www.coindesk.com/markets/2026/11/02/anthropic-swings-to-third-quarter-operating-loss-as-compute-costs-surge-ahead-of-ipo",
-    "summary": "The Claude developer generated $17 billion in quarterly revenue, but higher computing costs resulted in a $567 million operating loss.",
-    "published": "2026-11-02T15:18:55+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "sentiment"
-  },
-  {
-    "source": "CoinDesk",
-    "title": "Standard Chartered debuts tokenized deposits in Hong Kong for corporate clients",
-    "link": "https://www.coindesk.com/business/2026/11/02/standard-chartered-debuts-tokenized-deposits-in-hong-kong-for-corporate-clients",
-    "summary": "The bank uses Hong Kong's EnsembleTX system to move deposits between participating banks around the clock, settling in central bank money.",
-    "published": "2026-11-02T15:05:24+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "U.Today",
-    "title": "Hyperliquid (HYPE) Bulls in Action Amid 703% Liquidation Imbalance",
-    "link": "https://u.today/hyperliquid-hype-bulls-in-action-amid-703-liquidation-imbalance",
-    "summary": "Hyperliquid bulls are getting flushed out of its derivatives market as long positions wiped out over the last 24 hours are over 700% bigger than liquidated short positions during the same period.",
-    "published": "2026-11-02T15:05:18+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "The Block",
     "title": "Strive inches closer to becoming second-largest public bitcoin holder after latest $10 million buy",
     "link": "https://www.theblock.co/news/business/2026-11-02-strive-inches-closer-second-largest-public-bitcoin-holder-10-million-buy-432312",
@@ -980,51 +1240,11 @@
     "category": "event"
   },
   {
-    "source": "Decrypt",
-    "title": "How T7X Is Building the Infrastructure for a New Era of Capital Markets",
-    "link": "https://decrypt.co/382147/how-t7x-is-building-the-infrastructure-for-a-new-era-of-capital-markets",
-    "summary": "T7X records ownership directly on-chain instead of wrapping assets held elsewhere, keeping token and asset under one legal framework.",
-    "published": "2026-11-02T15:01:03+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CoinDesk",
-    "title": "Crypto's Washington playbook is working. Don't abandon it now.",
-    "link": "https://www.coindesk.com/opinion/2026/11/02/crypto-s-washington-playbook-is-working-don-t-abandon-it-now",
-    "summary": "Regardless of how the midterm elections unfold or which party secures the presidency in 2028, our industry must adhere to its established playbook, writes Solana Policy Institute’s Colin McLaren.",
-    "published": "2026-11-02T15:00:09+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "U.Today",
-    "title": "Shibarium's 745% Breakout Reverses: Should SHIB Holders Be Watching?",
-    "link": "https://u.today/shibariums-745-breakout-reverses-should-shib-holders-be-watching",
-    "summary": "Shiba Inu's L2, Shibarium momentum takes U-Turn after 745% surge.",
-    "published": "2026-11-02T15:00:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "sentiment"
-  },
-  {
     "source": "Bitcoin Magazine",
     "title": "Binance Reopens Withdrawals as Hack Recovery Enters Second Week",
     "link": "https://bitcoinmagazine.com/news/binance-reopens-withdrawals-hack",
     "summary": "Bitcoin Magazine Binance Reopens Withdrawals as Hack Recovery Enters Second Week Binance has reopened withdrawals after its $6.3 billion North Korea hack, covered 95% of losses, and has reserves for the remaining 5%, with post-mortem reviews to stay open. This post Binance Reopens Withdrawals as Hack Recovery Enters Second Week first appeared on Bitcoin Magazine and is written by Micah Zimmerman .",
     "published": "2026-11-02T14:57:34+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "U.Today",
-    "title": "Binance's 2.5 Billion XRP Audit Logs Crypto Reserves Fully Backed Above 100%",
-    "link": "https://u.today/binances-25-billion-xrp-audit-logs-crypto-reserves-fully-backed-above-100",
-    "summary": "A new Proof of Reserves report reveals over 2.5 billion XRP held on Binance with safe ratios for Ripple's new RLUSD.",
-    "published": "2026-11-02T14:47:45+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -1060,36 +1280,6 @@
     "category": "event"
   },
   {
-    "source": "CoinDesk",
-    "title": "Coinbase downgraded at Morgan Stanley; price target slashed 53% on weak earnings outlook",
-    "link": "https://www.coindesk.com/markets/2026/11/02/morgan-stanley-downgrades-coinbase-slashes-price-target-53-on-weak-earnings-outlook",
-    "summary": "Analyst Michael Cyprys cited weak crypto trading activity and doubts about an earnings recovery.",
-    "published": "2026-11-02T14:29:33+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "sentiment"
-  },
-  {
-    "source": "CryptoPotato",
-    "title": "BitMine’s ETH Stash Hits 6.06 Million as Tom Lee Reaffirms Crypto Bull Market Is Still Alive",
-    "link": "https://cryptopotato.com/bitmines-eth-stash-hits-6-06-million-as-tom-lee-reaffirms-crypto-bull-market-is-still-alive/",
-    "summary": "Last week's purchase was smaller than many of the previous ones.",
-    "published": "2026-11-02T14:06:36+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CoinDesk",
-    "title": "Tokenization firm tZERO plans to go public in $350 million SPAC deal",
-    "link": "https://www.coindesk.com/business/2026/11/01/tokenization-firm-tzero-plans-to-go-public-in-usd350-million-spac-deal",
-    "summary": "The digital securities firm plans to list on NYSE American under TZRO early next year after more than a decade building blockchain-based trading infrastructure.",
-    "published": "2026-11-02T14:00:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "Bitcoin Magazine",
     "title": "Strategy (MSTR) Adds 811 Bitcoin, Strive (ASST) Follows Suit With 124 as Both Keep Stacking",
     "link": "https://bitcoinmagazine.com/news/strategy-mstr-adds-811-bitcoin-strive-too",
@@ -1100,131 +1290,11 @@
     "category": "event"
   },
   {
-    "source": "Cointelegraph",
-    "title": "Strategy spends triple its weekly Bitcoin outlay on STRC buybacks",
-    "link": "https://cointelegraph.com/news/strategy-repurchases-208m-strc-65m-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "summary": "Strategy spent $208.2 million buying back STRC preferred shares and $65.5 million on Bitcoin, while allocating $98.5 million to its USD Cash balance.",
-    "published": "2026-11-02T13:48:28+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "Decrypt",
-    "title": "Morning Minute: Binance Hack Leads to Mass Outflows While FBI Opens Probe",
-    "link": "https://decrypt.co/382332/morning-minute-the-binance-hack-leads-to-mass-outflows-while-fbi-opens-probe",
-    "summary": "Uptober was far from it, with the Binance hack punctuating a red month. Will November be better? Or will the Binance hack hang over crypto?",
-    "published": "2026-11-02T13:34:02+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "U.Today",
-    "title": "Cardano (ADA) Faces 5747% Liquidation Imbalance as Longs Get Hit in Market Selloff",
-    "link": "https://u.today/cardano-ada-faces-5747-liquidation-imbalance-as-longs-get-hit-in-market-selloff-0",
-    "summary": "1,449% liquidation imbalance puts Cardano (ADA) bulls on back foot.",
-    "published": "2026-11-02T13:30:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "Decrypt",
-    "title": "Strategy Resumes Bitcoin Buys With $66M Purchase",
-    "link": "https://decrypt.co/382333/strategy-resumes-bitcoin-buys-with-66m-purchase",
-    "summary": "The Bitcoin treasury firm also spent $208.2 million buying back its STRC preferred stock, cutting its USD Cash balance to $132.7 million.",
-    "published": "2026-11-02T13:19:36+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoPotato",
-    "title": "Strive Continues Stacking BTC But There’s a Catch",
-    "link": "https://cryptopotato.com/strive-continues-stacking-btc-but-theres-a-catch/",
-    "summary": "The company's weekly accumulations have declined sharply in terms of USD value.",
-    "published": "2026-11-02T13:16:40+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "The Block",
     "title": "‘We found room for even more orange’: Michael Saylor’s Strategy scoops up another 811 bitcoin for $65.5 million",
     "link": "https://www.theblock.co/news/business/2026-11-02-we-found-room-for-even-more-orange-michael-saylor-strategy-bitcoin-btc-432275",
     "summary": "The latest bitcoin acquisition disclosure comes after Strategy reported $19.5 billion in third quarter net income on Thursday.",
     "published": "2026-11-02T13:09:43+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoPotato",
-    "title": "Strategy Resumes Bitcoin Accumulation by Adding 810 BTC",
-    "link": "https://cryptopotato.com/strategy-resumes-bitcoin-accumulation-by-adding-810-btc/",
-    "summary": "Saylor hinted at a new BTC purchase yesterday at X.",
-    "published": "2026-11-02T13:05:44+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "U.Today",
-    "title": "Zcash (ZEC) Whale Builds $14 Million Long Ahead of 300% Speed Upgrade",
-    "link": "https://u.today/zcash-zec-whale-builds-14-million-long-ahead-of-300-speed-upgrade",
-    "summary": "A crypto whale builds a $14 million Zcash position on Hyperliquid ahead of the NU7 hard fork, betting big on the privacy coin's upcoming 300% speed upgrade.",
-    "published": "2026-11-02T12:38:15+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CoinDesk",
-    "title": "XRP Ledger set to fix flaw that could have let stablecoin partners print new tokens",
-    "link": "https://www.coindesk.com/tech/2026/11/02/xrp-ledger-set-to-fix-flaw-that-could-let-stablecoin-partners-print-new-tokens",
-    "summary": "The fix is on track for Wednesday after validator support briefly dipped and restarted the two-week activation clock. XRP itself is unaffected.",
-    "published": "2026-11-02T12:37:24+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "Decrypt",
-    "title": "BTCPay Tells Merchants to Switch Off Servers Amid Hot Wallet Attack Reports",
-    "link": "https://decrypt.co/382324/btcpay-tells-merchants-to-switch-off-servers-amid-hot-wallet-attack-reports",
-    "summary": "The Bitcoin payment software says attacks targeted versions 2.4.1 and older, days after it shipped an emergency fix for a critical flaw.",
-    "published": "2026-11-02T12:24:18+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "U.Today",
-    "title": "Shiba Inu (SHIB) Is Back to 85 Trillion Token Range: Here's What It Means for Holders",
-    "link": "https://u.today/shiba-inu-shib-is-back-to-85-trillion-token-range-heres-what-it-means-for-holders",
-    "summary": "Shiba Inu exchange balances are falling while the SHIB price stays weak.",
-    "published": "2026-11-02T12:00:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "U.Today",
-    "title": "XRP Ledger Posts 479% Payment Surge as XRP Heads For Recovery",
-    "link": "https://u.today/xrp-ledger-posts-479-payment-surge-as-xrp-heads-for-recovery",
-    "summary": "XRP ledger payment volume has increased from hundreds of thousands of tokens to over one billion XRP in just 24 hours as network activity intensifies.",
-    "published": "2026-11-02T11:56:43+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "sentiment"
-  },
-  {
-    "source": "U.Today",
-    "title": "Big Week Ahead as XRP Ledger Eyes Cleanup Upgrade",
-    "link": "https://u.today/big-week-ahead-as-xrp-ledger-eyes-cleanup-upgrade",
-    "summary": "This is particularly relevant as the XRP Ledger continues expanding its infrastructure for tokenization, decentralized finance, and institutional utility.",
-    "published": "2026-11-02T10:45:00+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -1260,26 +1330,6 @@
     "category": "event"
   },
   {
-    "source": "The Block",
-    "title": "Hackers hijack a dozen DeFi websites, all registered with Name.com, and steal about $138,000",
-    "link": "https://www.theblock.co/news/defi/2026-10-31-hackers-hijack-a-dozen-defi-websites-all-registered-with-name-com-and-steal-about-138000-432251",
-    "summary": "All 12 hijacked domains are registered through Name.com, according to registry records accessed by The Block, suggesting a compromise.",
-    "published": "2026-10-31T15:26:27+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "The Block",
-    "title": "Chainalysis says hacker using ‘offensive agentic techniques’ accessed its customers’ names and emails",
-    "link": "https://www.theblock.co/news/business/2026-10-31-chainalysis-says-hacker-using-offensive-agentic-techniques-accessed-its-customers-names-and-emails-432244",
-    "summary": "The firm has also been tracking Binance’s separate multibillion-dollar hack, and said the attackers are using a Tron protocol to dodge stablecoin freezes.",
-    "published": "2026-10-31T13:27:17+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "Bitcoin Magazine",
     "title": "MSTR Q3 2026 Earnings Call: Analyst Q&A",
     "link": "https://bitcoinmagazine.com/videos/mstr-q3-2026-earnings-call-analyst-qa",
@@ -1290,61 +1340,11 @@
     "category": "event"
   },
   {
-    "source": "Bitcoin Magazine",
-    "title": "Mike Flaum: MSTR Performance “Massively” to the Upside During Next BTC Bull Run",
-    "link": "https://bitcoinmagazine.com/videos/mike-flaum-mstr-performance-massively-to-the-upside-during-next-btc-bull-run",
-    "summary": "▶ Bitcoin Magazine Mike Flaum: MSTR Performance “Massively” to the Upside During Next BTC Bull Run Log Scale CEO Mike Flaum discusses Strategy's Stretch, daily dividends, BTC preferreds vs. Treasuries for retirees, and separating volatility from true risk. This post Mike Flaum: MSTR Performance “Massively” to the Upside During Next BTC Bull Run first appeared on Bitcoin Magazine and is written by ",
-    "published": "2026-10-31T01:02:04+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "Bitcoin Magazine",
-    "title": "What to Know About the $6.3 Billion Binance Hack",
-    "link": "https://bitcoinmagazine.com/videos/what-to-know-about-the-6-3-billion-binance-hack",
-    "summary": "▶ Bitcoin Magazine What to Know About the $6.3 Billion Binance Hack Binance suffers a record $6.3B hack with $3.3B unrecovered. BMTV breaks down what happened, Binance's response, and why every day is now zero day for crypto. This post What to Know About the $6.3 Billion Binance Hack first appeared on Bitcoin Magazine and is written by Patrick Green .",
-    "published": "2026-10-31T00:57:26+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "The Block",
-    "title": "Inside the largest crypto hack on record: How attackers breached Binance for $6.3 billion",
-    "link": "https://www.theblock.co/news/business/2026-10-30-binance-hack-largest-crypto-hack-north-korea-432225",
-    "summary": "Investigators tie the $6B Binance hack to North Korea. Here's how hot-wallet signing infrastructure was compromised and where funds went.",
-    "published": "2026-10-30T21:20:23+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "The Block",
-    "title": "President Trump says they’re looking into Binance hack as calls grow for crypto rules",
-    "link": "https://www.theblock.co/news/regulation/2026-10-30-trump-looking-into-binance-hack-calls-grow-for-crypto-rules-432236",
-    "summary": "Following the $6.3 billion hack of the world's largest crypto exchange, Binance, calls are growing for legislation.",
-    "published": "2026-10-30T21:06:03+00:00",
-    "regulatory": true,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "SEC Press Releases",
     "title": "SEC Issues Exemptive Relief from Treasury Clearing Requirements for Certain Inter-Affiliate and Non-U.S. Repo Transactions",
     "link": "https://www.sec.gov/newsroom/press-releases/2026-111-sec-issues-exemptive-relief-treasury-clearing-requirements-certain-inter-affiliate-non-us-repo",
     "summary": "The Securities and Exchange Commission took another step forward today to assist broker-dealers and other market participants on the path to central clearing of U.S. Treasury securities by issuing exemptive relief related to inter-affiliate repo…",
     "published": "2026-10-30T19:30:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "Bitcoin Magazine",
-    "title": "Coinbase (COIN) Misses Revenue Estimates as Users Fall, Armstrong Sets Up New Share Sales",
-    "link": "https://bitcoinmagazine.com/news/coinbase-falls-armstrong-sets-up-new-share",
-    "summary": "Bitcoin Magazine Coinbase (COIN) Misses Revenue Estimates as Users Fall, Armstrong Sets Up New Share Sales Coinbase missed revenue expectations as users declined, despite growth in recurring revenue, while executive share-sale plans and a massive Binance security breach added pressure to crypto markets. This post Coinbase (COIN) Misses Revenue Estimates as Users Fall, Armstrong Sets Up New Share S",
-    "published": "2026-10-30T18:54:24+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
