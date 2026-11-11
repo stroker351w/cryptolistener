@@ -1,74 +1,74 @@
 {
-  "fetched_at": "2026-11-10T23:12:49.243621+00:00",
+  "fetched_at": "2026-11-11T05:59:45.586015+00:00",
   "coins": [
     {
       "symbol": "BTC",
       "name": "Bitcoin",
-      "price": 73511,
-      "change_24h": -2.12086,
+      "price": 73843,
+      "change_24h": -1.24498,
       "market_cap_rank": 1
     },
     {
       "symbol": "ETH",
       "name": "Ethereum",
-      "price": 2042.53,
-      "change_24h": -4.11284,
+      "price": 2069.48,
+      "change_24h": -2.58175,
       "market_cap_rank": 2
     },
     {
       "symbol": "BNB",
       "name": "BNB",
-      "price": 675.96,
-      "change_24h": -1.96233,
+      "price": 681.35,
+      "change_24h": -1.35181,
       "market_cap_rank": 3
     },
     {
       "symbol": "XRP",
       "name": "XRP",
-      "price": 1.052,
-      "change_24h": -4.49958,
+      "price": 1.061,
+      "change_24h": -3.45995,
       "market_cap_rank": 4
     },
     {
       "symbol": "SOL",
       "name": "Solana",
-      "price": 82.59,
-      "change_24h": -4.59751,
+      "price": 83.29,
+      "change_24h": -3.46655,
       "market_cap_rank": 5
     },
     {
       "symbol": "TRX",
       "name": "TRON",
-      "price": 0.317633,
-      "change_24h": 0.07863,
+      "price": 0.317429,
+      "change_24h": -0.03866,
       "market_cap_rank": 6
     },
     {
       "symbol": "ZEC",
       "name": "Zcash",
-      "price": 1035.32,
-      "change_24h": -10.94285,
+      "price": 1018.55,
+      "change_24h": -12.16217,
       "market_cap_rank": 7
     },
     {
       "symbol": "HYPE",
       "name": "Hyperliquid",
-      "price": 72.21,
-      "change_24h": -4.03828,
+      "price": 72.36,
+      "change_24h": -3.51651,
       "market_cap_rank": 8
-    },
-    {
-      "symbol": "DOGE",
-      "name": "Dogecoin",
-      "price": 0.067559,
-      "change_24h": -3.36438,
-      "market_cap_rank": 9
     },
     {
       "symbol": "XMR",
       "name": "Monero",
-      "price": 560.39,
-      "change_24h": -4.92892,
+      "price": 570.35,
+      "change_24h": 0.52169,
+      "market_cap_rank": 9
+    },
+    {
+      "symbol": "DOGE",
+      "name": "Dogecoin",
+      "price": 0.068272,
+      "change_24h": -2.63385,
       "market_cap_rank": 10
     }
   ]
