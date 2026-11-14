@@ -1,74 +1,74 @@
 {
-  "fetched_at": "2026-11-14T17:00:09.340039+00:00",
+  "fetched_at": "2026-11-14T21:23:54.820995+00:00",
   "coins": [
     {
       "symbol": "BTC",
       "name": "Bitcoin",
-      "price": 65356,
-      "change_24h": -4.74715,
+      "price": 64567,
+      "change_24h": -5.43815,
       "market_cap_rank": 1
     },
     {
       "symbol": "ETH",
       "name": "Ethereum",
-      "price": 1824.45,
-      "change_24h": -5.25494,
+      "price": 1776.87,
+      "change_24h": -7.85457,
       "market_cap_rank": 2
     },
     {
       "symbol": "BNB",
       "name": "BNB",
-      "price": 586.2,
-      "change_24h": -6.95653,
+      "price": 578.57,
+      "change_24h": -8.51033,
       "market_cap_rank": 3
     },
     {
       "symbol": "XRP",
       "name": "XRP",
-      "price": 0.956718,
-      "change_24h": -5.84883,
+      "price": 0.916913,
+      "change_24h": -8.90976,
       "market_cap_rank": 4
     },
     {
       "symbol": "SOL",
       "name": "Solana",
-      "price": 72.41,
-      "change_24h": -8.83535,
+      "price": 70.23,
+      "change_24h": -11.11583,
       "market_cap_rank": 5
     },
     {
       "symbol": "TRX",
       "name": "TRON",
-      "price": 0.308677,
-      "change_24h": -1.35782,
+      "price": 0.307429,
+      "change_24h": -1.62285,
       "market_cap_rank": 6
     },
     {
       "symbol": "HYPE",
       "name": "Hyperliquid",
-      "price": 65.96,
-      "change_24h": -9.01485,
+      "price": 61.9,
+      "change_24h": -14.52553,
       "market_cap_rank": 7
     },
     {
       "symbol": "ZEC",
       "name": "Zcash",
-      "price": 858.57,
-      "change_24h": -9.29859,
+      "price": 824.04,
+      "change_24h": -12.40911,
       "market_cap_rank": 8
-    },
-    {
-      "symbol": "XMR",
-      "name": "Monero",
-      "price": 510.25,
-      "change_24h": -3.89154,
-      "market_cap_rank": 9
     },
     {
       "symbol": "DOGE",
       "name": "Dogecoin",
-      "price": 0.059968,
-      "change_24h": -7.56069,
+      "price": 0.057028,
+      "change_24h": -11.78992,
+      "market_cap_rank": 9
+    },
+    {
+      "symbol": "XMR",
+      "name": "Monero",
+      "price": 472.22,
+      "change_24h": -11.15346,
       "market_cap_rank": 10
     }
   ]
