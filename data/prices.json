@@ -1,74 +1,74 @@
 {
-  "fetched_at": "2026-11-20T11:25:27.597767+00:00",
+  "fetched_at": "2026-11-20T20:01:42.571061+00:00",
   "coins": [
     {
       "symbol": "BTC",
       "name": "Bitcoin",
-      "price": 61677,
-      "change_24h": -3.1956,
+      "price": 58497,
+      "change_24h": -6.01363,
       "market_cap_rank": 1
     },
     {
       "symbol": "ETH",
       "name": "Ethereum",
-      "price": 1746.46,
-      "change_24h": -3.11673,
+      "price": 1606.83,
+      "change_24h": -9.07253,
       "market_cap_rank": 2
     },
     {
       "symbol": "BNB",
       "name": "BNB",
-      "price": 569.97,
-      "change_24h": -3.65501,
+      "price": 535.02,
+      "change_24h": -8.03213,
       "market_cap_rank": 3
     },
     {
       "symbol": "XRP",
       "name": "XRP",
-      "price": 0.953671,
-      "change_24h": -2.80995,
+      "price": 0.894218,
+      "change_24h": -7.37859,
       "market_cap_rank": 4
     },
     {
       "symbol": "SOL",
       "name": "Solana",
-      "price": 71.93,
-      "change_24h": -3.43813,
+      "price": 68.16,
+      "change_24h": -7.1562,
       "market_cap_rank": 5
     },
     {
       "symbol": "TRX",
       "name": "TRON",
-      "price": 0.307124,
-      "change_24h": -1.71551,
+      "price": 0.301137,
+      "change_24h": -2.94923,
       "market_cap_rank": 6
     },
     {
       "symbol": "HYPE",
       "name": "Hyperliquid",
-      "price": 64.54,
-      "change_24h": -5.76378,
+      "price": 60.67,
+      "change_24h": -10.14429,
       "market_cap_rank": 7
     },
     {
       "symbol": "ZEC",
       "name": "Zcash",
-      "price": 827.6,
-      "change_24h": -12.84893,
+      "price": 761.2,
+      "change_24h": -15.46934,
       "market_cap_rank": 8
-    },
-    {
-      "symbol": "DOGE",
-      "name": "Dogecoin",
-      "price": 0.056908,
-      "change_24h": -4.04762,
-      "market_cap_rank": 9
     },
     {
       "symbol": "XMR",
       "name": "Monero",
-      "price": 464.89,
-      "change_24h": -7.46894,
+      "price": 450.09,
+      "change_24h": -8.93917,
+      "market_cap_rank": 9
+    },
+    {
+      "symbol": "LEO",
+      "name": "LEO Token",
+      "price": 9.18,
+      "change_24h": -1.28054,
       "market_cap_rank": 10
     }
   ]
