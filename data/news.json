@@ -1,5 +1,285 @@
 [
   {
+    "source": "The Defiant",
+    "title": "Blur Disables Upgrades, Removing an ETH Rescue Route",
+    "link": "https://thedefiant.io/news/security/blur-disables-upgrades-removing-an-eth-rescue-route",
+    "summary": "Developer Quit identified 545.6 ETH in 315 contracts lacking a direct withdrawal path. Ordinary wallet withdrawals remain available.",
+    "published": "2026-11-22T19:15:44+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "Wagyu’s $13.5 million token crash exposes another coin with 99.9% held by one wallet",
+    "link": "https://cryptoslate.com/wagyus-13-5-million-token-crash-exposes-another-coin-with-99-9-held-by-one-wallet/",
+    "summary": "The account that sent XMR1 to the seller held 99.97% of ZEC1’s supply in Bitquery’s November 20 snapshot. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+    "published": "2026-11-22T19:05:03+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Defiant",
+    "title": "Polymarket US Adds 70% Taker-Fee Rebate for Straight API Trades",
+    "link": "https://thedefiant.io/news/cefi/polymarket-us-adds-70-taker-fee-rebate-for-straight-api-trades",
+    "summary": "The temporary rebate covers API straight trades through Dec. 31. App traders keep their ordinary volume-based rebates of 0–30%.",
+    "published": "2026-11-22T19:03:49+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Block",
+    "title": "Chainflip’s losses climb to $12 million after protocol discloses 122.9 BTC theft, offers hacker bounty",
+    "link": "https://www.theblock.co/news/defi/2026-11-22-chainflips-losses-climb-to-12-million-after-protocol-discloses-122-9-btc-theft-offers-hacker-bounty-444829",
+    "summary": "Chainflip offered the attacker a 10% bounty to return the remainder of the $12 million in stolen BTC, ETH, and stablecoins by Monday.",
+    "published": "2026-11-22T18:58:57+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Defiant",
+    "title": "RAILGUN Community Account Touts Post-Quantum Prototype",
+    "link": "https://thedefiant.io/news/security/railgun-community-account-touts-post-quantum-prototype",
+    "summary": "ZKNOX's wallet proof of concept demonstrates new note encryption on Sepolia, but does not make RAILGUN's spending system quantum-resistant.",
+    "published": "2026-11-22T18:50:09+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "Bitcoin and Ethereum ETF Outflows Stay in the Billions for Another Week",
+    "link": "https://cryptopotato.com/bitcoin-and-ethereum-etf-outflows-stay-in-the-billions-for-another-week/",
+    "summary": "The BTC ETFs have lost over $1 billion in all full weeks in November.",
+    "published": "2026-11-22T18:15:03+00:00",
+    "regulatory": true,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "UK to ban crypto exchanges from making markets on their own platforms as Bitcoin rules change",
+    "link": "https://cryptoslate.com/uk-to-ban-crypto-exchanges-from-making-markets-on-their-own-platforms-as-bitcoin-rules-change/",
+    "summary": "Firms making markets in spot Bitcoin on qualifying platforms are exempt from principal-dealing permission for that activity. Separate venue rules apply. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+    "published": "2026-11-22T18:05:49+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "Trump’s Meme Coin Dinner Is Back Tonight: But This Time Almost Nobody Wants a Seat",
+    "link": "https://cryptopotato.com/trumps-meme-coin-dinner-is-back-tonight-but-this-time-almost-nobody-wants-a-seat/",
+    "summary": "The meme coin's price continues to hover at prices 99% below its peak.",
+    "published": "2026-11-22T17:21:27+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "XRP’s institutional adoption story has a catch that investors may be overlooking",
+    "link": "https://cryptoslate.com/xrps-institutional-adoption-story-has-a-catch-that-investors-may-be-overlooking/",
+    "summary": "CertiK checked selected network controls, and two live fund designs show where sterling, RLUSD and XRP come into play. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+    "published": "2026-11-22T17:05:07+00:00",
+    "regulatory": false,
+    "institutional": true,
+    "category": "event"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "XRP Dumps to Key Zone: Is This the ‘Painful Opportunity’ Bulls Were Waiting For?",
+    "link": "https://cryptopotato.com/xrp-dumps-to-key-zone-is-this-the-painful-opportunity-bulls-were-waiting-for/",
+    "summary": "Has XRP finally reached its long-awaited accumulation zone or is another flush toward $0.70 and below still coming?",
+    "published": "2026-11-22T16:40:20+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "Chainflip users face frozen withdrawals after $4.86 million vanishes from Ethereum vault",
+    "link": "https://cryptoslate.com/chainflip-users-face-frozen-withdrawals-after-4-86-million-vanishes-from-ethereum-vault/",
+    "summary": "The emergency pause also stopped deposits, withdrawals and quotes, and the swap and liquidity-provider apps still showed maintenance Saturday evening UTC. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+    "published": "2026-11-22T16:05:55+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "AI agents built their own scientific journal and found that reviewing research was harder than expected",
+    "link": "https://cryptoslate.com/ai-reviewers-flagged-corrected-drafts-almost-as-often-as-flawed-ones/",
+    "summary": "In a small paired test, text-only referees challenged corrected drafts almost as often as the flawed originals. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+    "published": "2026-11-22T15:00:11+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "U.Today",
+    "title": "Bitcoin's (BTC) Worst Is Behind After $55,000 Low, 4-Year Cycle Theory Suggests",
+    "link": "https://u.today/bitcoins-btc-worst-is-behind-after-55000-low-4-year-cycle-theory-suggests",
+    "summary": "From Mt. Gox to FTX, every Bitcoin cycle bottomed out in the same year after a halving, and November's slide to $55,081 fits the pattern .",
+    "published": "2026-11-22T14:53:20+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "U.Today",
+    "title": "Ripple USD (RLUSD) Breaks Into Global Top Five Stablecoins as Supply Hits New ATH",
+    "link": "https://u.today/ripple-usd-rlusd-breaks-into-global-top-five-stablecoins-as-supply-hits-new-ath",
+    "summary": "Ripple USD (RLUSD) joins Tether (USDT) and Circle (USDC) in global top five stablecoins.",
+    "published": "2026-11-22T14:43:22+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "Bitcoin reclaims $61,000 before giving back a third of the weekend rally",
+    "link": "https://cryptoslate.com/bitcoin-reclaims-61000-before-giving-back-a-third-of-that-rally/",
+    "summary": "During Sunday’s move above $61,000, Binance perpetuals posted nearly ten times as much net buying as the exchange’s spot market. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+    "published": "2026-11-22T14:30:34+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
+    "source": "Cointelegraph",
+    "title": "The future of onchain FX could start with users, not institutional liquidity",
+    "link": "https://cointelegraph.com/opinion/future-onchain-fx-could-start-with-users-not-institutional-liquidity?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "Onchain FX does not need to recreate the trillion-dollar institutional market to become useful. Real demand can make smaller markets work first.",
+    "published": "2026-11-22T14:30:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "Bitcoin Price Analysis: Is the Bottom In After BTC Reclaims $60K?",
+    "link": "https://cryptopotato.com/bitcoin-price-analysis-is-the-bottom-in-after-btc-reclaims-60k/",
+    "summary": "Bitcoin has rebounded toward $61K after sweeping liquidity beneath the June lows and briefly falling to $55K. The recovery offers an initial sign of demand, but substantial overhead supply and a deeply negative Coinbase Premium keep the broader outlook cautious. Bitcoin Price Analysis: The Daily Chart The daily chart shows a sharp rejection from below […]",
+    "published": "2026-11-22T14:10:57+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
+    "source": "Decrypt",
+    "title": "Google's Quantum Chip Beats Classical Limits in 'Impossible' Game",
+    "link": "https://decrypt.co/383743/googles-quantum-chip-beats-classical-limits-in-impossible-game-tests-105-qubits",
+    "summary": "Google’s Willow quantum processor beat the classical ceiling in a four-qubit coordination game, revealing a promising hardware test rather than commercial quantum computing.",
+    "published": "2026-11-22T14:01:02+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "Deribit outage hit Bitcoin hedgers on Coinbase",
+    "link": "https://cryptoslate.com/deribit-outage-hit-bitcoin-hedgers-on-coinbase/",
+    "summary": "Two trading interruptions hit global Bitcoin and Ether perpetuals that share Deribit execution, while Coinbase said its US derivatives were unaffected. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+    "published": "2026-11-22T14:00:44+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CoinDesk",
+    "title": "Bitcoin's quantum security challenge extends to bridges, custodians and millions of coins",
+    "link": "https://www.coindesk.com/tech/2026/11/22/bitcoin-s-quantum-security-challenge-extends-to-bridges-custodians-and-millions-of-coins",
+    "summary": "Quantum computers can’t break Bitcoin network’s security yet, but Leo Fan warns that upgrading it and moving funds could take longer than expected.",
+    "published": "2026-11-22T14:00:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Defiant",
+    "title": "Anthropic Token Debuts on Solana With $135M in Reported Trading Volume",
+    "link": "https://thedefiant.io/converge/tradfi-and-fintech/anthropic-token-debuts-on-solana-with-135m-in-reported-trading-volume",
+    "summary": "Sunrise reported $134.7 million in ANT's first-24-hour trading volume. Backpack calls the token redeemable for shares, but wallet holders have different rights from brokerage customers.",
+    "published": "2026-11-22T13:44:01+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "U.Today",
+    "title": "Three XRP Features Race for Last-Minute 2026 Activation: What Remains",
+    "link": "https://u.today/three-xrp-features-race-for-last-minute-2026-activation-what-remains",
+    "summary": "XRP Ledger's final 2026 upgrade race kicks off with three amendments in line.",
+    "published": "2026-11-22T13:30:02+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "Bitcoin’s next big threat could come from two oil tankers in the Middle East",
+    "link": "https://cryptoslate.com/two-hormuz-tanker-strikes-threaten-a-potential-source-of-relief-for-bitcoin/",
+    "summary": "Two reported tanker strikes put the recent Brent decline to the test as traders watch outbound cargo and US rate expectations. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+    "published": "2026-11-22T13:00:09+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "U.Today",
+    "title": "Adam Back Explains Why Bitcoin (BTC) Fell to $17,000 on Kraken's Canadian Dollar Market",
+    "link": "https://u.today/adam-back-explains-why-bitcoin-btc-fell-to-17000-on-krakens-canadian-dollar-market",
+    "summary": "Blockstream CEO Adam Back says Kraken's local USD/CAD market maker ran out of money, sending BTC/CAD to C$24,250 as the exchange insists executed trades stand.",
+    "published": "2026-11-22T12:58:15+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "U.Today",
+    "title": "XRP on Track for Worst November in History as December Data Points to Smaller Losses",
+    "link": "https://u.today/xrp-on-track-for-worst-november-in-history-as-december-data-points-to-smaller-losses",
+    "summary": "XRP has already lost more this November than in any previous year, but its December track record tells a different story.",
+    "published": "2026-11-22T12:18:10+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "CryptoSlate",
+    "title": "Bitcoin’s $60,000 breakdown puts December Fed decision under the spotlight",
+    "link": "https://cryptoslate.com/bitcoin-below-60000-fed-half-point-cpi/",
+    "summary": "Bitcoin fell below $60,000 on Friday for the first time since July, with US spot Bitcoin funds recording withdrawals and short-term Treasury bills offering investors more than 4% a year. That creates a problem for the Federal Reserve's December meeting: traders expect a quarter-point rate increase, while Governor Christopher Waller has argued that persistent inflation… Read the full story on Crypt",
+    "published": "2026-11-22T12:00:04+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "sentiment"
+  },
+  {
+    "source": "CryptoPotato",
+    "title": "The Sell-Off Goes Far Beyond Crypto as Financial Markets Come Under Pressure",
+    "link": "https://cryptopotato.com/the-sell-off-goes-far-beyond-crypto-as-financial-markets-come-under-pressure/",
+    "summary": "What began as weakness hidden beneath resilient headline indexes has tuned into a much broader market rout.",
+    "published": "2026-11-22T11:59:25+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "U.Today",
+    "title": "Hoskinson Weighs In on Cardano (ADA) Price Collapse",
+    "link": "https://u.today/hoskinson-weighs-in-on-cardano-ada-price-collapse",
+    "summary": "Cardano founder Charles Hoskinson has fired back at critics questioning the blockchain's utility amid ADA's devastating 95% collapse from its all-time high.",
+    "published": "2026-11-22T11:37:45+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
     "source": "U.Today",
     "title": "684 Billion SHIB Tokens Move in Just One Day: Shiba Inu Activity Spikes",
     "link": "https://u.today/684-billion-shib-tokens-move-in-just-one-day-shiba-inu-activity-spikes",
@@ -220,16 +500,6 @@
     "category": "sentiment"
   },
   {
-    "source": "CryptoSlate",
-    "title": "Hackers replaced a DeepSeek model for 53 hours and stripped away its safety protections",
-    "link": "https://cryptoslate.com/hackers-swapped-a-hosted-deepseek-model-for-53-hours-and-stripped-away-its-safety-protections/",
-    "summary": "Prime Intellect says the substitute refused none of its HarmBench prompts, down from 198 of 240 with the original model. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-    "published": "2026-11-21T21:30:30+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "The Block",
     "title": "Kalshi faces Monday hearing on New York order it says would shut down its exchange nationwide",
     "link": "https://www.theblock.co/news/regulation/2026-11-21-kalshi-faces-monday-hearing-on-new-york-order-it-says-would-shut-down-its-exchange-nationwide-444813",
@@ -270,16 +540,6 @@
     "category": "event"
   },
   {
-    "source": "CryptoSlate",
-    "title": "Russia allows Bitcoin trading as sanctioned Moscow Exchange prepares December launch",
-    "link": "https://cryptoslate.com/russia-bitcoin-trading-rules-moscow-exchange/",
-    "summary": "From Nov. 22, Russian exchanges can begin trading Bitcoin once the central bank approves the rules, but customers still can't use it to pay for anything. Moscow Exchange plans a Dec. 1 pilot through a US-sanctioned clearinghouse, with ordinary investors limited to 300,000 rubles in annual purchases per intermediary. The central bank's retail purchase rules… Read the full story on CryptoSlate Under",
-    "published": "2026-11-21T19:40:03+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "The Defiant",
     "title": "Chainflip Offers 10% Bounty for Return of Stolen Funds",
     "link": "https://thedefiant.io/news/hacks/chainflip-offers-10-bounty-for-return-of-stolen-funds",
@@ -315,16 +575,6 @@
     "link": "https://www.theblock.co/news/defi/2026-11-21-cyber-investigating-suspected-1-million-bridge-exploit-as-upbit-bithumb-freeze-transfers-444810",
     "summary": "South Korean exchanges Upbit and Bithumb both suspended CYBER deposits and withdrawals, citing a suspected security incident.",
     "published": "2026-11-21T18:51:14+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoSlate",
-    "title": "Aave’s $4 billion USDC borrow cap could leave just $190 million available for withdrawals",
-    "link": "https://cryptoslate.com/aaves-4-billion-usdc-borrow-cap-could-leave-just-190-million-available-for-withdrawals/",
-    "summary": "If loans fill the new cap at late Nov. 20 supply levels, about 190 million USDC would remain for withdrawals. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-    "published": "2026-11-21T18:40:32+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -380,26 +630,6 @@
     "category": "sentiment"
   },
   {
-    "source": "CryptoSlate",
-    "title": "Singapore wants to test stablecoin payments by AI agents",
-    "link": "https://cryptoslate.com/singapore-wants-to-test-stablecoin-payments-by-ai-agents/",
-    "summary": "A planned sandbox would test how banks and payment providers verify an agent’s authority before executing payments in digital money. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-    "published": "2026-11-21T17:40:11+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "The Defiant",
-    "title": "Lean Groups Certify Claude-Assisted Riemann Proof",
-    "link": "https://thedefiant.io/frontier/ai/lean-groups-certify-claude-assisted-riemann-proof",
-    "summary": "The Lean FRO and Mathlib Initiative backed Alpöge’s 17-million-line proof. A separate audit also covers a generalized result for Dirichlet L-functions.",
-    "published": "2026-11-21T17:13:59+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "CryptoPotato",
     "title": "Bitcoin Capitulation Is Here: Why $55K Could Become a Historic Turning Point",
     "link": "https://cryptopotato.com/bitcoin-capitulation-is-here-why-55k-could-become-a-historic-turning-point/",
@@ -420,16 +650,6 @@
     "category": "event"
   },
   {
-    "source": "U.Today",
-    "title": "Ethereum Foundation Sells ETH as Bitcoin (BTC) Price Drops to 2-Year Low",
-    "link": "https://u.today/ethereum-foundation-sells-eth-as-bitcoin-btc-price-drops-to-2-year-low",
-    "summary": "An Ethereum Foundation-linked wallet has transferred another 2,500 ETH, worth around $3.88 million.",
-    "published": "2026-11-21T16:41:10+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "CoinDesk",
     "title": "Cross-chain protocol Chainflip's FLIP tanks 30% after suspected $4.86 million vault drain",
     "link": "https://www.coindesk.com/business/2026/11/21/cross-chain-protocol-chainflip-s-flip-tanks-30-after-suspected-usd4-86-million-vault-drain",
@@ -438,16 +658,6 @@
     "regulatory": false,
     "institutional": false,
     "category": "sentiment"
-  },
-  {
-    "source": "CryptoSlate",
-    "title": "A Bitcoin drop toward $53,000 could put $240 million in collateral at risk",
-    "link": "https://cryptoslate.com/a-bitcoin-drop-toward-53000-could-put-240-million-in-collateral-at-risk/",
-    "summary": "An Aave borrower had nearly 90 WBTC seized Saturday, and a later snapshot shows where other loans could come under pressure. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-    "published": "2026-11-21T16:35:27+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
   },
   {
     "source": "CryptoPotato",
@@ -470,26 +680,6 @@
     "category": "event"
   },
   {
-    "source": "The Defiant",
-    "title": "Anthropic's IPO Premium Shrinks as Banks Draw Blame",
-    "link": "https://thedefiant.io/frontier/markets/anthropic-s-ipo-premium-shrinks-as-banks-draw-blame",
-    "summary": "The WSJ reports criticism of share allocations and the opening price, while Anthropic says its expanded public offering raised $93.5 billion gross.",
-    "published": "2026-11-21T15:55:22+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "U.Today",
-    "title": "Cardano Lifeline? 3.96 Million ADA Buy Wall Emerges on Binance",
-    "link": "https://u.today/cardano-lifeline-396-million-ada-buy-wall-emerges-on-binance",
-    "summary": "Cardano (ADA) drawing attention in the market as a substantial buy wall of 3.96 million ADA has emerged on Binance.",
-    "published": "2026-11-21T15:45:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "CryptoPotato",
     "title": "Short Traders Get Wrecked Too as Bitcoin Climbs Past $60K in Whipsaw Move",
     "link": "https://cryptopotato.com/short-traders-get-wrecked-too-as-bitcoin-climbs-past-60k-in-whipsaw-move/",
@@ -500,61 +690,11 @@
     "category": "sentiment"
   },
   {
-    "source": "The Defiant",
-    "title": "Bitcoin Rebounds 10% Before Slipping Below $60,000",
-    "link": "https://thedefiant.io/news/markets/bitcoin-rebounds-10-before-slipping-below-60-000",
-    "summary": "The overnight trough put bitcoin 35.1% below its Oct. 21 high, while the rebound had faded to 8.7% by 10:19 a.m. ET.",
-    "published": "2026-11-21T15:24:47+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "The Block",
-    "title": "Chainflip’s FLIP drops 34% after attacker drains $4.86 million from vault with suspected key compromise",
+    "title": "Chainflip’s FLIP drops 34% after attacker drains $12 million from vaults with suspected key compromise",
     "link": "https://www.theblock.co/news/defi/2026-11-21-chainflips-flip-drops-34-after-attacker-drains-4-86-million-from-vault-with-suspected-key-compromise-444804",
     "summary": "Chainflip's FLIP token dropped 34% in price in the wake of the apparently automated attack, per The Block's price data.",
     "published": "2026-11-21T15:24:14+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "The Defiant",
-    "title": "Coins.ph Halts Transfers With Self-Custody Wallets",
-    "link": "https://thedefiant.io/news/regulation/coins-ph-halts-transfers-with-self-custody-wallets",
-    "summary": "The Philippine exchange now limits external crypto transfers to regulated exchanges and requires counterparty details for every amount.",
-    "published": "2026-11-21T15:20:19+00:00",
-    "regulatory": true,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoSlate",
-    "title": "One Bitcoin miner paid an $11.9M tariff bill four years after delivery",
-    "link": "https://cryptoslate.com/one-bitcoin-miner-paid-an-11-9m-tariff-bill-four-years-after-delivery/",
-    "summary": "Bitcoin miner Bitfarms thought the machines it brought into Washington state in 2021 had been made in Malaysia. Its supplier said so, and the company provided US Customs officials with documents supporting that claim. Four years later, the company paid the government $11.9 million. US Customs and Border Protection had challenged the machines' declared origin,… Read the full story on CryptoSlate Un",
-    "published": "2026-11-21T15:20:09+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoSlate",
-    "title": "US Treasury sells $15 billion in first nine-day cash bill auction since 2008",
-    "link": "https://cryptoslate.com/us-treasury-sells-15-billion-in-first-nine-day-cash-bill-auction-since-2008/",
-    "summary": "Treasury had flagged possible month-end borrowing and reported $891.2 billion in cash at the Nov. 19 close. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-    "published": "2026-11-21T14:30:07+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "U.Today",
-    "title": "$1 SHIB Sent to Dead Wallets in Shiba Inu Burn Lag",
-    "link": "https://u.today/1-shib-sent-to-dead-wallets-in-shiba-inu-burn-lag",
-    "summary": "Shiba Inu token destruction drops to just $1 as dead wallet transfers decline.",
-    "published": "2026-11-21T14:10:39+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -570,31 +710,11 @@
     "category": "event"
   },
   {
-    "source": "U.Today",
-    "title": "Binance Issues One-Letter Warning to Crypto Users Over Fake Websites",
-    "link": "https://u.today/binance-issues-one-letter-warning-to-crypto-users-over-fake-websites",
-    "summary": "Binance highlights tiny detail users must check to prevent crypto scams.",
-    "published": "2026-11-21T13:40:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoSlate",
-    "title": "Kraken says trades stand after Bitcoin sold at $24,250 Canadian",
-    "link": "https://cryptoslate.com/kraken-says-trades-stand-after-bitcoin-sold-at-24250-canadian/",
-    "summary": "Kraken’s Canadian-dollar Bitcoin pair hit nearly identical lows in consecutive 15-minute intervals. Other CAD pairs also posted unusually low prices. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-    "published": "2026-11-21T13:30:47+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "U.Today",
-    "title": "XRP’s Volatility Puts $0.7 Retest in View: Kalshi",
-    "link": "https://u.today/xrps-volatility-puts-07-retest-in-view-kalshi",
-    "summary": "XRP traders on Kalshi believe the leading altcoin could further decline to $0.7 this year after posting a decrease of over 8% over the last day.",
-    "published": "2026-11-21T13:27:18+00:00",
+    "source": "CoinDesk",
+    "title": "OpenAI, Anthropic and rivals seek AI agent rules to prevent commerce chaos",
+    "link": "https://www.coindesk.com/tech/2026/11/21/openai-anthropic-and-rivals-seek-ai-agent-rules-to-prevent-commerce-chaos",
+    "summary": "OpenAI, Anthropic, and other technology giants are backing standards designed to enable agents to work together without putting any one company in control.",
+    "published": "2026-11-21T14:00:00+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -610,46 +730,6 @@
     "category": "event"
   },
   {
-    "source": "CryptoPotato",
-    "title": "Not Just Bitcoin: Even Gold and Silver Can’t Escape the Market Rout",
-    "link": "https://cryptopotato.com/not-just-bitcoin-even-gold-and-silver-cant-escape-the-market-rout/",
-    "summary": "Central banks keep buying gold, but that hasn't halped its price at all lately.",
-    "published": "2026-11-21T12:28:16+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "U.Today",
-    "title": "Kraken Suffers Temporary Glitch Allowing Users to Buy Bitcoin for $16,900",
-    "link": "https://u.today/kraken-suffers-temporary-glitch-allowing-users-to-buy-bitcoin-for-16900",
-    "summary": "Bitcoin reportedly traded as low as 24,250 CAD on Kraken's BTC/CAD market, with thin liquidity and heavy sell orders triggering a sharp price dislocation.",
-    "published": "2026-11-21T12:24:55+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoSlate",
-    "title": "Ethereum’s Glamsterdam delay reveals a troubling pattern behind its biggest network upgrades",
-    "link": "https://cryptoslate.com/ethereums-glamsterdam-delay-reveals-a-troubling-pattern-behind-its-biggest-network-upgrades/",
-    "summary": "Ethereum's Glamsterdam upgrade has slipped into 2027, exposing a growing disconnect between faster development and the network's ability to meet deadlines. On Nov. 20, Ethereum Foundation researcher Toni Wahrstätter said the upgrade, which the foundation had targeted for the first half of 2026, cannot reach mainnet before mid-January 2027, after delays disrupted its testing schedule.… Read the ful",
-    "published": "2026-11-21T12:00:31+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoPotato",
-    "title": "NVDA Dives 23% in a Week as Nvidia Faces 8 Legal and Regulatory Threats",
-    "link": "https://cryptopotato.com/nvda-dives-23-in-a-week-as-nvidia-faces-8-legal-and-regulatory-threats/",
-    "summary": "The latest blow came on Friday from the SEC.",
-    "published": "2026-11-21T10:34:13+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "Cointelegraph",
     "title": "ECB seeks industry partners for tokenized deposits, securities experiments",
     "link": "https://cointelegraph.com/news/ecb-tokenized-deposits-securities-experiments-appia?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -660,41 +740,11 @@
     "category": "event"
   },
   {
-    "source": "CryptoPotato",
-    "title": "Crypto Market Cap Dumps Below $2T as Bitcoin Rollercoaster Intensifies: Weekend Watch",
-    "link": "https://cryptopotato.com/crypto-market-cap-dumps-below-2t-as-bitcoin-rollercoaster-intensifies-weekend-watch/",
-    "summary": "ZEC and HYPE are today's biggest losers among the larger-cap alts. Two out of the top four cryptocurrencies are now stablecoins.",
-    "published": "2026-11-21T08:30:43+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "Cointelegraph",
     "title": "US lawmakers propose up to 30% rewards for prediction market whistleblowers",
     "link": "https://cointelegraph.com/news/us-prediction-market-whistleblower-rewards-30-percent?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "summary": "Whistleblowers could receive 10% to 30% of monetary sanctions in qualifying prediction market fraud cases exceeding $1 million in penalties.",
     "published": "2026-11-21T07:51:47+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoPotato",
-    "title": "Crypto Fear Reaches Extreme Levels as Bitcoin Plummets to $55K",
-    "link": "https://cryptopotato.com/crypto-fear-reaches-extreme-levels-as-bitcoin-plummets-to-55k/",
-    "summary": "The popular metric is deep in \"extreme fear\" territory.",
-    "published": "2026-11-21T07:41:59+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CryptoPotato",
-    "title": "Strategy Breaks Silence After BTC Crash as Bitcoin Position Dumps to $17B in Paper Losses",
-    "link": "https://cryptopotato.com/strategy-breaks-silence-after-btc-crash-as-bitcoin-position-dumps-to-17b-in-paper-losses/",
-    "summary": "Bitcoin's latest capitulation has put unprecedented pressure on the largest corporate holder.",
-    "published": "2026-11-21T06:23:22+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -1170,16 +1220,6 @@
     "category": "event"
   },
   {
-    "source": "CoinDesk",
-    "title": "Bitcoin bots pounced within seconds when researchers exposed their wallet keys",
-    "link": "https://www.coindesk.com/tech/2026/11/20/bitcoin-bots-pounced-within-seconds-when-researchers-exposed-their-keys",
-    "summary": "University of Liège researchers put a few dollars into deliberately vulnerable bitcoin addresses and watched rival bots race for the money within seconds.",
-    "published": "2026-11-20T13:30:22+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "Decrypt",
     "title": "Morning Minute: Anthropic IPO Pops, Sinks Markets",
     "link": "https://decrypt.co/383691/morning-minute-anthropic-ipo-pops-sinks-markets",
@@ -1195,16 +1235,6 @@
     "link": "https://cointelegraph.com/news/lagarde-europe-limited-window-tokenization-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "summary": "The ECB president said Europe’s market for tokenized securities could split into platforms that cannot settle trades with one another.",
     "published": "2026-11-20T13:21:39+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "CoinDesk",
-    "title": "ECB’s Lagarde warns Europe could lose control of growing tokenized asset market",
-    "link": "https://www.coindesk.com/policy/2026/11/20/ecb-s-largarde-warns-europe-could-lose-control-of-growing-tokenized-asset-market",
-    "summary": "The ECB president called for common rules as the EU's new blockchain settlement system handled a 1 billion-euro ($1.1 billion) digital bond transaction.",
-    "published": "2026-11-20T13:11:49+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
@@ -1240,42 +1270,12 @@
     "category": "event"
   },
   {
-    "source": "Decrypt",
-    "title": "Bitcoin ETFs Shed $582M in a Day as BTC Drops Below $62K",
-    "link": "https://decrypt.co/383685/bitcoin-etfs-shed-582m-in-a-day-as-btc-drops-below-62k",
-    "summary": "Thursday's ETF outflow was the funds' biggest in three weeks, as rising Treasury yields and Fed rate hike bets weigh on crypto.",
-    "published": "2026-11-20T11:50:51+00:00",
-    "regulatory": true,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "Cointelegraph",
-    "title": "Binance hacker moves nearly $600M in ETH, routes funds through THORChain, Chainflip",
-    "link": "https://cointelegraph.com/news/binance-hacker-600m-eth-routes-thorchain-chainflip?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "summary": "OnChain Lens tracked nearly $600 million in ETH transfers over two days as the Binance hackers moved the stolen funds through fresh wallets and cross-chain protocols to obscure their trail.",
-    "published": "2026-11-20T11:31:41+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "The Block",
     "title": "MoonPay applies for national trust bank charter to expand stablecoin services",
     "link": "https://www.theblock.co/news/business/2026-11-20-moonpay-applies-occ-national-bank-charter-444198",
     "summary": "MoonPay has applied for a national trust bank charter to expand its custody and stablecoin services under federal oversight.",
     "published": "2026-11-20T10:39:09+00:00",
     "regulatory": true,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "The Block",
-    "title": "Senate passes ‘Death Bets Act’ to ban prediction market contracts tied to death and war",
-    "link": "https://www.theblock.co/news/regulation/2026-11-20-senate-death-bets-act-444200",
-    "summary": "The Death Bets Act, which now heads to the House, would ban prediction market contracts tied to death, terrorism, assassination, and war.",
-    "published": "2026-11-20T10:09:25+00:00",
-    "regulatory": false,
     "institutional": false,
     "category": "event"
   },
