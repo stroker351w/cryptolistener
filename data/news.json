@@ -1,5 +1,25 @@
 [
   {
+    "source": "The Defiant",
+    "title": "Fluidkey Says Unpatched Tool Enabled $1.6 Million Hack",
+    "link": "https://thedefiant.io/news/hacks/fluidkey-says-unpatched-tool-enabled-1-6-million-hack",
+    "summary": "Its post-mortem says stolen session tokens let an attacker stage transfers that users' apps signed. Personal data and viewing keys were also exposed.",
+    "published": "2026-11-22T02:49:00+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
+    "source": "The Defiant",
+    "title": "Together AI Discloses Prompt Leak After Dragos Study",
+    "link": "https://thedefiant.io/frontier/ai/together-ai-discloses-prompt-leak-after-dragos-study",
+    "summary": "Together says a coding agent exposed a credential for stored prompt samples. Five credentials later tested by the intruder were canaries from a Dragos experiment.",
+    "published": "2026-11-21T23:32:49+00:00",
+    "regulatory": false,
+    "institutional": false,
+    "category": "event"
+  },
+  {
     "source": "CryptoPotato",
     "title": "Quantum-Proofing Crypto Could Come at a Staggering Cost",
     "link": "https://cryptopotato.com/quantum-proofing-crypto-could-come-at-a-staggering-cost/",
@@ -380,16 +400,6 @@
     "category": "event"
   },
   {
-    "source": "The Defiant",
-    "title": "How Crypto-Backed Loans Work: Collateral to Repayment",
-    "link": "https://thedefiant.io/news/defi/how-crypto-backed-loans-work-collateral-to-repayment",
-    "summary": "Aave’s public rules show how pledged crypto backs a separate debt, why that debt grows and what repayment frees up.",
-    "published": "2026-11-21T14:14:20+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
     "source": "U.Today",
     "title": "$1 SHIB Sent to Dead Wallets in Shiba Inu Burn Lag",
     "link": "https://u.today/1-shib-sent-to-dead-wallets-in-shiba-inu-burn-lag",
@@ -415,16 +425,6 @@
     "link": "https://u.today/binance-issues-one-letter-warning-to-crypto-users-over-fake-websites",
     "summary": "Binance highlights tiny detail users must check to prevent crypto scams.",
     "published": "2026-11-21T13:40:00+00:00",
-    "regulatory": false,
-    "institutional": false,
-    "category": "event"
-  },
-  {
-    "source": "The Defiant",
-    "title": "Nvidia Falls 14%, Sealing Seventh Straight Weekly Loss",
-    "link": "https://thedefiant.io/frontier/markets/nvidia-falls-14-sealing-seventh-straight-weekly-loss",
-    "summary": "The stock lost 22.9% for the week ended Nov. 20, compared with 17.3% for SOXX and 10.4% for the Nasdaq 100.",
-    "published": "2026-11-21T13:37:19+00:00",
     "regulatory": false,
     "institutional": false,
     "category": "event"
